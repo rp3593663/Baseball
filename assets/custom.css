@@ -67,3 +67,6 @@ h1.highlight_text {
 .membership_box {
     text-align: center;
 }
+.membership_col:nth-child(2) {
+    margin-top: 80px;
+}
