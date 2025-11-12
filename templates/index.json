@@ -67,7 +67,8 @@
         "text_size": 70,
         "text_spacing": true,
         "direction": "left",
-        "speed": 200
+        "speed": 200,
+        "custom_class": "home_scrolling_text"
       }
     },
     "text-and-image": {
