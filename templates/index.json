@@ -118,6 +118,7 @@
     },
     "text-and-image": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/180509_Cubs_061_6fef3d94-4ca6-448f-9d53-45cbc6c891a9.jpg",
         "image_mask": "none",
@@ -140,6 +141,7 @@
     },
     "featured-collection-switcher": {
       "type": "featured-collection-switcher",
+      "disabled": true,
       "settings": {
         "title": "Top picks",
         "collection1": "mens",
@@ -151,6 +153,7 @@
     },
     "collection-callout": {
       "type": "collection-callout",
+      "disabled": true,
       "settings": {
         "collection": "",
         "subtitle": "Brand new",
@@ -166,6 +169,7 @@
     },
     "text_and_image_kGC78D": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/1.png",
@@ -188,6 +192,7 @@
     },
     "text_and_image_tUrJQD": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/2.png",
@@ -210,6 +215,7 @@
     },
     "text_and_image_LcjFhC": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image": "shopify://shop_images/3.png",
@@ -232,6 +238,7 @@
     },
     "hero-video": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "Into the wild.",
         "title_size": 80,
@@ -267,6 +274,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -334,6 +342,7 @@
         "collection-5",
         "collection-6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "divider": false,
@@ -396,6 +405,7 @@
         "testimonial-4",
         "testimonial-5"
       ],
+      "disabled": true,
       "settings": {
         "title": "Don't take our word for it",
         "round_images": true,
@@ -405,6 +415,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Just restocked",
         "home_featured_products": "pullovers",
@@ -473,6 +484,7 @@
         "tab",
         "contact"
       ],
+      "disabled": true,
       "settings": {
         "featured_product": "wenlock-chambray-button-down",
         "divider": false,
@@ -518,6 +530,7 @@
         "text_block-2",
         "text_block-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center",
@@ -530,6 +543,7 @@
     },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Athlete feature",
         "title": "James Harrison",
@@ -545,6 +559,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "From the journal",
         "blog": "news",
@@ -583,6 +598,7 @@
         "text",
         "form"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "image_width": "33",
@@ -596,6 +612,7 @@
     },
     "map": {
       "type": "map",
+      "disabled": true,
       "settings": {
         "map_title": "Local pickup available",
         "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
@@ -643,6 +660,7 @@
         "timer_i36W4X",
         "button_kjy7Yh"
       ],
+      "disabled": true,
       "name": "t:sections.countdown.presets.countdown.name",
       "settings": {
         "layout": "banner",
