@@ -38,6 +38,7 @@
     display: grid;
     gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px
 }
 .membership_box img {
     margin-bottom: 22px;
