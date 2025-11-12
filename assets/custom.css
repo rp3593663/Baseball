@@ -34,3 +34,8 @@
     margin: auto;
     width: 250px;
 }
+.membership_col {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
