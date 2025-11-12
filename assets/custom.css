@@ -24,3 +24,8 @@
 .home_richtext_about .btn{
     margin-top: 30px;
 }
+.index-section--membership {
+    padding: 100px 0px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0774/4562/8117/files/rights_holders_bg-scaled.jpg?v=1762952220);
+    background-size: cover;
+}
