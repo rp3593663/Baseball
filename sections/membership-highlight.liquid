@@ -1,0 +1,24 @@
+{% render 'scrolling-text', section: section %}
+
+
+{% schema %}
+{
+  "name": "Highlight Membership",
+  "class": "index-section--membership",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+  ],
+  "presets": [
+    {
+      "name": "Highlight Membership"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["custom.popups"]
+  }
+}
+{% endschema %}
