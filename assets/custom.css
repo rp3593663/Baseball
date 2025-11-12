@@ -1,0 +1,5 @@
+.home_scrolling_text {
+    background: var(--primary_color);
+    color: var(--white);
+    font-family: "Oswald";
+}
