@@ -116,6 +116,13 @@
         "custom_class": "home_richtext_about"
       }
     },
+    "membership_highlight_34znHW": {
+      "type": "membership-highlight",
+      "name": "Highlight Membership",
+      "settings": {
+        "custom_class": "home_memberships"
+      }
+    },
     "text-and-image": {
       "type": "text-and-image",
       "disabled": true,
@@ -733,6 +740,7 @@
     "fading-images",
     "scrolling_text_iWVFCz",
     "rich_text_JNXWzG",
+    "membership_highlight_34znHW",
     "text-and-image",
     "featured-collection-switcher",
     "collection-callout",
