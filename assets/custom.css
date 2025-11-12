@@ -11,3 +11,10 @@
 .home_richtext_about .theme-block {
     margin-bottom: 10px;
 }
+.home_richtext_about .enlarge-text p {
+    font-size: 14px!important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #67737c;
+}
