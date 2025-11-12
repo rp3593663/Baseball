@@ -42,3 +42,11 @@
 .membership_box img {
     margin-bottom: 22px;
 }
+.membership_box h5 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.membership_box p {
+    text-align: center;
+}
