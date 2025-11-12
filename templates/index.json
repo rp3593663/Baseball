@@ -112,7 +112,8 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": false,
+        "custom_class": "home_richtext_about"
       }
     },
     "text-and-image": {
@@ -269,7 +270,8 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": false,
+        "custom_class": ""
       }
     },
     "featured-collections": {
