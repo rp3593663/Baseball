@@ -3,3 +3,7 @@
     color: var(--white);
     font-family: "Oswald";
 }
+.home_scrolling_text span {
+    font-size: 50px;
+    line-height: 50px;
+}
