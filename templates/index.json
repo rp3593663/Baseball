@@ -58,6 +58,18 @@
         "lazyload_images": true
       }
     },
+    "scrolling_text_iWVFCz": {
+      "type": "scrolling-text",
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Baseball Industry Network",
+        "link": "",
+        "text_size": 70,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 200
+      }
+    },
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
@@ -654,6 +666,7 @@
   },
   "order": [
     "fading-images",
+    "scrolling_text_iWVFCz",
     "text-and-image",
     "featured-collection-switcher",
     "collection-callout",
