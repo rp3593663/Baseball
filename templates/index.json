@@ -71,6 +71,50 @@
         "custom_class": "home_scrolling_text"
       }
     },
+    "rich_text_JNXWzG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_btjrYE": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Welcome to the heart of Baseball's future</p>"
+          }
+        },
+        "heading_UjHwrG": {
+          "type": "heading",
+          "settings": {
+            "title": "Elevating the Experience for the Baseball Community"
+          }
+        },
+        "text_chaXT3": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The Baseball Industry Network is more than a community — it's a movement. With over 47,000 professionals strong and growing, we bring together the voices, talent, and visionaries driving the future of baseball. Whether you're just starting your journey or leading the way, BIN is your home for mentorship, opportunity, and unmatched access. Join us and take your next step in the game you love.</p>"
+          }
+        },
+        "button_BACaba": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Learn More About Baseball Industry"
+          }
+        }
+      },
+      "block_order": [
+        "text_btjrYE",
+        "heading_UjHwrG",
+        "text_chaXT3",
+        "button_BACaba"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
@@ -668,6 +712,7 @@
   "order": [
     "fading-images",
     "scrolling_text_iWVFCz",
+    "rich_text_JNXWzG",
     "text-and-image",
     "featured-collection-switcher",
     "collection-callout",
