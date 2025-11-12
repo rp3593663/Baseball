@@ -38,7 +38,18 @@
     display: grid;
     gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 40px
+    /* margin-top: 40px; */
+}
+h1.highlight_text {
+    font-size: 180px;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: -50px;
 }
 .membership_box img {
     margin-bottom: 22px;
