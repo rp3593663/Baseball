@@ -399,9 +399,33 @@
     },
     "collection_callout_MNahBC": {
       "type": "collection-callout",
+      "blocks": {
+        "image_block_AryM7M": {
+          "type": "image_block",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_block_wXygMh": {
+          "type": "image_block",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_block_iCcHeR": {
+          "type": "image_block",
+          "settings": {
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_AryM7M",
+        "image_block_wXygMh",
+        "image_block_iCcHeR"
+      ],
       "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
-        "collection": "",
         "subtitle": "Brand new",
         "title": "Collection callout",
         "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
