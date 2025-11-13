@@ -293,6 +293,10 @@ h1.highlight_text {
   footer .collapsible-trigger-btn {
     padding: 12px 0;
   }
+  .collapsible-trigger-btn.footer__title {
+    padding: 12px 0;
+    font-size: 18px!important;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
