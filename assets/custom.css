@@ -227,6 +227,9 @@ h1.highlight_text {
     margin: 0 auto 10px;
     width: 80px;
   }
+  .membership_box p, .membership_box {
+    margin-bottom: 10px;
+  }
   .membership_box h5 {
     font-size: 25px;
     margin-bottom: 8px;
