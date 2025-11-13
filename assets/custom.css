@@ -255,6 +255,10 @@ h1.highlight_text {
   .home_text_with_icon .text-with-icons__block-icon {
     margin-bottom: 10px;
   }
+  .home_text_with_icon .text-with-icons__block-icon .icon {
+    height: 50px;
+    width: 50px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
