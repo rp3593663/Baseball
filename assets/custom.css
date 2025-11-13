@@ -93,8 +93,8 @@ h1.highlight_text {
 .membership-comparison th,
 .membership-comparison td {
   border: 1px solid #ddd;
-  padding: 12px 15px;
-  text-align: center;
+  padding: 10px 15px;
+  text-align: left;
   font-size: 15px;
 }
 .membership-comparison th {
