@@ -176,9 +176,9 @@
           "type": "feature_row",
           "settings": {
             "feature": "Weekly Industry Newsletter",
-            "basic_value": "Limited",
-            "premier_value": "Full Access",
-            "elite_value": "+ Early Access"
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
           }
         },
         "feature_row_JrBTYC": {
