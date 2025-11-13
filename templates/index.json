@@ -435,7 +435,7 @@
         "cta_text2": "",
         "cta_link2": "",
         "layout": "right",
-        "divider": true
+        "divider": false
       }
     }
   },
