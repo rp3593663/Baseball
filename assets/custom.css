@@ -59,20 +59,9 @@ h1.highlight_text {
     gap: 50px;
     align-items: end;
 }
-.membership_box img {
-    margin-bottom: 22px;
-}
-.membership_box h5 {
+.mission_content h2,
+.vision_content h2 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 10px;
-}
-.membership_box p {
-    text-align: center;
-}
-.membership_box {
-    text-align: center;
-}
-.membership_col:nth-child(2) {
-    margin-top: 80px;
 }
