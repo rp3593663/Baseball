@@ -178,10 +178,10 @@
         "lazyload_images": false
       }
     },
-    "text_with_icons_hUripX": {
+    "text_with_icons_mjVKeh": {
       "type": "text-with-icons",
       "blocks": {
-        "text_block_fAf6HX": {
+        "text_block_4WwKLi": {
           "type": "text_block",
           "settings": {
             "icon": "chat",
@@ -189,7 +189,7 @@
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
           }
         },
-        "text_block_CKfTpK": {
+        "text_block_YziNhP": {
           "type": "text_block",
           "settings": {
             "icon": "chat",
@@ -197,7 +197,7 @@
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
           }
         },
-        "text_block_t8dgh9": {
+        "text_block_fLwKFx": {
           "type": "text_block",
           "settings": {
             "icon": "chat",
@@ -207,19 +207,221 @@
         }
       },
       "block_order": [
-        "text_block_fAf6HX",
-        "text_block_CKfTpK",
-        "text_block_t8dgh9"
+        "text_block_4WwKLi",
+        "text_block_YziNhP",
+        "text_block_fLwKFx"
       ],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "Why Join the Baseball Industry Network?",
         "align_text": "center",
-        "desktop_columns_per_row": 4,
+        "desktop_columns_per_row": 3,
         "icon_color": "#000",
         "button_label": "",
         "button_link": "",
         "divider": false
+      }
+    },
+    "membership_comparison_NFhq6p": {
+      "type": "membership-comparison",
+      "blocks": {
+        "feature_row_a33tPr": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Access to BIN LinkedIn Group",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_yr97di": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Weekly Industry Newsletter",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_JrBTYC": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "BIN Job Board Access",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ Full Access",
+            "elite_value": "✅ + Early Access"
+          }
+        },
+        "feature_row_6qcwdm": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Members-Only Portal",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_WznLiM": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Monthly BIN Podcasts/Webinars",
+            "basic_value": "❌",
+            "premier_value": "✅ (Live + On-Demand)",
+            "elite_value": "✅ + Exclusive Sessions"
+          }
+        },
+        "feature_row_YR468j": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Executive Q&A Chats",
+            "basic_value": "❌",
+            "premier_value": "✅ (Quarterly)",
+            "elite_value": "✅ (Bi-Monthly + Small Groups)"
+          }
+        },
+        "feature_row_BiRPD6": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Mentorship Program",
+            "basic_value": "❌",
+            "premier_value": "Group Mentorship",
+            "elite_value": "1:1 Executive Mentorship"
+          }
+        },
+        "feature_row_jdapTE": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Early Access to Events",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + VIP Access"
+          }
+        },
+        "feature_row_LD3g8d": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Seasonal BIN Merchandise",
+            "basic_value": "❌",
+            "premier_value": "Starter Kit (1 item)",
+            "elite_value": "Premium Kit (Multi-item + Drop)"
+          }
+        },
+        "feature_row_Am7tYe": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Discounts on Merch + Partners",
+            "basic_value": "❌",
+            "premier_value": "10%",
+            "elite_value": "20%"
+          }
+        },
+        "feature_row_U6gPjj": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Internship & Job Pipeline",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ General Pool",
+            "elite_value": "✅ + Introductions"
+          }
+        },
+        "feature_row_hyQzGQ": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Partner/Sponsor Discounts",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + Premium Perks"
+          }
+        },
+        "feature_row_mtDGDm": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Archived Content Library",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_46iJxT": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Recognition on BIN Platforms",
+            "basic_value": "❌",
+            "premier_value": "Premier Member Spotlight",
+            "elite_value": "Elite Feature on BIN Channels"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_a33tPr",
+        "feature_row_yr97di",
+        "feature_row_JrBTYC",
+        "feature_row_6qcwdm",
+        "feature_row_WznLiM",
+        "feature_row_YR468j",
+        "feature_row_BiRPD6",
+        "feature_row_jdapTE",
+        "feature_row_LD3g8d",
+        "feature_row_Am7tYe",
+        "feature_row_U6gPjj",
+        "feature_row_hyQzGQ",
+        "feature_row_mtDGDm",
+        "feature_row_46iJxT"
+      ],
+      "disabled": true,
+      "name": "Membership Comparison",
+      "settings": {
+        "custom_class": "",
+        "heading": "Compare Memberships",
+        "basic_title": "Basic (Free)",
+        "premier_title": "Premier - $99.99/year",
+        "elite_title": "Elite - $149.99/year"
+      }
+    },
+    "text_and_image_tUrJQD": {
+      "type": "text-and-image",
+      "disabled": true,
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/2.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Level up your access and your network.",
+        "title": "Premier Membership",
+        "text": "<p>For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.<br/></p><p><strong>Includes: </strong>Premier Welcome Kit, 10% Official BIN merch discount, early event access, and digital career tools.</p>",
+        "button_label": "Upgrade to Premier — Elevate Your Career",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_LcjFhC": {
+      "type": "text-and-image",
+      "disabled": true,
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/3.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Where leaders connect, learn, and lead.",
+        "title": "Elite Membership",
+        "text": "<p>The ultimate experience for those serious about baseball’s business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN’s executive network.<br/></p><p><strong>Includes: </strong>Premium Welcome Kit, 20% Official BIN merch & strategic partner discount, early job notifications, and private mentorship access.</p>",
+        "button_label": "Join Elite — Lead the Future of Baseball",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     }
   },
@@ -229,6 +431,9 @@
     "rich_text_JNXWzG",
     "membership_highlight_34znHW",
     "background_image_text_U8GD7H",
-    "text_with_icons_hUripX"
+    "text_with_icons_mjVKeh",
+    "membership_comparison_NFhq6p",
+    "text_and_image_tUrJQD",
+    "text_and_image_LcjFhC"
   ]
 }
