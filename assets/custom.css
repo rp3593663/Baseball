@@ -290,6 +290,9 @@ h1.highlight_text {
   .footer_collapsible--disabled {
     padding: 0!important;
   } 
+  footer .collapsible-trigger-btn {
+    padding: 12px 0;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
