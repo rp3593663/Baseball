@@ -160,6 +160,51 @@
         "custom_class": "home_memberships"
       }
     },
+    "membership_comparison_NFhq6p": {
+      "type": "membership-comparison",
+      "blocks": {
+        "feature_row_a33tPr": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Access to BIN LinkedIn Group",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_yr97di": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Weekly Industry Newsletter",
+            "basic_value": "Limited",
+            "premier_value": "Full Access",
+            "elite_value": "+ Early Access"
+          }
+        },
+        "feature_row_JrBTYC": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "BIN Job Board Access",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ Full Access",
+            "elite_value": "✅ + Early Access"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_a33tPr",
+        "feature_row_yr97di",
+        "feature_row_JrBTYC"
+      ],
+      "name": "Membership Comparison",
+      "settings": {
+        "custom_class": "",
+        "heading": "Compare Memberships",
+        "basic_title": "Basic (Free)",
+        "premier_title": "Premier - $99.99/year",
+        "elite_title": "Elite - $149.99/year"
+      }
+    },
     "text-and-image": {
       "type": "text-and-image",
       "disabled": true,
@@ -778,6 +823,7 @@
     "scrolling_text_iWVFCz",
     "rich_text_JNXWzG",
     "membership_highlight_34znHW",
+    "membership_comparison_NFhq6p",
     "text-and-image",
     "featured-collection-switcher",
     "collection-callout",
