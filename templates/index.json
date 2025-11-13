@@ -410,7 +410,7 @@
         "cta_text2": "Shop All Mens",
         "cta_link2": "",
         "layout": "right",
-        "divider": false
+        "divider": true
       }
     }
   },
