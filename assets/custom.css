@@ -266,6 +266,10 @@ h1.highlight_text {
   .home_text_with_icon .text-with-icons__block-text p {
     font-size: 12px;
   }
+  .home_connect {
+    gap: 20px;
+    flex-direction: column;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
