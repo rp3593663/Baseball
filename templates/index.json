@@ -403,18 +403,21 @@
         "image_block_AryM7M": {
           "type": "image_block",
           "settings": {
+            "image": "shopify://shop_images/img-middle.png",
             "alt_text": ""
           }
         },
         "image_block_wXygMh": {
           "type": "image_block",
           "settings": {
+            "image": "shopify://shop_images/grey_img1.png",
             "alt_text": ""
           }
         },
         "image_block_iCcHeR": {
           "type": "image_block",
           "settings": {
+            "image": "shopify://shop_images/grey_img2.png",
             "alt_text": ""
           }
         }
