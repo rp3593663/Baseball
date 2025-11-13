@@ -157,6 +157,9 @@ h1.highlight_text {
     font-size: 40px!important;
     line-height: 140%!important;
 }
+.home_callout .feature-row__content p {
+    font-size: 15px;
+}
 
 
 @media (max-width: 768px) {
