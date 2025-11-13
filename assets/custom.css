@@ -138,6 +138,10 @@ h1.highlight_text {
     display: block;
     margin-bottom: 20px;
 }
+.home_text_with_icon .text-with-icons__block-icon .icon {
+    height: 60px;
+    width: 60px;
+}
 
 
 @media (max-width: 768px) {
