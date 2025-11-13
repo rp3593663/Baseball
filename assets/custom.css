@@ -191,8 +191,8 @@ h1.highlight_text {
   .home_richtext_about h2,
   .home_text_with_icon h2,
   .home_connect h2 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 32px!important;
+    line-height: 42px!important;
   }
   .home_richtext_about .theme-block p,
   .membership_box p,
