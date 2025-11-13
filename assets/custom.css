@@ -127,13 +127,18 @@ h1.highlight_text {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
+}
+.text-with-icons__blocks {
+    gap: 25px;
+}
+.home_text_with_icon .text-with-icons__block {
+    padding: 20px;
+    border: solid 1px #dcdcdc;
+    width: calc(20% - 20px);
 }
 .home_text_with_icon .text-with-icons__block-title {
     display: none;
-}
-.home_text_with_icon .text-with-icons__block {
-    padding: 0 20px 0px;
 }
 .home_text_with_icon .text-with-icons__block-icon {
     display: block;
