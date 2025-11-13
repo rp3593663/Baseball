@@ -100,7 +100,7 @@ h1.highlight_text {
 .membership-comparison th {
   background: var(--red);
   font-weight: 700;
-  color: #001c3d;
+  color: var(--white);
 }
 .membership-comparison td:first-child {
   text-align: left;
