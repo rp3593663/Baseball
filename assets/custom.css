@@ -53,6 +53,12 @@ h1.highlight_text {
     text-shadow: 1px 1px 0 #afafaf, -1px 1px 0 #afafaf, 1px -1px 0 #afafaf, -1px -1px 0 #afafaf;
     margin-top: 30px;
 }
+.mission_block.mv_box {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 50px;
+    align-items: end;
+}
 .membership_box img {
     margin-bottom: 22px;
 }
