@@ -4,7 +4,7 @@
 {%- unless section.settings.full_width -%}
   <div class="page-width">
 {%- endunless -%}
-  <div class="custom-content">
+  <div class="custom-content {{ section.settings.custom_class }}">
   {%- for block in section.blocks -%}
     {%- liquid
       case block.settings.width
