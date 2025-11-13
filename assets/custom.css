@@ -73,3 +73,67 @@ h1.highlight_text {
 .membership_col:nth-child(3) {
     margin-top: 80px;
 }
+.membership-comparison {
+  background: #fff;
+  padding: 60px 20px;
+  color: #001c3d;
+}
+.membership-comparison .title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.membership-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+.membership-comparison th,
+.membership-comparison td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.membership-comparison th {
+  background: #f2f2f2;
+  font-weight: 700;
+  color: #001c3d;
+}
+.membership-comparison td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+.membership-comparison tr:nth-child(even) {
+  background: #fafafa;
+}
+.membership-comparison tr:hover {
+  background: #f9f9f9;
+}
+@media (max-width: 768px) {
+  .membership-comparison table, 
+  .membership-comparison thead, 
+  .membership-comparison tbody, 
+  .membership-comparison th, 
+  .membership-comparison td, 
+  .membership-comparison tr {
+    display: block;
+  }
+  .membership-comparison tr {
+    margin-bottom: 15px;
+  }
+  .membership-comparison td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+  .membership-comparison td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    text-align: left;
+    font-weight: 600;
+  }
+}
