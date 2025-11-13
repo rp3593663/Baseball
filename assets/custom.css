@@ -300,6 +300,9 @@ h1.highlight_text {
   div#Footer-newsletter {
     margin-top: 12px;
   }
+  .footer__social {
+    justify-content: left;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
