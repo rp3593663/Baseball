@@ -270,6 +270,9 @@ h1.highlight_text {
     gap: 20px;
     flex-direction: column;
   }
+  .home_connect .one-half {
+    width: 100%;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
