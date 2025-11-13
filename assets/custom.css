@@ -214,6 +214,10 @@ h1.highlight_text {
   .membership_col:nth-child(1), .membership_col:nth-child(3) {
     margin-top: 0px;
   }
+  .all_memberships_blocks {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
   .home_scrolling_text span {
     font-size: 30px!important;
     line-height: 30px;
