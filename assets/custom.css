@@ -188,9 +188,10 @@ h1.highlight_text {
 }
 
 @media (max-width: 767px) {
-  .home_richtext_about h2 {
+  .home_richtext_about h2,
+  .home_text_with_icon h2 {
     font-size: 32px;
-    line-height: 45px;
+    line-height: 42px;
   }
   .home_richtext_about .theme-block p,
   .membership_box p {
