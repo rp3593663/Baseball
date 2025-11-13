@@ -1,6 +1,6 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width">
+<div class="page-width {{ section.settings.custom_class }}">
   <div class="feature-row feature-row--small-none">
 
     <!-- LEFT SIDE IMAGES -->
@@ -69,6 +69,11 @@
   "name": "Custom Image Callout",
   "class": "index-section",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
     {
       "type": "text",
       "id": "subtitle",
