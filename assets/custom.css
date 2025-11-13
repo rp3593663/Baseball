@@ -222,6 +222,10 @@ h1.highlight_text {
     font-size: 30px!important;
     line-height: 30px;
   }
+  .membership_box img {
+    margin: 0 auto 10px;
+    width: 80px;
+  }
   .home_scrolling_text {
     padding: 12px 0 12px;
   }
