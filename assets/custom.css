@@ -252,6 +252,10 @@ h1.highlight_text {
     padding: 10px;
     width: calc(50% - 20px);
   }
+  .text-with-icons__blocks {
+    gap: 10px;
+    flex-direction: unset;
+  }
   .home_text_with_icon .text-with-icons__block-icon {
     margin-bottom: 10px;
   }
