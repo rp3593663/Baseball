@@ -151,6 +151,12 @@ h1.highlight_text {
 .home_text_with_icon .text-with-icons__block-text p {
     margin-bottom: 0px;
 }
+.home_callout h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px!important;
+    line-height: 150%!important;
+}
 
 
 @media (max-width: 768px) {
