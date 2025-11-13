@@ -123,7 +123,11 @@ h1.highlight_text {
 .home_banner_text .background-media-text__subtext p {
     font-size: 15px;
 }
-
+.home_text_with_icon h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 
 @media (max-width: 768px) {
