@@ -248,6 +248,13 @@ h1.highlight_text {
   .home_richtext_about .theme-block {
     margin-bottom: 5px;
   }
+  .home_text_with_icon .text-with-icons__block {
+    padding: 10px;
+    width: calc(50% - 20px);
+  }
+  .home_text_with_icon .text-with-icons__block-icon {
+    margin-bottom: 10px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
