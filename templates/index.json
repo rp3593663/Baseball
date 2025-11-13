@@ -184,39 +184,57 @@
         "text_block_4WwKLi": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "wallet",
+            "title": "",
+            "text": "<p>Access verified baseball job listings</p>"
           }
         },
         "text_block_YziNhP": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "globe",
+            "title": "",
+            "text": "<p>Connect with 47,000+ members worldwide</p>"
           }
         },
         "text_block_fLwKFx": {
           "type": "text_block",
           "settings": {
+            "icon": "package",
+            "title": "",
+            "text": "<p>Attend exclusive events and webinars</p>"
+          }
+        },
+        "text_block_r3dNBa": {
+          "type": "text_block",
+          "settings": {
             "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "title": "",
+            "text": "<p>Get mentorship from baseball professionals</p>"
+          }
+        },
+        "text_block_we38Mh": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "",
+            "text": "<p>Shop member-only BIN merchandise</p>"
           }
         }
       },
       "block_order": [
         "text_block_4WwKLi",
         "text_block_YziNhP",
-        "text_block_fLwKFx"
+        "text_block_fLwKFx",
+        "text_block_r3dNBa",
+        "text_block_we38Mh"
       ],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "custom_class": "home_text_with_icon",
         "title": "Why Join the Baseball Industry Network?",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
