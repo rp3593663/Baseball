@@ -76,7 +76,7 @@ h1.highlight_text {
 .membership-comparison {
   background: #fff;
   padding: 60px 20px;
-  color: #001c3d;
+  color: var(--black);
 }
 .membership-comparison h2.section_title {
     font-size: 40px;
