@@ -189,12 +189,122 @@
             "premier_value": "✅ Full Access",
             "elite_value": "✅ + Early Access"
           }
+        },
+        "feature_row_6qcwdm": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Members-Only Portal",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_WznLiM": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Monthly BIN Podcasts/Webinars",
+            "basic_value": "❌",
+            "premier_value": "✅ (Live + On-Demand)",
+            "elite_value": "✅ + Exclusive Sessions"
+          }
+        },
+        "feature_row_YR468j": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Executive Q&A Chats",
+            "basic_value": "❌",
+            "premier_value": "✅ (Quarterly)",
+            "elite_value": "✅ (Bi-Monthly + Small Groups)"
+          }
+        },
+        "feature_row_BiRPD6": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Mentorship Program",
+            "basic_value": "❌",
+            "premier_value": "Group Mentorship",
+            "elite_value": "1:1 Executive Mentorship"
+          }
+        },
+        "feature_row_jdapTE": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Early Access to Events",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + VIP Access"
+          }
+        },
+        "feature_row_LD3g8d": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Seasonal BIN Merchandise",
+            "basic_value": "❌",
+            "premier_value": "Starter Kit (1 item)",
+            "elite_value": "Premium Kit (Multi-item + Drop)"
+          }
+        },
+        "feature_row_Am7tYe": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Discounts on Merch + Partners",
+            "basic_value": "❌",
+            "premier_value": "10%",
+            "elite_value": "20%"
+          }
+        },
+        "feature_row_U6gPjj": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Internship & Job Pipeline",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ General Pool",
+            "elite_value": "✅ + Introductions"
+          }
+        },
+        "feature_row_hyQzGQ": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Partner/Sponsor Discounts",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + Premium Perks"
+          }
+        },
+        "feature_row_mtDGDm": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Archived Content Library",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_46iJxT": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Recognition on BIN Platforms",
+            "basic_value": "❌",
+            "premier_value": "Premier Member Spotlight",
+            "elite_value": "Elite Feature on BIN Channels"
+          }
         }
       },
       "block_order": [
         "feature_row_a33tPr",
         "feature_row_yr97di",
-        "feature_row_JrBTYC"
+        "feature_row_JrBTYC",
+        "feature_row_6qcwdm",
+        "feature_row_WznLiM",
+        "feature_row_YR468j",
+        "feature_row_BiRPD6",
+        "feature_row_jdapTE",
+        "feature_row_LD3g8d",
+        "feature_row_Am7tYe",
+        "feature_row_U6gPjj",
+        "feature_row_hyQzGQ",
+        "feature_row_mtDGDm",
+        "feature_row_46iJxT"
       ],
       "name": "Membership Comparison",
       "settings": {
