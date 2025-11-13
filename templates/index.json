@@ -424,6 +424,7 @@
       ],
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
+        "custom_class": "home_connect",
         "full_width": false,
         "space_around": true,
         "lazyload_images": true
