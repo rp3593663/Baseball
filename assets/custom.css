@@ -200,6 +200,9 @@ h1.highlight_text {
     font-size: 13px;
     line-height: 20px;
   }
+  .home_connect p{
+    margin-bottom: 15px;
+  }
   .home_richtext_about .btn {
     margin-top: 18px;
   }
