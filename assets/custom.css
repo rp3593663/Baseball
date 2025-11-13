@@ -112,6 +112,14 @@ h1.highlight_text {
 .membership-comparison tr:hover {
   background: #f9f9f9;
 }
+.home_banner_text h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px!important;
+}
+
+
+
 @media (max-width: 768px) {
   .membership-comparison table, 
   .membership-comparison thead, 
