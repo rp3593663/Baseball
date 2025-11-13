@@ -53,19 +53,4 @@ h1.highlight_text {
     text-shadow: 1px 1px 0 #afafaf, -1px 1px 0 #afafaf, 1px -1px 0 #afafaf, -1px -1px 0 #afafaf;
     margin-top: 30px;
 }
-.mv_box {
-    display: grid;
-    gap: 50px;
-    align-items: end;
-}
-.mission_block {
-    grid-template-columns: 0.8fr 1.2fr;
-}
-.vision_block {
-    grid-template-columns: 1.2fr 0.8fr;
-}
-.mission_content h2,
-.vision_content h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
+
