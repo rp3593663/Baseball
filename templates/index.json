@@ -397,6 +397,38 @@
         "elite_title": "Elite - $149.99/year"
       }
     },
+    "advanced_content_kDtyxN": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_Bj7wck": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/map_view.png",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "liquid_iEiW9C": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bj7wck",
+        "liquid_iEiW9C"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "collection_callout_MNahBC": {
       "type": "collection-callout",
       "blocks": {
@@ -489,6 +521,7 @@
     "background_image_text_U8GD7H",
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
+    "advanced_content_kDtyxN",
     "collection_callout_MNahBC",
     "newsletter_kmAM86"
   ]
