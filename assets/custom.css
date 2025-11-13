@@ -199,6 +199,10 @@ h1.highlight_text {
   .home_scrolling_text {
     padding: 12px 0 12px;
   }
+  .home_richtext_about .enlarge-text p {
+    font-size: 12px!important;
+    letter-spacing: 0.2px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
