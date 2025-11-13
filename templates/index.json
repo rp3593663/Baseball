@@ -118,6 +118,43 @@
     },
     "membership_highlight_34znHW": {
       "type": "membership-highlight",
+      "blocks": {
+        "membership_ybmrgx": {
+          "type": "membership",
+          "settings": {
+            "image": "shopify://shop_images/basic-membership.png",
+            "title": "Basic Membership",
+            "description": "Join for free and gain access to the world's largest online baseball business community.",
+            "button_text": "Start Free — Join the BIN Community",
+            "button_link": "#"
+          }
+        },
+        "membership_rrqdmT": {
+          "type": "membership",
+          "settings": {
+            "image": "shopify://shop_images/premier-membership.png",
+            "title": "Premier Membership",
+            "description": "For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.",
+            "button_text": "Upgrade to Premier — Elevate Career",
+            "button_link": "#"
+          }
+        },
+        "membership_ihh7Rf": {
+          "type": "membership",
+          "settings": {
+            "image": "shopify://shop_images/elite-membership.png",
+            "title": "Elite Membership",
+            "description": "The ultimate experience for those serious about baseball's business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN's executive network.",
+            "button_text": "Join Elite — Lead the Future of Baseball",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "membership_ybmrgx",
+        "membership_rrqdmT",
+        "membership_ihh7Rf"
+      ],
       "name": "Highlight Membership",
       "settings": {
         "custom_class": "home_memberships"
