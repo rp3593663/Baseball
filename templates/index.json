@@ -164,6 +164,7 @@
       "type": "background-image-text",
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
+        "custom_class": "home_banner_text",
         "subtitle": "",
         "title": "From the Dugout to the Diamond — Grow with BIN.",
         "text": "<p>Thousands of baseball professionals, players, and recruiters have already joined the Baseball Industry Network. Whether you’re starting with our free Basic plan or ready to unlock exclusive access through Premier or Elite, your membership connects you to the future of the game.</p>",
@@ -761,6 +762,7 @@
       "type": "background-image-text",
       "disabled": true,
       "settings": {
+        "custom_class": "",
         "subtitle": "Athlete feature",
         "title": "James Harrison",
         "text": "<p>We know how important it is to have gear that doesn't let you down when you're pushing your limits. That's why we only use the highest quality fabrics.</p>",
