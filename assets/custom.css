@@ -259,6 +259,9 @@ h1.highlight_text {
     height: 50px;
     width: 50px;
   }
+  .home_text_with_icon .text-with-icons__block-text p {
+    font-size: 12px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
