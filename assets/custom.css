@@ -54,7 +54,9 @@ h1.highlight_text {
     margin-top: 30px;
 }
 .membership_box img {
-    margin: 0px auto 20px;
+    margin: 0px auto 15px;
+    width: 150px;
+    height: auto;
 }
 .membership_box h5 {
     font-size: 32px;
