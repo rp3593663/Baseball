@@ -167,6 +167,11 @@ h1.highlight_text {
 .home_connect p {
     font-size: 15px;
 }
+.home_newsletter p.h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 
 @media (max-width: 768px) {
