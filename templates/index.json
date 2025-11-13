@@ -213,10 +213,11 @@
       ],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
+        "custom_class": "home_text_with_icon",
         "title": "Why Join the Baseball Industry Network?",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false
