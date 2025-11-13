@@ -287,9 +287,6 @@ h1.highlight_text {
   .home_newsletter .contact-form {
     margin-top: 30px;
   }
-  .footer__collapsible:empty {
-    padding: 0 0 0px;
-  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 

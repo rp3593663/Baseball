@@ -44,6 +44,8 @@
     "enable_swatches": true,
     "social_facebook_link": "https://www.facebook.com/shopify",
     "social_twitter_link": "https://twitter.com/shopify",
+    "social_instagram_link": "#",
+    "social_youtube_link": "#",
     "checkout_accent_color": "#111111",
     "checkout_banner_background_color": "#fff",
     "checkout_body_background_color": "#ffffff",
