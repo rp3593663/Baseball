@@ -196,7 +196,8 @@ h1.highlight_text {
   }
   .home_richtext_about .theme-block p,
   .membership_box p,
-  .home_connect p {
+  .home_connect p,
+  .home_banner_text .background-media-text__subtext p {
     font-size: 13px;
     line-height: 20px;
   }
