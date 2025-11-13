@@ -127,6 +127,7 @@ h1.highlight_text {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 500;
+    margin-bottom: 60px;
 }
 .home_text_with_icon .text-with-icons__block-title {
     display: none;
