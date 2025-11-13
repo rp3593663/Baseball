@@ -86,7 +86,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "main-menu",
+            "menu": "footer-menu",
             "container_width": 15
           }
         },
@@ -103,7 +103,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "footer",
+            "menu": "footer-information-menu",
             "container_width": 20
           }
         },
