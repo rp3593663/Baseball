@@ -73,6 +73,15 @@
             "container_width": 20
           }
         },
+        "custom_LEF6pP": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": false,
+            "title": "",
+            "text": "",
+            "container_width": 15
+          }
+        },
         "menu-1": {
           "type": "menu",
           "settings": {
@@ -81,11 +90,12 @@
             "container_width": 15
           }
         },
-        "menu-2": {
-          "type": "menu",
+        "custom_JhQ4jM": {
+          "type": "custom",
           "settings": {
-            "show_footer_title": true,
-            "menu": "footer",
+            "show_footer_title": false,
+            "title": "",
+            "text": "",
             "container_width": 15
           }
         },
@@ -109,8 +119,9 @@
       },
       "block_order": [
         "custom_7RTqXA",
+        "custom_LEF6pP",
         "menu-1",
-        "menu-2",
+        "custom_JhQ4jM",
         "menu-3",
         "newsletter"
       ],
