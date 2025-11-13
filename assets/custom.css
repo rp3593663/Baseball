@@ -187,7 +187,11 @@ h1.highlight_text {
     margin-top: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  h1.highlight_text {
+    font-size: 70px;
+    line-height: 70px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
