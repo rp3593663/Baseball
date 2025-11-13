@@ -166,9 +166,9 @@
       "settings": {
         "custom_class": "home_banner_text",
         "subtitle": "",
-        "title": "From the Dugout to the Diamond — Grow with BIN.",
-        "text": "<p>Thousands of baseball professionals, players, and recruiters have already joined the Baseball Industry Network. Whether you’re starting with our free Basic plan or ready to unlock exclusive access through Premier or Elite, your membership connects you to the future of the game.</p>",
-        "button_label": "Join Membership",
+        "title": "Find Your Next Opportunity in Baseball",
+        "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
+        "button_label": "Explore the Job Board",
         "button_link": "#",
         "image": "shopify://shop_images/baseball_banner.png",
         "layout": "left",
