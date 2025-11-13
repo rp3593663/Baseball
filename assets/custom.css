@@ -120,6 +120,9 @@ h1.highlight_text {
 .home_banner_text .background-media-text__text {
     width: 420px;
 }
+.home_banner_text .background-media-text__subtext p {
+    font-size: 15px;
+}
 
 
 
