@@ -189,7 +189,8 @@ h1.highlight_text {
 
 @media (max-width: 767px) {
   .home_richtext_about h2,
-  .home_text_with_icon h2 {
+  .home_text_with_icon h2,
+  .home_connect h2 {
     font-size: 32px;
     line-height: 42px;
   }
@@ -228,7 +229,7 @@ h1.highlight_text {
     margin: 0 auto 10px;
     width: 80px;
   }
-  .membership_box p, .membership_box {
+  .membership_box p, .membership_box, .home_connect h2 {
     margin-bottom: 10px;
   }
   .home_banner_text .background-media-text__text {
