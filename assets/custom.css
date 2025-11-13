@@ -195,7 +195,8 @@ h1.highlight_text {
     line-height: 42px;
   }
   .home_richtext_about .theme-block p,
-  .membership_box p {
+  .membership_box p,
+  .home_connect p {
     font-size: 13px;
     line-height: 20px;
   }
