@@ -420,12 +420,20 @@
             "image": "shopify://shop_images/grey_img2.png",
             "alt_text": ""
           }
+        },
+        "image_block_GWkhQJ": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/img-middle.png",
+            "alt_text": ""
+          }
         }
       },
       "block_order": [
         "image_block_AryM7M",
         "image_block_wXygMh",
-        "image_block_iCcHeR"
+        "image_block_iCcHeR",
+        "image_block_GWkhQJ"
       ],
       "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
