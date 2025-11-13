@@ -68,7 +68,7 @@
           "type": "logo_social",
           "settings": {
             "logo": "shopify://shop_images/BIN_Brand_Identity_FINAL_110525.png",
-            "desktop_logo_height": 120,
+            "desktop_logo_height": 100,
             "content": "The Baseball Industry Network is more than a community — it's a movement.",
             "container_width": 20
           }
