@@ -172,7 +172,7 @@
         "button_link": "#",
         "image": "shopify://shop_images/baseball_banner.png",
         "layout": "left",
-        "height": 550,
+        "height": 600,
         "parallax": false,
         "parallax_direction": "top",
         "lazyload_images": false
