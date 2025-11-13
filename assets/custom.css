@@ -297,6 +297,9 @@ h1.highlight_text {
     padding: 12px 0;
     font-size: 18px!important;
   }
+  div#Footer-newsletter {
+    margin-top: 12px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
