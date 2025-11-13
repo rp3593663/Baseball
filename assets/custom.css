@@ -188,6 +188,10 @@ h1.highlight_text {
 }
 
 @media (max-width: 767px) {
+  .home_richtext_about h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
   h1.highlight_text {
     font-size: 70px;
     line-height: 70px;
@@ -202,6 +206,9 @@ h1.highlight_text {
   .home_richtext_about .enlarge-text p {
     font-size: 12px!important;
     letter-spacing: 0.2px;
+  }
+  .home_richtext_about .theme-block {
+    margin-bottom: 5px;
   }
   .membership-comparison table, 
   .membership-comparison thead, 
