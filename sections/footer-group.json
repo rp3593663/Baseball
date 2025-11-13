@@ -68,7 +68,7 @@
           "type": "custom",
           "settings": {
             "show_footer_title": true,
-            "title": "<img src=\"https://tdrwuw-8p.myshopify.com/cdn/shop/files/BIN_Brand_Identity_FINAL_110525.png?v=1762476918&width=120\">",
+            "title": "",
             "text": "<p>The Baseball Industry Network is more than a community — it's a movement.</p>",
             "container_width": 20
           }
@@ -79,7 +79,7 @@
             "show_footer_title": false,
             "title": "",
             "text": "",
-            "container_width": 15
+            "container_width": 5
           }
         },
         "menu-1": {
@@ -87,7 +87,7 @@
           "settings": {
             "show_footer_title": true,
             "menu": "main-menu",
-            "container_width": 15
+            "container_width": 20
           }
         },
         "custom_JhQ4jM": {
@@ -96,7 +96,7 @@
             "show_footer_title": false,
             "title": "",
             "text": "",
-            "container_width": 15
+            "container_width": 5
           }
         },
         "menu-3": {
@@ -105,6 +105,15 @@
             "show_footer_title": true,
             "menu": "footer",
             "container_width": 20
+          }
+        },
+        "custom_AdBFKd": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": false,
+            "title": "",
+            "text": "",
+            "container_width": 5
           }
         },
         "newsletter": {
@@ -123,6 +132,7 @@
         "menu-1",
         "custom_JhQ4jM",
         "menu-3",
+        "custom_AdBFKd",
         "newsletter"
       ],
       "settings": {
