@@ -403,7 +403,7 @@
         "image_block_AryM7M": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/img-middle.png",
+            "image": "shopify://shop_images/connect.png",
             "alt_text": ""
           }
         },
