@@ -117,6 +117,9 @@ h1.highlight_text {
     font-weight: 500;
     font-size: 28px!important;
 }
+.home_banner_text .background-media-text__text {
+    width: 420px;
+}
 
 
 
