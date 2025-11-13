@@ -469,6 +469,7 @@
       ],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
+        "custom_class": "home_newsletter",
         "align_text": "center",
         "image_width": "33",
         "image_mask": "none",
