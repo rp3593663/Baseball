@@ -397,50 +397,20 @@
         "elite_title": "Elite - $149.99/year"
       }
     },
-    "text_and_image_tUrJQD": {
-      "type": "text-and-image",
-      "disabled": true,
-      "name": "t:sections.text-and-image.presets.image_with_text.name",
+    "collection_callout_MNahBC": {
+      "type": "collection-callout",
+      "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
-        "image": "shopify://shop_images/2.png",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "Level up your access and your network.",
-        "title": "Premier Membership",
-        "text": "<p>For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.<br/></p><p><strong>Includes: </strong>Premier Welcome Kit, 10% Official BIN merch discount, early event access, and digital career tools.</p>",
-        "button_label": "Upgrade to Premier — Elevate Your Career",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "text_and_image_LcjFhC": {
-      "type": "text-and-image",
-      "disabled": true,
-      "name": "t:sections.text-and-image.presets.image_with_text.name",
-      "settings": {
-        "image": "shopify://shop_images/3.png",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "Where leaders connect, learn, and lead.",
-        "title": "Elite Membership",
-        "text": "<p>The ultimate experience for those serious about baseball’s business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN’s executive network.<br/></p><p><strong>Includes: </strong>Premium Welcome Kit, 20% Official BIN merch & strategic partner discount, early job notifications, and private mentorship access.</p>",
-        "button_label": "Join Elite — Lead the Future of Baseball",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
+        "collection": "",
+        "subtitle": "Brand new",
+        "title": "Collection callout",
+        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+        "cta_text1": "Shop Jackets",
+        "cta_link1": "",
+        "cta_text2": "Shop All Mens",
+        "cta_link2": "",
         "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
+        "divider": false
       }
     }
   },
@@ -452,7 +422,6 @@
     "background_image_text_U8GD7H",
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
-    "text_and_image_tUrJQD",
-    "text_and_image_LcjFhC"
+    "collection_callout_MNahBC"
   ]
 }
