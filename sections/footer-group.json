@@ -64,12 +64,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "custom_7RTqXA": {
-          "type": "custom",
+        "logo_social_WNXQYb": {
+          "type": "logo_social",
           "settings": {
-            "show_footer_title": true,
-            "title": "<img src=\"https://tdrwuw-8p.myshopify.com/cdn/shop/files/BIN_Brand_Identity_FINAL_110525.png?v=1762476918&width=120\">",
-            "text": "<p>The Baseball Industry Network is more than a community — it's a movement.</p>",
+            "logo": "shopify://shop_images/BIN_Brand_Identity_FINAL_110525.png",
+            "desktop_logo_height": 120,
+            "content": "The Baseball Industry Network is more than a community — it's a movement.",
             "container_width": 20
           }
         },
@@ -127,7 +127,7 @@
         }
       },
       "block_order": [
-        "custom_7RTqXA",
+        "logo_social_WNXQYb",
         "custom_LEF6pP",
         "menu-1",
         "custom_JhQ4jM",
