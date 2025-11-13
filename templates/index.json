@@ -405,7 +405,7 @@
           "settings": {
             "image": "shopify://shop_images/map_view.png",
             "link": "",
-            "width": "66%",
+            "width": "50%",
             "alignment": "center"
           }
         },
