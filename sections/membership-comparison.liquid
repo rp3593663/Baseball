@@ -1,0 +1,188 @@
+<section class="membership-comparison {{ section.settings.custom_class }}">
+  <div class="page-width">
+    <h2 class="title">{{ section.settings.heading }}</h2>
+
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Feature / Benefit</th>
+            <th>{{ section.settings.basic_title }}</th>
+            <th>{{ section.settings.premier_title }}</th>
+            <th>{{ section.settings.elite_title }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for block in section.blocks %}
+            <tr>
+              <td>{{ block.settings.feature }}</td>
+              <td>{{ block.settings.basic_value }}</td>
+              <td>{{ block.settings.premier_value }}</td>
+              <td>{{ block.settings.elite_value }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<style>
+.membership-comparison {
+  background: #fff;
+  padding: 60px 20px;
+  color: #001c3d;
+}
+.membership-comparison .title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.membership-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+.membership-comparison th,
+.membership-comparison td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.membership-comparison th {
+  background: #f2f2f2;
+  font-weight: 700;
+  color: #001c3d;
+}
+.membership-comparison td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+.membership-comparison tr:nth-child(even) {
+  background: #fafafa;
+}
+.membership-comparison tr:hover {
+  background: #f9f9f9;
+}
+@media (max-width: 768px) {
+  .membership-comparison table, 
+  .membership-comparison thead, 
+  .membership-comparison tbody, 
+  .membership-comparison th, 
+  .membership-comparison td, 
+  .membership-comparison tr {
+    display: block;
+  }
+  .membership-comparison tr {
+    margin-bottom: 15px;
+  }
+  .membership-comparison td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+  .membership-comparison td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    text-align: left;
+    font-weight: 600;
+  }
+}
+</style>
+
+{% schema %}
+{
+  "name": "Membership Comparison",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Compare Memberships"
+    },
+    {
+      "type": "text",
+      "id": "basic_title",
+      "label": "Basic Membership Title",
+      "default": "Basic (Free)"
+    },
+    {
+      "type": "text",
+      "id": "premier_title",
+      "label": "Premier Membership Title",
+      "default": "Premier - $99.99/year"
+    },
+    {
+      "type": "text",
+      "id": "elite_title",
+      "label": "Elite Membership Title",
+      "default": "Elite - $149.99/year"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature_row",
+      "name": "Feature Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature / Benefit"
+        },
+        {
+          "type": "text",
+          "id": "basic_value",
+          "label": "Basic Column Value",
+          "default": "—"
+        },
+        {
+          "type": "text",
+          "id": "premier_value",
+          "label": "Premier Column Value",
+          "default": "—"
+        },
+        {
+          "type": "text",
+          "id": "elite_value",
+          "label": "Elite Column Value",
+          "default": "—"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Membership Comparison",
+      "blocks": [
+        {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Access to BIN LinkedIn Group",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        {
+          "type": "feature_row",
+          "settings": {
+            "feature": "BIN Job Board Access",
+            "basic_value": "Limited",
+            "premier_value": "Full Access",
+            "elite_value": "+ Early Access"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
