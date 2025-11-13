@@ -230,6 +230,9 @@ h1.highlight_text {
   .membership_box p, .membership_box {
     margin-bottom: 10px;
   }
+  .home_banner_text .background-media-text__text {
+    width: auto;
+  }
   .membership_box h5 {
     font-size: 25px;
     margin-bottom: 8px;
