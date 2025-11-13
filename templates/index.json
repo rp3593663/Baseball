@@ -440,6 +440,44 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "newsletter_kmAM86": {
+      "type": "newsletter",
+      "blocks": {
+        "title_bgw6tE": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to Take Your Baseball Career Further?",
+            "heading_size": "h2"
+          }
+        },
+        "text_7kBC6c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>"
+          }
+        },
+        "form_EK9mfn": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_bgw6tE",
+        "text_7kBC6c",
+        "form_EK9mfn"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#e9edf0",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
     }
   },
   "order": [
@@ -450,6 +488,7 @@
     "background_image_text_U8GD7H",
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
-    "collection_callout_MNahBC"
+    "collection_callout_MNahBC",
+    "newsletter_kmAM86"
   ]
 }
