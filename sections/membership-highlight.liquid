@@ -1,42 +1,29 @@
 <div class="page-width {{ section.settings.custom_class }}">
-    <div class="animate_round">
-        <img src="https://cdn.shopify.com/s/files/1/0774/4562/8117/files/rounded_mode.png?v=1762952945">
-    </div>
-    <h1 class="highlight_text">Membership</h1>
-    <div class="all_memberships_blocks">
-        <div class="membership_col">
-            <div class="membership_box">
-                <img src="https://cdn.shopify.com/s/files/1/0774/4562/8117/files/basic-membership.png?v=1763011233">
-                <h5>Basic Membership</h5>
-                <p>Join for free and gain access to the world's largest online baseball business community. Perfect for students and emerging professionals looking to break into the industry.</p>
-                <a href="" class="btn">
-                    Start Free — Join the BIN Community
-                </a>
-            </div>
+  <div class="animate_round">
+    <img src="https://cdn.shopify.com/s/files/1/0774/4562/8117/files/rounded_mode.png?v=1762952945" alt="Membership Background">
+  </div>
+  
+  <h1 class="highlight_text">Membership</h1>
+  
+  <div class="all_memberships_blocks">
+    {% for block in section.blocks %}
+      <div class="membership_col">
+        <div class="membership_box">
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.title }}">
+          {% endif %}
+          <h5>{{ block.settings.title }}</h5>
+          <p>{{ block.settings.description }}</p>
+          {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+            <a href="{{ block.settings.button_link }}" class="btn">
+              {{ block.settings.button_text }}
+            </a>
+          {% endif %}
         </div>
-        <div class="membership_col">
-            <div class="membership_box">
-                <img src="https://cdn.shopify.com/s/files/1/0774/4562/8117/files/premier-membership.png?v=1763011235">
-                <h5>Premier Membership</h5>
-                <p>For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.</p>
-                <a href="" class="btn">
-                    Upgrade to Premier — Elevate Career
-                </a>
-            </div>
-        </div>
-        <div class="membership_col">
-            <div class="membership_box">
-                <img src="https://cdn.shopify.com/s/files/1/0774/4562/8117/files/elite-membership.png?v=1763011233">
-                <h5>Elite Membership</h5>
-                <p>The ultimate experience for those serious about baseball's business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN's executive network.</p>
-                <a href="" class="btn">
-                    Join Elite — Lead the Future of Baseball
-                </a>
-            </div>
-        </div>
-    </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
-
 
 {% schema %}
 {
@@ -47,11 +34,73 @@
       "type": "text",
       "id": "custom_class",
       "label": "Custom Class"
-    },
+    }
+  ],
+  "blocks": [
+    {
+      "type": "membership",
+      "name": "Membership Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Membership Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Membership Title",
+          "default": "Basic Membership"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Membership Description",
+          "default": "Join for free and gain access to the world's largest online baseball business community."
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Start Free — Join the BIN Community"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
+      ]
+    }
   ],
   "presets": [
     {
-      "name": "Highlight Membership"
+      "name": "Highlight Membership",
+      "blocks": [
+        {
+          "type": "membership",
+          "settings": {
+            "title": "Basic Membership",
+            "description": "Join for free and gain access to the world's largest online baseball business community. Perfect for students and emerging professionals looking to break into the industry.",
+            "button_text": "Start Free — Join the BIN Community"
+          }
+        },
+        {
+          "type": "membership",
+          "settings": {
+            "title": "Premier Membership",
+            "description": "For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.",
+            "button_text": "Upgrade to Premier — Elevate Career"
+          }
+        },
+        {
+          "type": "membership",
+          "settings": {
+            "title": "Elite Membership",
+            "description": "The ultimate experience for those serious about baseball's business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN's executive network.",
+            "button_text": "Join Elite — Lead the Future of Baseball"
+          }
+        }
+      ]
     }
   ],
   "disabled_on": {
