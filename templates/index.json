@@ -426,12 +426,12 @@
       ],
       "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
-        "subtitle": "Brand new",
-        "title": "Collection callout",
-        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-        "cta_text1": "Shop Jackets",
-        "cta_link1": "",
-        "cta_text2": "Shop All Mens",
+        "subtitle": "",
+        "title": "Learn, Lead, and Connect",
+        "text": "BIN hosts mentorship programs and exclusive networking events for Premier and Elite members. Share insights, grow professionally, and meet the people shaping the future of the game.",
+        "cta_text1": "Join Premier or Elite to Participate",
+        "cta_link1": "#",
+        "cta_text2": "",
         "cta_link2": "",
         "layout": "right",
         "divider": true
