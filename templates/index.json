@@ -426,6 +426,7 @@
       ],
       "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
+        "custom_class": "home_callout",
         "subtitle": "",
         "title": "Learn, Lead, and Connect",
         "text": "BIN hosts mentorship programs and exclusive networking events for Premier and Elite members. Share insights, grow professionally, and meet the people shaping the future of the game.",
