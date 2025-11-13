@@ -284,6 +284,9 @@ h1.highlight_text {
   .home_newsletter .enlarge-text p {
     margin-bottom: 0px;
   }
+  .home_newsletter .contact-form {
+    margin-top: 30px;
+  }
   .membership-comparison table, 
   .membership-comparison thead, 
   .membership-comparison tbody, 
