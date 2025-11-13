@@ -32,7 +32,7 @@
 .animate_round img {
     text-align: center;
     margin: auto;
-    width: 250px;
+    max-width: 250px;
 }
 .all_memberships_blocks {
     display: grid;
