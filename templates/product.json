@@ -51,16 +51,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "sky_pilot_customer_digital_library_button_Y83YkF": {
-          "type": "shopify://apps/sky-pilot/blocks/customer_digital_library_button/d19e6703-9148-4c06-b38c-b4d4f4a42811",
-          "settings": {
-            "button_label": "My Digital Content",
-            "justification": "left",
-            "hide_if_no_downloads": true,
-            "css_classes": "btn button button--primary",
-            "custom_css": "margin-top: 20px;"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -94,7 +84,6 @@
         "sales_point",
         "inventory_status",
         "buy_buttons",
-        "sky_pilot_customer_digital_library_button_Y83YkF",
         "description",
         "tab",
         "contact",
