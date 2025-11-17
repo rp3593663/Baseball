@@ -56,7 +56,7 @@
           "settings": {
             "button_label": "My Digital Content",
             "justification": "left",
-            "hide_if_no_downloads": false,
+            "hide_if_no_downloads": true,
             "css_classes": "btn button button--primary",
             "custom_css": "margin-top: 20px;"
           }
