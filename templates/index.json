@@ -170,7 +170,7 @@
         "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
         "button_label": "Explore the Job Board",
         "button_link": "#",
-        "image": "shopify://shop_images/baseball_banner.png",
+        "image": "shopify://shop_images/180911_Cubs_052.jpg",
         "layout": "left",
         "height": 550,
         "parallax": false,
@@ -186,7 +186,7 @@
           "settings": {
             "icon": "wallet",
             "title": "",
-            "text": "<p>Access verified baseball job listings</p>"
+            "text": "<p>Access verified baseball job listings & opportunities </p>"
           }
         },
         "text_block_YziNhP": {
@@ -194,7 +194,7 @@
           "settings": {
             "icon": "globe",
             "title": "",
-            "text": "<p>Connect with 47,000+ members worldwide</p>"
+            "text": "<p>Connect with 48,000+ BIN members worldwide</p>"
           }
         },
         "text_block_fLwKFx": {
@@ -202,7 +202,7 @@
           "settings": {
             "icon": "package",
             "title": "",
-            "text": "<p>Attend exclusive events and webinars</p>"
+            "text": "<p>Attend exclusive baseball industry events, and webinars</p>"
           }
         },
         "text_block_r3dNBa": {
@@ -210,7 +210,7 @@
           "settings": {
             "icon": "chat",
             "title": "",
-            "text": "<p>Get mentorship from baseball professionals</p>"
+            "text": "<p>Career guidance from experienced baseball professionals</p>"
           }
         },
         "text_block_we38Mh": {
@@ -218,7 +218,7 @@
           "settings": {
             "icon": "shield",
             "title": "",
-            "text": "<p>Shop member-only BIN merchandise</p>"
+            "text": "<p>Shop member-only, Authentic BIN merchandise</p>"
           }
         }
       },
