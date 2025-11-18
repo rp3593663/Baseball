@@ -308,8 +308,8 @@
         "video_dfAEia": {
           "type": "video",
           "settings": {
-            "title": "",
-            "description": "",
+            "title": "MLB Professional Development Session",
+            "description": "with Eve Rosenbaum, Assistant GM, Baltimore Orioles",
             "video_file": "shopify://files/videos/sample_video1.mp4"
           }
         },
