@@ -569,6 +569,10 @@ span.appstle_subscribe_save_text {
     font-size: 13px;
     line-height: 20px;
   }
+  .product-section .grid {
+    display: grid;
+    margin-left: 0px;
+  } 
   .video-card {
     width: 100%;
   }
