@@ -476,6 +476,66 @@ span.appstle_subscribe_save_text {
   transform: translate(-50%, -50%);
 }
 
+
+.elite-benefits-header {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.elite-subtitle {
+  color: #1b56e6;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.elite-title {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.elite-description {
+  color: #666;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.elite-benefits-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.elite-benefit-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.elite-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.elite-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.elite-content p {
+  color: #555;
+  line-height: 1.6;
+}
+
+
+
+
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .membership-pricing-wrapper {
     gap: 10px;
