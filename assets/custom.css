@@ -457,7 +457,7 @@ span.appstle_subscribe_save_text {
   width: 18px;
   height: 18px;
   border: 1px solid var(--red); 
-  border-radius: 3px;  
+  border-radius: 1px;  
   margin-right: 8px;
   cursor: pointer;
   position: relative;
