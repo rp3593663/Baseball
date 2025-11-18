@@ -589,6 +589,9 @@ span.appstle_subscribe_save_text {
     margin-bottom: 12px!important;
     font-size: 18px;
   }
+  .appstleRadioSellingPlanWrapper>div {
+    padding: 5px 10px;
+  }
   .product-section .grid {
     display: grid;
     margin-left: 0px;
