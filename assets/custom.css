@@ -424,6 +424,9 @@ p.video-desc {
   .video-carousel-banner .flickity-prev {
       left: -5px;
   }
+  .video-carousel-banner {
+    background-size: cover;
+  }
   .video-right, .video-left {
     width: 100%;
     padding: 0px 10px;
