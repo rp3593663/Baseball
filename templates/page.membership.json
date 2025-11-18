@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "1763446838fdd14793": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "1763443769b56bdee5": {
       "type": "_blocks",
       "blocks": {
@@ -85,6 +89,7 @@
     }
   },
   "order": [
+    "1763446838fdd14793",
     "1763443769b56bdee5",
     "main",
     "rich_text_E6TdDk"
