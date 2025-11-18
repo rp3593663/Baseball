@@ -1,0 +1,230 @@
+<section 
+  id="elite-benefits-{{ section.id }}" 
+  class="elite-benefits-section {{ section.settings.custom_class }}"
+>
+  <div class="{{ section.settings.container_width }}">
+    
+    <div class="elite-benefits-header">
+      {% if section.settings.subtitle != blank %}
+        <p class="elite-subtitle">{{ section.settings.subtitle }}</p>
+      {% endif %}
+
+      {% if section.settings.title != blank %}
+        <h2 class="elite-title">{{ section.settings.title }}</h2>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <p class="elite-description">{{ section.settings.description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="elite-benefits-grid">
+      {% for block in section.blocks %}
+        <div class="elite-benefit-box">
+          <div class="elite-icon">
+            {% if block.settings.icon != blank %}
+              <img src="{{ block.settings.icon | img_url: '100x100' }}" alt="icon">
+            {% else %}
+              ✔️
+            {% endif %}
+          </div>
+
+          <div class="elite-content">
+            <h3>{{ block.settings.benefit_title }}</h3>
+            <p>{{ block.settings.benefit_text }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+{% style %}
+#elite-benefits-{{ section.id }} {
+  padding-top: {{ section.settings.padding_top_desktop }}px;
+  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+}
+
+@media (max-width: 767px) {
+  #elite-benefits-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+}
+
+.elite-benefits-header {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.elite-subtitle {
+  color: #1b56e6;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.elite-title {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.elite-description {
+  color: #666;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.elite-benefits-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.elite-benefit-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.elite-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.elite-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.elite-content p {
+  color: #555;
+  line-height: 1.6;
+}
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Elite Membership Benefits",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Elite Membership Benefits"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Get elite benefits & exclusive services"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (mobile)",
+      "default": 40
+    },
+
+    {
+      "type": "select",
+      "id": "container_width",
+      "label": "Container Width",
+      "default": "container",
+      "options": [
+        { "label": "Container", "value": "container" },
+        { "label": "Full Width", "value": "full-width" }
+      ]
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "benefit_item",
+      "name": "Benefit Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Benefit Icon"
+        },
+        {
+          "type": "text",
+          "id": "benefit_title",
+          "label": "Benefit Title",
+          "default": "Premium Feature"
+        },
+        {
+          "type": "textarea",
+          "id": "benefit_text",
+          "label": "Benefit Description",
+          "default": "Lorem ipsum dolor sit amet."
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Elite Membership Benefits"
+    }
+  ]
+}
+{% endschema %}
