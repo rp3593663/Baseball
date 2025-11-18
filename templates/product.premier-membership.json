@@ -80,56 +80,49 @@
           "type": "benefit_item",
           "settings": {
             "benefit_title": "Access to BIN LinkedIn Group",
-            "benefit_text": "Full access to the official BIN LinkedIn community."
+            "benefit_text": "Join the community and network with professionals worldwide."
           }
         },
         "benefit_item_qVf8XN": {
           "type": "benefit_item",
           "settings": {
             "benefit_title": "Weekly Industry Newsletter",
-            "benefit_text": "Receive weekly insights, trends, and industry updates."
+            "benefit_text": "Stay updated with weekly trends, insights & news."
           }
         },
         "benefit_item_AtF7Lf": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Full Job Board Access + Early Access",
-            "benefit_text": "Access all job listings with exclusive early postings for Elite members."
+            "benefit_title": "Monthly Webinars",
+            "benefit_text": "Attend live monthly sessions with industry experts."
           }
         },
         "benefit_item_Yyftbx": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Exclusive Webinars",
-            "benefit_text": "Monthly live + on-demand sessions exclusive to Elite members."
+            "benefit_title": "Job Board Access",
+            "benefit_text": "Standard access to BIN’s curated job listings."
           }
         },
         "benefit_item_ezhpwc": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Executive Q&A Chats",
-            "benefit_text": "Bi-monthly small-group sessions with industry experts."
+            "benefit_title": "Partner & Sponsor Discounts",
+            "benefit_text": "Enjoy special savings and partner perks available to Premier members."
           }
         },
         "benefit_item_DTaarN": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Executive Mentorship",
-            "benefit_text": "Personalized mentorship with top industry leaders."
+            "benefit_title": "Archived Content Library",
+            "benefit_text": "Watch past webinars, workshops, and training sessions anytime."
           }
         },
-        "benefit_item_RjcJb6": {
+        "benefit_item_EhA8hJ": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "VIP Access to Events",
-            "benefit_text": "First priority and special VIP access to seasonal BIN events."
-          }
-        },
-        "benefit_item_P73C9b": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Premium Merchandise Kit",
-            "benefit_text": "Multi-item seasonal merch drops exclusive to Elite members."
+            "benefit_title": "Event Access",
+            "benefit_text": "Get access to general events and programs through the year."
           }
         }
       },
@@ -140,15 +133,14 @@
         "benefit_item_Yyftbx",
         "benefit_item_ezhpwc",
         "benefit_item_DTaarN",
-        "benefit_item_RjcJb6",
-        "benefit_item_P73C9b"
+        "benefit_item_EhA8hJ"
       ],
       "name": "Elite Membership Benefits",
       "settings": {
         "custom_class": "",
-        "subtitle": "Elite Membership Benefits",
-        "title": "Get elite benefits & exclusive services",
-        "description": "Unlock premium resources, early access, exclusive mentorship, partner perks, and VIP opportunities designed to elevate your professional journey to the next level. Become an Elite member and experience the highest level of access and value within the BIN network.",
+        "subtitle": "Premier Membership Benefits",
+        "title": "Get Premier benefits & exclusive services",
+        "description": "Premier membership gives you advanced access, member-only tools, curated resources, and priority support. Get more control, more benefits, and more opportunities designed to support your growth, career, and professional goals.",
         "padding_top_desktop": 60,
         "padding_bottom_desktop": 60,
         "padding_top_mobile": 40,
