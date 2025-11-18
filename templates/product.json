@@ -117,6 +117,20 @@
             "benefit_title": "Executive Mentorship",
             "benefit_text": "Personalized mentorship with top industry leaders."
           }
+        },
+        "benefit_item_RjcJb6": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "VIP Access to Events",
+            "benefit_text": "First priority and special VIP access to seasonal BIN events."
+          }
+        },
+        "benefit_item_P73C9b": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Premium Merchandise Kit",
+            "benefit_text": "Multi-item seasonal merch drops exclusive to Elite members."
+          }
         }
       },
       "block_order": [
@@ -125,7 +139,9 @@
         "benefit_item_AtF7Lf",
         "benefit_item_Yyftbx",
         "benefit_item_ezhpwc",
-        "benefit_item_DTaarN"
+        "benefit_item_DTaarN",
+        "benefit_item_RjcJb6",
+        "benefit_item_P73C9b"
       ],
       "name": "Elite Membership Benefits",
       "settings": {
