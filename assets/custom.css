@@ -414,6 +414,16 @@ p.video-desc {
   .video-card {
     width: 100%;
   }
+  .flickity-prev-next-button {
+      width: 30px;
+      height: 30px;
+  }
+  .flickity-next {
+      right: -5px;
+  }
+  .flickity-prev {
+      left: -5px;
+  }
   .video-right, .video-left {
     width: 100%;
     padding: 0px 10px;
