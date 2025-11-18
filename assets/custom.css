@@ -414,14 +414,14 @@ p.video-desc {
   .video-card {
     width: 100%;
   }
-  .flickity-prev-next-button {
+  .video-carousel-banner .flickity-prev-next-button {
       width: 30px;
       height: 30px;
   }
-  .flickity-next {
+  .video-carousel-banner .flickity-next {
       right: -5px;
   }
-  .flickity-prev {
+  .video-carousel-banner .flickity-prev {
       left: -5px;
   }
   .video-right, .video-left {
