@@ -456,7 +456,7 @@ span.appstle_subscribe_save_text {
   -webkit-appearance: none;
   width: 18px;
   height: 18px;
-  border: 2px solid var(--red); 
+  border: 1px solid var(--red); 
   border-radius: 3px;  
   margin-right: 8px;
   cursor: pointer;
@@ -467,6 +467,11 @@ span.appstle_subscribe_save_text {
   width: 10px;
   height: 10px;
   background-color: var(--red);
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
