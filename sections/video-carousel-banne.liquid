@@ -247,8 +247,12 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll(".video-play").forEach(btn => {
     btn.addEventListener("click", function() {
       let url = this.dataset.video;
-      popupVideo.src = url;
+
+      if (!url) return;
+
       popup.style.display = "flex";
+      popupVideo.querySelector("source").src = url;
+      popupVideo.load();
       popupVideo.play();
     });
   });
@@ -256,11 +260,13 @@ document.addEventListener("DOMContentLoaded", function() {
   closeBtn.addEventListener("click", function() {
     popup.style.display = "none";
     popupVideo.pause();
-    popupVideo.src = "";
+    popupVideo.querySelector("source").src = "";
+    popupVideo.load();
   });
 
 });
 </script>
+
 
 
 {% schema %}
