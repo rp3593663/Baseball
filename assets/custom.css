@@ -310,12 +310,12 @@ p.video-desc {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 58px;
-  height: 58px;
+  width: 45px;
+  height: 45px;
   border: none;
   border-radius: 50%;
   background: rgba(0,0,0,0.6);
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   cursor: pointer;
 }
