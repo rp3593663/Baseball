@@ -93,11 +93,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (videoSlider) {
     new Flickity(videoSlider, {
+      cellAlign: "left",    // NOT centered
       contain: true,
       groupCells: 2,
-      wrapAround: true,
-      pageDots: false,
-      prevNextButtons: true
+      wrapAround: true,     // LOOP
+      pageDots: true,
+      prevNextButtons: true,
+      draggable: true,
+      friction: 0.3,
+      selectedAttraction: 0.04
     });
   }
 });
