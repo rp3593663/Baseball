@@ -462,7 +462,10 @@ span.appstle_subscribe_save_text {
   cursor: pointer;
   position: relative;
 }
-.appstleRadioSellingPlanWrapper > div input[type="radio"]:checked {
+.appstleRadioSellingPlanWrapper > div input[type="radio"]:checked:after {
+  content: "";
+  width: 10px;
+  height: 10px;
   background-color: var(--red);
 }
 
