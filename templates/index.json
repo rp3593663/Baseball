@@ -126,7 +126,7 @@
             "title": "Basic Membership",
             "description": "Join for free and gain access to the world’s largest online baseball business community. Perfect for students and emerging professionals looking to break into the industry.",
             "button_text": "Start Free — Join the BIN Community",
-            "button_link": "#"
+            "button_link": "shopify://products/bin-basic-membership"
           }
         },
         "membership_rrqdmT": {
