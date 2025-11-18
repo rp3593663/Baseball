@@ -89,6 +89,7 @@
         "membership_card_68pE7G": {
           "type": "membership_card",
           "settings": {
+            "icon": "shopify://shop_images/basic-membership.png",
             "title": "Premium Member",
             "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
             "price": "89",
@@ -103,6 +104,7 @@
         "membership_card_HPypiz": {
           "type": "membership_card",
           "settings": {
+            "icon": "shopify://shop_images/premier-membership.png",
             "title": "Premium Member",
             "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
             "price": "89",
@@ -117,14 +119,15 @@
         "membership_card_M3FBKd": {
           "type": "membership_card",
           "settings": {
-            "title": "Premium Member",
-            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
-            "price": "89",
+            "icon": "shopify://shop_images/elite-membership.png",
+            "title": "Elite Membership",
+            "desc": "The ultimate experience for those serious about baseball's business.",
+            "price": "39.99",
             "feature_1": "Nullam tellus neque aptent",
             "feature_2": "Elementum vulputate diam",
             "feature_3": "Dignissim penatibus diam libero",
             "feature_4": "Natoque congue penatibus",
-            "button_label": "Join Member",
+            "button_label": "Join Elite Membership",
             "button_url": ""
           }
         }
@@ -137,11 +140,6 @@
       "name": "Membership Pricing",
       "settings": {
         "custom_class": "",
-        "subtitle": "Choose Your Plan",
-        "title": "Memberships That Move Your Baseball Career Forward",
-        "description": "Our membership tiers give you access to education, mentorship, networking, and exclusive industry resources. Select the plan that aligns with your goals and start building real momentum in the business of baseball.",
-        "button_text": "",
-        "button_link": "",
         "bg_color": "#ffffff",
         "padding_top_desktop": 0,
         "padding_bottom_desktop": 0,
