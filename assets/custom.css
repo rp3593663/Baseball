@@ -225,6 +225,12 @@ h1.highlight_text {
     font-family: var(--heading_font_family);
     letter-spacing: -1px;
 }
+.membership-card-price span {
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
 .membership-card-features {
   list-style: none;
   padding: 0;
