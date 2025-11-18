@@ -22,11 +22,10 @@
         {% for block in section.blocks %}
             <div class="elite-benefit-box">
             <div class="elite-icon">
-                {% if block.settings.icon != blank %}
-                <img src="{{ block.settings.icon | img_url: '100x100' }}" alt="icon">
-                {% else %}
-                ✔️
-                {% endif %}
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="11" stroke="#1E5AAA" stroke-width="1"/>
+                    <path d="M7 12.5L10.5 16L17 8" stroke="#1E5AAA" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </div>
 
             <div class="elite-content">
@@ -145,11 +144,6 @@
       "type": "benefit_item",
       "name": "Benefit Item",
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Benefit Icon"
-        },
         {
           "type": "text",
           "id": "benefit_title",
