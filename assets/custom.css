@@ -204,7 +204,6 @@ h1.highlight_text {
 }
 .membership-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 35px rgba(0,0,0,0.12);
 }
 .membership-icon {
   width: 60px;
