@@ -380,7 +380,7 @@ p.video-desc {
   background-image: url(https://cdn.shopify.com/s/files/1/0774/4562/8117/files/background-pattern1.png?v=1763468421);
 }
 .product-section .page-content {
-    background-image: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 50%, #fff 55%, #ffffffa6 100%);
+    background-image: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 50%, #fff 55%, #ffffff32 100%);
 }
 .product-section .grid {
     display: flex;
