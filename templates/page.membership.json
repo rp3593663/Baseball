@@ -301,6 +301,70 @@
         "premier_title": "Premier - $99.99/year",
         "elite_title": "Elite - $149.99/year"
       }
+    },
+    "testimonials_HLhkCb": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_VEKHKj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_LBE67b": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_ek8eN9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_nJCJEK": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_B7q6Bq": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_VEKHKj",
+        "testimonial_LBE67b",
+        "testimonial_ek8eN9",
+        "testimonial_nJCJEK",
+        "testimonial_B7q6Bq"
+      ],
+      "name": "t:sections.testimonials.presets.customer_testimonials.name",
+      "settings": {
+        "title": "Don't take our word for it",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -308,6 +372,7 @@
     "main",
     "rich_text_9VXHWK",
     "membership_pricing_jMiCDe",
-    "membership_comparison_AnYYFL"
+    "membership_comparison_AnYYFL",
+    "testimonials_HLhkCb"
   ]
 }
