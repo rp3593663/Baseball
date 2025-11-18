@@ -90,14 +90,14 @@
           "type": "membership_card",
           "settings": {
             "icon": "shopify://shop_images/basic-membership.png",
-            "title": "Premium Member",
-            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
-            "price": "89",
+            "title": "Basic Membership",
+            "desc": "Join for free and gain access to the world’s largest online baseball business community.",
+            "price": "0",
             "feature_1": "Nullam tellus neque aptent",
             "feature_2": "Elementum vulputate diam",
             "feature_3": "Dignissim penatibus diam libero",
             "feature_4": "Natoque congue penatibus",
-            "button_label": "Join Member",
+            "button_label": "Join Basic Membership",
             "button_url": ""
           }
         },
@@ -105,14 +105,14 @@
           "type": "membership_card",
           "settings": {
             "icon": "shopify://shop_images/premier-membership.png",
-            "title": "Premium Member",
-            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
-            "price": "89",
+            "title": "Premier Membership",
+            "desc": "For working professionals ready to grow in baseball — gain full job board access, exclusive content.",
+            "price": "29.99",
             "feature_1": "Nullam tellus neque aptent",
             "feature_2": "Elementum vulputate diam",
             "feature_3": "Dignissim penatibus diam libero",
             "feature_4": "Natoque congue penatibus",
-            "button_label": "Join Member",
+            "button_label": "Join Premier Membership",
             "button_url": ""
           }
         },
