@@ -308,7 +308,14 @@ h1.highlight_text {
   border-radius: 0px;
   object-fit: cover;
 }
-
+.video-carousel-banner .flickity-prev-next-button .flickity-button-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 40%;
+    height: 40%;
+}
 .video-play {
   position: absolute;
   top: 50%;
