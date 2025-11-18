@@ -603,6 +603,10 @@ span.appstle_subscribe_save_text {
     width: 10px;
     height: 10px;
   }
+  .appstleRadioSellingPlanWrapper>div input[type=radio] {
+    width: 16px;
+    height: 16px;
+  }
   .product-section .grid {
     display: grid;
     margin-left: 0px;
