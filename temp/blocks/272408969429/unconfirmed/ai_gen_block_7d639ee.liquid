@@ -1,6 +1,991 @@
+{% doc %}
+  @prompt
+    Top Section (Full-width)
+    
+    Add a wrapper with the custom class: membership-hero-section
+    
+    Include the following fields as editable inputs in the section settings:
+    
+    Title (text)
+    
+    Subtitle (text)
+    
+    Description (rich text)
+    
+    Default values:
+    
+    Title: Choose Your Membership
+    
+    Subtitle: Unlock your path into the business of baseball
+    
+    Description:
+    Join the world’s largest baseball business community with membership options built for students, professionals, and executives. Select the plan that fits your career goals.MEMBERSHIP CARD AREA (3 Columns)
+    
+    Container custom class: membership-pricing-wrapper
+    Display 3 membership boxes side-by-side on desktop, stacked on mobile.
+    
+    Each Membership Card Should Include:
+    
+    Custom class for the card: membership-card
+    
+    Image/icon picker
+    
+    Membership Title (text)
+    
+    Short description (text)
+    
+    Price selector:
+    
+    Monthly Price (number)
+    
+    Yearly Price (number)
+    
+    Toggle switch on frontend to switch between monthly/yearly
+    
+    Feature list (repeatable field – 3–4 bullet items)
+    
+    CTA Button text (text)
+    
+    CTA Link (url)
+    1. Basic Membership
+    
+    Title: Basic Member
+    
+    Description: Perfect for students and emerging professionals.
+    
+    Monthly Price: $0
+    
+    Yearly Price: $0
+    
+    Features:
+    
+    Access to community discussions
+    
+    Intro industry resources
+    
+    Career starter guidance
+    
+    Limited job board preview
+    
+    Button Text: Join Basic
+    
+    2. Premier Membership
+    
+    Title: Premier Member
+    
+    Description: For working professionals ready to grow in baseball.
+    
+    Monthly: $49
+    
+    Yearly: $499
+    
+    Features:
+    
+    Full job board access
+    
+    Exclusive content
+    
+    Monthly mentorship sessions
+    
+    Member discounts
+    
+    Button Text: Join Premier
+    
+    3. Elite Membership
+    
+    Title: Elite Member
+    
+    Description: The ultimate experience for serious baseball leaders.
+    
+    Monthly: $89
+    
+    Yearly: $899
+    
+    Features:
+    
+    Personalized mentorship
+    
+    VIP industry events
+    
+    Executive network access
+    
+    Premium resources & insights
+    
+    Button Text: Join Elite
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .membership-hero-section-{{ ai_gen_id }} {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: {{ block.settings.hero_bg_color }};
+  }
+
+  .membership-hero-section__container-{{ ai_gen_id }} {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .membership-hero-section__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 16px;
+    font-weight: 700;
+  }
+
+  .membership-hero-section__subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_size }}px;
+    color: {{ block.settings.subtitle_color }};
+    margin: 0 0 20px;
+    font-weight: 500;
+  }
+
+  .membership-hero-section__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .membership-pricing-wrapper-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .membership-card-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_bg_color }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .membership-card-{{ ai_gen_id }}:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .membership-card__image-{{ ai_gen_id }} {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .membership-card__image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .membership-card__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .membership-card__image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+  }
+
+  .membership-card__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_title_size }}px;
+    color: {{ block.settings.card_title_color }};
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+
+  .membership-card__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_description_size }}px;
+    color: {{ block.settings.card_description_color }};
+    margin: 0 0 24px;
+    line-height: 1.5;
+  }
+
+  .membership-card__price-toggle-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .membership-card__toggle-label-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.card_description_color }};
+    font-weight: 500;
+  }
+
+  .membership-card__toggle-label-{{ ai_gen_id }}.active {
+    color: {{ block.settings.card_title_color }};
+    font-weight: 700;
+  }
+
+  .membership-card__toggle-switch-{{ ai_gen_id }} {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    background-color: {{ block.settings.toggle_bg_color }};
+    border-radius: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .membership-card__toggle-switch-{{ ai_gen_id }}.yearly {
+    background-color: {{ block.settings.toggle_active_color }};
+  }
+
+  .membership-card__toggle-slider-{{ ai_gen_id }} {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .membership-card__toggle-switch-{{ ai_gen_id }}.yearly .membership-card__toggle-slider-{{ ai_gen_id }} {
+    transform: translateX(24px);
+  }
+
+  .membership-card__price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    color: {{ block.settings.price_color }};
+    margin: 0 0 8px;
+    font-weight: 700;
+  }
+
+  .membership-card__price-period-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.card_description_color }};
+    margin: 0 0 24px;
+  }
+
+  .membership-card__features-{{ ai_gen_id }} {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+    flex-grow: 1;
+  }
+
+  .membership-card__feature-{{ ai_gen_id }} {
+    font-size: {{ block.settings.feature_size }}px;
+    color: {{ block.settings.feature_color }};
+    padding: 10px 0;
+    border-bottom: 1px solid {{ block.settings.feature_border_color }};
+    line-height: 1.5;
+  }
+
+  .membership-card__feature-{{ ai_gen_id }}:last-child {
+    border-bottom: none;
+  }
+
+  .membership-card__button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .membership-card__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+  }
+
+  @media screen and (max-width: 989px) {
+    .membership-pricing-wrapper-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .membership-hero-section-{{ ai_gen_id }} {
+      padding: 40px 20px;
+    }
+
+    .membership-hero-section__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.title_size }}px * 0.7);
+    }
+
+    .membership-hero-section__subtitle-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.subtitle_size }}px * 0.85);
+    }
+
+    .membership-pricing-wrapper-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+
+    .membership-card-{{ ai_gen_id }} {
+      padding: 30px 20px;
+    }
+  }
+{% endstyle %}
+
+<membership-pricing-{{ ai_gen_id }} {{ block.shopify_attributes }}>
+  <div class="membership-hero-section membership-hero-section-{{ ai_gen_id }}">
+    <div class="membership-hero-section__container-{{ ai_gen_id }}">
+      {% if block.settings.hero_title != blank %}
+        <h1 class="membership-hero-section__title-{{ ai_gen_id }}">{{ block.settings.hero_title }}</h1>
+      {% endif %}
+      
+      {% if block.settings.hero_subtitle != blank %}
+        <h2 class="membership-hero-section__subtitle-{{ ai_gen_id }}">{{ block.settings.hero_subtitle }}</h2>
+      {% endif %}
+      
+      {% if block.settings.hero_description != blank %}
+        <div class="membership-hero-section__description-{{ ai_gen_id }}">
+          {{ block.settings.hero_description }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="membership-pricing-wrapper membership-pricing-wrapper-{{ ai_gen_id }}">
+    {% for i in (1..3) %}
+      {% liquid
+        assign card_enabled_key = 'card_' | append: i | append: '_enabled'
+        assign card_image_key = 'card_' | append: i | append: '_image'
+        assign card_title_key = 'card_' | append: i | append: '_title'
+        assign card_description_key = 'card_' | append: i | append: '_description'
+        assign card_monthly_price_key = 'card_' | append: i | append: '_monthly_price'
+        assign card_yearly_price_key = 'card_' | append: i | append: '_yearly_price'
+        assign card_feature_1_key = 'card_' | append: i | append: '_feature_1'
+        assign card_feature_2_key = 'card_' | append: i | append: '_feature_2'
+        assign card_feature_3_key = 'card_' | append: i | append: '_feature_3'
+        assign card_feature_4_key = 'card_' | append: i | append: '_feature_4'
+        assign card_button_text_key = 'card_' | append: i | append: '_button_text'
+        assign card_button_link_key = 'card_' | append: i | append: '_button_link'
+
+        assign card_enabled = block.settings[card_enabled_key]
+        assign card_image = block.settings[card_image_key]
+        assign card_title = block.settings[card_title_key]
+        assign card_description = block.settings[card_description_key]
+        assign card_monthly_price = block.settings[card_monthly_price_key]
+        assign card_yearly_price = block.settings[card_yearly_price_key]
+        assign card_feature_1 = block.settings[card_feature_1_key]
+        assign card_feature_2 = block.settings[card_feature_2_key]
+        assign card_feature_3 = block.settings[card_feature_3_key]
+        assign card_feature_4 = block.settings[card_feature_4_key]
+        assign card_button_text = block.settings[card_button_text_key]
+        assign card_button_link = block.settings[card_button_link_key]
+      %}
+
+      {% if card_enabled %}
+        <div class="membership-card membership-card-{{ ai_gen_id }}" data-card="{{ i }}">
+          {% if card_image %}
+            <div class="membership-card__image-{{ ai_gen_id }}">
+              <img
+                src="{{ card_image | image_url: width: 160 }}"
+                alt="{{ card_image.alt | escape }}"
+                loading="lazy"
+                width="80"
+                height="80"
+              >
+            </div>
+          {% else %}
+            <div class="membership-card__image-{{ ai_gen_id }}">
+              <div class="membership-card__image-placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+              </div>
+            </div>
+          {% endif %}
+
+          {% if card_title != blank %}
+            <h3 class="membership-card__title-{{ ai_gen_id }}">{{ card_title }}</h3>
+          {% endif %}
+
+          {% if card_description != blank %}
+            <p class="membership-card__description-{{ ai_gen_id }}">{{ card_description }}</p>
+          {% endif %}
+
+          <div class="membership-card__price-toggle-{{ ai_gen_id }}">
+            <span class="membership-card__toggle-label-{{ ai_gen_id }} monthly-label active">Monthly</span>
+            <div class="membership-card__toggle-switch-{{ ai_gen_id }}" data-toggle="{{ i }}">
+              <div class="membership-card__toggle-slider-{{ ai_gen_id }}"></div>
+            </div>
+            <span class="membership-card__toggle-label-{{ ai_gen_id }} yearly-label">Yearly</span>
+          </div>
+
+          <div class="membership-card__price-{{ ai_gen_id }}" data-price-display="{{ i }}">
+            $<span class="price-amount">{{ card_monthly_price }}</span>
+          </div>
+          <div class="membership-card__price-period-{{ ai_gen_id }}" data-period-display="{{ i }}">
+            per month
+          </div>
+
+          <ul class="membership-card__features-{{ ai_gen_id }}">
+            {% if card_feature_1 != blank %}
+              <li class="membership-card__feature-{{ ai_gen_id }}">{{ card_feature_1 }}</li>
+            {% endif %}
+            {% if card_feature_2 != blank %}
+              <li class="membership-card__feature-{{ ai_gen_id }}">{{ card_feature_2 }}</li>
+            {% endif %}
+            {% if card_feature_3 != blank %}
+              <li class="membership-card__feature-{{ ai_gen_id }}">{{ card_feature_3 }}</li>
+            {% endif %}
+            {% if card_feature_4 != blank %}
+              <li class="membership-card__feature-{{ ai_gen_id }}">{{ card_feature_4 }}</li>
+            {% endif %}
+          </ul>
+
+          {% if card_button_text != blank %}
+            <a href="{{ card_button_link }}" class="membership-card__button-{{ ai_gen_id }}">
+              {{ card_button_text }}
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</membership-pricing-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class MembershipPricing{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.pricingData = {
+          1: {
+            monthly: {{ block.settings.card_1_monthly_price }},
+            yearly: {{ block.settings.card_1_yearly_price }}
+          },
+          2: {
+            monthly: {{ block.settings.card_2_monthly_price }},
+            yearly: {{ block.settings.card_2_yearly_price }}
+          },
+          3: {
+            monthly: {{ block.settings.card_3_monthly_price }},
+            yearly: {{ block.settings.card_3_yearly_price }}
+          }
+        };
+      }
+
+      connectedCallback() {
+        this.setupToggleSwitches();
+      }
+
+      setupToggleSwitches() {
+        const toggles = this.querySelectorAll('[data-toggle]');
+        
+        toggles.forEach((toggle) => {
+          const cardNumber = toggle.getAttribute('data-toggle');
+          const card = this.querySelector(`[data-card="${cardNumber}"]`);
+          const priceDisplay = card.querySelector('[data-price-display]');
+          const periodDisplay = card.querySelector('[data-period-display]');
+          const monthlyLabel = card.querySelector('.monthly-label');
+          const yearlyLabel = card.querySelector('.yearly-label');
+          
+          toggle.addEventListener('click', () => {
+            const isYearly = toggle.classList.contains('yearly');
+            
+            if (isYearly) {
+              toggle.classList.remove('yearly');
+              priceDisplay.querySelector('.price-amount').textContent = this.pricingData[cardNumber].monthly;
+              periodDisplay.textContent = 'per month';
+              monthlyLabel.classList.add('active');
+              yearlyLabel.classList.remove('active');
+            } else {
+              toggle.classList.add('yearly');
+              priceDisplay.querySelector('.price-amount').textContent = this.pricingData[cardNumber].yearly;
+              periodDisplay.textContent = 'per year';
+              monthlyLabel.classList.remove('active');
+              yearlyLabel.classList.add('active');
+            }
+          });
+        });
+      }
+    }
+
+    customElements.define('membership-pricing-{{ ai_gen_id }}', MembershipPricing{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Membership pricing",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Hero section"
+    },
+    {
+      "type": "text",
+      "id": "hero_title",
+      "label": "Title",
+      "default": "Choose Your Membership"
+    },
+    {
+      "type": "text",
+      "id": "hero_subtitle",
+      "label": "Subtitle",
+      "default": "Unlock your path into the business of baseball"
+    },
+    {
+      "type": "richtext",
+      "id": "hero_description",
+      "label": "Description",
+      "default": "<p>Join the world's largest baseball business community with membership options built for students, professionals, and executives. Select the plan that fits your career goals.</p>"
+    },
+    {
+      "type": "color",
+      "id": "hero_bg_color",
+      "label": "Background color",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 42
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Subtitle size",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 14,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Card style"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Border color",
+      "default": "#e8e8e1"
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Border width",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 12
+    },
+    {
+      "type": "color",
+      "id": "card_title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "min": 18,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "card_description_color",
+      "label": "Description color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "card_description_size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "label": "Price color",
+      "default": "#0b2041"
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "min": 24,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Price size",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "feature_color",
+      "label": "Feature text color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "feature_size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature text size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "feature_border_color",
+      "label": "Feature border color",
+      "default": "#f0f0f0"
+    },
+    {
+      "type": "header",
+      "content": "Toggle switch"
+    },
+    {
+      "type": "color",
+      "id": "toggle_bg_color",
+      "label": "Background color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "toggle_active_color",
+      "label": "Active color",
+      "default": "#0b2041"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Background color",
+      "default": "#0b2041"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Hover background color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 6
+    },
+    {
+      "type": "header",
+      "content": "Card 1 - Basic membership"
+    },
+    {
+      "type": "checkbox",
+      "id": "card_1_enabled",
+      "label": "Enable card 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "card_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "card_1_title",
+      "label": "Title",
+      "default": "Basic Member"
+    },
+    {
+      "type": "text",
+      "id": "card_1_description",
+      "label": "Description",
+      "default": "Perfect for students and emerging professionals."
+    },
+    {
+      "type": "text",
+      "id": "card_1_monthly_price",
+      "label": "Monthly price",
+      "default": "0"
+    },
+    {
+      "type": "text",
+      "id": "card_1_yearly_price",
+      "label": "Yearly price",
+      "default": "0"
+    },
+    {
+      "type": "text",
+      "id": "card_1_feature_1",
+      "label": "Feature 1",
+      "default": "Access to community discussions"
+    },
+    {
+      "type": "text",
+      "id": "card_1_feature_2",
+      "label": "Feature 2",
+      "default": "Intro industry resources"
+    },
+    {
+      "type": "text",
+      "id": "card_1_feature_3",
+      "label": "Feature 3",
+      "default": "Career starter guidance"
+    },
+    {
+      "type": "text",
+      "id": "card_1_feature_4",
+      "label": "Feature 4",
+      "default": "Limited job board preview"
+    },
+    {
+      "type": "text",
+      "id": "card_1_button_text",
+      "label": "Button text",
+      "default": "Join Basic"
+    },
+    {
+      "type": "url",
+      "id": "card_1_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Card 2 - Premier membership"
+    },
+    {
+      "type": "checkbox",
+      "id": "card_2_enabled",
+      "label": "Enable card 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "card_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "card_2_title",
+      "label": "Title",
+      "default": "Premier Member"
+    },
+    {
+      "type": "text",
+      "id": "card_2_description",
+      "label": "Description",
+      "default": "For working professionals ready to grow in baseball."
+    },
+    {
+      "type": "text",
+      "id": "card_2_monthly_price",
+      "label": "Monthly price",
+      "default": "49"
+    },
+    {
+      "type": "text",
+      "id": "card_2_yearly_price",
+      "label": "Yearly price",
+      "default": "499"
+    },
+    {
+      "type": "text",
+      "id": "card_2_feature_1",
+      "label": "Feature 1",
+      "default": "Full job board access"
+    },
+    {
+      "type": "text",
+      "id": "card_2_feature_2",
+      "label": "Feature 2",
+      "default": "Exclusive content"
+    },
+    {
+      "type": "text",
+      "id": "card_2_feature_3",
+      "label": "Feature 3",
+      "default": "Monthly mentorship sessions"
+    },
+    {
+      "type": "text",
+      "id": "card_2_feature_4",
+      "label": "Feature 4",
+      "default": "Member discounts"
+    },
+    {
+      "type": "text",
+      "id": "card_2_button_text",
+      "label": "Button text",
+      "default": "Join Premier"
+    },
+    {
+      "type": "url",
+      "id": "card_2_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Card 3 - Elite membership"
+    },
+    {
+      "type": "checkbox",
+      "id": "card_3_enabled",
+      "label": "Enable card 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "card_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "card_3_title",
+      "label": "Title",
+      "default": "Elite Member"
+    },
+    {
+      "type": "text",
+      "id": "card_3_description",
+      "label": "Description",
+      "default": "The ultimate experience for serious baseball leaders."
+    },
+    {
+      "type": "text",
+      "id": "card_3_monthly_price",
+      "label": "Monthly price",
+      "default": "89"
+    },
+    {
+      "type": "text",
+      "id": "card_3_yearly_price",
+      "label": "Yearly price",
+      "default": "899"
+    },
+    {
+      "type": "text",
+      "id": "card_3_feature_1",
+      "label": "Feature 1",
+      "default": "Personalized mentorship"
+    },
+    {
+      "type": "text",
+      "id": "card_3_feature_2",
+      "label": "Feature 2",
+      "default": "VIP industry events"
+    },
+    {
+      "type": "text",
+      "id": "card_3_feature_3",
+      "label": "Feature 3",
+      "default": "Executive network access"
+    },
+    {
+      "type": "text",
+      "id": "card_3_feature_4",
+      "label": "Feature 4",
+      "default": "Premium resources & insights"
+    },
+    {
+      "type": "text",
+      "id": "card_3_button_text",
+      "label": "Button text",
+      "default": "Join Elite"
+    },
+    {
+      "type": "url",
+      "id": "card_3_button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Membership pricing"
+    }
+  ]
+}
 {% endschema %}
