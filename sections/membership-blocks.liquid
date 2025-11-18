@@ -72,3 +72,171 @@
 
   </div>
 </section>
+
+
+{
+  "name": "Membership Pricing Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Choose Your Plan"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Get fit, get active, play badminton!"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
+    },
+
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Top Button Text",
+      "default": "Discover more"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Top Button Link"
+    },
+
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Mobile)",
+      "default": 40
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "membership_card",
+      "name": "Membership Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Membership Title",
+          "default": "Premium Member"
+        },
+        {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Short Description",
+          "default": "Aenean molestie posuere placerat suscipit aptent mus."
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price",
+          "default": "89"
+        },
+
+        {
+          "type": "text",
+          "id": "feature_1",
+          "label": "Feature 1",
+          "default": "Nullam tellus neque aptent"
+        },
+        {
+          "type": "text",
+          "id": "feature_2",
+          "label": "Feature 2",
+          "default": "Elementum vulputate diam"
+        },
+        {
+          "type": "text",
+          "id": "feature_3",
+          "label": "Feature 3",
+          "default": "Dignissim penatibus diam libero"
+        },
+        {
+          "type": "text",
+          "id": "feature_4",
+          "label": "Feature 4",
+          "default": "Natoque congue penatibus"
+        },
+
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Text",
+          "default": "Join Member"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+
+  "max_blocks": 3,
+
+  "presets": [
+    {
+      "name": "Membership Pricing Section"
+    }
+  ]
+}
