@@ -86,16 +86,6 @@
           "type": "shopify://apps/appstle-memberships/blocks/appstle-membership-product-page-widget/76528d70-5fbe-48f8-8e19-590d109aa2b7",
           "settings": {}
         },
-        "sky_pilot_customer_digital_library_button_NLnHRA": {
-          "type": "shopify://apps/sky-pilot/blocks/customer_digital_library_button/d19e6703-9148-4c06-b38c-b4d4f4a42811",
-          "settings": {
-            "button_label": "My Digital Content",
-            "justification": "left",
-            "hide_if_no_downloads": false,
-            "css_classes": "btn button button--primary",
-            "custom_css": "margin-top: 20px;"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -138,7 +128,6 @@
         "sales_point",
         "inventory_status",
         "appstle_memberships_appstle_membership_product_page_widget_FrJtbH",
-        "sky_pilot_customer_digital_library_button_NLnHRA",
         "buy_buttons",
         "description",
         "tab",
