@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "1763446838fdd14793": {
-      "type": "_blocks",
-      "settings": {}
-    },
     "1763443769b56bdee5": {
       "type": "_blocks",
       "blocks": {
@@ -49,43 +45,6 @@
       "type": "main-page",
       "disabled": true,
       "settings": {}
-    },
-    "rich_text_E6TdDk": {
-      "type": "rich-text",
-      "blocks": {
-        "text_7Adzhx": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Join a community built for aspiring and established baseball professionals.</p>"
-          }
-        },
-        "heading_RDgUTq": {
-          "type": "heading",
-          "settings": {
-            "title": "Memberships That Move Your Baseball Career Forward"
-          }
-        },
-        "text_EYWtCC": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Our membership tiers give you access to education, mentorship, networking, and exclusive industry resources. Select the plan that aligns with your goals and start building real momentum in the business of baseball.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_7Adzhx",
-        "heading_RDgUTq",
-        "text_EYWtCC"
-      ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false,
-        "custom_class": "home_richtext_about"
-      }
     },
     "membership_pricing_jMiCDe": {
       "type": "membership_pricing",
@@ -155,10 +114,8 @@
     }
   },
   "order": [
-    "1763446838fdd14793",
     "1763443769b56bdee5",
     "main",
-    "rich_text_E6TdDk",
     "membership_pricing_jMiCDe"
   ]
 }
