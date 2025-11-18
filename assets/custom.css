@@ -440,6 +440,8 @@ span.appstle_subscribe_save_text {
     align-items: center;
     border: solid 1px #e9edf0;
     padding: 5px 15px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 .appstleRadioSellingPlanWrapper > div:has(input[type="radio"]:checked) {
     background: #e9edf0;
@@ -464,8 +466,8 @@ span.appstle_subscribe_save_text {
 }
 .appstleRadioSellingPlanWrapper > div input[type="radio"]:checked:after {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background-color: var(--red);
   display: block;
   position: absolute;
