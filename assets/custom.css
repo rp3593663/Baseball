@@ -570,8 +570,10 @@ p.video-desc {
     content: attr(data-label);
     position: absolute;
     left: 15px;
-    width: 45%;
+    width: 50%;
     text-align: left;
     font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
   }
 }
