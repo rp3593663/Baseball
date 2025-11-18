@@ -305,32 +305,37 @@
     "video_carousel_banne_3iBUVX": {
       "type": "video-carousel-banne",
       "blocks": {
+        "video_dfAEia": {
+          "type": "video",
+          "settings": {
+            "title": "",
+            "description": ""
+          }
+        },
         "video_HUiAWi": {
           "type": "video",
           "settings": {
             "title": "",
-            "description": "",
-            "video_file": ""
+            "description": ""
           }
         },
         "video_DgdTVX": {
           "type": "video",
           "settings": {
             "title": "",
-            "description": "",
-            "video_file": ""
+            "description": ""
           }
         },
         "video_gYUr4Q": {
           "type": "video",
           "settings": {
             "title": "",
-            "description": "",
-            "video_file": ""
+            "description": ""
           }
         }
       },
       "block_order": [
+        "video_dfAEia",
         "video_HUiAWi",
         "video_DgdTVX",
         "video_gYUr4Q"

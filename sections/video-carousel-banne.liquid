@@ -46,9 +46,9 @@
             <div class="video-card">
               
               <div class="video-thumb-wrap">
-                <video class="video-thumb" muted loop playsinline preload="metadata">
-                  <source src="{{ block.settings.video_file }}" type="video/mp4">
-                </video>
+                {% if block.settings.video_file != blank %}
+                    <video src="{{ block.settings.video_file.sources[0].url }}" controls></video>
+                {% endif %}
 
                 <button class="video-play" data-video="{{ block.settings.video_file }}">▶</button>
               </div>
