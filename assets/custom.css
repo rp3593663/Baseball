@@ -325,11 +325,11 @@ h1.highlight_text {
 }
 
 .video-info h4 {
-  margin-top: 12px;
-  font-size: 18px;
-  font-weight: 600;
+    margin: 15px 0px 10px;
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 400;
 }
-
 .video-info p {
   margin-bottom: 0px;
 }
