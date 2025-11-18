@@ -301,6 +301,55 @@
         "premier_title": "Premier - $99.99/year",
         "elite_title": "Elite - $149.99/year"
       }
+    },
+    "video_carousel_banne_3iBUVX": {
+      "type": "video-carousel-banne",
+      "blocks": {
+        "video_card_6tNwh6": {
+          "type": "video_card",
+          "settings": {
+            "title": "",
+            "description": "",
+            "video_file": ""
+          }
+        },
+        "video_card_iTLVGq": {
+          "type": "video_card",
+          "settings": {
+            "title": "",
+            "description": "",
+            "video_file": ""
+          }
+        },
+        "video_card_tDhppw": {
+          "type": "video_card",
+          "settings": {
+            "title": "",
+            "description": "",
+            "video_file": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_card_6tNwh6",
+        "video_card_iTLVGq",
+        "video_card_tDhppw"
+      ],
+      "name": "Video Carousel Banner",
+      "settings": {
+        "custom_class": "",
+        "bg_image": "shopify://shop_images/baseball_banner.png",
+        "bg_color": "#ffffff",
+        "subheading": "Get This Deal",
+        "heading": "Offer On Point 3 Shoe",
+        "description": "Write description here...",
+        "button_text": "",
+        "button_link": "",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -308,6 +357,7 @@
     "main",
     "rich_text_9VXHWK",
     "membership_pricing_jMiCDe",
-    "membership_comparison_AnYYFL"
+    "membership_comparison_AnYYFL",
+    "video_carousel_banne_3iBUVX"
   ]
 }
