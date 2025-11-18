@@ -188,44 +188,6 @@ h1.highlight_text {
 }
 
 
-
-
-
-
-
-.membership-top-content {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 60px auto;
-}
-.membership-subtitle {
-  letter-spacing: 2px;
-  color: #0066ff;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.membership-title {
-  font-size: 42px;
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-.membership-description {
-  max-width: 550px;
-  margin: 0 auto 30px;
-  color: #555;
-  line-height: 1.6;
-}
-.membership-btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background: #0066ff;
-  color: #fff;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
 .membership-pricing-wrapper {
   display: flex;
   gap: 30px;
@@ -236,7 +198,7 @@ h1.highlight_text {
   background: #fff;
   width: 320px;
   padding: 40px 30px;
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.08);
   text-align: center;
   transition: 0.3s ease;
