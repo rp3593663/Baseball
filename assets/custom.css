@@ -386,6 +386,58 @@ p.video-desc {
 .product-section .page-width {
     max-width: 900px;
 }
+.appstle_membership_wrapper {
+    border: unset!important;
+    padding: 0px!important;
+    background: unset!important;
+}
+.appstle_membership_wrapper_option.appstle_include_dropdown {
+    padding: 0px!important;
+}
+.appstle_membership_radio_wrapper {
+    display: grid;
+}
+.appstle_membership_amount_wrapper {
+    margin-right: auto;
+    text-align: left;
+    order: -1;
+    border-bottom: solid 1px #dcdcdc;
+    width: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+}
+span.appstle_subscribe_save_text {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.appstle_subscribe_option {
+    margin-left: 0;
+}
+.appstleRadioSellingPlanWrapper {
+    width: 100%;
+    display: grid;
+    gap: 15px;
+}
+.appstleRadioSellingPlanWrapper > div {
+    display: flex;
+    align-items: center;
+    border: solid 1px #e9edf0;
+    padding: 5px 15px;
+}
+.appstleRadioSellingPlanWrapper > div:has(input[type="radio"]:checked) {
+    background: #e9edf0;
+}
+.appstleRadioSellingPlanWrapper > div label {
+    font-family: 'Inter';
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
