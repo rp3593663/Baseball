@@ -98,6 +98,24 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  var videoSlider = document.querySelector(".video-carousel");
+
+  if (videoSlider) {
+    new Flickity(videoSlider, {
+      cellAlign: "left",
+      contain: true,
+      groupCells: 2,
+      wrapAround: true,
+      pageDots: true,
+      prevNextButtons: true
+    });
+  }
+});
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
 
   const popup = document.querySelector(".video-popup-overlay");
   const popupVideo = document.getElementById("popupVideo");
