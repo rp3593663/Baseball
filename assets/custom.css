@@ -389,6 +389,9 @@ p.video-desc {
   .membership-card-title {
     font-size: 25px;
   }
+  .membership-card {
+    padding: 30px 20px;
+  }
 }
 @media (max-width: 767px) {
   .home_richtext_about h2,
