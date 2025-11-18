@@ -93,11 +93,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (videoSlider) {
     new Flickity(videoSlider, {
-      cellAlign: "left",
       contain: true,
       groupCells: 2,
       wrapAround: true,
-      pageDots: true,
+      pageDots: false,
       prevNextButtons: true
     });
   }
