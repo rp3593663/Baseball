@@ -406,7 +406,8 @@ p.video-desc {
   .home_connect p,
   .home_banner_text .background-media-text__subtext p,
   .home_newsletter .enlarge-text p,
-  .membership-card-desc {
+  .membership-card-desc,
+  .video-desc {
     font-size: 13px;
     line-height: 20px;
   }
