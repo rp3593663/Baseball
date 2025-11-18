@@ -413,6 +413,25 @@ p.video-desc {
     font-size: 13px;
     line-height: 20px;
   }
+  .membership-pricing-wrapper {
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+  .membership-card-price {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 15px 0;
+  }
+  .membership-card-title {
+    font-size: 25px;
+  }
+  .membership-card {
+    padding: 30px 20px;
+  }
+  .membership-card-features li {
+    padding: 6px 0;
+    font-size: 13px;
+  }
   .home_connect p{
     margin-bottom: 15px;
   }
