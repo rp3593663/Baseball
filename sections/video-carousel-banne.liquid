@@ -4,9 +4,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css"/>
 
 
-  <div class="full-width">
+  <div class="full-width"  style="background-image:url('{{ section.settings.bg_image | img_url: 'master' }}');">
     <div class="video-layout">
-    <div class="video-bg" style="background-image:url('{{ section.settings.bg_image | img_url: 'master' }}');"></div>
+
       <!-- LEFT CONTENT -->
       <div class="video-left">
         {% if section.settings.subheading %}
