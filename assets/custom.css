@@ -380,6 +380,9 @@ p.video-desc {
     display: flex;
     align-items: center;
 }
+.product-section .grid .grid__item {
+    padding-left: 0;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
