@@ -578,7 +578,12 @@ span.appstle_subscribe_save_text {
     overflow: hidden;
     position: relative;
     padding-bottom: 60%!important;
-}
+  }
+  .product-image-main .image-wrap  img:not([role=presentation]) {
+      width: auto!important;
+      left: 50%;
+      transform: translateX(-50%)!important;
+  }
   .video-card {
     width: 100%;
   }
