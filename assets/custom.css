@@ -425,7 +425,7 @@ p.video-desc {
       left: -5px;
   }
   .video-carousel-banner {
-    background-size: cover;
+    background-size: cover!important;
   }
   .video-right, .video-left {
     width: 100%;
@@ -562,7 +562,7 @@ p.video-desc {
     margin-bottom: 15px;
   }
   .membership-comparison td {
-    text-align: right;
+    text-align: right!important;
     padding-left: 50%;
     position: relative;
   }
