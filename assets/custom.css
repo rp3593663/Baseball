@@ -383,6 +383,9 @@ p.video-desc {
     position: relative;
     top: unset;
 }
+.product-section .product-block {
+    margin-bottom: 0px;
+}
 .product-section .page-content {
     background-image: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 55%, #FFFFFF 55%, #FFFFFF32 100%);
 }
