@@ -381,6 +381,11 @@ p.video-desc {
   .membership-pricing-wrapper {
     gap: 20px;
   }
+  .membership-card-price {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 15px 0;
+  }
 }
 @media (max-width: 767px) {
   .home_richtext_about h2,
