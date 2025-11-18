@@ -1,0 +1,74 @@
+{% style %}
+
+.membership-pricing-section {
+  background-color: {{ section.settings.bg_color }};
+  background-image: url({{ section.settings.bg_image | img_url: '1500x' }});
+  background-size: cover;
+  background-position: center;
+  padding-top: {{ section.settings.padding_top_desktop }}px;
+  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+}
+
+@media (max-width: 767px) {
+  .membership-pricing-section {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+}
+
+{% endstyle %}
+
+
+<section class="membership-pricing-section {{ section.settings.custom_class }}">
+  <div class="page-width">
+    <div class="membership-top-content">
+      {% if section.settings.subtitle %}
+        <p class="membership-subtitle">{{ section.settings.subtitle }}</p>
+      {% endif %}
+
+      {% if section.settings.title %}
+        <h2 class="membership-title">{{ section.settings.title }}</h2>
+      {% endif %}
+
+      {% if section.settings.description %}
+        <p class="membership-description">{{ section.settings.description }}</p>
+      {% endif %}
+
+      {% if section.settings.button_text %}
+        <a href="{{ section.settings.button_link }}" class="membership-btn">
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+
+    <!-- MEMBERSHIP CARDS -->
+    <div class="membership-pricing-wrapper">
+      {% for block in section.blocks %}
+        <div class="membership-card">
+
+          {% if block.settings.icon %}
+            <img class="membership-icon" src="{{ block.settings.icon | img_url: '200x' }}" alt="{{ block.settings.title }}">
+          {% endif %}
+
+          <h3 class="membership-card-title">{{ block.settings.title }}</h3>
+          <p class="membership-card-desc">{{ block.settings.desc }}</p>
+
+          <div class="membership-card-price">${{ block.settings.price }}</div>
+
+          <ul class="membership-card-features">
+            {% if block.settings.feature_1 %}<li>{{ block.settings.feature_1 }}</li>{% endif %}
+            {% if block.settings.feature_2 %}<li>{{ block.settings.feature_2 }}</li>{% endif %}
+            {% if block.settings.feature_3 %}<li>{{ block.settings.feature_3 }}</li>{% endif %}
+            {% if block.settings.feature_4 %}<li>{{ block.settings.feature_4 }}</li>{% endif %}
+          </ul>
+
+          <a href="{{ block.settings.button_url }}" class="membership-card-cta">
+            {{ block.settings.button_label }}
+          </a>
+
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

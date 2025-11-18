@@ -187,6 +187,142 @@ h1.highlight_text {
     margin-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------
+   TOP CONTENT AREA
+------------------------------------------- */
+.membership-top-content {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+}
+
+.membership-subtitle {
+  letter-spacing: 2px;
+  color: #0066ff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.membership-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.membership-description {
+  max-width: 550px;
+  margin: 0 auto 30px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.membership-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0066ff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ------------------------------------------
+   MEMBERSHIP CARD WRAPPER
+------------------------------------------- */
+.membership-pricing-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ------------------------------------------
+   MEMBERSHIP CARD BOX
+------------------------------------------- */
+.membership-card {
+  background: #fff;
+  width: 320px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.membership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 35px rgba(0,0,0,0.12);
+}
+
+.membership-icon {
+  width: 55px;
+  margin-bottom: 12px;
+}
+
+.membership-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.membership-card-desc {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------
+   PRICE
+------------------------------------------- */
+.membership-card-price {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0066ff;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------
+   FEATURES LIST
+------------------------------------------- */
+.membership-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+
+.membership-card-features li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  color: #444;
+}
+
+/* ------------------------------------------
+   CTA BUTTON
+------------------------------------------- */
+.membership-card-cta {
+  display: block;
+  background: #0066ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
 @media (max-width: 767px) {
   .home_richtext_about h2,
   .home_text_with_icon h2,
