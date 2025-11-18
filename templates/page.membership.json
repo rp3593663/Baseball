@@ -309,7 +309,8 @@
           "type": "video",
           "settings": {
             "title": "",
-            "description": ""
+            "description": "",
+            "video_file": "shopify://files/videos/sample_video1.mp4"
           }
         },
         "video_HUiAWi": {
