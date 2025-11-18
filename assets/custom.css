@@ -411,6 +411,9 @@ p.video-desc {
     font-size: 13px;
     line-height: 20px;
   }
+  .video-card {
+    width: 100%;
+  }
   .video-right, .video-left {
     width: 100%;
     padding: 0px 10px;
