@@ -107,7 +107,7 @@
             "icon": "shopify://shop_images/premier-membership.png",
             "title": "Premier Membership",
             "desc": "For working professionals ready to grow in baseball — gain full job board access, exclusive content.",
-            "price": "$29.99/month",
+            "price": "$29.99<span>/month</span>",
             "feature_1": "Nullam tellus neque aptent",
             "feature_2": "Elementum vulputate diam",
             "feature_3": "Dignissim penatibus diam libero",
