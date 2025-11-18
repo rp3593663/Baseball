@@ -575,6 +575,10 @@ span.appstle_subscribe_save_text {
     padding: 10px 15px;
     gap: 10px;
   }
+  .elite-benefit-box svg {
+    width: 22px;
+    height: 22px;
+  }
   .product-section .grid {
     display: grid;
     margin-left: 0px;
