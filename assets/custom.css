@@ -383,6 +383,9 @@ p.video-desc {
 .product-section .grid .grid__item {
     padding-left: 0;
 }
+.product-section .page-width {
+    max-width: 1000px;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
