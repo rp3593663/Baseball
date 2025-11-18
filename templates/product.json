@@ -9,6 +9,38 @@
  */
 {
   "sections": {
+    "blocks_JdbjjV": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f09f0d8_jpqqzY": {
+          "type": "ai_gen_block_f09f0d8",
+          "settings": {
+            "custom_title": "",
+            "title_font_size": 48,
+            "title_color": "#ffffff",
+            "title_spacing": 16,
+            "show_breadcrumbs": true,
+            "breadcrumb_font_size": 14,
+            "breadcrumb_color": "#ffffff",
+            "bg_color": "#0b2041",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40,
+            "max_width": 1200,
+            "padding_top": 80,
+            "padding_bottom": 80,
+            "padding_horizontal": 20,
+            "custom_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f09f0d8_jpqqzY"
+      ],
+      "name": "Page title breadcrumbs",
+      "settings": {}
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -143,6 +175,7 @@
     }
   },
   "order": [
+    "blocks_JdbjjV",
     "main",
     "sub",
     "product-recommendations",
