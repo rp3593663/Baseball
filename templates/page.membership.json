@@ -305,24 +305,24 @@
     "video_carousel_banne_3iBUVX": {
       "type": "video-carousel-banne",
       "blocks": {
-        "video_card_6tNwh6": {
-          "type": "video_card",
+        "video_HUiAWi": {
+          "type": "video",
           "settings": {
             "title": "",
             "description": "",
             "video_file": ""
           }
         },
-        "video_card_iTLVGq": {
-          "type": "video_card",
+        "video_DgdTVX": {
+          "type": "video",
           "settings": {
             "title": "",
             "description": "",
             "video_file": ""
           }
         },
-        "video_card_tDhppw": {
-          "type": "video_card",
+        "video_gYUr4Q": {
+          "type": "video",
           "settings": {
             "title": "",
             "description": "",
@@ -331,9 +331,9 @@
         }
       },
       "block_order": [
-        "video_card_6tNwh6",
-        "video_card_iTLVGq",
-        "video_card_tDhppw"
+        "video_HUiAWi",
+        "video_DgdTVX",
+        "video_gYUr4Q"
       ],
       "name": "Video Carousel Banner",
       "settings": {
