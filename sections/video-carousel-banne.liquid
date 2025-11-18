@@ -9,9 +9,6 @@
 
       <!-- LEFT CONTENT -->
       <div class="video-left">
-        {% if section.settings.subheading %}
-          <p class="video-sub">{{ section.settings.subheading }}</p>
-        {% endif %}
         {% if section.settings.heading %}
           <h2 class="video-title">{{ section.settings.heading }}</h2>
         {% endif %}
@@ -147,7 +144,6 @@ document.addEventListener("DOMContentLoaded", function() {
     { "type": "image_picker", "id": "bg_image", "label": "Background Image" },
     { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#ffffff" },
 
-    { "type": "text", "id": "subheading", "label": "Subheading" },
     { "type": "text", "id": "heading", "label": "Heading", "default": "Video Carousel" },
     { "type": "textarea", "id": "description", "label": "Description" },
 
