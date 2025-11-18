@@ -80,75 +80,59 @@
           "type": "benefit_item",
           "settings": {
             "benefit_title": "Access to BIN LinkedIn Group",
-            "benefit_text": "Full access to the official BIN LinkedIn community."
+            "benefit_text": "Join the main community and connect with like-minded members."
           }
         },
         "benefit_item_qVf8XN": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Weekly Industry Newsletter",
-            "benefit_text": "Receive weekly insights, trends, and industry updates."
+            "benefit_title": "Weekly Newsletter Updates",
+            "benefit_text": "Receive curated industry updates and member announcements."
           }
         },
-        "benefit_item_AtF7Lf": {
+        "benefit_item_6JqT3D": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Full Job Board Access + Early Access",
-            "benefit_text": "Access all job listings with exclusive early postings for Elite members."
+            "benefit_title": "Members-Only Portal (Limited Access)",
+            "benefit_text": "Access essential tools and basic community resources."
           }
         },
-        "benefit_item_Yyftbx": {
+        "benefit_item_PTJUWp": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Exclusive Webinars",
-            "benefit_text": "Monthly live + on-demand sessions exclusive to Elite members."
+            "benefit_title": "Standard Event Access",
+            "benefit_text": "Attend open events and general community programs."
           }
         },
-        "benefit_item_ezhpwc": {
+        "benefit_item_F6cawk": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Executive Q&A Chats",
-            "benefit_text": "Bi-monthly small-group sessions with industry experts."
+            "benefit_title": "Partner Discounts (Basic Tier)",
+            "benefit_text": "Enjoy general savings on selected BIN partners and services."
           }
         },
-        "benefit_item_DTaarN": {
+        "benefit_item_WYKJLk": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Executive Mentorship",
-            "benefit_text": "Personalized mentorship with top industry leaders."
-          }
-        },
-        "benefit_item_RjcJb6": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "VIP Access to Events",
-            "benefit_text": "First priority and special VIP access to seasonal BIN events."
-          }
-        },
-        "benefit_item_P73C9b": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Premium Merchandise Kit",
-            "benefit_text": "Multi-item seasonal merch drops exclusive to Elite members."
+            "benefit_title": "Community Announcements",
+            "benefit_text": "Stay informed with updates, opportunities, and news."
           }
         }
       },
       "block_order": [
         "benefit_item_3VVN9t",
         "benefit_item_qVf8XN",
-        "benefit_item_AtF7Lf",
-        "benefit_item_Yyftbx",
-        "benefit_item_ezhpwc",
-        "benefit_item_DTaarN",
-        "benefit_item_RjcJb6",
-        "benefit_item_P73C9b"
+        "benefit_item_6JqT3D",
+        "benefit_item_PTJUWp",
+        "benefit_item_F6cawk",
+        "benefit_item_WYKJLk"
       ],
       "name": "Elite Membership Benefits",
       "settings": {
         "custom_class": "",
-        "subtitle": "Elite Membership Benefits",
-        "title": "Get elite benefits & exclusive services",
-        "description": "Unlock premium resources, early access, exclusive mentorship, partner perks, and VIP opportunities designed to elevate your professional journey to the next level. Become an Elite member and experience the highest level of access and value within the BIN network.",
+        "subtitle": "BASIC MEMBER BENEFIT",
+        "title": "Start with essential benefits & community access.",
+        "description": "Basic membership gives you access to core community features, foundational resources, and regular updates. It’s the perfect starting point for anyone looking to stay connected, informed, and involved.",
         "padding_top_desktop": 60,
         "padding_bottom_desktop": 60,
         "padding_top_mobile": 40,
