@@ -107,7 +107,7 @@
             "icon": "shopify://shop_images/premier-membership.png",
             "title": "Premier Membership",
             "desc": "For working professionals ready to grow in baseball — gain full job board access, exclusive content.",
-            "price": "$29.99<span>/month</span>",
+            "price": "$29.99/month",
             "feature_1": "Nullam tellus neque aptent",
             "feature_2": "Elementum vulputate diam",
             "feature_3": "Dignissim penatibus diam libero",
@@ -146,12 +146,168 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 30
       }
+    },
+    "membership_comparison_AnYYFL": {
+      "type": "membership-comparison",
+      "blocks": {
+        "feature_row_kWa3LQ": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Access to BIN LinkedIn Group",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_WJcH87": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Weekly Industry Newsletter",
+            "basic_value": "✅",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_Rd7pJc": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "BIN Job Board Access",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ Full Access",
+            "elite_value": "✅ + Early Access"
+          }
+        },
+        "feature_row_DKkeMX": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Members-Only Portal",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_ydLnDP": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Monthly BIN Podcasts/Webinars",
+            "basic_value": "❌",
+            "premier_value": "✅ (Live + On-Demand)",
+            "elite_value": "✅ + Exclusive Sessions"
+          }
+        },
+        "feature_row_WpRTE7": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Executive Q&A Chats",
+            "basic_value": "❌",
+            "premier_value": "✅ (Quarterly)",
+            "elite_value": "✅ (Bi-Monthly + Small Groups)"
+          }
+        },
+        "feature_row_VMVnGd": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Mentorship Program",
+            "basic_value": "❌",
+            "premier_value": "Group Mentorship",
+            "elite_value": "1:1 Executive Mentorship"
+          }
+        },
+        "feature_row_EncLT6": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Early Access to Events",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + VIP Access"
+          }
+        },
+        "feature_row_9bQ8Dh": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Seasonal BIN Merchandise",
+            "basic_value": "❌",
+            "premier_value": "Starter Kit (1 item)",
+            "elite_value": "Premium Kit (Multi-item + Drop)"
+          }
+        },
+        "feature_row_DpqtAr": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Discounts on Merch + Partners",
+            "basic_value": "❌",
+            "premier_value": "10%",
+            "elite_value": "20%"
+          }
+        },
+        "feature_row_aC6geF": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Internship & Job Pipeline",
+            "basic_value": "◯ Limited",
+            "premier_value": "✅ General Pool",
+            "elite_value": "✅ + Introductions"
+          }
+        },
+        "feature_row_rx33P6": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Partner/Sponsor Discounts",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅ + Premium Perks"
+          }
+        },
+        "feature_row_dq9NKf": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Archived Content Library",
+            "basic_value": "❌",
+            "premier_value": "✅",
+            "elite_value": "✅"
+          }
+        },
+        "feature_row_TqrMCY": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "Recognition on BIN Platforms",
+            "basic_value": "❌",
+            "premier_value": "Premier Member Spotlight",
+            "elite_value": "Elite Feature on BIN Channels"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_kWa3LQ",
+        "feature_row_WJcH87",
+        "feature_row_Rd7pJc",
+        "feature_row_DKkeMX",
+        "feature_row_ydLnDP",
+        "feature_row_WpRTE7",
+        "feature_row_VMVnGd",
+        "feature_row_EncLT6",
+        "feature_row_9bQ8Dh",
+        "feature_row_DpqtAr",
+        "feature_row_aC6geF",
+        "feature_row_rx33P6",
+        "feature_row_dq9NKf",
+        "feature_row_TqrMCY"
+      ],
+      "name": "Membership Comparison",
+      "settings": {
+        "custom_class": "",
+        "heading": "Compare Memberships",
+        "basic_title": "Basic (Free)",
+        "premier_title": "Premier - $99.99/year",
+        "elite_title": "Elite - $149.99/year"
+      }
     }
   },
   "order": [
     "1763443769b56bdee5",
     "main",
     "rich_text_9VXHWK",
-    "membership_pricing_jMiCDe"
+    "membership_pricing_jMiCDe",
+    "membership_comparison_AnYYFL"
   ]
 }
