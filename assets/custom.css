@@ -344,10 +344,6 @@ h1.highlight_text {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.flickity-slider {
-    left: 0!important;
-    padding: 20px;
-}
 .video-popup-overlay {
   position: fixed;
   inset: 0;
