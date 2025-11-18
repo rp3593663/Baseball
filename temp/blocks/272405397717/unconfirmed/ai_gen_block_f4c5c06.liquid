@@ -1,6 +1,385 @@
+{% doc %}
+  @prompt
+    I want to create page title section with bresdcrumps with background image & overlay color setting title color bg color & all
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-page-title-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: {{ block.settings.bg_color }};
+  }
+
+  .ai-page-title-bg-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .ai-page-title-bg-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-page-title-bg-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.bg_color }};
+  }
+
+  .ai-page-title-bg-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-page-title-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.overlay_color }};
+    opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+    z-index: 2;
+  }
+
+  .ai-page-title-content-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 3;
+    padding: {{ block.settings.padding_top }}px {{ block.settings.padding_horizontal }}px {{ block.settings.padding_bottom }}px;
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-page-title-breadcrumbs-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.breadcrumb_spacing }}px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ai-page-title-breadcrumb-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: {{ block.settings.breadcrumb_font_size }}px;
+    color: {{ block.settings.breadcrumb_color }};
+  }
+
+  .ai-page-title-breadcrumb-link-{{ ai_gen_id }} {
+    color: {{ block.settings.breadcrumb_color }};
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-page-title-breadcrumb-link-{{ ai_gen_id }}:hover {
+    opacity: 0.7;
+  }
+
+  .ai-page-title-breadcrumb-separator-{{ ai_gen_id }} {
+    color: {{ block.settings.breadcrumb_color }};
+    opacity: 0.5;
+  }
+
+  .ai-page-title-breadcrumb-current-{{ ai_gen_id }} {
+    color: {{ block.settings.breadcrumb_color }};
+  }
+
+  .ai-page-title-heading-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.title_font_size }}px;
+    color: {{ block.settings.title_color }};
+    text-align: {{ block.settings.title_alignment }};
+    line-height: 1.2;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-page-title-content-{{ ai_gen_id }} {
+      padding: {{ block.settings.padding_top | times: 0.7 }}px {{ block.settings.padding_horizontal | times: 0.7 }}px {{ block.settings.padding_bottom | times: 0.7 }}px;
+    }
+
+    .ai-page-title-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_font_size | times: 0.7 }}px;
+    }
+
+    .ai-page-title-breadcrumb-item-{{ ai_gen_id }} {
+      font-size: {{ block.settings.breadcrumb_font_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-page-title-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-page-title-bg-{{ ai_gen_id }}">
+    {% if block.settings.bg_image %}
+      <img
+        src="{{ block.settings.bg_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.bg_image.alt | escape }}"
+        loading="lazy"
+        width="{{ block.settings.bg_image.width }}"
+        height="{{ block.settings.bg_image.height }}"
+      >
+    {% else %}
+      <div class="ai-page-title-bg-placeholder-{{ ai_gen_id }}">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if block.settings.show_overlay %}
+    <div class="ai-page-title-overlay-{{ ai_gen_id }}"></div>
+  {% endif %}
+
+  <div class="ai-page-title-content-{{ ai_gen_id }}">
+    {% if block.settings.show_breadcrumbs %}
+      <nav class="ai-page-title-breadcrumbs-{{ ai_gen_id }}" aria-label="Breadcrumb">
+        <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+          <a href="/" class="ai-page-title-breadcrumb-link-{{ ai_gen_id }}">Home</a>
+        </div>
+
+        {% if page %}
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-page-title-breadcrumb-current-{{ ai_gen_id }}">{{ page.title }}</span>
+          </div>
+        {% elsif collection %}
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-page-title-breadcrumb-current-{{ ai_gen_id }}">{{ collection.title }}</span>
+          </div>
+        {% elsif product %}
+          {% if collection %}
+            <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+            <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+              <a href="{{ collection.url }}" class="ai-page-title-breadcrumb-link-{{ ai_gen_id }}">{{ collection.title }}</a>
+            </div>
+          {% endif %}
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-page-title-breadcrumb-current-{{ ai_gen_id }}">{{ product.title }}</span>
+          </div>
+        {% elsif article %}
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <a href="{{ blog.url }}" class="ai-page-title-breadcrumb-link-{{ ai_gen_id }}">{{ blog.title }}</a>
+          </div>
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-page-title-breadcrumb-current-{{ ai_gen_id }}">{{ article.title }}</span>
+          </div>
+        {% elsif blog %}
+          <span class="ai-page-title-breadcrumb-separator-{{ ai_gen_id }}">/</span>
+          <div class="ai-page-title-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-page-title-breadcrumb-current-{{ ai_gen_id }}">{{ blog.title }}</span>
+          </div>
+        {% endif %}
+      </nav>
+    {% endif %}
+
+    <h1 class="ai-page-title-heading-{{ ai_gen_id }}">
+      {% if block.settings.custom_title != blank %}
+        {{ block.settings.custom_title }}
+      {% elsif page %}
+        {{ page.title }}
+      {% elsif collection %}
+        {{ collection.title }}
+      {% elsif product %}
+        {{ product.title }}
+      {% elsif article %}
+        {{ article.title }}
+      {% elsif blog %}
+        {{ blog.title }}
+      {% else %}
+        Page Title
+      {% endif %}
+    </h1>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Page title breadcrumbs",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Title"
+    },
+    {
+      "type": "text",
+      "id": "custom_title",
+      "label": "Custom title",
+      "info": "Leave blank to use page title"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Title font size",
+      "default": 48
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Breadcrumbs"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "breadcrumb_font_size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "breadcrumb_color",
+      "label": "Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "breadcrumb_spacing",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Spacing below breadcrumbs",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background image"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#0b2041"
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show overlay",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 600,
+      "max": 1400,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 20,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 20,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding horizontal",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page title breadcrumbs"
+    }
+  ]
+}
 {% endschema %}
