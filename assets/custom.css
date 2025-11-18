@@ -565,6 +565,7 @@ p.video-desc {
     text-align: right!important;
     padding-left: 50%;
     position: relative;
+    font-size: 13px;
   }
   .membership-comparison td::before {
     content: attr(data-label);
