@@ -27,7 +27,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 40,
             "max_width": 1200,
-            "padding_top": 80,
+            "padding_top": 60,
             "padding_bottom": 80,
             "padding_horizontal": 20,
             "custom_class": "page_title"
