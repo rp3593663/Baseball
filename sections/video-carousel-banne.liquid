@@ -86,12 +86,15 @@
 
 <!-- Flickity JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var videoSlider = document.querySelector(".video-carousel");
 
-  if (videoSlider) {
-    new Flickity(videoSlider, {
+  var carousel = document.querySelector('.video-carousel');
+
+  if (carousel) {
+    var flkty = new Flickity(carousel, {
       cellAlign: "left",
       contain: true,
       initialIndex: 1,
@@ -100,9 +103,44 @@ document.addEventListener("DOMContentLoaded", function() {
       prevNextButtons: true,
       draggable: true,
     });
+
+    // Equal height function
+    function equalizeHeights() {
+      var cells = carousel.querySelectorAll('.carousel-cell');
+      var maxHeight = 0;
+
+      // reset heights first
+      cells.forEach(function(cell) {
+        cell.style.height = "auto";
+      });
+
+      // find tallest
+      cells.forEach(function(cell) {
+        var h = cell.offsetHeight;
+        if (h > maxHeight) maxHeight = h;
+      });
+
+      // apply tallest to all
+      cells.forEach(function(cell) {
+        cell.style.height = maxHeight + "px";
+      });
+
+      flkty.resize();
+    }
+
+    // Run after slider loads
+    flkty.on('ready', equalizeHeights);
+    flkty.on('change', equalizeHeights);
+
+    // Re-run on window resize
+    window.addEventListener('resize', function() {
+      equalizeHeights();
+    });
   }
+
 });
 </script>
+
 
 
 
