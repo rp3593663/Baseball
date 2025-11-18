@@ -296,6 +296,12 @@ h1.highlight_text {
   box-sizing: border-box;
   height: 100%;
 }
+.flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
 
 .video-thumb-wrap {
   position: relative;
