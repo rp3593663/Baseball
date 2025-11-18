@@ -136,7 +136,7 @@
             "title": "Premier Membership",
             "description": "For working professionals ready to grow in baseball — gain full job board access, exclusive content, mentorship sessions, and member discounts.",
             "button_text": "Upgrade to Premier — Elevate Career",
-            "button_link": "#"
+            "button_link": "shopify://products/bin-premier-membership"
           }
         },
         "membership_ihh7Rf": {
@@ -146,7 +146,7 @@
             "title": "Elite Membership",
             "description": "The ultimate experience for those serious about baseball's business. Enjoy personalized mentorship, VIP events, and exclusive access to BIN's executive network.",
             "button_text": "Join Elite — Lead the Future of Baseball",
-            "button_link": "#"
+            "button_link": "shopify://products/bin-elite-membership"
           }
         }
       },
