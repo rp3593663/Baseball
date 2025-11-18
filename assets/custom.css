@@ -584,6 +584,10 @@ span.appstle_subscribe_save_text {
       left: 50%;
       transform: translateX(-50%)!important;
   }
+  .elite-benefits-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
   .product-section .page-content {
     background-image: radial-gradient(circle, #fff 0% 55%, #fff 55%, #ffffffd9);
   }
