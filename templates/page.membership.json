@@ -22,7 +22,7 @@
             "show_breadcrumbs": true,
             "breadcrumb_font_size": 14,
             "breadcrumb_color": "#ffffff",
-            "bg_image": "shopify://shop_images/baseball_title_bg.png",
+            "bg_image": "shopify://shop_images/page_title_bg.png",
             "bg_color": "#0b2041",
             "show_overlay": true,
             "overlay_color": "#000000",
