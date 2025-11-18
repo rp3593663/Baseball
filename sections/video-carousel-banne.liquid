@@ -23,21 +23,21 @@
         <div class="video-carousel">
 
           {% for block in section.blocks %}
-            <div class="video-card-inner">
-               <div class="video-card">
-              <div class="video-thumb-wrap">
-                {% if block.settings.video_file != blank %}
-                    <video src="{{ block.settings.video_file.sources[0].url }}"></video>
-                {% endif %}
+            <div class="video-card">
+              <div class="video-card-inner">
+                <div class="video-thumb-wrap">
+                  {% if block.settings.video_file != blank %}
+                      <video src="{{ block.settings.video_file.sources[0].url }}"></video>
+                  {% endif %}
 
-                <button class="video-play" data-video="{{ block.settings.video_file.sources[0].url }}">▶</button>
-              </div>
+                  <button class="video-play" data-video="{{ block.settings.video_file.sources[0].url }}">▶</button>
+                </div>
 
-              <div class="video-info">
-                <h4>{{ block.settings.title }}</h4>
-                <p>{{ block.settings.description }}</p>
+                <div class="video-info">
+                  <h4>{{ block.settings.title }}</h4>
+                  <p>{{ block.settings.description }}</p>
+                </div>
               </div>
-</div>
             </div>
           {% endfor %}
 
