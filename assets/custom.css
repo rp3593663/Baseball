@@ -477,8 +477,7 @@ span.appstle_subscribe_save_text {
 }
 
 .elite-benefits-section {
-    background-image: url(https://cdn.shopify.com/s/files/1/0774/4562/8117/files/rights_holders_bg-scaled.jpg?v=1762952220);
-    background-size: cover;
+    background: #e9edf0;
 }
 .elite-benefits-container {
     display: grid;
