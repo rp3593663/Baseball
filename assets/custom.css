@@ -483,7 +483,7 @@ span.appstle_subscribe_save_text {
 .elite-benefits-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 60px;
 }
 .elite-subtitle {
   font-size: 14px !important;
