@@ -86,23 +86,26 @@
 
 <!-- Flickity JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var videoSlider = document.querySelector(".video-carousel");
 
   if (videoSlider) {
     new Flickity(videoSlider, {
-      cellAlign: "left",   
+      cellAlign: "left",
       contain: true,
-      groupCells: 2,  
-      pageDots: false,
+      wrapAround: true,     // LOOP WORKS NOW
+      pageDots: true,
       prevNextButtons: true,
       draggable: true,
+      friction: 0.25,
+      selectedAttraction: 0.03,
+      autoPlay: false
     });
   }
 });
 </script>
+
 
 
 <script>
