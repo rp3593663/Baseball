@@ -331,7 +331,7 @@ h1.highlight_text {
   font-size: 14px;
   color: #666;
 }
-.video-carousel .carousel-cell {
+.video-carousel .video-card {
   width: 50%;
   padding: 15px;
   box-sizing: border-box;
