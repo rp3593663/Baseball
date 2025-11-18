@@ -558,6 +558,11 @@ p.video-desc {
   .membership-comparison tr {
     display: block;
   }
+  .membership-comparison td:first-child {
+    text-align: left;
+    font-weight: 500;
+    color: var(--red);
+  }
   .membership-comparison thead {
     display: none;
   }
