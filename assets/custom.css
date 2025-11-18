@@ -278,7 +278,9 @@ h1.highlight_text {
     line-height: 140%;
     margin-bottom: 20px;
 }
-
+p.video-desc {
+    margin-bottom: 0px;
+}
 .video-card {
   background: #fff;
   border-radius: 0px;
