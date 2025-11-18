@@ -395,7 +395,7 @@ p.video-desc {
     padding: 0px!important;
 }
 .appstle_membership_radio_wrapper {
-    display: grid;
+    display: grid!important;
 }
 .appstle_membership_amount_wrapper {
     margin-right: auto;
