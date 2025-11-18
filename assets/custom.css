@@ -486,11 +486,11 @@ span.appstle_subscribe_save_text {
     gap: 40px;
 }
 .elite-subtitle {
-  color: #1b56e6;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-size: 14px !important;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  font-weight: 600;
+  color: #67737c;
 }
 .elite-title {
   text-transform: uppercase;
