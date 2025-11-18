@@ -407,7 +407,7 @@ p.video-desc {
     margin-bottom: 12px;
     font-size: 22px;
     font-weight: 700;
-    color: red;
+    color: var(--red);
 }
 span.appstle_subscribe_save_text {
     font-size: 18px;
