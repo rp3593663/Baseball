@@ -484,6 +484,7 @@ span.appstle_subscribe_save_text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
+    align-items: center;
 }
 .elite-subtitle {
   font-size: 14px !important;
