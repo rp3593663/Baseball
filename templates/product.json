@@ -121,7 +121,7 @@
         "padding_bottom_desktop": 60,
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40,
-        "container_width": "container"
+        "container_width": "page-width"
       }
     },
     "sub": {
