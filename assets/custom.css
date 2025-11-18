@@ -555,7 +555,8 @@ span.appstle_subscribe_save_text {
   .home_text_with_icon h2,
   .home_connect h2,
   .home_newsletter p.h2,
-  .video-title {
+  .video-title,
+  .elite-title {
     font-size: 30px!important;
     line-height: 42px!important;
   }
@@ -565,7 +566,8 @@ span.appstle_subscribe_save_text {
   .home_banner_text .background-media-text__subtext p,
   .home_newsletter .enlarge-text p,
   .membership-card-desc,
-  .video-desc {
+  .video-desc,
+  .elite-description {
     font-size: 13px;
     line-height: 20px;
   }
