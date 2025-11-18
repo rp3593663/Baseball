@@ -264,13 +264,11 @@ h1.highlight_text {
 .video-right {
   width: 65%;
 }
-
 @media (max-width: 768px) {
   .video-right, .video-left {
     width: 100%;
   }
 }
-
 .video-title {
     text-transform: uppercase;
     font-weight: 500;
@@ -379,7 +377,9 @@ p.video-desc {
 }
 
 
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
 
+}
 @media (max-width: 767px) {
   .home_richtext_about h2,
   .home_text_with_icon h2,
