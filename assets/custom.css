@@ -258,6 +258,8 @@ h1.highlight_text {
 
 .video-left {
   width: 35%;
+  padding-left: 5%;
+  color: #FFF;
 }
 .video-right {
   width: 65%;
