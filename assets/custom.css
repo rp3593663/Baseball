@@ -305,6 +305,9 @@ p.video-desc {
     width: 40%;
     height: 40%;
 }
+.video-carousel-banner .flickity-previous {
+    left: -15px;
+}
 .video-play {
   position: absolute;
   top: 50%;
