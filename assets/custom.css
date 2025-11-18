@@ -599,6 +599,10 @@ span.appstle_subscribe_save_text {
     font-size: 13px;
     margin: 6px 0px !important;
   }
+  .appstleRadioSellingPlanWrapper>div input[type=radio]:checked:after {
+    width: 10px;
+    height: 10px;
+  }
   .product-section .grid {
     display: grid;
     margin-left: 0px;
