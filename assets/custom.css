@@ -242,14 +242,6 @@ h1.highlight_text {
   font-size: 15px;
   color: #444;
 }
-.video-bg {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  opacity: .25;
-  z-index: -1;
-}
 
 .video-layout {
   display: flex;
