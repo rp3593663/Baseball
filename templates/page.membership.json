@@ -93,12 +93,12 @@
             "title": "Basic Membership",
             "desc": "Join for free and gain access to the world’s largest online baseball business community.",
             "price": "Free",
-            "feature_1": "Nullam tellus neque aptent",
-            "feature_2": "Elementum vulputate diam",
-            "feature_3": "Dignissim penatibus diam libero",
-            "feature_4": "Natoque congue penatibus",
+            "feature_1": "Access to BIN LinkedIn Group",
+            "feature_2": "Standard Event Access",
+            "feature_3": "Partner Discounts (Basic Tier)",
+            "feature_4": "Community Announcements",
             "button_label": "Join Basic Membership",
-            "button_url": ""
+            "button_url": "shopify://products/bin-basic-membership"
           }
         },
         "membership_card_HPypiz": {
@@ -107,13 +107,13 @@
             "icon": "shopify://shop_images/premier-membership.png",
             "title": "Premier Membership",
             "desc": "For working professionals ready to grow in baseball — gain full job board access, exclusive content.",
-            "price": "$29.99<span>/month</span>",
-            "feature_1": "Nullam tellus neque aptent",
-            "feature_2": "Elementum vulputate diam",
-            "feature_3": "Dignissim penatibus diam libero",
-            "feature_4": "Natoque congue penatibus",
+            "price": "$29.99/month",
+            "feature_1": "Monthly Webinars",
+            "feature_2": "Job Board Access",
+            "feature_3": "Partner & Sponsor Discounts",
+            "feature_4": "Archived Content Library",
             "button_label": "Join Premier Membership",
-            "button_url": ""
+            "button_url": "shopify://products/bin-premier-membership"
           }
         },
         "membership_card_M3FBKd": {
@@ -122,13 +122,13 @@
             "icon": "shopify://shop_images/elite-membership.png",
             "title": "Elite Membership",
             "desc": "The ultimate experience for those serious about baseball's business.",
-            "price": "$39.99<span>/month</span>",
-            "feature_1": "Nullam tellus neque aptent",
-            "feature_2": "Elementum vulputate diam",
-            "feature_3": "Dignissim penatibus diam libero",
-            "feature_4": "Natoque congue penatibus",
+            "price": "$39.99/month",
+            "feature_1": "Full Job Board + Early Access",
+            "feature_2": "Executive Q&A Chats",
+            "feature_3": "Executive Mentorship",
+            "feature_4": "Premium Merchandise Kit",
             "button_label": "Join Elite Membership",
-            "button_url": ""
+            "button_url": "shopify://products/bin-elite-membership"
           }
         }
       },
