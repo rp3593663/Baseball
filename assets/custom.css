@@ -572,6 +572,7 @@ span.appstle_subscribe_save_text {
   .product-section .grid {
     display: grid;
     margin-left: 0px;
+    padding: 0px 10px;
   } 
   .video-card {
     width: 100%;
