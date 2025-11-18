@@ -208,8 +208,8 @@ h1.highlight_text {
   box-shadow: 0 6px 35px rgba(0,0,0,0.12);
 }
 .membership-icon {
-  width: 55px;
-  margin-bottom: 12px;
+  width: 60px;
+  margin: 0 auto 12px;
 }
 .membership-card-title {
   font-size: 22px;
