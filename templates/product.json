@@ -79,29 +79,43 @@
         "benefit_item_3VVN9t": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Premium Feature",
-            "benefit_text": "Lorem ipsum dolor sit amet."
+            "benefit_title": "Access to BIN LinkedIn Group",
+            "benefit_text": "Full access to the official BIN LinkedIn community."
           }
         },
         "benefit_item_qVf8XN": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Premium Feature",
-            "benefit_text": "Lorem ipsum dolor sit amet."
+            "benefit_title": "Weekly Industry Newsletter",
+            "benefit_text": "Receive weekly insights, trends, and industry updates."
           }
         },
         "benefit_item_AtF7Lf": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Premium Feature",
-            "benefit_text": "Lorem ipsum dolor sit amet."
+            "benefit_title": "Full Job Board Access + Early Access",
+            "benefit_text": "Access all job listings with exclusive early postings for Elite members."
           }
         },
         "benefit_item_Yyftbx": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Premium Feature",
-            "benefit_text": "Lorem ipsum dolor sit amet."
+            "benefit_title": "Exclusive Webinars",
+            "benefit_text": "Monthly live + on-demand sessions exclusive to Elite members."
+          }
+        },
+        "benefit_item_ezhpwc": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Executive Q&A Chats",
+            "benefit_text": "Bi-monthly small-group sessions with industry experts."
+          }
+        },
+        "benefit_item_DTaarN": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Executive Mentorship",
+            "benefit_text": "Personalized mentorship with top industry leaders."
           }
         }
       },
@@ -109,7 +123,9 @@
         "benefit_item_3VVN9t",
         "benefit_item_qVf8XN",
         "benefit_item_AtF7Lf",
-        "benefit_item_Yyftbx"
+        "benefit_item_Yyftbx",
+        "benefit_item_ezhpwc",
+        "benefit_item_DTaarN"
       ],
       "name": "Elite Membership Benefits",
       "settings": {
