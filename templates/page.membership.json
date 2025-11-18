@@ -86,12 +86,79 @@
         "divider": false,
         "custom_class": "home_richtext_about"
       }
+    },
+    "membership_pricing_jMiCDe": {
+      "type": "membership_pricing",
+      "blocks": {
+        "membership_card_68pE7G": {
+          "type": "membership_card",
+          "settings": {
+            "title": "Premium Member",
+            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
+            "price": "89",
+            "feature_1": "Nullam tellus neque aptent",
+            "feature_2": "Elementum vulputate diam",
+            "feature_3": "Dignissim penatibus diam libero",
+            "feature_4": "Natoque congue penatibus",
+            "button_label": "Join Member",
+            "button_url": ""
+          }
+        },
+        "membership_card_HPypiz": {
+          "type": "membership_card",
+          "settings": {
+            "title": "Premium Member",
+            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
+            "price": "89",
+            "feature_1": "Nullam tellus neque aptent",
+            "feature_2": "Elementum vulputate diam",
+            "feature_3": "Dignissim penatibus diam libero",
+            "feature_4": "Natoque congue penatibus",
+            "button_label": "Join Member",
+            "button_url": ""
+          }
+        },
+        "membership_card_M3FBKd": {
+          "type": "membership_card",
+          "settings": {
+            "title": "Premium Member",
+            "desc": "Aenean molestie posuere placerat suscipit aptent mus.",
+            "price": "89",
+            "feature_1": "Nullam tellus neque aptent",
+            "feature_2": "Elementum vulputate diam",
+            "feature_3": "Dignissim penatibus diam libero",
+            "feature_4": "Natoque congue penatibus",
+            "button_label": "Join Member",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "membership_card_68pE7G",
+        "membership_card_HPypiz",
+        "membership_card_M3FBKd"
+      ],
+      "name": "Membership Pricing",
+      "settings": {
+        "custom_class": "",
+        "subtitle": "Choose Your Plan",
+        "title": "Get fit, get active, play badminton!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
+        "button_text": "Discover more",
+        "button_link": "",
+        "bg_color": "#ffffff",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
     "1763446838fdd14793",
     "1763443769b56bdee5",
     "main",
-    "rich_text_E6TdDk"
+    "rich_text_E6TdDk",
+    "membership_pricing_jMiCDe"
   ]
 }
