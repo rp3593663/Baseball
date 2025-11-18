@@ -50,7 +50,7 @@
                     <video src="{{ block.settings.video_file.sources[0].url }}" controls></video>
                 {% endif %}
 
-                <button class="video-play" data-video="{{ block.settings.video_file }}">▶</button>
+                <button class="video-play" data-video="{{ block.settings.video_file.sources[0].url }}">▶</button>
               </div>
 
               <div class="video-info">
