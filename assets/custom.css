@@ -257,14 +257,18 @@ h1.highlight_text {
 }
 
 .video-left {
-  width: 38%;
+  width: 35%;
+}
+.video-right {
+  width: 65%;
 }
 
 @media (max-width: 768px) {
-  .video-left {
+  .video-right, .video-left {
     width: 100%;
   }
 }
+
 
 .video-title {
   font-size: 40px;
@@ -280,15 +284,6 @@ h1.highlight_text {
   display: inline-block;
 }
 
-.video-right {
-  width: 62%;
-}
-
-@media (max-width: 768px) {
-  .video-right {
-    width: 100%;
-  }
-}
 
 .video-card {
   width: 300px;
