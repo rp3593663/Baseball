@@ -1,6 +1,6 @@
 <section class="membership-comparison {{ section.settings.custom_class }}">
   <div class="page-width">
-    <h2 class="title">{{ section.settings.heading }}</h2>
+    <h2 class="section_title">{{ section.settings.heading }}</h2>
     <div class="comparison-table">
       <table>
         <thead>
@@ -14,10 +14,10 @@
         <tbody>
           {% for block in section.blocks %}
             <tr>
-              <td>{{ block.settings.feature }}</td>
-              <td>{{ block.settings.basic_value }}</td>
-              <td>{{ block.settings.premier_value }}</td>
-              <td>{{ block.settings.elite_value }}</td>
+              <td data-label="Feature / Benefit">{{ block.settings.feature }}</td>
+              <td data-label="{{ section.settings.basic_title }}">{{ block.settings.basic_value }}</td>
+              <td data-label="{{ section.settings.premier_title }}">{{ block.settings.premier_value }}</td>
+              <td data-label="{{ section.settings.elite_title }}">{{ block.settings.elite_value }}</td>
             </tr>
           {% endfor %}
         </tbody>
