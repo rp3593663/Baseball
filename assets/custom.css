@@ -264,11 +264,6 @@ h1.highlight_text {
 .video-right {
   width: 65%;
 }
-@media (max-width: 768px) {
-  .video-right, .video-left {
-    width: 100%;
-  }
-}
 .video-title {
     text-transform: uppercase;
     font-weight: 500;
@@ -401,7 +396,8 @@ p.video-desc {
   .home_richtext_about h2,
   .home_text_with_icon h2,
   .home_connect h2,
-  .home_newsletter p.h2 {
+  .home_newsletter p.h2,
+  .video-title {
     font-size: 30px!important;
     line-height: 42px!important;
   }
@@ -413,6 +409,10 @@ p.video-desc {
   .membership-card-desc {
     font-size: 13px;
     line-height: 20px;
+  }
+  .video-right, .video-left {
+    width: 100%;
+    padding: 0px 10px;
   }
   .membership-pricing-wrapper {
     gap: 10px;
