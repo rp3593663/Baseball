@@ -700,6 +700,9 @@ input#jobSearch {
     gap: 10px;
     justify-content: left;
   }
+  .job_info h5 {
+    font-size: 18px;
+  }
   .job_search_wrapper {
     margin-bottom: 15px;
     padding: 12px;
