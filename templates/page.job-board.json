@@ -101,6 +101,49 @@
             "apply_link": "#",
             "team_id": "1"
           }
+        },
+        "team_zPQkFr": {
+          "type": "team",
+          "settings": {
+            "team_name": "Athletics",
+            "team_id": "2"
+          }
+        },
+        "job_3JBJVY": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Hitting Coach",
+            "location": "Other",
+            "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8175703002",
+            "team_id": "2"
+          }
+        },
+        "job_4Me6gF": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Pitching Coach",
+            "location": "Other",
+            "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8175849002",
+            "team_id": "2"
+          }
+        },
+        "job_tJHQJQ": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Video Assistant",
+            "location": "Other",
+            "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8231345002",
+            "team_id": "2"
+          }
+        },
+        "job_gEC4U3": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Certified Athletic Trainer (AZ) - Seasonal",
+            "location": "Mesa, Arizona, United States",
+            "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8213877002",
+            "team_id": "2"
+          }
         }
       },
       "block_order": [
@@ -109,7 +152,12 @@
         "job_UH8g4Q",
         "job_hgeGUd",
         "job_Uz99Vk",
-        "job_87c733"
+        "job_87c733",
+        "team_zPQkFr",
+        "job_3JBJVY",
+        "job_4Me6gF",
+        "job_tJHQJQ",
+        "job_gEC4U3"
       ],
       "name": "Job Board",
       "settings": {
