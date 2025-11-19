@@ -46,10 +46,23 @@
       ],
       "name": "Page title breadcrumbs",
       "settings": {}
+    },
+    "job_board_X49DbE": {
+      "type": "job-board",
+      "name": "Job Board",
+      "settings": {
+        "custom_class": "job_board",
+        "padding_top_desktop": 60,
+        "padding_bottom_desktop": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "container_width": "page-width"
+      }
     }
   },
   "order": [
     "main",
-    "blocks_YbNPGP"
+    "blocks_YbNPGP",
+    "job_board_X49DbE"
   ]
 }
