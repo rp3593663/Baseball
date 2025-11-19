@@ -45,11 +45,14 @@
             </div>
             <div class="sidebar_content">
                 <div class="job_listing_title">
-                    <li class="active" data-title="Office of the Commissioner">Office of the Commissioner</li>
-                    <li class="" data-title="Arizona Diamondbacks">Arizona Diamondbacks</li>
-                    <li class="" data-title="Athletics">Athletics</li>
-                    <li class="" data-title="Atlanta Braves">Atlanta Braves</li>
-                    <li class="" data-title="Baltimore Orioles">Baltimore Orioles</li>
+                    {% for block in section.blocks %}
+                        {% if block.type == 'team' %}
+                        <li class="{% if forloop.first %}active{% endif %}" 
+                            data-title="{{ block.settings.team_name | escape }}">
+                            {{ block.settings.team_name }}
+                        </li>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -59,206 +62,29 @@
                         style="width: 100%; padding: 10px; font-size: 16px;">
             </div>
             <div class="all_jobs_block">
-                <div class="job_box" data-box="Office of the Commissioner">
-                    <h2>Office of the Commissioner</h2>
-                    <div class="jobx_list">
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
+                {% for block in section.blocks %}
+                    {% if block.type == 'team' %}
+                    <div class="job_box" data-box="{{ block.settings.team_name | escape }}">
+                        <h2>{{ block.settings.team_name }}</h2>
+
+                        <div class="jobx_list">
+
+                        {% for subblock in block.blocks %}
+                            {% if subblock.type == 'job' %}
+                            <div class="job">
+                                <div class="job_info">
+                                <h5>{{ subblock.settings.job_title }}</h5>
+                                <span class="location">{{ subblock.settings.location }}</span>
+                                </div>
+                                <a href="{{ subblock.settings.apply_link }}" class="btn">Apply Now</a>
                             </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Softball Instructor (Pitching Focus, New Orleans Youth Academy)</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
+                            {% endif %}
+                        {% endfor %}
+
                         </div>
                     </div>
-                </div>
-                <div class="job_box" data-box="Arizona Diamondbacks">
-                    <h2>Arizona Diamondbacks</h2>
-                    <div class="jobx_list">
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="job_box" data-box="Athletics">
-                    <h2>Athletics</h2>
-                    <div class="jobx_list">
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Softball Instructor (Pitching Focus, New Orleans Youth Academy)</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">USA</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="job_box" data-box="Atlanta Braves">
-                    <h2>Atlanta Braves</h2>
-                    <div class="jobx_list">
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="job_box" data-box="Baltimore Orioles">
-                    <h2>Baltimore Orioles</h2>
-                    <div class="jobx_list">
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                        <div class="job">
-                            <div class="job_info">
-                                <h5>Counsel, Dominican Republic</h5>
-                                <span class="location">New York</span>
-                            </div>
-                            <a href="" class="btn">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
