@@ -567,6 +567,10 @@ span.appstle_subscribe_save_text {
     padding: 20px;
     text-align: center;
 }
+.job_search_wrapper h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
 .jobx_list {
     display: grid;
     gap: 15px;
