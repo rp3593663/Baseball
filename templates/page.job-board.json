@@ -178,6 +178,49 @@
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Minor-League-Technology-Trainee_R1825-1",
             "team_id": "3"
           }
+        },
+        "team_xrnRJh": {
+          "type": "team",
+          "settings": {
+            "team_name": "Baltimore Orioles",
+            "team_id": "4"
+          }
+        },
+        "job_Pnkfer": {
+          "type": "job",
+          "settings": {
+            "job_title": "Fellow, Baseball Strategy",
+            "location": "Baltimore · MD",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/fellow-baseball-strategy-2140614",
+            "team_id": "4"
+          }
+        },
+        "job_VzqWfV": {
+          "type": "job",
+          "settings": {
+            "job_title": "Director of Player Services",
+            "location": "Baltimore · MD",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/director-of-player-services-2140506",
+            "team_id": "4"
+          }
+        },
+        "job_8Yct6g": {
+          "type": "job",
+          "settings": {
+            "job_title": "Analyst - Domestic Scouting",
+            "location": "Baltimore · MD",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/analyst-domestic-scouting-2137735",
+            "team_id": "4"
+          }
+        },
+        "job_ET9TpW": {
+          "type": "job",
+          "settings": {
+            "job_title": "Amateur Scouting Fellow – Domestic Scouting",
+            "location": "Baltimore · MD",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/amateur-scouting-fellow-domestic-scouting-2137696",
+            "team_id": "4"
+          }
         }
       },
       "block_order": [
@@ -195,7 +238,12 @@
         "team_RKqYhF",
         "job_QVc93F",
         "job_XFTee8",
-        "job_V7bz76"
+        "job_V7bz76",
+        "team_xrnRJh",
+        "job_Pnkfer",
+        "job_VzqWfV",
+        "job_8Yct6g",
+        "job_ET9TpW"
       ],
       "name": "Job Board",
       "settings": {
