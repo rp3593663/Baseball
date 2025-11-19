@@ -698,6 +698,7 @@ input#jobSearch {
     display: grid;
     padding: 10px;
     gap: 10px;
+    justify-content: left;
   }
   .job_search_wrapper {
     margin-bottom: 15px;
