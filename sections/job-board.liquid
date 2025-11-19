@@ -121,6 +121,27 @@
   </div>
 </section>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const items = document.querySelectorAll(".job_listing_title li");
+    const jobBoxes = document.querySelectorAll(".job_box");
+    items.forEach(item => {
+        item.addEventListener("click", function () {
+            const target = this.getAttribute("data-title");
+            items.forEach(i => i.classList.remove("active"));
+            this.classList.add("active");
+            const box = document.querySelector(`.job_box[data-box="${target}"]`);
+            if (box) {
+                window.scrollTo({
+                    top: box.offsetTop - 100, 
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+</script>
+
 
 {% schema %}
 {
