@@ -144,6 +144,40 @@
             "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8213877002",
             "team_id": "2"
           }
+        },
+        "team_RKqYhF": {
+          "type": "team",
+          "settings": {
+            "team_name": "Atlanta Braves",
+            "team_id": "3"
+          }
+        },
+        "job_QVc93F": {
+          "type": "job",
+          "settings": {
+            "job_title": "Analyst, Player Personnel",
+            "location": "Atlanta, GA",
+            "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Analyst--Player-Personnel_R1868-1",
+            "team_id": "3"
+          }
+        },
+        "job_XFTee8": {
+          "type": "job",
+          "settings": {
+            "job_title": "R&D Analyst Associate",
+            "location": "Atlanta, GA",
+            "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/R-D-Analyst-Associate_R1817-1",
+            "team_id": "3"
+          }
+        },
+        "job_V7bz76": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Technology Trainee",
+            "location": "Atlanta, GA",
+            "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Minor-League-Technology-Trainee_R1825-1",
+            "team_id": "3"
+          }
         }
       },
       "block_order": [
@@ -157,7 +191,11 @@
         "job_3JBJVY",
         "job_4Me6gF",
         "job_tJHQJQ",
-        "job_gEC4U3"
+        "job_gEC4U3",
+        "team_RKqYhF",
+        "job_QVc93F",
+        "job_XFTee8",
+        "job_V7bz76"
       ],
       "name": "Job Board",
       "settings": {
