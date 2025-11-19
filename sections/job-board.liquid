@@ -114,12 +114,6 @@ document.addEventListener("DOMContentLoaded", function () {
   searchInput.addEventListener("input", function () {
     const query = this.value.toLowerCase().trim();
 
-    // Scroll to search input with 100px offset
-    window.scrollTo({
-      top: searchInput.offsetTop - 100,
-      behavior: "smooth"
-    });
-
     jobBoxes.forEach(box => {
       const jobs = box.querySelectorAll(".job");
       let boxHasMatch = false;
@@ -143,7 +137,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-
 
 {% schema %}
 {
