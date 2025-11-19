@@ -695,7 +695,7 @@ input#jobSearch {
     gap: 10px;
   }
   .job {
-    display: grid!important;
+    display: grid;
     padding: 10px;
     gap: 8px;
     justify-content: left;
