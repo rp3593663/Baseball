@@ -550,6 +550,14 @@ span.appstle_subscribe_save_text {
     display: grid;
     gap: 15px;
 }
+.job_box h2 {
+    color: var(--red);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px !important;
+    line-height: 140% !important;
+    margin-bottom: 20px !important;
+}
 
 
 
