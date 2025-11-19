@@ -10,7 +10,6 @@
     padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
 }
-
 {% endstyle %}
 
 <section id="job-board-{{ section.id }}" class="job-board-section {{ section.settings.custom_class }}">
@@ -39,7 +38,7 @@
 
         <!-- Search -->
         <div class="job_search_wrapper">
-            <h3>Search Job by Job title or By Location</h3>
+          <h3>Search Job by Job title or By Location</h3>
           <input type="text" id="jobSearch" placeholder="Search jobs here...">
         </div>
 
@@ -57,13 +56,48 @@
                   {% for job in section.blocks %}
                     {% if job.type == "job" and job.settings.team_id == team.settings.team_id %}
 
-                      <div class="job">
-                        <div class="job_info">
-                          <h5>{{ job.settings.job_title }}</h5>
-                          <span class="location">{{ job.settings.location }}</span>
+                      {% assign visibility = job.settings.job_visibility %}
+                      {% assign can_view = false %}
+
+                      {%- comment -%}
+                      PUBLIC JOB
+                      {%- endcomment -%}
+                      {% if visibility == "public" %}
+                        {% assign can_view = true %}
+                      {% endif %}
+
+                      {%- comment -%}
+                      ELITE ONLY
+                      {%- endcomment -%}
+                      {% if visibility == "elite" and customer and customer.tags contains "elite_member" %}
+                        {% assign can_view = true %}
+                      {% endif %}
+
+                      {%- comment -%}
+                      PREMIER ONLY
+                      {%- endcomment -%}
+                      {% if visibility == "premier" and customer and customer.tags contains "premier_member" %}
+                        {% assign can_view = true %}
+                      {% endif %}
+
+                      {%- comment -%}
+                      BOTH ELITE + PREMIER
+                      {%- endcomment -%}
+                      {% if visibility == "both" and customer %}
+                        {% if customer.tags contains "elite_member" or customer.tags contains "premier_member" %}
+                          {% assign can_view = true %}
+                        {% endif %}
+                      {% endif %}
+
+                      {% if can_view %}
+                        <div class="job">
+                          <div class="job_info">
+                            <h5>{{ job.settings.job_title }}</h5>
+                            <span class="location">{{ job.settings.location }}</span>
+                          </div>
+                          <a href="{{ job.settings.apply_link }}" class="btn">Apply Now</a>
                         </div>
-                        <a href="{{ job.settings.apply_link }}" class="btn">Apply Now</a>
-                      </div>
+                      {% endif %}
 
                     {% endif %}
                   {% endfor %}
@@ -125,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const matches = title.includes(query) || location.includes(query);
 
         if (matches || query === "") {
-        job.style.display = window.innerWidth < 768 ? "grid" : "flex";
+          job.style.display = window.innerWidth < 768 ? "grid" : "flex";
           boxHasMatch = true;
         } else {
           job.style.display = "none";
@@ -204,7 +238,19 @@ document.addEventListener("DOMContentLoaded", function () {
         { "type": "text", "id": "job_title", "label": "Job Title" },
         { "type": "text", "id": "location", "label": "Location" },
         { "type": "url", "id": "apply_link", "label": "Apply Link" },
-        { "type": "text", "id": "team_id", "label": "Team ID (must match a Team block’s team_id)" }
+        { "type": "text", "id": "team_id", "label": "Team ID (must match a Team block’s team_id)" },
+        {
+          "type": "select",
+          "id": "job_visibility",
+          "label": "Job Visibility",
+          "default": "public",
+          "options": [
+            { "label": "Public (Everyone)", "value": "public" },
+            { "label": "Elite Members Only", "value": "elite" },
+            { "label": "Premier Members Only", "value": "premier" },
+            { "label": "Elite + Premier Members", "value": "both" }
+          ]
+        }
       ]
     }
   ],
