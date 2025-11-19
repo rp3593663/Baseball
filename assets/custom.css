@@ -543,6 +543,10 @@ span.appstle_subscribe_save_text {
   top: 150px;
   height: fit-content;
 }
+.job_listing_title {
+    display: grid;
+    gap: 8px;
+}
 .job_listing_title li {
     list-style: none;
     cursor: pointer;
@@ -553,7 +557,7 @@ span.appstle_subscribe_save_text {
     text-transform: capitalize;
 }
 .job_listing_title li.active {
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     background: var(--red);
 }
