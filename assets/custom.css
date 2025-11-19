@@ -697,12 +697,18 @@ input#jobSearch {
   .job {
     display: grid;
     padding: 10px;
-    gap: 10px;
+    gap: 8px;
     justify-content: left;
+  }
+  .job_info span.location {
+    font-size: 13px;
   }
   .job_info h5 {
     font-size: 18px;
   }
+  .job_info {
+    gap: 2px;
+}
   .job_search_wrapper {
     margin-bottom: 15px;
     padding: 12px;
