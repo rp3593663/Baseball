@@ -79,11 +79,66 @@
         "space_around": true,
         "lazyload_images": true
       }
+    },
+    "text_with_icons_rEe9zw": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_xek943": {
+          "type": "text_block",
+          "settings": {
+            "icon": "recycle",
+            "title": "Brand Storytelling & Identity Development",
+            "text": "<p>Creation of a compelling brand narrative that captures BIN’s origin, mission, and future vision.</p>"
+          }
+        },
+        "text_block_UyRKww": {
+          "type": "text_block",
+          "settings": {
+            "icon": "store",
+            "title": "Bin Visual Identity System",
+            "text": "<p>Our creative team will build a modern-yet-timeless visual identity anchored in baseball culture.</p>"
+          }
+        },
+        "text_block_XDBfDk": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Product & Marketing Design System",
+            "text": "<p>Extend the brand system into a cohesive design strategy for all BIN merchandise, promotional material, social content, and event branding.</p>"
+          }
+        },
+        "text_block_CWtPgj": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Brand Assets & Process",
+            "text": "<p>Deliver a complete BIN Brand Bible — a foundational design guide that includes. Brand story, mission, tone, and messaging</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xek943",
+        "text_block_UyRKww",
+        "text_block_XDBfDk",
+        "text_block_CWtPgj"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "blocks_G36LVh",
-    "advanced_content_WPjAaU"
+    "advanced_content_WPjAaU",
+    "text_with_icons_rEe9zw"
   ]
 }
