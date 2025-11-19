@@ -547,11 +547,6 @@ span.appstle_subscribe_save_text {
   height: fit-content;
 }
 .job_listing_title li {
-  list-style: none;
-  cursor: pointer;
-  padding: 8px 5px;
-}
-.job_listing_title li {
     list-style: none;
     cursor: pointer;
     padding: 12px 21px;
