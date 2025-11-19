@@ -14,271 +14,42 @@
       "disabled": true,
       "settings": {}
     },
-    "slideshow": {
-      "type": "slideshow",
+    "blocks_G36LVh": {
+      "type": "_blocks",
       "blocks": {
-        "slideshow-0": {
-          "type": "image",
+        "ai_gen_block_f09f0d8_n88Rqy": {
+          "type": "ai_gen_block_f09f0d8",
           "settings": {
-            "title": "About Us",
-            "title_size": 80,
-            "subheading": "Join the Network That Powers Baseball’s Future",
-            "link": "",
-            "link_text": "Membership",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Leff_OpeningDay_068_2.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
+            "custom_title": "",
+            "title_font_size": 48,
+            "title_color": "#ffffff",
+            "title_spacing": 16,
+            "show_breadcrumbs": true,
+            "breadcrumb_font_size": 14,
+            "breadcrumb_color": "#ffffff",
+            "bg_image": "shopify://shop_images/Leff_OpeningDay_068_2.jpg",
+            "bg_color": "#0b2041",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 45,
+            "max_width": 1200,
+            "padding_top": 80,
+            "padding_bottom": 80,
+            "padding_horizontal": 20,
+            "custom_class": ""
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "slideshow-0"
+        "ai_gen_block_f09f0d8_n88Rqy"
       ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "lazyload_images": true
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "THE BASEBALL INDUSTRY NETWORK"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>The <strong>Baseball Industry Network (BIN)</strong> is the largest, most diverse, and influential online community in baseball — connecting over <strong>40,000 members</strong> across the professional, amateur, and business sectors of the game.<br/></p><p>From <strong>MLB and MiLB staff</strong> to <strong>agents, vendors, students, and sports professionals</strong>, BIN serves as a trusted hub for <strong>career advancement, collaboration, and community</strong> within the baseball industry.</p><p>Founded by <strong>Tyrone Brooks</strong>, a respected industry leader with decades of front-office experience and a Major League Baseball veteran, BIN has empowered thousands to build meaningful connections, gain career opportunities, and grow professionally through its <strong>digital community, partnerships, and in-person meetups</strong> held throughout the year.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "text_columns_UibBnT": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_WJLgGy": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/IMG_8235-3.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "OUR MISSION",
-            "text": "<p>To <strong>empower, connect, and support </strong>professionals across all levels of the baseball industry by providing access to<strong>opportunities, mentorship, and community</strong>.<br/></p><p>BIN fosters a<strong>diverse and inclusive network</strong>that champions professional growth, collaboration, and the ongoing development of the game — on and off the field.</p>",
-            "button_label": "MEMBERSHIP",
-            "button_link": ""
-          }
-        },
-        "text_block_VN3ckp": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/IMG_8234-3.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "OUR VISION",
-            "text": "<p>The <strong>Baseball Industry Network </strong>strives to be the <strong>leading platform for career growth, connection, and inclusion </strong>within the baseball world.<br/></p><p>Through innovation, collaboration, and a commitment to diversity, BIN will unify professionals, elevate talent, and shape the <strong>future of baseball’s global workforce</strong>.</p>",
-            "button_label": "EVENTS",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_WJLgGy",
-        "text_block_VN3ckp"
-      ],
-      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
-      "settings": {
-        "title": "WHERE LEADERS CONNECT, LEARN & LEAD",
-        "align_text": "center",
-        "divider": true
-      }
-    },
-    "text_and_image_XtzAcP": {
-      "type": "text-and-image",
-      "name": "t:sections.text-and-image.presets.image_with_text.name",
-      "settings": {
-        "image": "shopify://shop_images/YM0A8661.jpg",
-        "image_mask": "none",
-        "image2": "shopify://shop_images/LHumpa-0169.jpg",
-        "image2_mask": "none",
-        "subtitle": "Join the Network That Powers Baseball’s Future",
-        "title": "Key Benefits for BIN Members",
-        "text": "<p><strong>Premier & Elite Members</strong> unlock access to:</p><ul><li>Exclusive <strong>Job Board</strong> with early access to postings</li><li>Private <strong>BIN Digital Community & Resource Library</strong></li><li>1:1 <strong>Mentorships & Executive Leadership Chats</strong></li><li>Monthly <strong>Podcasts, Webinars, and Virtual Events</strong></li><li><strong>BIN-Branded Welcome Kits</strong> & Seasonal Merchandise Drops</li><li><strong>Discounts</strong> from official BIN partners, vendors, and sponsors</li></ul>",
-        "button_label": "Memberships",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "66",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "OUR MISSION",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "OUR VISION",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "rich_text_enW3BG": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ArKmew": {
-          "type": "heading",
-          "settings": {
-            "title": "JOIN THE MOVEMENT"
-          }
-        },
-        "text_A73Pcg": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<h3></h3><p>The Baseball Industry Network is more than a platform — it’s a <strong>career ecosystem</strong> built to advance the people who make baseball great.<br/>Whether you’re starting your career, building your reputation, or leading the next generation, <strong>BIN is your home for growth, access, and opportunity</strong>.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ArKmew",
-        "text_A73Pcg"
-      ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "map": {
-      "type": "map",
-      "disabled": true,
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "lazyload_images": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
-    "background_image_text_9pjqtR": {
-      "type": "background-image-text",
-      "disabled": true,
-      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Our Strategic Objectives",
-        "text": "<p></p><ul><li>Launch a <strong>three-tier membership model</strong> — <strong>Basic (Free)</strong>, <strong>Premier ($99)</strong>, and <strong>Elite ($149)</strong> — offering members increasing levels of access, exclusivity, and mentorship.</li><li>Build a secure <strong>digital platform, e-commerce store, and CRM</strong> to enhance user experience and streamline engagement.</li><li>Activate engagement around <strong>key baseball calendar moments</strong> such as Spring Training, Opening Day, All-Star Week, and the Winter Meetings.</li><li>Align with <strong>MLB’s DEI, hiring, and mentorship initiatives</strong> to create pathways for emerging and diverse talent.</li><li>Foster ongoing collaboration between <strong>teams, leagues, vendors, and partners</strong>.</li></ul>",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify://shop_images/IMG_8237-2.jpg",
-        "layout": "left",
-        "height": 750,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
+      "name": "Page title breadcrumbs",
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "slideshow",
-    "rich-text",
-    "text_columns_UibBnT",
-    "text_and_image_XtzAcP",
-    "text-columns",
-    "rich_text_enW3BG",
-    "map",
-    "featured-collection",
-    "form",
-    "background_image_text_9pjqtR"
+    "blocks_G36LVh"
   ]
 }
