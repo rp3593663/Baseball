@@ -63,7 +63,8 @@
             "job_title": "Assistant, Minor League Operations & Development (Seasonal)",
             "location": "New York, New York",
             "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7315697",
-            "team_id": "1"
+            "team_id": "1",
+            "job_visibility": "elite"
           }
         },
         "job_UH8g4Q": {
@@ -72,7 +73,8 @@
             "job_title": "Counsel, Dominican Republic",
             "location": "Santo Domingo, Dominican Republic",
             "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7335893",
-            "team_id": "1"
+            "team_id": "1",
+            "job_visibility": "public"
           }
         },
         "job_hgeGUd": {
@@ -81,7 +83,8 @@
             "job_title": "Gameday Operations Coordinator (Seasonal)",
             "location": "New York, New York",
             "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7367088",
-            "team_id": "1"
+            "team_id": "1",
+            "job_visibility": "public"
           }
         },
         "job_Uz99Vk": {
@@ -90,7 +93,8 @@
             "job_title": "2026 MiLB ABS Tech (Seasonal)",
             "location": "Multiple MiLB Markets",
             "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7298674",
-            "team_id": "1"
+            "team_id": "1",
+            "job_visibility": "public"
           }
         },
         "job_87c733": {
@@ -99,7 +103,8 @@
             "job_title": "Assistant, Minor League Operations & Development (Seasonal)",
             "location": "New York, New York",
             "apply_link": "#",
-            "team_id": "1"
+            "team_id": "1",
+            "job_visibility": "public"
           }
         },
         "team_zPQkFr": {
@@ -115,7 +120,8 @@
             "job_title": "Minor League Hitting Coach",
             "location": "Other",
             "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8175703002",
-            "team_id": "2"
+            "team_id": "2",
+            "job_visibility": "public"
           }
         },
         "job_4Me6gF": {
@@ -124,7 +130,8 @@
             "job_title": "Minor League Pitching Coach",
             "location": "Other",
             "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8175849002",
-            "team_id": "2"
+            "team_id": "2",
+            "job_visibility": "public"
           }
         },
         "job_tJHQJQ": {
@@ -133,7 +140,8 @@
             "job_title": "Minor League Video Assistant",
             "location": "Other",
             "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8231345002",
-            "team_id": "2"
+            "team_id": "2",
+            "job_visibility": "public"
           }
         },
         "job_gEC4U3": {
@@ -142,7 +150,8 @@
             "job_title": "Minor League Certified Athletic Trainer (AZ) - Seasonal",
             "location": "Mesa, Arizona, United States",
             "apply_link": "https://job-boards.greenhouse.io/athleticsbaseballops/jobs/8213877002",
-            "team_id": "2"
+            "team_id": "2",
+            "job_visibility": "public"
           }
         },
         "team_RKqYhF": {
@@ -158,7 +167,8 @@
             "job_title": "Analyst, Player Personnel",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Analyst--Player-Personnel_R1868-1",
-            "team_id": "3"
+            "team_id": "3",
+            "job_visibility": "public"
           }
         },
         "job_XFTee8": {
@@ -167,7 +177,8 @@
             "job_title": "R&D Analyst Associate",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/R-D-Analyst-Associate_R1817-1",
-            "team_id": "3"
+            "team_id": "3",
+            "job_visibility": "public"
           }
         },
         "job_V7bz76": {
@@ -176,7 +187,8 @@
             "job_title": "Minor League Technology Trainee",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Minor-League-Technology-Trainee_R1825-1",
-            "team_id": "3"
+            "team_id": "3",
+            "job_visibility": "public"
           }
         },
         "team_xrnRJh": {
@@ -192,7 +204,8 @@
             "job_title": "Fellow, Baseball Strategy",
             "location": "Baltimore · MD",
             "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/fellow-baseball-strategy-2140614",
-            "team_id": "4"
+            "team_id": "4",
+            "job_visibility": "public"
           }
         },
         "job_VzqWfV": {
@@ -201,7 +214,8 @@
             "job_title": "Director of Player Services",
             "location": "Baltimore · MD",
             "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/director-of-player-services-2140506",
-            "team_id": "4"
+            "team_id": "4",
+            "job_visibility": "public"
           }
         },
         "job_8Yct6g": {
@@ -210,7 +224,8 @@
             "job_title": "Analyst - Domestic Scouting",
             "location": "Baltimore · MD",
             "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/analyst-domestic-scouting-2137735",
-            "team_id": "4"
+            "team_id": "4",
+            "job_visibility": "public"
           }
         },
         "job_ET9TpW": {
@@ -219,7 +234,8 @@
             "job_title": "Amateur Scouting Fellow – Domestic Scouting",
             "location": "Baltimore · MD",
             "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/amateur-scouting-fellow-domestic-scouting-2137696",
-            "team_id": "4"
+            "team_id": "4",
+            "job_visibility": "public"
           }
         },
         "team_3EXAVM": {
@@ -235,7 +251,8 @@
             "job_title": "Technology Coach - Baseball Technology",
             "location": "Mesa, Arizona",
             "apply_link": "https://my1060wd.wd5.myworkdayjobs.com/en-US/Chicago_Cubs_FO/details/Technology-Coach---Baseball-Technology_R001320-1?bpexternal=true",
-            "team_id": "5"
+            "team_id": "5",
+            "job_visibility": "public"
           }
         },
         "job_bwftii": {
@@ -244,7 +261,8 @@
             "job_title": "Program Manager, Research & Development (Baseball Operations)",
             "location": "Chicago, Illinois",
             "apply_link": "https://my1060wd.wd5.myworkdayjobs.com/en-US/Chicago_Cubs_FO/details/Program-Manager--Research---Development--Baseball-Operations-_R001329-1?bpexternal=true",
-            "team_id": "5"
+            "team_id": "5",
+            "job_visibility": "public"
           }
         }
       },
