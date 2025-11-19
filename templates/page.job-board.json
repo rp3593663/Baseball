@@ -221,6 +221,31 @@
             "apply_link": "https://www.teamworkonline.com/baseball-jobs/orioles-jobs/baltimore-orioles-jobs/amateur-scouting-fellow-domestic-scouting-2137696",
             "team_id": "4"
           }
+        },
+        "team_3EXAVM": {
+          "type": "team",
+          "settings": {
+            "team_name": "Chicago Cubs",
+            "team_id": "5"
+          }
+        },
+        "job_9GCB6w": {
+          "type": "job",
+          "settings": {
+            "job_title": "Technology Coach - Baseball Technology",
+            "location": "Mesa, Arizona",
+            "apply_link": "https://my1060wd.wd5.myworkdayjobs.com/en-US/Chicago_Cubs_FO/details/Technology-Coach---Baseball-Technology_R001320-1?bpexternal=true",
+            "team_id": "5"
+          }
+        },
+        "job_bwftii": {
+          "type": "job",
+          "settings": {
+            "job_title": "Program Manager, Research & Development (Baseball Operations)",
+            "location": "Chicago, Illinois",
+            "apply_link": "https://my1060wd.wd5.myworkdayjobs.com/en-US/Chicago_Cubs_FO/details/Program-Manager--Research---Development--Baseball-Operations-_R001329-1?bpexternal=true",
+            "team_id": "5"
+          }
         }
       },
       "block_order": [
@@ -243,7 +268,10 @@
         "job_Pnkfer",
         "job_VzqWfV",
         "job_8Yct6g",
-        "job_ET9TpW"
+        "job_ET9TpW",
+        "team_3EXAVM",
+        "job_9GCB6w",
+        "job_bwftii"
       ],
       "name": "Job Board",
       "settings": {
