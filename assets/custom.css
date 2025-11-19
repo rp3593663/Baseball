@@ -643,6 +643,13 @@ input#jobSearch {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  .job_listing_title {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media(min-width: 992px){
   .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
