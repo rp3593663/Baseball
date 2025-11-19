@@ -527,10 +527,16 @@ span.appstle_subscribe_save_text {
   margin-bottom: 0px;
 }
 
+
+
 .job_board_container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 30px;
+}
+.all_jobs_block {
+    display: grid;
+    gap: 30px;
 }
 .job_board_sidebar {
   position: sticky;
