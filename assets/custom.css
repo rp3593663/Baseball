@@ -540,7 +540,7 @@ span.appstle_subscribe_save_text {
 }
 .job_board_sidebar {
   position: sticky;
-  top: 150px;
+  top: 110px;
   height: fit-content;
 }
 .job_listing_title {
@@ -567,7 +567,7 @@ span.appstle_subscribe_save_text {
     padding: 20px;
     text-align: center;
     position: sticky;
-    top: 150px;
+    top: 110px;
 }
 .job_search_wrapper h3 {
     font-size: 25px;
