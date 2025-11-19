@@ -658,6 +658,10 @@ input#jobSearch {
     position: relative;
     top: unset;
   }
+  .job_box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
 }
 @media(min-width: 992px){
   .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
@@ -696,6 +700,10 @@ input#jobSearch {
   input#jobSearch {
     margin-top: 12px;
     font-size: 13px;
+  }
+  .job_box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   .job_listing_title li {
     padding: 6px 12px;
