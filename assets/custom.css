@@ -650,6 +650,10 @@ input#jobSearch {
     align-items: center;
     justify-content: center;
   }
+  .job_listing_title li {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
 }
 @media(min-width: 992px){
   .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
@@ -677,6 +681,10 @@ input#jobSearch {
   .elite-content p {
     font-size: 13px;
     line-height: 20px;
+  }
+  .job_listing_title li {
+    padding: 6px 12px;
+    font-size: 13px;
   }
   .elite-benefit-box {
     padding: 10px 15px;
