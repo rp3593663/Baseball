@@ -59,30 +59,16 @@
                       {% assign visibility = job.settings.job_visibility %}
                       {% assign can_view = false %}
 
-                      {%- comment -%}
-                      PUBLIC JOB
-                      {%- endcomment -%}
+                    
                       {% if visibility == "public" %}
                         {% assign can_view = true %}
                       {% endif %}
-
-                      {%- comment -%}
-                      ELITE ONLY
-                      {%- endcomment -%}
                       {% if visibility == "elite" and customer and customer.tags contains "elite_member" %}
                         {% assign can_view = true %}
                       {% endif %}
-
-                      {%- comment -%}
-                      PREMIER ONLY
-                      {%- endcomment -%}
                       {% if visibility == "premier" and customer and customer.tags contains "premier_member" %}
                         {% assign can_view = true %}
                       {% endif %}
-
-                      {%- comment -%}
-                      BOTH ELITE + PREMIER
-                      {%- endcomment -%}
                       {% if visibility == "both" and customer %}
                         {% if customer.tags contains "elite_member" or customer.tags contains "premier_member" %}
                           {% assign can_view = true %}
