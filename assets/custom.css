@@ -640,6 +640,11 @@ input#jobSearch {
     display: none;
   }
 }
+@media(min-width: 992px){
+  .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .home_richtext_about h2,
   .home_text_with_icon h2,
