@@ -286,41 +286,50 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
 
-    const searchInput = document.getElementById("jobSearch");
-    const jobBoxes = document.querySelectorAll(".job_box");
+        const searchInput = document.getElementById("jobSearch");
+        const jobBoxes = document.querySelectorAll(".job_box");
 
-    searchInput.addEventListener("input", function () {
-        const query = this.value.toLowerCase();
+        searchInput.addEventListener("input", function () {
+            const query = this.value.toLowerCase().trim();
 
-        jobBoxes.forEach(box => {
-            const jobItems = box.querySelectorAll(".jobx_list p");
+            jobBoxes.forEach(box => {
 
-            let matchFound = false;
+                const jobs = box.querySelectorAll(".job");
+                let boxHasMatch = false;
 
-            jobItems.forEach(job => {
-                const text = job.textContent.toLowerCase();
+                jobs.forEach(job => {
 
-                if (text.includes(query)) {
-                    job.style.display = "block";
-                    matchFound = true;
+                    const title = job.querySelector("h5").textContent.toLowerCase();
+                    const location = job.querySelector(".location").textContent.toLowerCase();
+
+                    // Check if search matches title OR location
+                    const matches = 
+                        title.includes(query) ||
+                        location.includes(query);
+
+                    if (matches || query === "") {
+                        job.style.display = "flex";  // show job
+                        boxHasMatch = true;
+                    } else {
+                        job.style.display = "none";  // hide job
+                    }
+                });
+
+                // Show/hide entire job box
+                if (boxHasMatch || query === "") {
+                    box.style.display = "block";
                 } else {
-                    job.style.display = "none";
+                    box.style.display = "none";
                 }
+
             });
-
-            // show/hide whole job box
-            if (matchFound || query === "") {
-                box.style.display = "block";
-            } else {
-                box.style.display = "none";
-            }
         });
-    });
 
-});
+    });
 </script>
+
 
 
 
