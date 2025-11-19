@@ -1,0 +1,96 @@
+<section 
+  id="job-board-{{ section.id }}" 
+  class="job-board-section {{ section.settings.custom_class }} "
+>
+  <div class="{{ section.settings.container_width }}">
+    
+  </div>
+</section>
+
+{% style %}
+#elite-benefits-{{ section.id }} {
+  padding-top: {{ section.settings.padding_top_desktop }}px;
+  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+}
+
+@media (max-width: 767px) {
+  #elite-benefits-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+}
+
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Elite Membership Benefits",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (mobile)",
+      "default": 40
+    },
+
+    {
+      "type": "select",
+      "id": "container_width",
+      "label": "Container Width",
+      "default": "page-width",
+      "options": [
+        { "label": "Container", "value": "page-width" },
+        { "label": "Full Width", "value": "full-width" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Job Board"
+    }
+  ]
+}
+{% endschema %}
