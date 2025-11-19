@@ -63,21 +63,23 @@
             </div>
             <div class="all_jobs_block">
                 {% for block in section.blocks %}
-                    {% if block.type == 'team' %}
-                    <div class="job_box" data-box="{{ block.settings.team_name | escape }}">
+                    {% if block.type == "team" %}
+                    <div class="job_box" data-box="{{ block.settings.team_id }}">
                         <h2>{{ block.settings.team_name }}</h2>
 
                         <div class="jobx_list">
 
-                        {% for subblock in block.blocks %}
-                            {% if subblock.type == 'job' %}
+                        {% for job in section.blocks %}
+                            {% if job.type == "job" and job.settings.team_id == block.settings.team_id %}
+
                             <div class="job">
                                 <div class="job_info">
-                                <h5>{{ subblock.settings.job_title }}</h5>
-                                <span class="location">{{ subblock.settings.location }}</span>
+                                <h5>{{ job.settings.job_title }}</h5>
+                                <span class="location">{{ job.settings.location }}</span>
                                 </div>
-                                <a href="{{ subblock.settings.apply_link }}" class="btn">Apply Now</a>
+                                <a href="{{ job.settings.apply_link }}" class="btn">Apply Now</a>
                             </div>
+
                             {% endif %}
                         {% endfor %}
 
@@ -86,6 +88,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
+
         </div>
     </div>
   </div>
