@@ -49,6 +49,68 @@
     },
     "job_board_X49DbE": {
       "type": "job-board",
+      "blocks": {
+        "team_rfFxzf": {
+          "type": "team",
+          "settings": {
+            "team_name": "Office of the Commissioner",
+            "team_id": "1"
+          }
+        },
+        "job_fmTU6B": {
+          "type": "job",
+          "settings": {
+            "job_title": "Assistant, Minor League Operations & Development (Seasonal)",
+            "location": "New York, New York",
+            "apply_link": "#",
+            "team_id": "1"
+          }
+        },
+        "job_UH8g4Q": {
+          "type": "job",
+          "settings": {
+            "job_title": "Counsel, Dominican Republic",
+            "location": "Santo Domingo, Dominican Republic",
+            "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7335893",
+            "team_id": "1"
+          }
+        },
+        "job_hgeGUd": {
+          "type": "job",
+          "settings": {
+            "job_title": "Gameday Operations Coordinator (Seasonal)",
+            "location": "New York, New York",
+            "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7367088",
+            "team_id": "1"
+          }
+        },
+        "job_Uz99Vk": {
+          "type": "job",
+          "settings": {
+            "job_title": "2026 MiLB ABS Tech (Seasonal)",
+            "location": "Multiple MiLB Markets",
+            "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7298674",
+            "team_id": "1"
+          }
+        },
+        "job_87c733": {
+          "type": "job",
+          "settings": {
+            "job_title": "Assistant, Minor League Operations & Development (Seasonal)",
+            "location": "New York, New York",
+            "apply_link": "#",
+            "team_id": "1"
+          }
+        }
+      },
+      "block_order": [
+        "team_rfFxzf",
+        "job_fmTU6B",
+        "job_UH8g4Q",
+        "job_hgeGUd",
+        "job_Uz99Vk",
+        "job_87c733"
+      ],
       "name": "Job Board",
       "settings": {
         "custom_class": "job_board",
