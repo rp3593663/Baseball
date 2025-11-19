@@ -703,6 +703,9 @@ input#jobSearch {
   .job_info span.location {
     font-size: 13px;
   }
+  .jobx_list a.btn {
+    width: fit-content;
+  }
   .job_info h5 {
     font-size: 18px;
   }
