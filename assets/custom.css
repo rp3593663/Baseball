@@ -554,9 +554,9 @@ span.appstle_subscribe_save_text {
     color: var(--red);
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 40px !important;
-    line-height: 140% !important;
-    margin-bottom: 20px !important;
+    font-size: 40px;
+    line-height: 140%;
+    margin-bottom: 15px;
 }
 .job {
     border: solid 1px #dcdcdc;
