@@ -538,9 +538,6 @@ span.appstle_subscribe_save_text {
     display: grid;
     gap: 30px;
 }
-.job_listing_title {
-    background: #dcdcdc;
-}
 .job_board_sidebar {
   position: sticky;
   top: 150px;
