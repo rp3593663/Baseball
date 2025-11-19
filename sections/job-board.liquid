@@ -75,7 +75,7 @@
                     <h2>Arizona Diamondbacks</h2>
                     <div class="jobx_list">
                         <p>Assistant, Minor League Operations and Development (Seasonal)</p>
-                        <p>Counsel, Dominican Republic</p>
+                        <p>Brazil Pitching Coach</p>
                         <p>Gameday Operations Coordinator (Seasonal)</p>
                         <p>2026 MiLB ABS Tech (Seasonal, Various minor league markets)</p>
                         <p>2026 MiLB Data Operations (Seasonal, Limited number of minor league markets)</p>
@@ -99,8 +99,8 @@
                     <h2>Atlanta Braves</h2>
                     <div class="jobx_list">
                         <p>Assistant, Minor League Operations and Development (Seasonal)</p>
-                        <p>Counsel, Dominican Republic</p>
-                        <p>Gameday Operations Coordinator (Seasonal)</p>
+                        <p>Brazil Pitching Coach</p>
+                        <p>Youth Academy Baseball Instructor (New Orleans, LA)</p>
                         <p>2026 MiLB ABS Tech (Seasonal, Various minor league markets)</p>
                         <p>2026 MiLB Data Operations (Seasonal, Limited number of minor league markets)</p>
                         <p>2026 MLB ABS Operator (Seasonal, Multiple MLB markets)</p>
@@ -116,7 +116,7 @@
                         <p>2026 MiLB ABS Tech (Seasonal, Various minor league markets)</p>
                         <p>2026 MiLB Data Operations (Seasonal, Limited number of minor league markets)</p>
                         <p>2026 MLB ABS Operator (Seasonal, Multiple MLB markets)</p>
-                        <p>2026 MLB Gameday Compliance Monitor (GCM, Seasonal, limited number of markets)</p>
+                        <p>Coordinator, Softball Instruction (New Orleans Youth Academy)</p>
                     </div>
                 </div>
             </div>
@@ -145,6 +145,43 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const searchInput = document.getElementById("jobSearch");
+    const jobBoxes = document.querySelectorAll(".job_box");
+
+    searchInput.addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+
+        jobBoxes.forEach(box => {
+            const jobItems = box.querySelectorAll(".jobx_list p");
+
+            let matchFound = false;
+
+            jobItems.forEach(job => {
+                const text = job.textContent.toLowerCase();
+
+                if (text.includes(query)) {
+                    job.style.display = "block";
+                    matchFound = true;
+                } else {
+                    job.style.display = "none";
+                }
+            });
+
+            // show/hide whole job box
+            if (matchFound || query === "") {
+                box.style.display = "block";
+            } else {
+                box.style.display = "none";
+            }
+        });
+    });
+
+});
+</script>
+
 
 
 {% schema %}
