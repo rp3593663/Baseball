@@ -165,7 +165,67 @@ document.addEventListener("DOMContentLoaded", function () {
 {% schema %}
 {
   "name": "Job Board",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (desktop)",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top (mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom (mobile)",
+      "default": 40
+    },
+    {
+      "type": "select",
+      "id": "container_width",
+      "label": "Container Width",
+      "default": "page-width",
+      "options": [
+        { "label": "Container", "value": "page-width" },
+        { "label": "Full Width", "value": "full-width" }
+      ]
+    }
+  ],
   "blocks": [
     {
       "type": "team",
