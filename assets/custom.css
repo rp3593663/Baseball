@@ -567,7 +567,13 @@ span.appstle_subscribe_save_text {
 }
 .job_info {
     display: grid;
-    gap: 10px;
+    gap: 6px;
+}
+.job_info h5 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 
