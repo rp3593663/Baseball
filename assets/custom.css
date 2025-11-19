@@ -575,6 +575,10 @@ span.appstle_subscribe_save_text {
     font-weight: 400;
     line-height: 150%;
 }
+.job_info span.location {
+    color: #999999;
+    font-weight: 500;
+}
 
 
 
