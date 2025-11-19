@@ -635,6 +635,11 @@ input#jobSearch {
     font-size: 13px;
   }
 }
+@media(max-width: 991px){
+  .site-nav.site-navigation{
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .home_richtext_about h2,
   .home_text_with_icon h2,
