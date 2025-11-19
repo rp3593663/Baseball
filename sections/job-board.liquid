@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const matches = title.includes(query) || location.includes(query);
 
         if (matches || query === "") {
-        job.style.display = window.innerWidth < 768 ? "block" : "flex";
+        job.style.display = window.innerWidth < 768 ? "grid" : "flex";
           boxHasMatch = true;
         } else {
           job.style.display = "none";
