@@ -561,6 +561,12 @@ span.appstle_subscribe_save_text {
     color: #ffffff;
     background: var(--red);
 }
+.job_search_wrapper {
+    background: #e9edf0;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
 .jobx_list {
     display: grid;
     gap: 15px;
