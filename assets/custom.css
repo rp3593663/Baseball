@@ -654,6 +654,10 @@ input#jobSearch {
     padding: 8px 15px;
     font-size: 15px;
   }
+  .job_board_sidebar {
+    position: relative;
+    top: unset;
+  }
 }
 @media(min-width: 992px){
   .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
