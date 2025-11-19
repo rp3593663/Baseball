@@ -639,6 +639,10 @@ input#jobSearch {
   .site-nav.site-navigation{
     display: none;
   }
+  .job_board_container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 @media(min-width: 992px){
   .site-nav__link.site-nav__link--icon.js-drawer-open-nav{
