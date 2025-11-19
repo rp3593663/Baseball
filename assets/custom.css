@@ -551,9 +551,19 @@ span.appstle_subscribe_save_text {
   cursor: pointer;
   padding: 8px 5px;
 }
+.job_listing_title li {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px 21px;
+    background: #e9edf0;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
 .job_listing_title li.active {
-  font-weight: bold;
-  color: #000;
+    font-weight: 600;
+    color: #ffffff;
+    background: var(--red);
 }
 .jobx_list {
     display: grid;
