@@ -12,10 +12,11 @@
 }
 
 .job_board_container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 30px;
 }
+
 .job_board_sidebar {
   position: sticky;
   top: 150px;
@@ -32,189 +33,174 @@
   font-weight: bold;
   color: #000;
 }
-
-
 {% endstyle %}
 
-<section id="job-board-{{ section.id }}" class="job-board-section {{ section.settings.custom_class }} ">
+<section id="job-board-{{ section.id }}" class="job-board-section {{ section.settings.custom_class }}">
   <div class="{{ section.settings.container_width }}">
     <div class="job_board_container">
-        <div class="job_board_sidebar">
-            <div class="sidebar_header">
-                <h5>All jobs Portal</h5>
-            </div>
-            <div class="sidebar_content">
-                <div class="job_listing_title">
-                    {% for block in section.blocks %}
-                        {% if block.type == 'team' %}
-                        <li class="{% if forloop.first %}active{% endif %}" 
-                            data-title="{{ block.settings.team_name | escape }}">
-                            {{ block.settings.team_name }}
-                        </li>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
+
+      <!-- Sidebar -->
+      <div class="job_board_sidebar">
+        <div class="sidebar_header">
+          <h5>All jobs Portal</h5>
         </div>
-        <div class="job_board_content">
-            <div class="job_search_wrapper" style="margin-bottom: 20px;">
-                <input type="text" id="jobSearch" placeholder="Search jobs..." 
-                        style="width: 100%; padding: 10px; font-size: 16px;">
-            </div>
-            <div class="all_jobs_block">
-                {% for block in section.blocks %}
-                    {% if block.type == "team" %}
-                    <div class="job_box" data-box="{{ block.settings.team_id }}">
-                        <h2>{{ block.settings.team_name }}</h2>
 
-                        <div class="jobx_list">
+        <div class="sidebar_content">
+          <div class="job_listing_title">
+            {% for block in section.blocks %}
+              {% if block.type == 'team' %}
+                <li 
+                  class="{% if forloop.first %}active{% endif %}" 
+                  data-title="{{ block.settings.team_id }}">
+                  {{ block.settings.team_name }}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
 
-                        {% for job in section.blocks %}
-                            {% if job.type == "job" and job.settings.team_id == block.settings.team_id %}
+      <!-- Content -->
+      <div class="job_board_content">
 
-                            <div class="job">
-                                <div class="job_info">
-                                <h5>{{ job.settings.job_title }}</h5>
-                                <span class="location">{{ job.settings.location }}</span>
-                                </div>
-                                <a href="{{ job.settings.apply_link }}" class="btn">Apply Now</a>
-                            </div>
+        <!-- Search -->
+        <div class="job_search_wrapper" style="margin-bottom: 20px;">
+          <input type="text" id="jobSearch" placeholder="Search jobs..." 
+            style="width: 100%; padding: 10px; font-size: 16px;">
+        </div>
 
-                            {% endif %}
-                        {% endfor %}
+        <!-- Teams + Jobs -->
+        <div class="all_jobs_block">
 
+          {% for team in section.blocks %}
+            {% if team.type == "team" %}
+
+              <div class="job_box" data-box="{{ team.settings.team_id }}">
+                <h2>{{ team.settings.team_name }}</h2>
+
+                <div class="jobx_list">
+
+                  {% for job in section.blocks %}
+                    {% if job.type == "job" and job.settings.team_id == team.settings.team_id %}
+
+                      <div class="job">
+                        <div class="job_info">
+                          <h5>{{ job.settings.job_title }}</h5>
+                          <span class="location">{{ job.settings.location }}</span>
                         </div>
-                    </div>
+                        <a href="{{ job.settings.apply_link }}" class="btn">Apply Now</a>
+                      </div>
+
                     {% endif %}
-                {% endfor %}
-            </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+
+            {% endif %}
+          {% endfor %}
 
         </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Sidebar Scroll Script -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const items = document.querySelectorAll(".job_listing_title li");
-    const jobBoxes = document.querySelectorAll(".job_box");
-    items.forEach(item => {
-        item.addEventListener("click", function () {
-            const target = this.getAttribute("data-title");
-            items.forEach(i => i.classList.remove("active"));
-            this.classList.add("active");
-            const box = document.querySelector(`.job_box[data-box="${target}"]`);
-            if (box) {
-                window.scrollTo({
-                    top: box.offsetTop - 150, 
-                    behavior: "smooth"
-                });
-            }
+  const items = document.querySelectorAll(".job_listing_title li");
+
+  items.forEach(item => {
+    item.addEventListener("click", function () {
+      const target = this.getAttribute("data-title");
+
+      items.forEach(i => i.classList.remove("active"));
+      this.classList.add("active");
+
+      const box = document.querySelector(`.job_box[data-box="${target}"]`);
+      if (box) {
+        window.scrollTo({
+          top: box.offsetTop - 150,
+          behavior: "smooth"
         });
+      }
     });
+  });
 });
 </script>
+
+<!-- Search Filter Script -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
-        const searchInput = document.getElementById("jobSearch");
-        const jobBoxes = document.querySelectorAll(".job_box");
+  const searchInput = document.getElementById("jobSearch");
+  const jobBoxes = document.querySelectorAll(".job_box");
 
-        searchInput.addEventListener("input", function () {
-            const query = this.value.toLowerCase().trim();
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase().trim();
 
-            jobBoxes.forEach(box => {
+    jobBoxes.forEach(box => {
+      const jobs = box.querySelectorAll(".job");
+      let boxHasMatch = false;
 
-                const jobs = box.querySelectorAll(".job");
-                let boxHasMatch = false;
+      jobs.forEach(job => {
+        const title = job.querySelector("h5").textContent.toLowerCase();
+        const location = job.querySelector(".location").textContent.toLowerCase();
 
-                jobs.forEach(job => {
+        const matches = title.includes(query) || location.includes(query);
 
-                    const title = job.querySelector("h5").textContent.toLowerCase();
-                    const location = job.querySelector(".location").textContent.toLowerCase();
+        if (matches || query === "") {
+          job.style.display = "flex";
+          boxHasMatch = true;
+        } else {
+          job.style.display = "none";
+        }
+      });
 
-                    // Check if search matches title OR location
-                    const matches = 
-                        title.includes(query) ||
-                        location.includes(query);
-
-                    if (matches || query === "") {
-                        job.style.display = "flex";  // show job
-                        boxHasMatch = true;
-                    } else {
-                        job.style.display = "none";  // hide job
-                    }
-                });
-
-                // Show/hide entire job box
-                if (boxHasMatch || query === "") {
-                    box.style.display = "block";
-                } else {
-                    box.style.display = "none";
-                }
-
-            });
-        });
-
+      box.style.display = boxHasMatch || query === "" ? "block" : "none";
     });
+  });
+});
 </script>
-
-
-
 
 {% schema %}
 {
   "name": "Job Board",
   "settings": [
-    {
-      "type": "text",
-      "id": "custom_class",
-      "label": "Custom CSS Class"
-    },
-    {
-      "type": "header",
-      "content": "Padding Settings"
-    },
+    { "type": "text", "id": "custom_class", "label": "Custom CSS Class" },
+
+    { "type": "header", "content": "Padding Settings" },
+
     {
       "type": "range",
       "id": "padding_top_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
+      "min": 0, "max": 200, "step": 2, "unit": "px",
       "label": "Padding Top (desktop)",
       "default": 60
     },
     {
       "type": "range",
       "id": "padding_bottom_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
+      "min": 0, "max": 200, "step": 2, "unit": "px",
       "label": "Padding Bottom (desktop)",
       "default": 60
     },
     {
       "type": "range",
       "id": "padding_top_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
+      "min": 0, "max": 200, "step": 2, "unit": "px",
       "label": "Padding Top (mobile)",
       "default": 40
     },
     {
       "type": "range",
       "id": "padding_bottom_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
+      "min": 0, "max": 200, "step": 2, "unit": "px",
       "label": "Padding Bottom (mobile)",
       "default": 40
     },
+
     {
       "type": "select",
       "id": "container_width",
@@ -226,57 +212,31 @@ document.addEventListener("DOMContentLoaded", function () {
       ]
     }
   ],
+
   "blocks": [
     {
       "type": "team",
       "name": "Team",
       "settings": [
-        {
-          "type": "text",
-          "id": "team_name",
-          "label": "Team Name"
-        },
-        {
-          "type": "text",
-          "id": "team_id",
-          "label": "Team ID (no spaces, ex: atlanta-braves)"
-        }
+        { "type": "text", "id": "team_name", "label": "Team Name" },
+        { "type": "text", "id": "team_id", "label": "Team ID (ex: atlanta-braves)" }
       ]
     },
+
     {
       "type": "job",
       "name": "Job",
       "settings": [
-        {
-          "type": "text",
-          "id": "job_title",
-          "label": "Job Title"
-        },
-        {
-          "type": "text",
-          "id": "location",
-          "label": "Location"
-        },
-        {
-          "type": "url",
-          "id": "apply_link",
-          "label": "Apply Link"
-        },
-        {
-          "type": "text",
-          "id": "team_id",
-          "label": "Team ID (must match a Team block’s team_id)"
-        }
+        { "type": "text", "id": "job_title", "label": "Job Title" },
+        { "type": "text", "id": "location", "label": "Location" },
+        { "type": "url", "id": "apply_link", "label": "Apply Link" },
+        { "type": "text", "id": "team_id", "label": "Team ID (must match a Team block’s team_id)" }
       ]
     }
   ],
 
   "presets": [
-    {
-      "name": "Job Board"
-    }
+    { "name": "Job Board" }
   ]
 }
 {% endschema %}
-
-
