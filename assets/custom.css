@@ -690,6 +690,9 @@ input#jobSearch {
     margin-bottom: 15px;
     padding: 12px;
   }
+  .job_search_wrapper h3 {
+    font-size: 20px;
+  }
   .job_listing_title li {
     padding: 6px 12px;
     font-size: 13px;
