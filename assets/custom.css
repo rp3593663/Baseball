@@ -565,6 +565,10 @@ span.appstle_subscribe_save_text {
     justify-content: space-between;
     padding: 10px 20px;
 }
+.job_info {
+    display: grid;
+    gap: 10px;
+}
 
 
 
