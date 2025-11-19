@@ -615,6 +615,11 @@ input#jobSearch {
 
 
 
+
+.about_text_with_icon .text-with-icons__block {
+    width: calc(25% - 20px);
+}
+
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .membership-pricing-wrapper {
     gap: 10px;
