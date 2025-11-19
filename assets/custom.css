@@ -558,6 +558,13 @@ span.appstle_subscribe_save_text {
     line-height: 140% !important;
     margin-bottom: 20px !important;
 }
+.job {
+    border: solid 1px #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 
 
 
