@@ -677,6 +677,12 @@ input#jobSearch {
 .about_vision_mission .text-with-icons__blocks {
     gap: 50px;
 }
+.index-section:has(.about_vision_mission) {
+    margin: -70px 0px 60px;
+    z-index: 5;
+    position: relative;
+}
+
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
