@@ -677,6 +677,11 @@ input#jobSearch {
     padding: 20px;
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
 }
+.about_vision_mission h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .about_vision_mission .text-with-icons__block-text p {
     margin-bottom: 10px;
 }
