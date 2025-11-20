@@ -729,15 +729,6 @@ input#jobSearch {
   .home_text_with_icon .text-with-icons__block {
     width: calc(33% - 20px);
   }
-  .about_text_with_icon .text-with-icons__block {
-    width: calc(50% - 20px);
-  }
-  .about_text_with_icon .text-with-icons__block:nth-child(2n) {
-    transform: translateY(0px);
-  }
-  .text-with-icons.about_text_with_icon {
-    margin-bottom: 0;
-  }
   .membership-pricing-wrapper {
     gap: 10px;
   }
@@ -758,6 +749,15 @@ input#jobSearch {
   }
 }
 @media(max-width: 991px){
+  .about_text_with_icon .text-with-icons__block {
+    width: calc(50% - 20px);
+  }
+  .about_text_with_icon .text-with-icons__block:nth-child(2n) {
+    transform: translateY(0px);
+  }
+  .text-with-icons.about_text_with_icon {
+    margin-bottom: 0;
+  }
   .site-nav.site-navigation{
     display: none;
   }
