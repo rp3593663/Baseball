@@ -709,6 +709,16 @@ input#jobSearch {
     text-align: center;
     font-size: 17px;
 }
+.about_contact form {
+    max-width: 700px;
+    margin: auto;
+}
+.about_contact form input, 
+.about_contact form select, 
+.about_contact form textarea {
+    margin-bottom: 20px;
+    background: #FFF;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
