@@ -150,6 +150,51 @@
         "section_height": "650px",
         "mobile_height": "auto"
       }
+    },
+    "text_with_icons_mY9pMM": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_qjWhyb": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        },
+        "text_block_3CtVg3": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        },
+        "text_block_BCfehV": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qjWhyb",
+        "text_block_3CtVg3",
+        "text_block_BCfehV"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "custom_class": "about_vision_mission",
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 2,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -157,6 +202,7 @@
     "blocks_G36LVh",
     "advanced_content_WPjAaU",
     "text_with_icons_rEe9zw",
-    "hero_video_yLyNVU"
+    "hero_video_yLyNVU",
+    "text_with_icons_mY9pMM"
   ]
 }
