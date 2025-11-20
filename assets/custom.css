@@ -826,6 +826,7 @@ input#jobSearch {
   }
   .about_text_with_icon .text-with-icons__block {
     width: calc(50% - 6px);
+    padding: 12px;
   }
   .home_connect h2 {
     margin-bottom: 15px!important;
