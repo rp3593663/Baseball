@@ -286,6 +286,16 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "contact_form_Xw4Hbf": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.contact_form.name",
+      "settings": {
+        "title": "Ready to Take Your Baseball Career Further?",
+        "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>",
+        "show_phone": true,
+        "narrow_column": true
+      }
     }
   },
   "order": [
@@ -296,6 +306,7 @@
     "hero_video_yLyNVU",
     "text_with_icons_mY9pMM",
     "rich_text_RGJqHW",
-    "text_with_icons_THFthy"
+    "text_with_icons_THFthy",
+    "contact_form_Xw4Hbf"
   ]
 }
