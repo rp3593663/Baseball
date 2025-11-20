@@ -829,6 +829,9 @@ input#jobSearch {
     padding: 12px;
     justify-content: flex-start;
   }
+  .about_vision_mission .text-with-icons__blocks {
+    gap: 24px;
+  }
   .about_video_task h2 .animation-contents {
     font-size: 30px;
     margin-bottom: 12px;
@@ -837,6 +840,14 @@ input#jobSearch {
   .about_video_task .hero__subtitle .animation-contents {
     margin-top: 0px;
     font-size: 13px;
+  }
+  .about_video_task .hero__subtitle .animation-contents {
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    max-width: 800px;
+    margin-top: 0px;
+    font-size: 13px;
+    letter-spacing: .2px;
   }
   .about_text_with_icon h3 {
     font-size: 18px;
