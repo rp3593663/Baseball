@@ -832,6 +832,9 @@ input#jobSearch {
   .about_vision_mission .text-with-icons__blocks {
     gap: 24px;
   }
+  .about_vision_mission .text-with-icons__block {
+    padding: 20px 15px;
+  }
   .about_video_task h2 .animation-contents {
     font-size: 30px;
     margin-bottom: 12px;
