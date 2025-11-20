@@ -634,7 +634,6 @@ input#jobSearch {
 }
 .about_text_with_icon .text-with-icons__blocks {
     gap: 25px;
-    flex-wrap: unset;
 }
 .about_text_with_icon p {
   margin-bottom: 0px;
