@@ -138,6 +138,7 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
+        "custom_class": "about_video_task",
         "title": "Elevating the Experience for the Baseball Community",
         "title_size": 80,
         "subheading": "Led by founder Tyrone Brooks, BIN has empowered thousands to make meaningful industry connections and find new opportunities through its partnership groups, online communities and in-person meetups at select gatherings throughout the year.",
