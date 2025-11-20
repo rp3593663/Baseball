@@ -630,7 +630,7 @@ input#jobSearch {
     padding: 20px;
 }
 .about_text_with_icon .text-with-icons__block:nth-child(even) {
-    margin-top: 40px;
+    transform: translateY(40px);
 }
 .about_text_with_icon .text-with-icons__blocks {
     gap: 25px;
