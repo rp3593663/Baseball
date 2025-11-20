@@ -181,7 +181,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 2,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false
@@ -291,6 +291,7 @@
       "type": "contact-form",
       "name": "t:sections.contact-form.presets.contact_form.name",
       "settings": {
+        "custom_class": "about_contact",
         "title": "Ready to Take Your Baseball Career Further?",
         "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>",
         "show_phone": true,
