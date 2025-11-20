@@ -812,6 +812,9 @@ input#jobSearch {
     font-size: 13px;
     line-height: 20px;
   }
+  .home_connect h2 {
+    margin-bottom: 15px!important;
+  }
   .jobx_list {
     display: grid;
     gap: 10px;
