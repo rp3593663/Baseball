@@ -695,10 +695,12 @@ input#jobSearch {
     z-index: 5;
     position: relative;
 }
+.index-section:has(.about_contact) {
+  margin-bottom: 0px!important;
+}
 .about_contact {
     background: #e9edf0;
     padding: 60px 0px;
-    margin-bottom: 0px!important;
 }
 .about_contact h2.section-header__title {
     font-size: 40px;
