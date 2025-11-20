@@ -829,6 +829,10 @@ input#jobSearch {
     padding: 12px;
     justify-content: flex-start;
   }
+  .about_vision_mission .text-with-icons__block {
+    width: 100%;
+    padding: 20px 15px;
+  }
   .about_vision_mission .text-with-icons__blocks {
     gap: 15px;
   }
