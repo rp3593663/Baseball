@@ -650,6 +650,10 @@ input#jobSearch {
 .about_text_with_icon .text-with-icons__block:nth-child(2) {
     background-image: radial-gradient(at top left, var(--secondary_color) 0%, var(--primary_color) 100%);
 }
+.about_text_with_icon .text-with-icons__block:nth-child(2) h3,
+.about_text_with_icon .text-with-icons__block:nth-child(2) p {
+    color: #FFF;
+}
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .membership-pricing-wrapper {
