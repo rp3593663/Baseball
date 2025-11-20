@@ -625,10 +625,6 @@ input#jobSearch {
     font-weight: 500;
     margin-bottom: 0;
 }
-.about_text_with_icon .text-with-icons__block {
-    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
 .about_text_with_icon .text-with-icons__block:nth-child(even) {
     transform: translateY(40px);
 }
@@ -641,6 +637,12 @@ input#jobSearch {
     text-align: center;
     margin-bottom: 10px;
     line-height: 140%;
+}
+.about_text_with_icon .text-with-icons__block {
+    box-shadow: 0 30px 60px #0000001a;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
