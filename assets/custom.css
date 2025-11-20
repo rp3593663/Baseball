@@ -698,7 +698,7 @@ input#jobSearch {
 .about_contact {
     background: #e9edf0;
     padding: 60px 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px!important;
 }
 .about_contact h2.section-header__title {
     font-size: 40px;
