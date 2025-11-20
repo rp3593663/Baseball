@@ -632,6 +632,9 @@ input#jobSearch {
     gap: 25px;
     flex-wrap: unset;
 }
+.about_text_with_icon p {
+  margin-bottom: 0px;
+}
 .about_text_with_icon h3 {
     font-size: 24px;
     text-align: center;
@@ -643,6 +646,9 @@ input#jobSearch {
     padding: 20px;
     align-items: center;
     justify-content: center;
+}
+.about_text_with_icon .text-with-icons__block:nth-child(2) {
+    background-image: radial-gradient(at top left, var(--red) 0%, var(--primary_color) 100%);
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
