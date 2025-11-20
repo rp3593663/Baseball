@@ -758,6 +758,7 @@ input#jobSearch {
   .text-with-icons.about_text_with_icon {
     margin-bottom: 0;
   }
+  
   .site-nav.site-navigation{
     display: none;
   }
@@ -812,6 +813,12 @@ input#jobSearch {
   .elite-content p {
     font-size: 13px;
     line-height: 20px;
+  }
+  .about_text_with_icon .text-with-icons__blocks {
+    gap: 12px;
+  }
+  .about_text_with_icon .text-with-icons__block {
+    width: calc(50% - 6px);
   }
   .home_connect h2 {
     margin-bottom: 15px!important;
