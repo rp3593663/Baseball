@@ -832,6 +832,9 @@ input#jobSearch {
     font-size: 18px;
     margin-bottom: 10px;
   }
+  .about_text_with_icon p {
+    font-size: 12px;
+  }
   .home_connect h2 {
     margin-bottom: 15px!important;
   }
