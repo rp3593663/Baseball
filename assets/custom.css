@@ -811,9 +811,13 @@ input#jobSearch {
   .membership-card-desc,
   .video-desc,
   .elite-description,
-  .elite-content p {
+  .elite-content p,
+  .about_contact .section-header__rte p {
     font-size: 13px;
     line-height: 20px;
+  }
+  .about_contact .section-header__rte {
+    margin-top: 12px;
   }
   .about_text_with_icon .text-with-icons__blocks {
     gap: 12px;
