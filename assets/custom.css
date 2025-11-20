@@ -817,6 +817,9 @@ input#jobSearch {
   .about_text_with_icon .text-with-icons__blocks {
     gap: 12px;
   }
+  .about_text_with_icon .text-with-icons__block-icon {
+    margin-bottom: 5px;
+  }
   .about_text_with_icon .text-with-icons__block {
     width: calc(50% - 6px);
   }
