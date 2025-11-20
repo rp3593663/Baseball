@@ -157,17 +157,17 @@
         "text_block_qjWhyb": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "globe",
+            "title": "Mission",
+            "text": "<p>To empower, connect, and support professionals across all levels of the baseball industry by providing access to opportunities, mentorship, and community.</p><p>BIN fosters a diverse and inclusive network that champions career development, collaboration, and the continued growth of the game.</p>"
           }
         },
         "text_block_3CtVg3": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+            "icon": "charity",
+            "title": "Vision",
+            "text": "<p>The Baseball Industry Network aims to be the leading platform for career growth, connection, and inclusion within the baseball world.</p><p>By fostering access, mentorship, and community across all levels of the game, BIN empowers its members to shape the future of the sport.</p><p>Through innovation, collaboration, and a commitment to diversity, BIN will unify professionals and elevate the industry—on and off the field.</p>"
           }
         }
       },
