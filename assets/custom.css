@@ -822,6 +822,9 @@ input#jobSearch {
   .about_contact .section-header__rte {
     margin-top: 12px;
   }
+  .about_contact {
+    padding: 30px 0;
+  }
   label, .label-info {
     margin-bottom: 5px;
   }
