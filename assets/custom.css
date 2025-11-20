@@ -822,6 +822,9 @@ input#jobSearch {
   .about_contact .section-header__rte {
     margin-top: 12px;
   }
+  label, .label-info {
+    margin-bottom: 5px;
+  }
   .about_text_with_icon .text-with-icons__blocks {
     gap: 12px;
   }
