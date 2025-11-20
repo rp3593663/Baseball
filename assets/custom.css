@@ -816,6 +816,9 @@ input#jobSearch {
     font-size: 13px;
     line-height: 20px;
   }
+  .about_contact form input, .about_contact form select, .about_contact form textarea {
+    margin-bottom: 12px;
+  }
   .about_contact .section-header__rte {
     margin-top: 12px;
   }
