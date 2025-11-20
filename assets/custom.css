@@ -699,11 +699,15 @@ input#jobSearch {
     background: #e9edf0;
     padding: 60px 0px;
 }
-h2.section-header__title {
+.about_contact h2.section-header__title {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
+}
+.about_contact .section-header p {
+    text-align: center;
+    font-size: 17px;
 }
 
 
