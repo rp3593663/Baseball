@@ -729,6 +729,9 @@ input#jobSearch {
   .home_text_with_icon .text-with-icons__block {
     width: calc(33% - 20px);
   }
+  .about_text_with_icon .text-with-icons__block {
+    width: calc(50% - 20px);
+  }
   .membership-pricing-wrapper {
     gap: 10px;
   }
