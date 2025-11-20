@@ -672,7 +672,7 @@ input#jobSearch {
     letter-spacing: 0.2px;
 }
 .about_vision_mission .text-with-icons__block {
-    width: calc(50% - 20px);
+    width: calc(50% - 25px);
 }
 .about_vision_mission .text-with-icons__blocks {
     gap: 50px;
