@@ -828,6 +828,10 @@ input#jobSearch {
     width: calc(50% - 6px);
     padding: 12px;
   }
+  .about_text_with_icon h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
   .home_connect h2 {
     margin-bottom: 15px!important;
   }
