@@ -629,6 +629,13 @@ input#jobSearch {
     box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
+.about_text_with_icon .text-with-icons__block:nth-child(even) {
+    margin-top: 40px;
+}
+.about_text_with_icon .text-with-icons__blocks {
+    gap: 25px;
+    flex-wrap: unset;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
