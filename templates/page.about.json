@@ -169,20 +169,11 @@
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
           }
-        },
-        "text_block_BCfehV": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
-          }
         }
       },
       "block_order": [
         "text_block_qjWhyb",
-        "text_block_3CtVg3",
-        "text_block_BCfehV"
+        "text_block_3CtVg3"
       ],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
