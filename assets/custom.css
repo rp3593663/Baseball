@@ -657,6 +657,9 @@ input#jobSearch {
 .about_text_with_icon .text-with-icons__block:nth-child(2) svg path {
     stroke: #FFF!important;
 }
+.text-with-icons.about_text_with_icon {
+    margin-bottom: 120px;
+}
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .membership-pricing-wrapper {
