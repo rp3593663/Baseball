@@ -798,7 +798,8 @@ input#jobSearch {
   .home_newsletter p.h2,
   .video-title,
   .elite-title,
-  .about_text_with_icon h2 {
+  .about_text_with_icon h2,
+  .about_contact h2.section-header__title {
     font-size: 30px!important;
     line-height: 42px!important;
   }
