@@ -635,8 +635,14 @@ input#jobSearch {
 .about_text_with_icon .text-with-icons__blocks {
     gap: 25px;
     flex-wrap: unset;
+    align-items: baseline;
 }
-
+.about_text_with_icon h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 140%;
+}
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .membership-pricing-wrapper {
