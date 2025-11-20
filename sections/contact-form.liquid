@@ -1,4 +1,4 @@
-<div class="index-section">
+<div class="index-section {{ section.settings.custom_class }}">
   <div class="page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
     {%- if section.settings.title != blank -%}
       <div class="section-header">
@@ -66,6 +66,11 @@
   "name": "t:sections.contact-form.name",
   "class": "index-section",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
     {
       "type": "paragraph",
       "content": "t:sections.contact-form.settings.content"
