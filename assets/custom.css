@@ -635,7 +635,6 @@ input#jobSearch {
 .about_text_with_icon .text-with-icons__blocks {
     gap: 25px;
     flex-wrap: unset;
-    align-items: baseline;
 }
 .about_text_with_icon h3 {
     font-size: 24px;
