@@ -223,6 +223,69 @@
         "divider": false,
         "custom_class": "home_richtext_about"
       }
+    },
+    "text_with_icons_THFthy": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_KqiJt7": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Year 1 Growth Target",
+            "text": "<p>Secure 1,000–2,500+ paid members through structured outreach, a founding member campaign, and targeted marketing.</p>"
+          }
+        },
+        "text_block_Trgj8p": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "E-Commerce Platform",
+            "text": "<p>Build a BIN-branded online store to offer welcome kits, seasonal merchandise, and co-branded collaborations.</p>"
+          }
+        },
+        "text_block_iQz93X": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Members Only Portal",
+            "text": "<p>Create a password-protected platform that integrates with BIN’s existing LinkedIn presence while providing a private, elevated community experience.</p>"
+          }
+        },
+        "text_block_QJftRg": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "Corporate Sponsorship & Partnerships",
+            "text": "<p>Develop partnerships with MLB clubs, suppliers, and vendors to offer exclusive discounts, job opportunities, and sponsorship revenue.</p>"
+          }
+        },
+        "text_block_QFCpfk": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Dei Alignment",
+            "text": "<p>Tie program success to measurable workforce diversity outcomes, including internship placements, new hires, and career advancement stories.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KqiJt7",
+        "text_block_Trgj8p",
+        "text_block_iQz93X",
+        "text_block_QJftRg",
+        "text_block_QFCpfk"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "custom_class": "home_text_with_icon",
+        "title": "Why Join the Baseball Industry Network?",
+        "align_text": "center",
+        "desktop_columns_per_row": 5,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -232,6 +295,7 @@
     "text_with_icons_rEe9zw",
     "hero_video_yLyNVU",
     "text_with_icons_mY9pMM",
-    "rich_text_RGJqHW"
+    "rich_text_RGJqHW",
+    "text_with_icons_THFthy"
   ]
 }
