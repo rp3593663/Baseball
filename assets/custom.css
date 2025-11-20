@@ -695,7 +695,10 @@ input#jobSearch {
     z-index: 5;
     position: relative;
 }
-
+.about_contact {
+    background: #e9edf0;
+    padding: 60px 0px;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
