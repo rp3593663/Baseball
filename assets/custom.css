@@ -973,6 +973,9 @@ h2.event_title {
     font-size: 22px;
     margin-bottom: 8px;
   }
+  .key-benefits-grid>div {
+    gap: 12px;
+  }
   .all_events_block .events_header {
     margin-bottom: 30px;
   }
@@ -993,7 +996,7 @@ h2.event_title {
   }
   .key-benefits-grid {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
   }
   .event-item {
     grid-template-columns: 1fr;
