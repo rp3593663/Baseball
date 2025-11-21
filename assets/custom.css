@@ -756,7 +756,11 @@ input#jobSearch {
     object-fit: cover;
 }
 .event_content {
-    padding: 40px;
+    padding: 30px;
+}
+.events_info {
+    padding: 30px 20px;
+    background: var(--red);
 }
 
 
