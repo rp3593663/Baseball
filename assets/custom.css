@@ -879,6 +879,17 @@ h2.event_title {
     background: #e9edf0;
     padding: 15px 20px;
 }
+.faqs_page .collapsible-trigger--inline .collapsible-trigger__icon {
+    left: auto;
+    right: 0;
+}
+.faqs_page button.collapsible-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 25px 10px 0px;
+}
 
 
 
