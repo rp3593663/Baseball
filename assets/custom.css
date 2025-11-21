@@ -785,6 +785,10 @@ input#jobSearch {
 .event_meta p{
   margin-bottom: 0px;
 }
+.event_meta p a {
+    color: var(--white);
+    text-decoration: underline;
+}
 .event_meta svg {
     min-width: 20px;
     height: 20px;
