@@ -817,7 +817,7 @@ h2.event_title {
 }
 .key-benefits-grid {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;;
 }
 .key-benefit-item {
@@ -832,9 +832,8 @@ h2.event_title {
 .center-box {
   background: #000;
   padding: 40px 30px;
-  border-radius: 20px;
-  color: #fff;
-  max-width: 420px;
+  border-radius: 0px;
+  color: var(--white);
   text-align: left;
 }
 .center-box h2 {
