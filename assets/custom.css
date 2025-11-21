@@ -969,6 +969,9 @@ h2.event_title {
   .events_info {
     padding: 15px 12px;
   }
+  .event_cost {
+    font-size: 32px;
+  }
   h2.event_title {
     font-size: 25px;
     margin-bottom: 5px;
