@@ -67,14 +67,15 @@
         "event_knL9cc": {
           "type": "event",
           "settings": {
-            "event_title": "",
-            "event_description": "",
-            "event_date": "",
-            "event_location": "",
-            "event_contact": "",
-            "event_cost": "",
+            "event_image": "shopify://shop_images/baseball_meeting2.png",
+            "event_title": "MLB Workforce Development Career Networking Reception",
+            "event_description": "A networking and job-fair style event designed for emerging talent pursuing baseball operations roles.\nAll 30 MLB clubs and the Office of the Commissioner participate.\nOver 300 participants attended in 2024, with expectations of over 500 this year.\nCandidate resumes are collected and shared with teams in advance to assist hiring managers.",
+            "event_date": "Monday, December 8, 2025, 8 AM – 11 AM ET",
+            "event_location": "Waldorf Astoria Orlando (Grand Ballroom)",
+            "event_contact": "Tyrone Brooks (Tyrone.Brooks@mlb.com)",
+            "event_cost": "Free",
             "button_label": "Learn More",
-            "button_link": ""
+            "button_link": "https://www.eventbrite.com/e/2025-mlb-workforce-development-career-networking-reception-tickets-1925367157999"
           }
         },
         "event_QgcpnV": {
