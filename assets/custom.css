@@ -958,7 +958,9 @@ h2.event_title {
   .elite-content p,
   .about_contact .section-header__rte p,
   .all_events_block .events_header p,
-  .event_desc p {
+  .event_desc p,
+  .event_meta,
+  .event_meta p {
     font-size: 13px;
     line-height: 20px;
   }
