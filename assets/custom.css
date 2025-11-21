@@ -852,6 +852,12 @@ h2.event_title {
 .center-box .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
     background: var(--red) var(--urlButtonArrowPng) no-repeat 150% 35%!important;
 }
+.key-benefits-grid > div {
+    display: grid;
+    gap: 20px;
+}
+
+
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
