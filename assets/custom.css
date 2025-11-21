@@ -762,6 +762,9 @@ input#jobSearch {
 .events_info {
     padding: 20px;
     background: var(--red);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .event_cost {
     color: #FFF;
