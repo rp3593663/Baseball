@@ -742,6 +742,15 @@ input#jobSearch {
 .all_events_block .events_header {
     margin-bottom: 40px;
 }
+.event-item {
+    box-shadow: 0 30px 60px #0000001a;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.events-wrapper {
+    display: grid;
+    gap: 30px;
+}
 
 
 
