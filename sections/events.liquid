@@ -25,52 +25,44 @@
     <div class="events-wrapper">
       {% for block in section.blocks %}
         <div class="event-item">
+            <div class="event-image">
+                {% if block.settings.event_image %}
+                <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
+                {% endif %}
+            </div>
+            <div class="event-content">
+                <h2 class="event-title">{{ block.settings.event_title }}</h2>
+                {% if block.settings.event_description %}
+                <p class="event-desc">{{ block.settings.event_description }}</p>
+                {% endif %}
+            </div>
+            <div class="events-info">
+                <ul class="event-meta">
+                {% if block.settings.event_date %}
+                    <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
+                {% endif %}
 
-          <!-- Image First -->
-          <div class="event-image">
-            {% if block.settings.event_image %}
-              <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
-            {% endif %}
+                {% if block.settings.event_location %}
+                    <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
+                {% endif %}
+
+                {% if block.settings.event_contact %}
+                    <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
+                {% endif %}
+
+                {% if block.settings.event_cost %}
+                    <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
+                {% endif %}
+                </ul>
+
+                {% if block.settings.button_label %}
+                <a href="{{ block.settings.button_link }}" class="event-btn">
+                    {{ block.settings.button_label }}
+                </a>
+                {% endif %}
+
+            </div>
           </div>
-
-          <!-- Event Content -->
-          <div class="event-content">
-
-            <h2 class="event-title">{{ block.settings.event_title }}</h2>
-
-            {% if block.settings.event_description %}
-              <p class="event-desc">{{ block.settings.event_description }}</p>
-            {% endif %}
-        </div>
-<div class="events-info">
-
-            <ul class="event-meta">
-              {% if block.settings.event_date %}
-                <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
-              {% endif %}
-
-              {% if block.settings.event_location %}
-                <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
-              {% endif %}
-
-              {% if block.settings.event_contact %}
-                <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
-              {% endif %}
-
-              {% if block.settings.event_cost %}
-                <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
-              {% endif %}
-            </ul>
-
-            {% if block.settings.button_label %}
-              <a href="{{ block.settings.button_link }}" class="event-btn">
-                {{ block.settings.button_label }}
-              </a>
-            {% endif %}
-
-        </div>
-          </div>
-
         </div>
       {% endfor %}
     </div>
