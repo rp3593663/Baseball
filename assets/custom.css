@@ -766,8 +766,9 @@ input#jobSearch {
 .event_cost {
     color: #FFF;
     font-family: var(--heading_font_family);
-    font-size: 45px;
+    font-size: 38px;
     line-height: 100%;
+    text-transform: uppercase;
 }
 .event_desc p {
     margin-bottom: 0px;
