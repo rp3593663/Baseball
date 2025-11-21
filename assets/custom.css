@@ -763,6 +763,12 @@ input#jobSearch {
     padding: 30px 20px;
     background: var(--red);
 }
+.event_cost {
+    color: #FFF;
+    font-family: var(--heading_font_family);
+    font-size: 45px;
+    line-height: 100%;
+}
 
 
 
