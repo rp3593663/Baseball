@@ -102,10 +102,10 @@
       "settings": {
         "custom_class": "all_events_block",
         "bg_color": "#ffffff",
-        "padding_top_desktop": 80,
-        "padding_bottom_desktop": 80,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
+        "padding_top_desktop": 60,
+        "padding_bottom_desktop": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     },
     "member_benefits_grid_3mhC4T": {
@@ -171,10 +171,10 @@
         "button_link": "",
         "button_color": "#7CFFB2",
         "bg_color": "#ffffff",
-        "padding_top_desktop": 80,
-        "padding_bottom_desktop": 80,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
+        "padding_top_desktop": 60,
+        "padding_bottom_desktop": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
       }
     }
   },
