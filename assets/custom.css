@@ -1013,6 +1013,10 @@ h2.event_title {
   .faqs_page .rte.collapsible-content__inner--faq {
     padding-bottom: 18px;
   }
+  .faqs_page .rte.collapsible-content__inner--faq p {
+    padding-bottom: 18px;
+    font-size: 13px!important;
+  }
   .index-section--faq .h2 {
     font-size: 20px;
     padding: 10px 12px;
