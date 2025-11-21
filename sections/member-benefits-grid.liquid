@@ -1,81 +1,209 @@
 {% style %}
-  .key-benefits-section {
-    background-color: {{ section.settings.bg_color }};
+  .key-benefits-wrapper {
     padding-top: {{ section.settings.padding_top_desktop }}px;
     padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+    background: {{ section.settings.bg_color }};
   }
 
   @media (max-width: 767px) {
-    .key-benefits-section {
+    .key-benefits-wrapper {
       padding-top: {{ section.settings.padding_top_mobile }}px;
       padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
     }
   }
+
+  .key-benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .key-benefit-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .key-benefit-item img {
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+  }
+
+  .center-box {
+    background: #000;
+    padding: 40px 30px;
+    border-radius: 20px;
+    color: #fff;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .center-box h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .center-box p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .center-box a {
+    display: inline-block;
+    background: {{ section.settings.button_color }};
+    color: #000;
+    padding: 12px 22px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    .key-benefits-grid {
+      grid-template-columns: 1fr;
+    }
+    .center-box {
+      margin: 20px auto;
+      max-width: 100%;
+    }
+  }
 {% endstyle %}
 
-<section class="key-benefits-section {{ section.settings.custom_class }}">
+<section class="key-benefits-wrapper">
   <div class="page-width">
-   
+    <div class="key-benefits-grid">
+      <!-- LEFT COLUMN -->
+      <div>
+        {% for block in section.blocks %}
+          {% if block.type == 'benefit_left' %}
+            <div class="key-benefit-item">
+              {% if block.settings.icon != blank %}
+                <img src="{{ block.settings.icon | img_url: '50x50' }}" alt="">
+              {% endif %}
+              <div>
+                <h4>{{ block.settings.title }}</h4>
+                <p>{{ block.settings.text }}</p>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- CENTER CONTENT -->
+      <div class="center-box">
+        {% if section.settings.center_label != blank %}
+          <div class="center-label">{{ section.settings.center_label }}</div>
+        {% endif %}
+
+        <h2>{{ section.settings.center_heading }}</h2>
+        <p>{{ section.settings.center_text }}</p>
+
+        {% if section.settings.button_label != blank %}
+          <a href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+        {% endif %}
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div>
+        {% for block in section.blocks %}
+          {% if block.type == 'benefit_right' %}
+            <div class="key-benefit-item">
+              {% if block.settings.icon != blank %}
+                <img src="{{ block.settings.icon | img_url: '50x50' }}" alt="">
+              {% endif %}
+              <div>
+                <h4>{{ block.settings.title }}</h4>
+                <p>{{ block.settings.text }}</p>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 
 {% schema %}
 {
-  "name": "Key Benefits",
+  "name": "Key Benefits - Pro Layout",
   "settings": [
+    { "type": "text", "id": "center_label", "label": "Top Label", "default": "— WHY US —" },
+    { "type": "text", "id": "center_heading", "label": "Heading", "default": "More Than Just a Membership" },
     {
-      "type": "text",
-      "id": "custom_class",
-      "label": "Custom CSS Class"
+      "type": "textarea",
+      "id": "center_text",
+      "label": "Description",
+      "default": "Your community, your support, your success."
     },
+    { "type": "text", "id": "button_label", "label": "Button Label", "default": "Explore Membership" },
+    { "type": "url", "id": "button_link", "label": "Button Link" },
 
-    {
-      "type": "color",
-      "id": "bg_color",
-      "label": "Background Color",
-      "default": "#ffffff"
-    },
+    { "type": "color", "id": "button_color", "label": "Button Color", "default": "#7CFFB2" },
+    { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#ffffff" },
+
     {
       "type": "range",
       "id": "padding_top_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 5,
       "label": "Padding Top (Desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
       "default": 80
     },
     {
       "type": "range",
       "id": "padding_bottom_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 5,
       "label": "Padding Bottom (Desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
       "default": 80
     },
     {
       "type": "range",
       "id": "padding_top_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 5,
       "label": "Padding Top (Mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
       "default": 40
     },
     {
       "type": "range",
       "id": "padding_bottom_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 5,
       "label": "Padding Bottom (Mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
       "default": 40
     }
   ],
-  "presets": [
+
+  "blocks": [
     {
-      "name": "Key Benefits"
+      "type": "benefit_left",
+      "name": "Left Benefit Item",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "text", "label": "Description" }
+      ]
+    },
+
+    {
+      "type": "benefit_right",
+      "name": "Right Benefit Item",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "text", "label": "Description" }
+      ]
     }
-  ]
+  ],
+
+  "presets": [{ "name": "Key Benefits - Pro Layout" }]
 }
 {% endschema %}
