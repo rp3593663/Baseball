@@ -16,8 +16,9 @@
 <section class="events-section {{ section.settings.custom_class }}">
   <div class="page-width">
     <div class="events_header">
-      <h2>Upcoming MLB Development Events</h2>
+      <h2>{{ section.settings.heading }}Upcoming MLB Development Events</h2>
       <p>
+        {{  section.settings.description }}
         Explore our lineup of professional development and networking events designed to support emerging baseball
         operations talent and connect future leaders with MLB organizations.
       </p>
@@ -89,7 +90,16 @@
       "id": "custom_class",
       "label": "Custom CSS Class"
     },
-
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
     {
       "type": "color",
       "id": "bg_color",
