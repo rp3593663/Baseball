@@ -977,9 +977,12 @@ h2.event_title {
     font-size: 22px;
     margin-bottom: 8px;
   }
+  .center-box{
+    padding: 20px;
+  }
   .key-benefits-grid>div {
     gap: 12px;
-    padding: 20px;
+    padding: 0px;
   }
   .center-box h2 {
     font-size: 30px;
