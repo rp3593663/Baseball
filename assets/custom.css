@@ -742,6 +742,10 @@ input#jobSearch {
 .all_events_block .events_header {
     margin-bottom: 40px;
 }
+.events-wrapper {
+    display: grid;
+    gap: 30px;
+}
 .event-item {
     box-shadow: 0 30px 60px #0000001a;
     display: grid;
@@ -751,10 +755,10 @@ input#jobSearch {
     height: 100%;
     object-fit: cover;
 }
-.events-wrapper {
-    display: grid;
-    gap: 30px;
+.event_content {
+    padding: 40px;
 }
+
 
 
 
