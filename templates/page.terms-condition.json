@@ -46,10 +46,32 @@
       ],
       "name": "Page title breadcrumbs",
       "settings": {}
+    },
+    "rich_text_8RLxyE": {
+      "type": "rich-text",
+      "blocks": {
+        "page_yLEkMn": {
+          "type": "page",
+          "settings": {
+            "page_text": "terms-conditions"
+          }
+        }
+      },
+      "block_order": [
+        "page_yLEkMn"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false,
+        "custom_class": "privacy_content"
+      }
     }
   },
   "order": [
     "main",
-    "blocks_QeGkze"
+    "blocks_QeGkze",
+    "rich_text_8RLxyE"
   ]
 }
