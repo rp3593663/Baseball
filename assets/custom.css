@@ -969,6 +969,10 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .key-benefit-item h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
   .all_events_block .events_header {
     margin-bottom: 30px;
   }
