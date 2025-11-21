@@ -1006,6 +1006,9 @@ h2.event_title {
   .index-section--faq {
     margin: 20px 0px;
   }
+  .faqs_page button.collapsible-trigger {
+    padding: 8px 20px 8px 0;
+  }
   .index-section--faq .h2 {
     font-size: 20px;
     padding: 10px 12px;
