@@ -776,9 +776,14 @@ input#jobSearch {
 }
 .event_meta {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
     color: var(--white);
+    font-size: 14px;
+    line-height: 20px;
+}
+.event_meta p{
+  margin-bottom: 0px;
 }
 .event_meta svg {
     min-width: 20px;
