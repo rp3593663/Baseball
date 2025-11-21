@@ -69,12 +69,41 @@
             "enlarge_text": false,
             "text": "<p>We collect the following types of information:</p><h2>1.1 Personal Information (Provided by You)</h2><p>When you register as a member, place an order, or contact us, you may provide:</p><ul><li>Full name<br/></li><li>Email address<br/></li><li>Phone number<br/></li><li>Password and login information<br/></li><li>Billing and shipping address<br/></li><li>Payment details (processed securely by payment gateways)<br/></li><li>Team, organization, or company details (if provided)<br/></li></ul><h2>1.2 Automatically Collected Information</h2><p>When you use our website, we may collect:</p><ul><li>IP address<br/></li><li>Browser type<br/></li><li>Device information<br/></li><li>Cookies and tracking data<br/></li><li>Pages visited and time spent<br/></li><li>Referral URLs<br/></li></ul><h2>1.3 Membership-Specific Information</h2><p>Because we offer networking and membership functionality, we may collect:</p><ul><li>Profile information (bio, profile photo, location, business details)<br/></li><li>Players, teams, companies or groups you join or follow<br/></li><li>Content you post, upload, or share<br/></li><li>Interactions with other members<br/></li><li>Preferences and activity logs inside the membership area</li></ul>"
           }
+        },
+        "heading_mGqNha": {
+          "type": "heading",
+          "settings": {
+            "title": "2. How We Use Your Information"
+          }
+        },
+        "text_wcx6eX": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We use your information to:</p><ul><li>Create and manage your membership account<br/></li><li>Provide access to networking tools, groups, and member features<br/></li><li>Improve website functionality and user experience<br/></li><li>Process product orders and payments<br/></li><li>Communicate updates, promotions, and service announcements<br/></li><li>Respond to your customer support requests<br/></li><li>Prevent fraud, unauthorized access, or misuse<br/></li><li>Analyze website and membership performance</li></ul>"
+          }
+        },
+        "heading_r6yb68": {
+          "type": "heading",
+          "settings": {
+            "title": "3. Sharing Your Information"
+          }
+        },
+        "page_TFHwMk": {
+          "type": "page",
+          "settings": {
+            "page_text": "privacy-policy"
+          }
         }
       },
       "block_order": [
         "text_d76zUJ",
         "heading_qcVjJb",
-        "text_k369xK"
+        "text_k369xK",
+        "heading_mGqNha",
+        "text_wcx6eX",
+        "heading_r6yb68",
+        "page_TFHwMk"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
