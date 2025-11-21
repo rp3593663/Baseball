@@ -53,38 +53,138 @@
         "faq-0": {
           "type": "rich-text",
           "settings": {
-            "title": "Shipping",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>",
+            "title": "General Information",
+            "text": "",
             "align_text": "left"
           }
         },
         "faq-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "What is Baseball Industry Network?",
+            "text": "<p>Baseball Industry Network is a platform that connects players, coaches, teams, and suppliers, helping them collaborate and grow within the baseball community.</p>"
           }
         },
         "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Is there any membership fee?",
+            "text": "<p>Yes, Basic joining network is completely free.</p>"
+          }
+        },
+        "question_xmpG6e": {
           "type": "question",
           "settings": {
             "title": "Frequently asked question",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
           }
         },
+        "question_GxxAKG": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use this platform outside the U.S.?",
+            "text": "<p>Yes, the Baseball Industry Network is open to users worldwide.</p>"
+          }
+        },
         "faq-3": {
           "type": "rich-text",
           "settings": {
-            "title": "Returns",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>",
+            "title": "Product & Store-Related FAQs",
+            "text": "",
             "align_text": "left"
           }
         },
         "faq-4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Are your products officially licensed?",
+            "text": "<p>Yes, all our baseball merchandise is sourced from trusted and authentic suppliers.</p>"
+          }
+        },
+        "question_7Lf7eX": {
+          "type": "question",
+          "settings": {
+            "title": "Do you provide team or bulk orders?",
+            "text": "<p>Yes, we offer bulk pricing for teams, academies, and leagues. Contact us for custom quotes.</p>"
+          }
+        },
+        "question_C3BFLq": {
+          "type": "question",
+          "settings": {
+            "title": "Can I customize merchandise?",
+            "text": "<p>Customization options (jerseys, caps, bats, gear) are available depending on the product.</p>"
+          }
+        },
+        "question_JNCPif": {
+          "type": "question",
+          "settings": {
+            "title": "What sizes are available?",
+            "text": "<p>Each product page contains a detailed size chart to help you choose the correct fit.</p>"
+          }
+        },
+        "rich_text_nXhcFr": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Payments & Returns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_EtHrNQ": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "text": "<p>We accept credit cards, debit cards, PayPal, and other Shopify-supported payment options.</p>"
+          }
+        },
+        "question_wUKUKm": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel or modify my order?",
+            "text": "<p>Orders can be modified or cancelled before shipment. Once shipped, changes are not possible.</p>"
+          }
+        },
+        "question_kRbnwi": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "text": "<p>Returns are accepted within 7–14 days of delivery, provided the product is unused and in original condition.</p>"
+          }
+        },
+        "question_6V3Qhd": {
+          "type": "question",
+          "settings": {
+            "title": "When will I receive my refund?",
+            "text": "<p>Refunds are processed within 5–7 business days after the returned product is inspected.</p>"
+          }
+        },
+        "rich_text_qpNgxw": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Support & Contact",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_ieGDDj": {
+          "type": "question",
+          "settings": {
+            "title": "How can I contact customer support?",
+            "text": "<p>You can reach us through email, live chat, or the contact form on our website.</p>"
+          }
+        },
+        "question_tAMQR3": {
+          "type": "question",
+          "settings": {
+            "title": "What are your support hours?",
+            "text": "<p>Our team is available Monday–Friday, 9 AM to 6 PM.</p>"
+          }
+        },
+        "question_UW6L6M": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer support for team partnerships?",
+            "text": "<p>Yes, we assist teams, schools, academies, and organizations with purchases, sponsorships, and collaboration requests.</p>"
           }
         }
       },
@@ -92,11 +192,25 @@
         "faq-0",
         "faq-1",
         "faq-2",
+        "question_xmpG6e",
+        "question_GxxAKG",
         "faq-3",
-        "faq-4"
+        "faq-4",
+        "question_7Lf7eX",
+        "question_C3BFLq",
+        "question_JNCPif",
+        "rich_text_nXhcFr",
+        "question_EtHrNQ",
+        "question_wUKUKm",
+        "question_kRbnwi",
+        "question_6V3Qhd",
+        "rich_text_qpNgxw",
+        "question_ieGDDj",
+        "question_tAMQR3",
+        "question_UW6L6M"
       ],
       "settings": {
-        "custom_class": "",
+        "custom_class": "faqs_page",
         "title": ""
       }
     }
