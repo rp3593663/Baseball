@@ -725,6 +725,16 @@ input#jobSearch {
 }
 
 
+
+.all_events_block .events_header h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px !important;
+    line-height: 140% !important;
+    margin-bottom: 20px !important;
+}
+
+
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
     width: calc(33% - 20px);
