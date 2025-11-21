@@ -957,14 +957,16 @@ h2.event_title {
   .elite-description,
   .elite-content p,
   .about_contact .section-header__rte p,
-  .all_events_block .events_header p {
+  .all_events_block .events_header p,
+  .event_desc p {
     font-size: 13px;
     line-height: 20px;
   }
   .all_events_block .events_header {
     margin-bottom: 30px;
   }
-  .event_content {
+  .event_content,
+  .events_info {
     padding: 15px 12px;
   }
   h2.event_title {
