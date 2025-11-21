@@ -1021,7 +1021,8 @@ h2.event_title {
   .event_meta,
   .event_meta p,
   .key-benefit-item p,
-  .center-box p {
+  .center-box p,
+  .privacy_content p {
     font-size: 13px;
     line-height: 20px;
   }
