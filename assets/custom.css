@@ -825,7 +825,6 @@ h2.event_title {
 .key-benefit-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
 }
 .key-benefit-item img {
   width: 36px;
