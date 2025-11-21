@@ -963,6 +963,9 @@ h2.event_title {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+  .event-item {
+    grid-template-columns: 1fr;
+  }
   .about_contact form input, .about_contact form select, .about_contact form textarea {
     margin-bottom: 12px;
   }
