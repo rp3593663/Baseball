@@ -907,6 +907,9 @@ h2.event_title {
 .index-section:has(.form_contact_page) {
     margin-top: 0px;
 }
+.form_contact_page{
+  background: var(--white);
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
