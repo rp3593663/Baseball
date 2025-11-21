@@ -818,7 +818,7 @@ h2.event_title {
 .key-benefits-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;;
+  gap: 40px;
 }
 .key-benefit-item {
   display: flex;
@@ -836,15 +836,15 @@ h2.event_title {
   text-align: center;
 }
 .center-box p {
-    margin-bottom: 20px;
-    text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .center-box {
   background: #02213f;
   padding: 40px 30px;
   border-radius: 0;
   color: var(--white);
-  text-align: left;
+  text-align: center;
 }
 
 
