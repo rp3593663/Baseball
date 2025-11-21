@@ -35,11 +35,14 @@
 
           <!-- Event Content -->
           <div class="event-content">
+
             <h2 class="event-title">{{ block.settings.event_title }}</h2>
 
             {% if block.settings.event_description %}
               <p class="event-desc">{{ block.settings.event_description }}</p>
             {% endif %}
+        </div>
+<div class="events-info">
 
             <ul class="event-meta">
               {% if block.settings.event_date %}
@@ -59,12 +62,13 @@
               {% endif %}
             </ul>
 
-            <!-- Button in Last -->
             {% if block.settings.button_label %}
               <a href="{{ block.settings.button_link }}" class="event-btn">
                 {{ block.settings.button_label }}
               </a>
             {% endif %}
+
+        </div>
           </div>
 
         </div>
