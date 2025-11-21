@@ -63,21 +63,24 @@
             </div>
 
           {% when 'question' %}
+            {% assign question_index = question_index | plus: 1 %}
             <div>
               <button
                 type="button"
-                class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left {% if forloop.first %}is-open{% endif %}"
+                class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left {% if question_index == 1 %}is-open{% endif %}"
                 aria-controls="FAQ-content-{{ block.id }}"
               >
                 {%- render 'collapsible-icons-alt', no_circle: true -%}
                 <span>{{ block.settings.title }}</span>
               </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all {% if forloop.first %}is-open{% endif %}">
+
+              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all {% if question_index == 1 %}is-open{% endif %}">
                 <div class="collapsible-content__inner collapsible-content__inner--faq rte">
                   {{ block.settings.text }}
                 </div>
               </div>
             </div>
+
         {% endcase %}
       </div>
     {%- endfor -%}
