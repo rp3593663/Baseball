@@ -866,6 +866,9 @@ h2.event_title {
     font-size: 28px;
     margin-bottom: 12px;
 }
+.key-benefit-item p{
+  margin-bottom: 0px;
+}
 
 
 
