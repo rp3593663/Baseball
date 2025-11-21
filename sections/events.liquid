@@ -25,32 +25,32 @@
     <div class="events-wrapper">
       {% for block in section.blocks %}
         <div class="event-item">
-          <div class="event-image">
+          <div class="event_image">
             {% if block.settings.event_image %}
               <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
             {% endif %}
           </div>
-          <div class="event-content">
-            <h2 class="event-title">{{ block.settings.event_title }}</h2>
+          <div class="event_content">
+            <h2 class="event_title">{{ block.settings.event_title }}</h2>
             {% if block.settings.event_description %}
-              <div class="event-desc">{{ block.settings.event_description }}</div>
+              <div class="event_desc">{{ block.settings.event_description }}</div>
             {% endif %}
           </div>
-          <div class="events-info">
-            <ul class="event-meta">
+          <div class="events_info">
+            <div class="evens_all_meta">
               {% if block.settings.event_date %}
-                <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
+                <div class="event_meta"><strong>Date:</strong> {{ block.settings.event_date }}</div>
               {% endif %}
               {% if block.settings.event_location %}
-                <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
+                <div class="event_meta"><strong>Location:</strong> {{ block.settings.event_location }}</div>
               {% endif %}
               {% if block.settings.event_contact %}
-                <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
+                <div class="event_meta"><strong>Contact:</strong> {{ block.settings.event_contact }}</div>
               {% endif %}
               {% if block.settings.event_cost %}
-                <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
+                <div class="event_meta"><strong>Cost:</strong> {{ block.settings.event_cost }}</div>
               {% endif %}
-            </ul>
+            </div>
 
             {% if block.settings.button_label %}
               <a href="{{ block.settings.button_link }}" class="event-btn">
