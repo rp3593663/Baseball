@@ -830,12 +830,12 @@ h2.event_title {
   margin-right: 15px;
 }
 .center-box h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 15px;
+  font-size: 37px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .center-box p {
-  line-height: 1.5;
   margin-bottom: 20px;
 }
 .center-box {
