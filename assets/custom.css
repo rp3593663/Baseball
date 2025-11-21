@@ -975,6 +975,7 @@ h2.event_title {
   }
   .key-benefits-grid>div {
     gap: 12px;
+    padding: 20px;
   }
   .all_events_block .events_header {
     margin-bottom: 30px;
