@@ -765,6 +765,7 @@ input#jobSearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: baseline;
 }
 .event_cost {
     color: #FFF;
