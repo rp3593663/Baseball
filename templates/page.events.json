@@ -53,14 +53,15 @@
         "event_CbA4EF": {
           "type": "event",
           "settings": {
-            "event_title": "",
-            "event_description": "",
-            "event_date": "",
-            "event_location": "",
-            "event_contact": "",
-            "event_cost": "",
+            "event_image": "shopify://shop_images/baseball_meeting1.png",
+            "event_title": "Baseball Winter Meetings",
+            "event_description": "A platform for emerging talent (150 candidates) across the spectrum of baseball operations to receive continuing education and engagement with Club and League personnel through panels, breakout sessions, and professional development workshops.\nTopics include baseball operations, analytics, scouting, player development, coaching, research & development, leadership, growth, and career advancement.\nClub and League personnel will act as facilitators to provide insights and guidance.",
+            "event_date": "Saturday, December 6, 2025 – Sunday, December 7, 2025",
+            "event_location": "Waldorf Astoria Orlando",
+            "event_contact": "Julia Hernandez (Julia.Hernandez@mlb.com)",
+            "event_cost": "Free",
             "button_label": "Learn More",
-            "button_link": ""
+            "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939"
           }
         },
         "event_knL9cc": {
