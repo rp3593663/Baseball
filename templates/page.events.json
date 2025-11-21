@@ -110,6 +110,58 @@
     },
     "member_benefits_grid_3mhC4T": {
       "type": "member-benefits-grid",
+      "blocks": {
+        "benefit_left_GQiT4g": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "Exclusive Job Board Access",
+            "text": "Get early access to curated job postings before they go public."
+          }
+        },
+        "benefit_left_iG4eEG": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "Private BIN Community",
+            "text": "Join a members-only group with a digital resource library."
+          }
+        },
+        "benefit_left_UPcRJ9": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "1:1 Mentorship & Executive Chats",
+            "text": "Connect directly with industry leaders for guidance and insights."
+          }
+        },
+        "benefit_right_g44Qpk": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "Monthly Podcasts & Virtual Events",
+            "text": "Enjoy fresh content and live sessions every month."
+          }
+        },
+        "benefit_right_BQX9Vh": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "BIN Welcome Kits & Merch Drops",
+            "text": "Receive exclusive member kits and limited merchandise."
+          }
+        },
+        "benefit_right_jDgYig": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "Partner & Vendor Discounts",
+            "text": "Access special deals from trusted partners and sponsors."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_left_GQiT4g",
+        "benefit_left_iG4eEG",
+        "benefit_left_UPcRJ9",
+        "benefit_right_g44Qpk",
+        "benefit_right_BQX9Vh",
+        "benefit_right_jDgYig"
+      ],
       "name": "Key Benefits - Pro Layout",
       "settings": {
         "center_label": "",
