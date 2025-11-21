@@ -920,6 +920,9 @@ h2.event_title {
 .privacy_content p {
     margin-bottom: 12px;
 }
+.privacy_content h3 {
+    margin: 20px 0px 12px 0px;
+}
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
