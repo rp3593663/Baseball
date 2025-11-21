@@ -942,7 +942,8 @@ h2.event_title {
   .video-title,
   .elite-title,
   .about_text_with_icon h2,
-  .about_contact h2.section-header__title {
+  .about_contact h2.section-header__title,
+  .all_events_block .events_header h2 {
     font-size: 30px!important;
     line-height: 42px!important;
   }
@@ -955,7 +956,8 @@ h2.event_title {
   .video-desc,
   .elite-description,
   .elite-content p,
-  .about_contact .section-header__rte p {
+  .about_contact .section-header__rte p,
+  .all_events_block .events_header p {
     font-size: 13px;
     line-height: 20px;
   }
