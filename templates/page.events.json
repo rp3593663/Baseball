@@ -108,6 +108,19 @@
         "padding_bottom_mobile": 30
       }
     },
+    "scrolling_text_m3Tk9x": {
+      "type": "scrolling-text",
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Meet. Learn. Grow Together • Join Our Community Events • Connect With Inspiring People",
+        "link": "",
+        "text_size": 50,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 200,
+        "custom_class": "home_scrolling_text"
+      }
+    },
     "member_benefits_grid_3mhC4T": {
       "type": "member-benefits-grid",
       "blocks": {
@@ -169,10 +182,8 @@
         "center_text": "Your career journey deserves real support, real opportunities, and real connections.\nFrom mentorship to exclusive content, everything here is built to move you forward.\nLevel up with a community that has your back.",
         "button_label": "Explore Membership",
         "button_link": "",
-        "button_color": "#7CFFB2",
-        "bg_color": "#ffffff",
         "padding_top_desktop": 80,
-        "padding_bottom_desktop": 60,
+        "padding_bottom_desktop": 80,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 30
       }
@@ -182,6 +193,7 @@
     "main",
     "blocks_y4nyJY",
     "events_JMJABV",
+    "scrolling_text_m3Tk9x",
     "member_benefits_grid_3mhC4T"
   ]
 }
