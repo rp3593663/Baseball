@@ -181,7 +181,7 @@
         "center_heading": "More Than Just a Membership",
         "center_text": "Your career journey deserves real support, real opportunities, and real connections.\nFrom mentorship to exclusive content, everything here is built to move you forward.\nLevel up with a community that has your back.",
         "button_label": "Explore Membership",
-        "button_link": "",
+        "button_link": "shopify://pages/membership",
         "padding_top_desktop": 80,
         "padding_bottom_desktop": 80,
         "padding_top_mobile": 30,
