@@ -774,6 +774,10 @@ input#jobSearch {
     margin: 20px 0px;
     gap: 10px;
 }
+h2.event_title {
+    font-size: 32px;
+    line-height: 130%;
+}
 .event_meta {
     display: flex;
     align-items: center;
