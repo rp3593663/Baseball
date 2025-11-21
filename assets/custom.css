@@ -964,7 +964,8 @@ h2.event_title {
   .all_events_block .events_header p,
   .event_desc p,
   .event_meta,
-  .event_meta p {
+  .event_meta p,
+  .key-benefit-item p {
     font-size: 13px;
     line-height: 20px;
   }
