@@ -18,13 +18,57 @@
 
 <section class="events-section {{ section.settings.custom_class }}">
   <div class="page-width">
-
     <div class="events-wrapper">
-      
-    </div>
+      {% for block in section.blocks %}
+        <div class="event-item">
 
+          <!-- Image First -->
+          <div class="event-image">
+            {% if block.settings.event_image %}
+              <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
+            {% endif %}
+          </div>
+
+          <!-- Event Content -->
+          <div class="event-content">
+            <h2 class="event-title">{{ block.settings.event_title }}</h2>
+
+            {% if block.settings.event_description %}
+              <p class="event-desc">{{ block.settings.event_description }}</p>
+            {% endif %}
+
+            <ul class="event-meta">
+              {% if block.settings.event_date %}
+                <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
+              {% endif %}
+
+              {% if block.settings.event_location %}
+                <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
+              {% endif %}
+
+              {% if block.settings.event_contact %}
+                <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
+              {% endif %}
+
+              {% if block.settings.event_cost %}
+                <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
+              {% endif %}
+            </ul>
+
+            <!-- Button in Last -->
+            {% if block.settings.button_label %}
+              <a href="{{ block.settings.button_link }}" class="event-btn">
+                {{ block.settings.button_label }}
+              </a>
+            {% endif %}
+          </div>
+
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
 
 {% schema %}
 {
