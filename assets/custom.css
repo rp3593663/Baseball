@@ -961,6 +961,9 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .all_events_block .events_header {
+    margin-bottom: 30px;
+  }
   .key-benefits-grid {
     grid-template-columns: 1fr;
     gap: 30px;
