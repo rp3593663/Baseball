@@ -81,14 +81,15 @@
         "event_QgcpnV": {
           "type": "event",
           "settings": {
-            "event_title": "",
-            "event_description": "",
-            "event_date": "",
-            "event_location": "",
-            "event_contact": "",
-            "event_cost": "",
+            "event_image": "shopify://shop_images/baseball_meeting1.png",
+            "event_title": "Baseball Industry Network Winter Meetings Meet-Up",
+            "event_description": "A free annual networking event hosted by the Baseball Industry Network (47,000+ members).\nOpen to job seekers, MLB/minor league club personnel, baseball agencies, and industry companies.\nResumes are collected and shared with organizations prior to the event.\nOver 500 attendees participated in 2024.",
+            "event_date": "Tuesday, December 9, 2025, 8 AM – 11 AM ET",
+            "event_location": "Signia by Hilton (Signature Island, outdoors, connected to Waldorf Astoria Orlando)",
+            "event_contact": "Tyrone Brooks (Tyrone.Brooks@mlb.com)",
+            "event_cost": "Free",
             "button_label": "Learn More",
-            "button_link": ""
+            "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939"
           }
         }
       },
