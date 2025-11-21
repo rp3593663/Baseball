@@ -53,7 +53,7 @@
         "image_Tg99z7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about_img1.png",
+            "image": "shopify://shop_images/grey_img1.png",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -275,6 +275,7 @@
         "text_block_QJftRg",
         "text_block_QFCpfk"
       ],
+      "disabled": true,
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "custom_class": "home_text_with_icon about_also_icon",
