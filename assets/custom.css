@@ -749,6 +749,7 @@ input#jobSearch {
 .event-item {
     box-shadow: 0 30px 60px #0000001a;
     display: grid;
+    background: #FFF;
     grid-template-columns: 1fr 2fr 1fr;
 }
 .event_image img {
