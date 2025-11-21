@@ -849,6 +849,9 @@ h2.event_title {
 .center-box a.btn {
     background: var(--red)!important;
 }
+.center-box .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
+    background: var(--red) var(--urlButtonArrowPng) no-repeat 150% 35%;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
