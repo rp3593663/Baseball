@@ -901,6 +901,7 @@ h2.event_title {
 }
 .faqs_page .rte.collapsible-content__inner--faq {
     color: #898989;
+    padding-bottom: 25px;
 }
 
 
