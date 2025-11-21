@@ -977,6 +977,10 @@ h2.event_title {
     gap: 12px;
     padding: 20px;
   }
+  .center-box h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
   .all_events_block .events_header {
     margin-bottom: 30px;
   }
