@@ -55,10 +55,10 @@
           "settings": {
             "event_image": "shopify://shop_images/baseball_meeting1.png",
             "event_title": "Baseball Winter Meetings",
-            "event_description": "A platform for emerging talent (150 candidates) across the spectrum of baseball operations to receive continuing education and engagement with Club and League personnel through panels, breakout sessions, and professional development workshops.\nTopics include baseball operations, analytics, scouting, player development, coaching, research & development, leadership, growth, and career advancement.\nClub and League personnel will act as facilitators to provide insights and guidance.",
+            "event_description": "<p>A platform for emerging talent (150 candidates) across the spectrum of baseball operations to receive continuing education and engagement with Club and League personnel through panels, breakout sessions, and professional development workshops.\nTopics include baseball operations, analytics, scouting, player development, coaching, research & development, leadership, growth, and career advancement.\nClub and League personnel will act as facilitators to provide insights and guidance.</p>",
             "event_date": "Saturday, December 6, 2025 – Sunday, December 7, 2025",
             "event_location": "Waldorf Astoria Orlando",
-            "event_contact": "Julia Hernandez (Julia.Hernandez@mlb.com)",
+            "event_contact": "<p>Julia Hernandez (Julia.Hernandez@mlb.com)</p>",
             "event_cost": "Free",
             "button_label": "Learn More",
             "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939"
@@ -69,10 +69,10 @@
           "settings": {
             "event_image": "shopify://shop_images/baseball_meeting2.png",
             "event_title": "MLB Workforce Development Career Networking Reception",
-            "event_description": "A networking and job-fair style event designed for emerging talent pursuing baseball operations roles.\nAll 30 MLB clubs and the Office of the Commissioner participate.\nOver 300 participants attended in 2024, with expectations of over 500 this year.\nCandidate resumes are collected and shared with teams in advance to assist hiring managers.",
+            "event_description": "<p>A networking and job-fair style event designed for emerging talent pursuing baseball operations roles.\nAll 30 MLB clubs and the Office of the Commissioner participate.\nOver 300 participants attended in 2024, with expectations of over 500 this year.\nCandidate resumes are collected and shared with teams in advance to assist hiring managers.</p>",
             "event_date": "Monday, December 8, 2025, 8 AM – 11 AM ET",
             "event_location": "Waldorf Astoria Orlando (Grand Ballroom)",
-            "event_contact": "Tyrone Brooks (Tyrone.Brooks@mlb.com)",
+            "event_contact": "<p>Tyrone Brooks (Tyrone.Brooks@mlb.com)</p>",
             "event_cost": "Free",
             "button_label": "Learn More",
             "button_link": "https://www.eventbrite.com/e/2025-mlb-workforce-development-career-networking-reception-tickets-1925367157999"
@@ -83,10 +83,10 @@
           "settings": {
             "event_image": "shopify://shop_images/baseball_meeting1.png",
             "event_title": "Baseball Industry Network Winter Meetings Meet-Up",
-            "event_description": "A free annual networking event hosted by the Baseball Industry Network (47,000+ members).\nOpen to job seekers, MLB/minor league club personnel, baseball agencies, and industry companies.\nResumes are collected and shared with organizations prior to the event.\nOver 500 attendees participated in 2024.",
+            "event_description": "<p>A free annual networking event hosted by the Baseball Industry Network (47,000+ members).</p><p>Open to job seekers, MLB/minor league club personnel, baseball agencies, and industry companies.</p><p>Resumes are collected and shared with organizations prior to the event.</p><p>Over 500 attendees participated in 2024.</p>",
             "event_date": "Tuesday, December 9, 2025, 8 AM – 11 AM ET",
             "event_location": "Signia by Hilton (Signature Island, outdoors, connected to Waldorf Astoria Orlando)",
-            "event_contact": "Tyrone Brooks (Tyrone.Brooks@mlb.com)",
+            "event_contact": "<p>Tyrone Brooks (Tyrone.Brooks@mlb.com)</p>",
             "event_cost": "Free",
             "button_label": "Learn More",
             "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939"
