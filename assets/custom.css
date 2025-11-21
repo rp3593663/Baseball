@@ -855,6 +855,7 @@ h2.event_title {
 .key-benefits-grid > div {
     display: grid;
     gap: 20px;
+    align-items: center;
 }
 .key-benefit-item h4 {
     font-size: 28px;
