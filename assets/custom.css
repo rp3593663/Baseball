@@ -739,7 +739,9 @@ input#jobSearch {
     max-width: 750px;
     margin: auto;
 }
-
+.all_events_block .events_header {
+    margin-bottom: 40px;
+}
 
 
 
