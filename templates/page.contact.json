@@ -47,49 +47,35 @@
       "name": "Page title breadcrumbs",
       "settings": {}
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "contact_form_nYp8zP": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.contact_form.name",
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false,
-        "custom_class": ""
+        "custom_class": "about_contact",
+        "title": "Get In Touch",
+        "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>",
+        "show_phone": true,
+        "narrow_column": true
       }
     },
-    "form": {
-      "type": "contact-form",
+    "map_94AjQA": {
+      "type": "map",
+      "name": "t:sections.map.presets.map.name",
       "settings": {
-        "custom_class": "",
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image": "shopify://shop_images/map_view.png",
+        "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
     "blocks_pNamKq",
-    "rich-text",
-    "form"
+    "contact_form_nYp8zP",
+    "map_94AjQA"
   ]
 }
