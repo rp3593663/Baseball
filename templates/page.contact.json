@@ -51,7 +51,7 @@
       "type": "contact-form",
       "name": "t:sections.contact-form.presets.contact_form.name",
       "settings": {
-        "custom_class": "about_contact",
+        "custom_class": "about_contact form_contact_page",
         "title": "Get In Touch",
         "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>",
         "show_phone": true,
