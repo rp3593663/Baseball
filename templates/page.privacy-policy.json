@@ -11,10 +11,45 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "blocks_WYRARG": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f09f0d8_UjjPri": {
+          "type": "ai_gen_block_f09f0d8",
+          "settings": {
+            "custom_title": "",
+            "title_font_size": 48,
+            "title_color": "#ffffff",
+            "title_spacing": 16,
+            "show_breadcrumbs": true,
+            "breadcrumb_font_size": 14,
+            "breadcrumb_color": "#ffffff",
+            "bg_image": "shopify://shop_images/page_title_bg.png",
+            "bg_color": "#0b2041",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40,
+            "max_width": 1200,
+            "padding_top": 80,
+            "padding_bottom": 80,
+            "padding_horizontal": 20,
+            "custom_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f09f0d8_UjjPri"
+      ],
+      "name": "Page title breadcrumbs",
       "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "blocks_WYRARG"
   ]
 }
