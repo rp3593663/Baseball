@@ -769,6 +769,9 @@ input#jobSearch {
     font-size: 45px;
     line-height: 100%;
 }
+.event_desc p {
+    margin-bottom: 0px;
+}
 .evens_all_meta {
     display: grid;
     margin: 20px 0px;
