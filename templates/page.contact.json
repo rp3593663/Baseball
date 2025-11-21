@@ -67,7 +67,6 @@
         "map_address": "301 Front St W, Toronto, ON M5V 2T6",
         "api_key": "",
         "show_button": true,
-        "background_image": "shopify://shop_images/map_view.png",
         "lazyload_images": true
       }
     }
