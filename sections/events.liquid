@@ -1,74 +1,68 @@
 {% style %}
-
-.events-section {
-  background-color: {{ section.settings.bg_color }};
-  padding-top: {{ section.settings.padding_top_desktop }}px;
-  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
-}
-
-@media (max-width: 767px) {
   .events-section {
-    padding-top: {{ section.settings.padding_top_mobile }}px;
-    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top_desktop }}px;
+    padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
   }
-}
 
+  @media (max-width: 767px) {
+    .events-section {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+  }
 {% endstyle %}
-
 
 <section class="events-section {{ section.settings.custom_class }}">
   <div class="page-width">
     <div class="events_header">
-        <h2>Upcoming MLB Development Events</h2>
-        <p>Explore our lineup of professional development and networking events designed to support emerging baseball operations talent and connect future leaders with MLB organizations.</p>
+      <h2>Upcoming MLB Development Events</h2>
+      <p>
+        Explore our lineup of professional development and networking events designed to support emerging baseball
+        operations talent and connect future leaders with MLB organizations.
+      </p>
     </div>
     <div class="events-wrapper">
       {% for block in section.blocks %}
         <div class="event-item">
-            <div class="event-image">
-                {% if block.settings.event_image %}
-                <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
-                {% endif %}
-            </div>
-            <div class="event-content">
-                <h2 class="event-title">{{ block.settings.event_title }}</h2>
-                {% if block.settings.event_description %}
-                <p class="event-desc">{{ block.settings.event_description }}</p>
-                {% endif %}
-            </div>
-            <div class="events-info">
-                <ul class="event-meta">
-                {% if block.settings.event_date %}
-                    <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
-                {% endif %}
+          <div class="event-image">
+            {% if block.settings.event_image %}
+              <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
+            {% endif %}
+          </div>
+          <div class="event-content">
+            <h2 class="event-title">{{ block.settings.event_title }}</h2>
+            {% if block.settings.event_description %}
+              <p class="event-desc">{{ block.settings.event_description }}</p>
+            {% endif %}
+          </div>
+          <div class="events-info">
+            <ul class="event-meta">
+              {% if block.settings.event_date %}
+                <li><strong>Date:</strong> {{ block.settings.event_date }}</li>
+              {% endif %}
+              {% if block.settings.event_location %}
+                <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
+              {% endif %}
+              {% if block.settings.event_contact %}
+                <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
+              {% endif %}
+              {% if block.settings.event_cost %}
+                <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
+              {% endif %}
+            </ul>
 
-                {% if block.settings.event_location %}
-                    <li><strong>Location:</strong> {{ block.settings.event_location }}</li>
-                {% endif %}
-
-                {% if block.settings.event_contact %}
-                    <li><strong>Contact:</strong> {{ block.settings.event_contact }}</li>
-                {% endif %}
-
-                {% if block.settings.event_cost %}
-                    <li><strong>Cost:</strong> {{ block.settings.event_cost }}</li>
-                {% endif %}
-                </ul>
-
-                {% if block.settings.button_label %}
-                <a href="{{ block.settings.button_link }}" class="event-btn">
-                    {{ block.settings.button_label }}
-                </a>
-                {% endif %}
-
-            </div>
+            {% if block.settings.button_label %}
+              <a href="{{ block.settings.button_link }}" class="event-btn">
+                {{ block.settings.button_label }}
+              </a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
     </div>
   </div>
 </section>
-
 
 {% schema %}
 {
@@ -125,9 +119,9 @@
   ],
   "blocks": [
     {
-        "type": "event",
-        "name": "Event",
-        "settings": [
+      "type": "event",
+      "name": "Event",
+      "settings": [
         { "type": "image_picker", "id": "event_image", "label": "Event Image" },
         { "type": "text", "id": "event_title", "label": "Event Title" },
         { "type": "textarea", "id": "event_description", "label": "Description" },
@@ -137,9 +131,9 @@
         { "type": "text", "id": "event_cost", "label": "Cost" },
         { "type": "text", "id": "button_label", "label": "Button Label", "default": "Learn More" },
         { "type": "url", "id": "button_link", "label": "Button Link" }
-        ]
+      ]
     }
-    ],
+  ],
   "presets": [
     {
       "name": "Events"
