@@ -769,7 +769,11 @@ input#jobSearch {
     font-size: 45px;
     line-height: 100%;
 }
-
+.evens_all_meta {
+    display: grid;
+    margin: 20px 0px;
+    gap: 10px;
+}
 
 
 
