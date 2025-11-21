@@ -959,6 +959,10 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .key-benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
   .about_contact form input, .about_contact form select, .about_contact form textarea {
     margin-bottom: 12px;
   }
