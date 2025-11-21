@@ -871,6 +871,16 @@ h2.event_title {
 }
 
 
+.index-section--faq .h2 {
+    margin-bottom: 0px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #e9edf0;
+    padding: 15px 20px;
+}
+
+
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
