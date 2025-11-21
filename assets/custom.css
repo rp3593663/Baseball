@@ -965,9 +965,13 @@ h2.event_title {
   .event_desc p,
   .event_meta,
   .event_meta p,
-  .key-benefit-item p {
+  .key-benefit-item p,
+  .center-box p {
     font-size: 13px;
     line-height: 20px;
+  }
+  .center-box p {
+    margin-bottom: 0;
   }
   .key-benefit-item h4 {
     font-size: 22px;
