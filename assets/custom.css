@@ -1003,6 +1003,10 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .index-section--faq .h2 {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
   .center-box p {
     margin-bottom: 0;
   }
