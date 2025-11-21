@@ -101,6 +101,8 @@
       "name": "Events",
       "settings": {
         "custom_class": "all_events_block",
+        "heading": "Upcoming MLB Development Events",
+        "description": "Explore our lineup of professional development and networking events designed to support emerging baseball  operations talent and connect future leaders with MLB organizations.",
         "bg_color": "#ffffff",
         "padding_top_desktop": 60,
         "padding_bottom_desktop": 60,
