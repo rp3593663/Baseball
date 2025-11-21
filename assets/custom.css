@@ -757,10 +757,10 @@ input#jobSearch {
     object-fit: cover;
 }
 .event_content {
-    padding: 30px;
+    padding: 20px;
 }
 .events_info {
-    padding: 30px 20px;
+    padding: 20px;
     background: var(--red);
 }
 .event_cost {
