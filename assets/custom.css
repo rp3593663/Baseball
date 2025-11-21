@@ -774,6 +774,12 @@ input#jobSearch {
     margin: 20px 0px;
     gap: 10px;
 }
+.event_meta {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    color: var(--white);
+}
 
 
 
