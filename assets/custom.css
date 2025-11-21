@@ -848,6 +848,7 @@ h2.event_title {
 }
 .center-box a.btn {
     background: var(--red)!important;
+    margin: auto;
 }
 .center-box .btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
     background: var(--red) var(--urlButtonArrowPng) no-repeat 150% 35%!important;
