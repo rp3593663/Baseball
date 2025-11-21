@@ -46,10 +46,69 @@
       ],
       "name": "Page title breadcrumbs",
       "settings": {}
+    },
+    "events_JMJABV": {
+      "type": "events",
+      "blocks": {
+        "event_CbA4EF": {
+          "type": "event",
+          "settings": {
+            "event_title": "",
+            "event_description": "",
+            "event_date": "",
+            "event_location": "",
+            "event_contact": "",
+            "event_cost": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "event_knL9cc": {
+          "type": "event",
+          "settings": {
+            "event_title": "",
+            "event_description": "",
+            "event_date": "",
+            "event_location": "",
+            "event_contact": "",
+            "event_cost": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "event_QgcpnV": {
+          "type": "event",
+          "settings": {
+            "event_title": "",
+            "event_description": "",
+            "event_date": "",
+            "event_location": "",
+            "event_contact": "",
+            "event_cost": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "event_CbA4EF",
+        "event_knL9cc",
+        "event_QgcpnV"
+      ],
+      "name": "Events",
+      "settings": {
+        "custom_class": "",
+        "bg_color": "#ffffff",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
     "main",
-    "blocks_y4nyJY"
+    "blocks_y4nyJY",
+    "events_JMJABV"
   ]
 }
