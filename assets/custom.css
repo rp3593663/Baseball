@@ -967,6 +967,9 @@ h2.event_title {
   .event_content {
     padding: 15px 12px;
   }
+  h2.event_title {
+    font-size: 25px;
+  }
   .key-benefits-grid {
     grid-template-columns: 1fr;
     gap: 30px;
