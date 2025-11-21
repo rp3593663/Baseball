@@ -747,6 +747,10 @@ input#jobSearch {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
+.event_image img {
+    height: 100%;
+    object-fit: cover;
+}
 .events-wrapper {
     display: grid;
     gap: 30px;
