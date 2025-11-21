@@ -1,0 +1,144 @@
+{% style %}
+  .events-section {
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top_desktop }}px;
+    padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+  }
+
+  @media (max-width: 767px) {
+    .events-section {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<section class="events-section {{ section.settings.custom_class }}">
+  <div class="page-width">
+    <div class="events_header">
+      <h2>Upcoming MLB Development Events</h2>
+      <p>
+        Explore our lineup of professional development and networking events designed to support emerging baseball
+        operations talent and connect future leaders with MLB organizations.
+      </p>
+    </div>
+    <div class="events-wrapper">
+      {% for block in section.blocks %}
+        <div class="event-item">
+          <div class="event_image">
+            {% if block.settings.event_image %}
+              <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
+            {% endif %}
+          </div>
+          <div class="event_content">
+            <h2 class="event_title">{{ block.settings.event_title }}</h2>
+            {% if block.settings.event_description %}
+              <div class="event_desc">{{ block.settings.event_description }}</div>
+            {% endif %}
+          </div>
+          <div class="events_info">
+            {% if block.settings.event_cost %}
+              <div class="event_cost">{{ block.settings.event_cost }}</div>
+            {% endif %}
+
+            <div class="evens_all_meta">
+              {% if block.settings.event_date %}
+                <div class="event_meta"><strong>Date:</strong> {{ block.settings.event_date }}</div>
+              {% endif %}
+              {% if block.settings.event_location %}
+                <div class="event_meta"><strong>Location:</strong> {{ block.settings.event_location }}</div>
+              {% endif %}
+              {% if block.settings.event_contact %}
+                <div class="event_meta"><strong>Contact:</strong> {{ block.settings.event_contact }}</div>
+              {% endif %}
+            </div>
+
+            {% if block.settings.button_label and block.settings.button_link %}
+              <a href="{{ block.settings.button_link }}" class="event_btn btn">
+                {{ block.settings.button_label }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Events",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Mobile)",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "event",
+      "name": "Event",
+      "settings": [
+        { "type": "image_picker", "id": "event_image", "label": "Event Image" },
+        { "type": "text", "id": "event_title", "label": "Event Title" },
+        { "type": "html", "id": "event_description", "label": "Description" },
+        { "type": "text", "id": "event_date", "label": "Event Date" },
+        { "type": "text", "id": "event_location", "label": "Location" },
+        { "type": "richtext", "id": "event_contact", "label": "Contact" },
+        { "type": "text", "id": "event_cost", "label": "Cost" },
+        { "type": "text", "id": "button_label", "label": "Button Label", "default": "Learn More" },
+        { "type": "url", "id": "button_link", "label": "Button Link" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Events"
+    }
+  ]
+}
+{% endschema %}
