@@ -75,7 +75,6 @@
 <section class="key-benefits-wrapper">
   <div class="page-width">
     <div class="key-benefits-grid">
-      <!-- LEFT COLUMN -->
       <div>
         {% for block in section.blocks %}
           {% if block.type == 'benefit_left' %}
@@ -92,7 +91,6 @@
         {% endfor %}
       </div>
 
-      <!-- CENTER CONTENT -->
       <div class="center-box">
         {% if section.settings.center_label != blank %}
           <div class="center-label">{{ section.settings.center_label }}</div>
@@ -106,7 +104,6 @@
         {% endif %}
       </div>
 
-      <!-- RIGHT COLUMN -->
       <div>
         {% for block in section.blocks %}
           {% if block.type == 'benefit_right' %}
