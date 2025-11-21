@@ -57,11 +57,25 @@
         "show_phone": true,
         "narrow_column": true
       }
+    },
+    "map_c8V7QF": {
+      "type": "map",
+      "name": "t:sections.map.presets.map.name",
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image": "shopify://shop_images/190622_Cubs_038.jpg",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "blocks_pNamKq",
-    "contact_form_nYp8zP"
+    "contact_form_nYp8zP",
+    "map_c8V7QF"
   ]
 }
