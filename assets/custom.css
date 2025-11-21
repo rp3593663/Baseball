@@ -846,6 +846,9 @@ h2.event_title {
   color: var(--white);
   text-align: center;
 }
+.center-box a.btn {
+    background: #ea405c!important;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
