@@ -972,6 +972,10 @@ h2.event_title {
   .event_cost {
     font-size: 32px;
   }
+  .evens_all_meta {
+    margin: 15px 0;
+    gap: 6px;
+  }
   h2.event_title {
     font-size: 25px;
     margin-bottom: 5px;
