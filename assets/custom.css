@@ -734,6 +734,13 @@ input#jobSearch {
     line-height: 140%;
     margin-bottom: 10px;
 }
+.all_events_block .events_header p {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+}
+
+
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
