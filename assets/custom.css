@@ -1010,6 +1010,9 @@ h2.event_title {
     padding: 8px 20px 8px 0;
     font-size: 14px;
   }
+  .faqs_page .rte.collapsible-content__inner--faq {
+    padding-bottom: 18px;
+  }
   .index-section--faq .h2 {
     font-size: 20px;
     padding: 10px 12px;
