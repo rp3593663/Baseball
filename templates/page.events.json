@@ -112,7 +112,7 @@
       "type": "scrolling-text",
       "name": "t:sections.marquee.presets.scrolling_text.name",
       "settings": {
-        "text": "Meet. Learn. Grow Together • Join Our Community Events • Connect With Inspiring People",
+        "text": "Meet. Learn. Grow Together • Join Our Community Events • Connect With Inspiring People •",
         "link": "",
         "text_size": 50,
         "text_spacing": true,
