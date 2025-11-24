@@ -119,7 +119,7 @@
         "text_size": 50,
         "text_spacing": true,
         "direction": "left",
-        "speed": 200,
+        "speed": 300,
         "custom_class": "home_scrolling_text"
       }
     },
