@@ -94,7 +94,7 @@
         "text_block_UyRKww": {
           "type": "text_block",
           "settings": {
-            "icon": "package",
+            "icon": "gears",
             "title": "Career Development",
             "text": "<p><strong>Empowering the Next Generation of Baseball Professionals.</strong><br/></p><p>Through exclusive job boards, mentorship programs, and professional resources, BIN gives members the tools to advance their careers. Whether you’re breaking into the industry or building your legacy, we provide access, insights, and pathways to success.</p>"
           }
@@ -125,13 +125,50 @@
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "custom_class": "about_text_with_icon",
-        "title": "BIN DESIGN STRATEGY",
+        "title": "The Four Pillars of the Baseball Industry Network",
         "align_text": "center",
         "desktop_columns_per_row": 4,
         "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false
+      }
+    },
+    "rich_text_RGJqHW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F9yPzN": {
+          "type": "heading",
+          "settings": {
+            "title": "Join The Movement"
+          }
+        },
+        "text_GNwaFT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The Baseball Industry Network is more than a platform — it’s a <strong>career ecosystem</strong> built to advance the people who make baseball great.</p><p><strong>Join the Network. Build the Future.</strong><br/>Be part of baseball’s most powerful professional community.<br/></p>"
+          }
+        },
+        "button_tHUaqg": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/membership",
+            "link_text": "Join NOW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F9yPzN",
+        "text_GNwaFT",
+        "button_tHUaqg"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "custom_class": "home_richtext_about"
       }
     },
     "hero_video_yLyNVU": {
@@ -185,43 +222,6 @@
         "button_label": "",
         "button_link": "",
         "divider": false
-      }
-    },
-    "rich_text_RGJqHW": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_F9yPzN": {
-          "type": "heading",
-          "settings": {
-            "title": "Join The Movement"
-          }
-        },
-        "text_GNwaFT": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>The Baseball Industry Network is more than a platform — it’s a <strong>career ecosystem</strong> built to advance the people who make baseball great.<br/>Whether you’re starting your career, building your reputation, or leading the next generation, <strong>BIN is your home for growth, access, and opportunity</strong>.</p>"
-          }
-        },
-        "button_tHUaqg": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://pages/membership",
-            "link_text": "Join Membership"
-          }
-        }
-      },
-      "block_order": [
-        "heading_F9yPzN",
-        "text_GNwaFT",
-        "button_tHUaqg"
-      ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false,
-        "custom_class": "home_richtext_about"
       }
     },
     "text_with_icons_THFthy": {
@@ -305,9 +305,9 @@
     "blocks_G36LVh",
     "advanced_content_WPjAaU",
     "text_with_icons_rEe9zw",
+    "rich_text_RGJqHW",
     "hero_video_yLyNVU",
     "text_with_icons_mY9pMM",
-    "rich_text_RGJqHW",
     "text_with_icons_THFthy",
     "contact_form_Xw4Hbf"
   ]
