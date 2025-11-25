@@ -86,33 +86,33 @@
         "text_block_xek943": {
           "type": "text_block",
           "settings": {
-            "icon": "recycle",
-            "title": "Brand Storytelling & Identity Development",
-            "text": "<p>Creation of a compelling brand narrative that captures BIN’s origin, mission, and future vision.</p>"
+            "icon": "globe",
+            "title": "Where the Game Comes Together.",
+            "text": "<p><strong>Where the Game Comes Together.              </strong></p><p>The Baseball Industry Network unites more than 40,000 members from across the sport — from front offices to the field, scouts to suppliers. </p><p></p><p>BIN serves as the central hub where relationships grow, opportunities are discovered, and the future of baseball takes shape.</p>"
           }
         },
         "text_block_UyRKww": {
           "type": "text_block",
           "settings": {
-            "icon": "store",
-            "title": "Bin Visual Identity System",
-            "text": "<p>Our creative team will build a modern-yet-timeless visual identity anchored in baseball culture.</p>"
+            "icon": "package",
+            "title": "Career Development",
+            "text": "<p><strong>Empowering the Next Generation of Baseball Professionals.</strong><br/></p><p>Through exclusive job boards, mentorship programs, and professional resources, BIN gives members the tools to advance their careers. Whether you’re breaking into the industry or building your legacy, we provide access, insights, and pathways to success.</p>"
           }
         },
         "text_block_XDBfDk": {
           "type": "text_block",
           "settings": {
-            "icon": "package",
-            "title": "Product & Marketing Design System",
-            "text": "<p>Extend the brand system into a cohesive design strategy for all BIN merchandise, promotional material, social content, and event branding.</p>"
+            "icon": "phone",
+            "title": "Community & Collaboration",
+            "text": "<p><strong>Shared Passion. Collective Progress.</strong><br/>BIN fosters a diverse and inclusive community where ideas, experiences, and expertise are shared openly. From virtual events to in-person meetups, members connect with peers and leaders who share a deep love for the game — and a drive to make it better.</p>"
           }
         },
         "text_block_CWtPgj": {
           "type": "text_block",
           "settings": {
-            "icon": "charity",
-            "title": "Brand Assets & Process",
-            "text": "<p>Deliver a complete BIN Brand Bible — a foundational design guide that includes. Brand story, mission, tone, and messaging</p>"
+            "icon": "shield",
+            "title": "Growth & Innovation",
+            "text": "<p><strong>Building the Future of Baseball — On and Off the Field.</strong><br/>BIN is committed to evolving with the game. Through digital engagement, live experiences, and forward-thinking partnerships, we’re redefining how baseball professionals learn, network, and grow together — ensuring the sport thrives for generations to come.</p>"
           }
         }
       },
