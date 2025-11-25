@@ -412,7 +412,7 @@
         "liquid_iEiW9C": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Learn, Lead, and Connect</h2><p>BIN hosts mentorship programs and exclusive networking events for Premier and Elite members. Share insights, grow professionally, and meet the people shaping the future of the game.</p><a href=\"#\" class=\n\"btn\">Join Our Membership Programs to Participate</a>",
+            "code": "<h2>Learn, Lead, and Connect</h2><p>BIN hosts mentorship programs and exclusive networking events for Premier and Elite members. Share insights, grow professionally, and meet the people shaping the future of the game.</p><a href=\"#\" class=\n\"btn\">Join Premier or Elite to Participate</a>",
             "width": "50%",
             "alignment": "center"
           }
@@ -436,14 +436,14 @@
         "title_bgw6tE": {
           "type": "title",
           "settings": {
-            "title": "Ready to Take Your Baseball Career Further?",
+            "title": "Subscribe to the Baseball Industry Network Newsletter",
             "heading_size": "h2"
           }
         },
         "text_7kBC6c": {
           "type": "text",
           "settings": {
-            "text": "<p>Join the Baseball Industry Network today — where passion meets opportunity.</p>"
+            "text": "<p>Stay connected to the heart of the game.<br/>Join our mailing list and be the first to know about:</p><ul><li>Exclusive event access & networking opportunities</li><li>Insider baseball industry news & updates</li><li>Job board highlights and career resources</li><li>Member-only offers, discounts, and product drops</li></ul>"
           }
         },
         "form_EK9mfn": {
@@ -459,8 +459,9 @@
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "custom_class": "home_newsletter",
-        "align_text": "center",
-        "image_width": "33",
+        "align_text": "left",
+        "image": "shopify://shop_images/190716_Cubs_124.jpg",
+        "image_width": "50",
         "image_mask": "none",
         "image_position": "right",
         "color_background": "#e9edf0",
