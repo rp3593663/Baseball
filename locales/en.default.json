@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
@@ -27,7 +36,7 @@
       "signup_form_success": "We will send you an email right before we open!",
       "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
       "password_link": "Password",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "powered_by_shopify_html": "Powered By Alixa Sports"
     },
     "breadcrumbs": {
       "home": "Home",
@@ -400,5 +409,15 @@
     "view_store_info": "View store information",
     "check_availability": "Check availability at other stores",
     "show_all_results": "Show all results for \"{{ terms }}\""
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "autocomplete_powered_by_google": "Powered By Alixa Sports"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Powered By Alixa Sports"
+    }
   }
 }
