@@ -122,7 +122,7 @@
           "settings": {
             "show_footer_title": true,
             "title": "Sign up and save",
-            "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "richtext": "<p>Subscribe to get information on special offers & events, exclusive discounts, and content.</p>",
             "container_width": 25
           }
         }
