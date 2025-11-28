@@ -61,7 +61,7 @@
         "size_chart_DE78AE": {
           "type": "size_chart",
           "settings": {
-            "size_chart": ""
+            "size_chart": "{{ product.metafields.custom.size_chart.value }}"
           }
         },
         "buy_buttons": {
