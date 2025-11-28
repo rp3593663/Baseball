@@ -1085,6 +1085,9 @@ h2.event_title {
     min-width: 32px;
     height: 32px;
   }
+  .product-block--price {
+    margin-bottom: 12px;
+  }
   .index-section--faq {
     margin: 20px 0px;
   }
