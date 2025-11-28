@@ -1091,6 +1091,9 @@ h2.event_title {
   .product-block {
     margin-bottom: 8px;
   }
+  .template-product.template-product\.bin-products span.product__price {
+    font-size: 18px;
+  }
   .index-section--faq {
     margin: 20px 0px;
   }
