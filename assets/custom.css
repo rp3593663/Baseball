@@ -422,6 +422,17 @@ p.video-desc {
     font-size: 14px!important;
     text-transform: capitalize!important;
 }
+.template-product.template-product\.bin-products .tool-tip-trigger__title {
+    font-family: 'Inter';
+    letter-spacing: 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2px 10px;
+    width: fit-content;
+    background: #f6f6f6;
+}
 .template-product.template-product\.bin-products .product-main-slide image-element img{
     mix-blend-mode: multiply;
 }
