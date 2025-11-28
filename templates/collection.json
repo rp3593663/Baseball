@@ -68,7 +68,7 @@
         "parallax": false,
         "parallax_direction": "top",
         "enable_sidebar": true,
-        "collapsed": true,
+        "collapsed": false,
         "enable_color_swatches": true,
         "enable_swatch_labels": true,
         "enable_sort": true
