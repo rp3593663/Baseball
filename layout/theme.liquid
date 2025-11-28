@@ -1,6 +1,6 @@
-{%- comment %}<locksmith:9644>{% endcomment -%}
+{%- comment %}<locksmith:4b21>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:9644>{% endcomment -%}
+{%- comment %}</locksmith:4b21>{% endcomment -%}
 
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
@@ -25,10 +25,10 @@
   {%- render 'seo-title' -%}
 
   {%- if page_description -%}
-  {%- comment %}<locksmith:7bc2>{% endcomment -%}
+  {%- comment %}<locksmith:ef65>{% endcomment -%}
     {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
     {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-  {%- comment %}</locksmith:7bc2>{% endcomment -%}
+  {%- comment %}</locksmith:ef65>{% endcomment -%}
   {%- endif -%}
 
   {%- render 'social-meta-tags' -%}
