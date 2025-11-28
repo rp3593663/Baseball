@@ -101,12 +101,80 @@
         "ai_gen_block_990bc9d_9dVnhq"
       ],
       "settings": {}
+    },
+    "elite_membership_benefits_BhYCCP": {
+      "type": "elite_membership_benefits",
+      "blocks": {
+        "benefit_item_maWEpL": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Front office decision-making frameworks",
+            "benefit_text": ""
+          }
+        },
+        "benefit_item_U6xrNE": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Baseball business models & revenue performance",
+            "benefit_text": ""
+          }
+        },
+        "benefit_item_KTybxf": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Team operations & financial strategy",
+            "benefit_text": ""
+          }
+        },
+        "benefit_item_B6REKn": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Sponsorship, media, and NIL impact",
+            "benefit_text": ""
+          }
+        },
+        "benefit_item_MzdcBH": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Player development systems & analytics integrations",
+            "benefit_text": ""
+          }
+        },
+        "benefit_item_hteAzR": {
+          "type": "benefit_item",
+          "settings": {
+            "benefit_title": "Industry-wide hiring, talent, and innovation trends",
+            "benefit_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "benefit_item_maWEpL",
+        "benefit_item_U6xrNE",
+        "benefit_item_KTybxf",
+        "benefit_item_B6REKn",
+        "benefit_item_MzdcBH",
+        "benefit_item_hteAzR"
+      ],
+      "name": "Elite Membership Benefits",
+      "settings": {
+        "custom_class": "",
+        "subtitle": "",
+        "title": "Executive Strategy Reports",
+        "description": "Monthly deep-dive reports built for decision-makers. Each report includes actionable insights and implementation steps.",
+        "padding_top_desktop": 60,
+        "padding_bottom_desktop": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "container_width": "page-width"
+      }
     }
   },
   "order": [
     "main",
     "blocks_haaNHc",
     "rich_text_EmnVbT",
-    "1764311657676b5a64"
+    "1764311657676b5a64",
+    "elite_membership_benefits_BhYCCP"
   ]
 }
