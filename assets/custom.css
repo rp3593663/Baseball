@@ -1027,7 +1027,31 @@ a#customer_register_link {
     color: var(--red);
     font-weight: 500;
 }
-
+.locksmith-content-inner {
+    text-align: center;
+    margin-top: 40px;
+}
+.locksmith-content-inner .badge {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+h1#access-title {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.locksmith-content-inner p {
+    margin: 0 auto 30px;
+    max-width: 800px;
+}
+.locksmith-content-inner .info a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.locksmith-content-inner .actions {
+    margin-top: 20px;
+}
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
@@ -1127,7 +1151,8 @@ a#customer_register_link {
   .key-benefit-item p,
   .center-box p,
   .privacy_content p,
-  li.sales-point {
+  li.sales-point,
+  .locksmith-content-inner p {
     font-size: 13px;
     line-height: 20px;
   }
