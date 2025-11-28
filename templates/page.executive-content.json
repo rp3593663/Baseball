@@ -62,19 +62,11 @@
             "enlarge_text": false,
             "text": "<p>This space is reserved exclusively for <strong>Elite members</strong> of the Baseball Industry Network. Here, you’ll gain access to advanced strategic insights, industry intelligence, and leadership resources used by front office executives, player development leaders, scouting directors, and baseball business professionals.</p><p><strong>Our Goal :</strong> empower you with the knowledge, frameworks, and tools that elevate your career and organizational impact.</p>"
           }
-        },
-        "button_qEpyXM": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://pages/membership",
-            "link_text": "Join NOW"
-          }
         }
       },
       "block_order": [
         "heading_hGbCdW",
-        "text_y7BfgA",
-        "button_qEpyXM"
+        "text_y7BfgA"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
