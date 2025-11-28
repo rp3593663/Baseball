@@ -1115,6 +1115,9 @@ h2.event_title {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
+  .product-grid-container.product-grid-container--sidebar-false .small--one-half {
+    width: 100%;
+  }
   .variant-input-wrap label {
     font-size: 13px!important;
     margin: 0 10px 10px 0;
