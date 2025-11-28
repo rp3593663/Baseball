@@ -986,6 +986,9 @@ h2.event_title {
 .product-grid-container img {
     mix-blend-mode: multiply;
 }
+.product-grid-container image-element {
+  background: #f4f4f4;
+}
 .grid-product__content .grid-product__title {
     font-size: 15px;
     font-weight: 600;
