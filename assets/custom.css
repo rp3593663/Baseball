@@ -1118,6 +1118,10 @@ h2.event_title {
   .product-grid-container.product-grid-container--sidebar-false .small--one-half {
     width: 100%;
   }
+  .grid-product__price {
+    font-size: 14px;
+    margin-top: 4px;
+  }
   .grid-product__content .grid-product__title {
     font-size: 13px;
     font-weight: 500;
