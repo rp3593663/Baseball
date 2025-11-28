@@ -1007,6 +1007,15 @@ h1.section-header__title {
     font-weight: 500;
     text-align: center;
 }
+form label {
+    font-family: var(--body_font_family);
+    letter-spacing: 0px!important;
+    text-transform: capitalize!important;
+    font-weight: 500;
+    font-size: 14px!important;
+}
+
+
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
