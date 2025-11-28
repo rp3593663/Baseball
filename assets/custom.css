@@ -1105,6 +1105,10 @@ h2.event_title {
   .collection-filter {
     margin-bottom: 20px;
   }
+  .collection-filter .btn {
+    padding: 0 10px;
+    font-size: 13px;
+  }
   .variant-input-wrap label {
     font-size: 13px!important;
     margin: 0 10px 10px 0;
