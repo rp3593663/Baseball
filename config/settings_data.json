@@ -45,7 +45,7 @@
     "product_save_type": "percent",
     "product_grid_image_fill": false,
     "quick_shop_enable": true,
-    "enable_swatches": true,
+    "enable_swatches": false,
     "social_facebook_link": "https://www.facebook.com/shopify",
     "social_twitter_link": "https://twitter.com/shopify",
     "social_instagram_link": "#",
