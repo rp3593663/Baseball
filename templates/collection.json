@@ -63,15 +63,15 @@
         "product_grid"
       ],
       "settings": {
-        "collection_image_enable": true,
+        "collection_image_enable": false,
         "collection_image_height": 550,
-        "parallax": true,
+        "parallax": false,
         "parallax_direction": "top",
-        "enable_sidebar": false,
-        "collapsed": false,
+        "enable_sidebar": true,
+        "collapsed": true,
         "enable_color_swatches": true,
         "enable_swatch_labels": true,
-        "enable_sort": false
+        "enable_sort": true
       }
     }
   },
