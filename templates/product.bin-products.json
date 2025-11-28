@@ -113,6 +113,10 @@
             "text": "Durable Build for Daily Training"
           }
         },
+        "separator_wHPR8L": {
+          "type": "separator",
+          "settings": {}
+        },
         "tab_npXUja": {
           "type": "tab",
           "settings": {
@@ -154,6 +158,7 @@
         "sales_point_TT9yqN",
         "sales_point_969iaE",
         "sales_point_6HCzTw",
+        "separator_wHPR8L",
         "tab_npXUja",
         "tab_fFTWLX",
         "contact_CdfGVp",
