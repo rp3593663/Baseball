@@ -517,6 +517,7 @@ span.appstle_subscribe_save_text {
   padding: 15px 25px;
   border-radius: 0px;
   display: flex;
+  align-items: center;
   gap: 20px;
   box-shadow: 0 4px 20px #0000000d;
 }
