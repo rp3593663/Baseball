@@ -422,6 +422,9 @@ p.video-desc {
     font-size: 14px!important;
     text-transform: capitalize!important;
 }
+.product__quantity label {
+    display: none;
+}
 .template-product.template-product\.bin-products .tool-tip-trigger__title {
     font-family: 'Inter';
     letter-spacing: 0px;
