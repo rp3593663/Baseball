@@ -121,6 +121,14 @@
             "page": ""
           }
         },
+        "tab_fFTWLX": {
+          "type": "tab",
+          "settings": {
+            "title": "Care Instructions",
+            "content": "<ul><li>Machine wash cold with similar colors</li><li>Do <strong>not</strong> use bleach or fabric softener</li><li>Tumble dry low or air dry</li><li>Iron on low if needed—avoid logo/prints</li><li>Do not dry clean</li></ul>",
+            "page": ""
+          }
+        },
         "contact_CdfGVp": {
           "type": "contact",
           "disabled": true,
@@ -147,6 +155,7 @@
         "sales_point_969iaE",
         "sales_point_6HCzTw",
         "tab_npXUja",
+        "tab_fFTWLX",
         "contact_CdfGVp",
         "share_JzqRky"
       ],
