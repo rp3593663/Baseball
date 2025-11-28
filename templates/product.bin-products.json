@@ -85,7 +85,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
-            "show_gift_card_recipient": false
+            "show_gift_card_recipient": true
           }
         },
         "sales_point_TT9yqN": {
