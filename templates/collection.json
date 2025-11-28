@@ -47,6 +47,7 @@
       "blocks": {
         "collection_description": {
           "type": "collection_description",
+          "disabled": true,
           "settings": {}
         },
         "product_grid": {
@@ -54,7 +55,7 @@
           "settings": {
             "collection_subnav_style": "inline",
             "per_row": 4,
-            "mobile_flush_grid": false
+            "mobile_flush_grid": true
           }
         }
       },

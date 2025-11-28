@@ -51,6 +51,8 @@
     "social_twitter_link": "https://twitter.com/shopify",
     "social_instagram_link": "#",
     "social_youtube_link": "#",
+    "show_breadcrumbs": false,
+    "show_breadcrumbs_collection_link": false,
     "checkout_accent_color": "#111111",
     "checkout_banner_background_color": "#fff",
     "checkout_body_background_color": "#ffffff",
