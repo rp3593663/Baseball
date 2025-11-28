@@ -158,11 +158,6 @@
     }
   }
 
-  {% if block.settings.custom_class != blank %}
-    .{{ block.settings.custom_class }} {
-      /* Add your custom styles here */
-    }
-  {% endif %}
 {% endstyle %}
 
 <div class="ai-strategy-reports-{{ ai_gen_id }} {% if block.settings.custom_class != blank %}{{ block.settings.custom_class }}{% endif %}" {{ block.shopify_attributes }}>
