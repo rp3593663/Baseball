@@ -379,28 +379,28 @@ p.video-desc {
 }
 
 
-.product-section {
+.template-product:not(.template-product\.bin-products) .product-section {
   position: relative;
   background-image: url(https://cdn.shopify.com/s/files/1/0774/4562/8117/files/background-pattern1.png?v=1763468421);
 }
-.product-single__sticky {
+.template-product:not(.template-product\.bin-products) .product-single__sticky {
     position: relative;
     top: unset;
 }
-.product-section .product-block {
+.template-product:not(.template-product\.bin-products) .product-section .product-block {
     margin-bottom: 0px;
 }
-.product-section .page-content {
+.template-product:not(.template-product\.bin-products) .product-section .page-content {
     background-image: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 55%, #FFFFFF 55%, #FFFFFF32 100%);
 }
-.product-section .grid {
+.template-product:not(.template-product\.bin-products) .product-section .grid {
     display: flex;
     align-items: center;
 }
-.product-section .grid .grid__item {
+.template-product:not(.template-product\.bin-products) .product-section .grid .grid__item {
     padding-left: 0;
 }
-.product-section .page-width {
+.template-product:not(.template-product\.bin-products) .product-section .page-width {
     max-width: 900px;
 }
 .appstle_membership_wrapper {
@@ -1235,7 +1235,7 @@ h2.event_title {
     width: 16px;
     height: 16px;
   }
-  .product-section .grid {
+  .template-product:not(.template-product\.bin-products) .product-section .grid {
     display: grid;
     margin-left: 0px;
     padding: 0px 10px;
@@ -1254,7 +1254,7 @@ h2.event_title {
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .product-section .page-content {
+  .template-product:not(.template-product\.bin-products) .product-section .page-content {
     background-image: radial-gradient(circle, #fff 0% 55%, #fff 55%, #ffffffd9);
   }
   .video-card {
