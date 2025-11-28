@@ -68,89 +68,6 @@
         "product_video_style": "muted"
       }
     },
-    "elite_membership_benefits_bW9U4i": {
-      "type": "elite_membership_benefits",
-      "blocks": {
-        "benefit_item_3VVN9t": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Access to BIN LinkedIn Group",
-            "benefit_text": "Full access to the official BIN LinkedIn community."
-          }
-        },
-        "benefit_item_qVf8XN": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Weekly Industry Newsletter",
-            "benefit_text": "Receive weekly insights, trends, and industry updates."
-          }
-        },
-        "benefit_item_AtF7Lf": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Full Job Board Access + Early Access",
-            "benefit_text": "Access all job listings with exclusive early postings for Elite members."
-          }
-        },
-        "benefit_item_Yyftbx": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Exclusive Webinars",
-            "benefit_text": "Monthly live + on-demand sessions exclusive to Elite members."
-          }
-        },
-        "benefit_item_ezhpwc": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Executive Q&A Chats",
-            "benefit_text": "Bi-monthly small-group sessions with industry experts."
-          }
-        },
-        "benefit_item_DTaarN": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Executive Mentorship",
-            "benefit_text": "Personalized mentorship with top industry leaders."
-          }
-        },
-        "benefit_item_RjcJb6": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "VIP Access to Events",
-            "benefit_text": "First priority and special VIP access to seasonal BIN events."
-          }
-        },
-        "benefit_item_P73C9b": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Premium Merchandise Kit",
-            "benefit_text": "Multi-item seasonal merch drops exclusive to Elite members."
-          }
-        }
-      },
-      "block_order": [
-        "benefit_item_3VVN9t",
-        "benefit_item_qVf8XN",
-        "benefit_item_AtF7Lf",
-        "benefit_item_Yyftbx",
-        "benefit_item_ezhpwc",
-        "benefit_item_DTaarN",
-        "benefit_item_RjcJb6",
-        "benefit_item_P73C9b"
-      ],
-      "name": "Elite Membership Benefits",
-      "settings": {
-        "custom_class": "",
-        "subtitle": "Elite Membership Benefits",
-        "title": "Get elite benefits & exclusive services",
-        "description": "Unlock premium resources, early access, exclusive mentorship, partner perks, and VIP opportunities designed to elevate your professional journey to the next level. Become an Elite member and experience the highest level of access and value within the BIN network.",
-        "padding_top_desktop": 60,
-        "padding_bottom_desktop": 60,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40,
-        "container_width": "page-width"
-      }
-    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -160,7 +77,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like",
         "related_count": 4,
@@ -176,7 +92,6 @@
   "order": [
     "blocks_JdbjjV",
     "main",
-    "elite_membership_benefits_bW9U4i",
     "sub",
     "product-recommendations",
     "collection-return"
