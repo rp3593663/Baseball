@@ -324,7 +324,7 @@
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
       "quantity": "Quantity",
-      "add_to_cart": "Join Now",
+      "add_to_cart": "Add to Cart",
       "preorder": "Pre-order",
       "include_taxes": "Tax included.",
       "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
