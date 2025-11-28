@@ -1102,6 +1102,10 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .announcement__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
   .collection-filter {
     margin-bottom: 20px;
   }
