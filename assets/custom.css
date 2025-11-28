@@ -406,10 +406,21 @@ p.video-desc {
 .template-product.template-product\.bin-products .product-main-slide image-element {
     background: #e9edf0;
 }
-.template-product.template-product\.bin-products .product-main-slide span.product__price {
+.template-product.template-product\.bin-products span.product__price {
     color: var(--red);
     font-size: 22px;
     font-weight: 700;
+}
+.template-product.template-product\.bin-products .variant__label {
+    cursor: default;
+    display: block;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    letter-spacing: 0px!important;
+    font-weight: 600;
+    font-size: 14px!important;
+    text-transform: capitalize!important;
 }
 .template-product.template-product\.bin-products .product-main-slide image-element img{
     mix-blend-mode: multiply;
