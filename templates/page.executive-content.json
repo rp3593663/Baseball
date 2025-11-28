@@ -204,80 +204,6 @@
         "ai_gen_block_7450c6c_dfz4EE"
       ],
       "settings": {}
-    },
-    "image_with_text_list_tCjbG3": {
-      "type": "image-with-text-list",
-      "blocks": {
-        "feature_etKNxD": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "feature_text": "MLB/MiLB job market analysis"
-          }
-        },
-        "feature_JE97ri": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "feature_text": "Salary and compensation benchmarks"
-          }
-        },
-        "feature_PQrGQ7": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "feature_text": "Skills in highest demand"
-          }
-        },
-        "feature_UefkD4": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "feature_text": "Department growth projections"
-          }
-        },
-        "feature_LUGwB6": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "feature_text": "Year-to-year industry trend shifts"
-          }
-        },
-        "image_fnLxWh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/img1.png"
-          }
-        },
-        "image_y8Lbd9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/17.png"
-          }
-        }
-      },
-      "block_order": [
-        "feature_etKNxD",
-        "feature_JE97ri",
-        "feature_PQrGQ7",
-        "feature_UefkD4",
-        "feature_LUGwB6",
-        "image_fnLxWh",
-        "image_y8Lbd9"
-      ],
-      "name": "Image with Text List",
-      "settings": {
-        "custom_class": "executive_list",
-        "heading": "Hiring & Workforce Intelligence",
-        "text": "Exclusive hiring insights to help you navigate and anticipate industry trends:",
-        "button_label": "",
-        "button_link": "",
-        "padding_top_desktop": 60,
-        "padding_bottom_desktop": 60,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40,
-        "container_width": "page-width"
-      }
     }
   },
   "order": [
@@ -285,7 +211,6 @@
     "blocks_haaNHc",
     "rich_text_EmnVbT",
     "elite_membership_benefits_BhYCCP",
-    "1764313763b774f299",
-    "image_with_text_list_tCjbG3"
+    "1764313763b774f299"
   ]
 }
