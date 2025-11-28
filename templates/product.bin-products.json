@@ -123,6 +123,7 @@
         },
         "contact_CdfGVp": {
           "type": "contact",
+          "disabled": true,
           "settings": {
             "title": "Ask a question",
             "phone": false
