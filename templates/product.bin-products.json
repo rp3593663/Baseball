@@ -49,6 +49,13 @@
           "type": "price",
           "settings": {}
         },
+        "inventory_status_GXyYHJ": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
         "variant_picker_BXGwBf": {
           "type": "variant_picker",
           "settings": {
@@ -64,6 +71,10 @@
             "size_chart": "{{ product.metafields.custom.size_chart.value }}"
           }
         },
+        "quantity_selector_iXVWP8": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -71,13 +82,49 @@
             "surface_pickup_enable": false,
             "show_gift_card_recipient": false
           }
+        },
+        "sales_point_TT9yqN": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "sales_point_969iaE": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "sales_point_6HCzTw": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "separator_8NyWhR": {
+          "type": "separator",
+          "settings": {}
+        },
+        "share_JzqRky": {
+          "type": "share",
+          "settings": {}
         }
       },
       "block_order": [
         "price_ebN83E",
+        "inventory_status_GXyYHJ",
         "variant_picker_BXGwBf",
         "size_chart_DE78AE",
-        "buy_buttons"
+        "quantity_selector_iXVWP8",
+        "buy_buttons",
+        "sales_point_TT9yqN",
+        "sales_point_969iaE",
+        "sales_point_6HCzTw",
+        "separator_8NyWhR",
+        "share_JzqRky"
       ],
       "settings": {
         "sku_enable": false,
