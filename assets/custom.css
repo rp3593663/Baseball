@@ -1098,6 +1098,9 @@ h2.event_title {
     font-size: 13px!important;
     margin-bottom: 10px;
   }
+  .product-block--sales-point+.product-block--sales-point {
+    margin-top: -6px;
+  }
   .index-section--faq {
     margin: 20px 0px;
   }
