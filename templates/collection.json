@@ -55,7 +55,7 @@
           "settings": {
             "collection_subnav_style": "inline",
             "per_row": 4,
-            "mobile_flush_grid": true
+            "mobile_flush_grid": false
           }
         }
       },
