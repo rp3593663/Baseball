@@ -76,32 +76,6 @@
         "custom_class": "home_richtext_about"
       }
     },
-    "1764311657676b5a64": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_990bc9d_9dVnhq": {
-          "type": "ai_gen_block_990bc9d",
-          "settings": {
-            "heading": "Executive Strategy Reports",
-            "intro_text": "<p>Monthly deep-dive reports built for decision-makers.</p>",
-            "subtitle": "Topics Include:",
-            "topic_1": "Front office decision-making frameworks",
-            "topic_2": "Baseball business models & revenue performance",
-            "topic_3": "Team operations & financial strategy",
-            "topic_4": "Sponsorship, media, and NIL impact",
-            "topic_5": "Player development systems & analytics integrations",
-            "topic_6": "Industry-wide hiring, talent, and innovation trends",
-            "footer_text": "<p>Each report includes actionable insights and implementation steps.</p>",
-            "custom_class": "strategy_report"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_990bc9d_9dVnhq"
-      ],
-      "settings": {}
-    },
     "elite_membership_benefits_BhYCCP": {
       "type": "elite_membership_benefits",
       "blocks": {
@@ -174,7 +148,6 @@
     "main",
     "blocks_haaNHc",
     "rich_text_EmnVbT",
-    "1764311657676b5a64",
     "elite_membership_benefits_BhYCCP"
   ]
 }
