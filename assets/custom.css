@@ -1101,6 +1101,13 @@ h2.event_title {
   .product-block--sales-point+.product-block--sales-point {
     margin-top: -6px;
   }
+  .template-product.template-product\.bin-products .product-block--tab button.label {
+    font-size: 15px;
+    padding: 15px 0;
+  }
+  .product-block--tab+.product-block--tab {
+    margin-top: -8px;
+  }
   .index-section--faq {
     margin: 20px 0px;
   }
