@@ -33,7 +33,7 @@
         "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
         "popup_image": "shopify://shop_images/about_img.png",
         "image_position": "left",
-        "show_social_icons": false,
+        "show_social_icons": true,
         "enable_newsletter": true,
         "button_label": "",
         "button_link": ""
