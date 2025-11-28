@@ -1079,6 +1079,12 @@ h2.event_title {
     font-size: 13px;
     line-height: 20px;
   }
+  .variant-input-wrap label {
+    font-size: 13px!important;
+    margin: 0 10px 10px 0;
+    min-width: 32px;
+    height: 32px;
+  }
   .index-section--faq {
     margin: 20px 0px;
   }
