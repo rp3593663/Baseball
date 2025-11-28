@@ -996,6 +996,7 @@ h2.event_title {
 }
 .grid-product__price {
     color: #DA4B5B;
+    font-size: 15px;
     font-weight: 600;
     text-transform: capitalize;
 }
