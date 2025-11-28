@@ -1017,6 +1017,16 @@ form label {
 .newsletter-popup__content p {
     font-size: 14px!important;
 }
+a#customer_register_link {
+    margin-top: -25px!important;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: var(--red);
+    font-weight: 500;
+}
 
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
