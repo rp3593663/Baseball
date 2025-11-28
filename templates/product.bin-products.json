@@ -88,6 +88,10 @@
             "show_gift_card_recipient": true
           }
         },
+        "separator_bBGehe": {
+          "type": "separator",
+          "settings": {}
+        },
         "sales_point_TT9yqN": {
           "type": "sales_point",
           "settings": {
@@ -137,6 +141,7 @@
         "size_chart_DE78AE",
         "quantity_selector_iXVWP8",
         "buy_buttons",
+        "separator_bBGehe",
         "sales_point_TT9yqN",
         "sales_point_969iaE",
         "sales_point_6HCzTw",
