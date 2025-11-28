@@ -171,7 +171,7 @@
         "thumbnail_position": "beside",
         "thumbnail_height": "flexible",
         "thumbnail_arrows": false,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "product_video_style": "muted"
       }
     },
