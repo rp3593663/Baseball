@@ -983,11 +983,11 @@ h2.event_title {
 #CollectionSection h1.section-header__title.collection-title {
     display: none;
 }
-.product-grid-container img {
+.grid-product__content img {
     mix-blend-mode: multiply;
 }
-.product-grid-container image-element,
-.product-grid-container .grid-product__secondary-image {
+.grid-product__content image-element,
+.grid-product__content .grid-product__secondary-image {
   background: #f4f4f4;
 }
 .grid-product__content .grid-product__title {
