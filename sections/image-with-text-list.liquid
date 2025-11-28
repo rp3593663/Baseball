@@ -1,52 +1,20 @@
 <section 
-  id="elite-benefits-{{ section.id }}" 
-  class="elite-benefits-section {{ section.settings.custom_class }} "
+  id="img_with_text_list-{{ section.id }}" 
+  class="img_with_text_list_section {{ section.settings.custom_class }} "
 >
   <div class="{{ section.settings.container_width }}">
-    <div class="elite-benefits-container">
-        <div class="elite-benefits-header">
-        {% if section.settings.subtitle != blank %}
-            <p class="elite-subtitle">{{ section.settings.subtitle }}</p>
-        {% endif %}
-
-        {% if section.settings.title != blank %}
-            <h2 class="elite-title">{{ section.settings.title }}</h2>
-        {% endif %}
-
-        {% if section.settings.description != blank %}
-            <p class="elite-description">{{ section.settings.description }}</p>
-        {% endif %}
-        </div>
-
-        <div class="elite-benefits-grid">
-        {% for block in section.blocks %}
-            <div class="elite-benefit-box">
-            <div class="elite-icon">
-                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="12" r="11" stroke="#1E5AAA" stroke-width="1"/>
-                    <path d="M7 12.5L10.5 16L17 8" stroke="#1E5AAA" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
-
-            <div class="elite-content">
-                <h3>{{ block.settings.benefit_title }}</h3>
-                <p>{{ block.settings.benefit_text }}</p>
-            </div>
-            </div>
-        {% endfor %}
-        </div>
-    </div>
+    
   </div>
 </section>
 
 {% style %}
-#elite-benefits-{{ section.id }} {
+#img_with_text_list-{{ section.id }} {
   padding-top: {{ section.settings.padding_top_desktop }}px;
   padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
 }
 
 @media (max-width: 767px) {
-  #elite-benefits-{{ section.id }} {
+  #img_with_text_list-{{ section.id }} {
     padding-top: {{ section.settings.padding_top_mobile }}px;
     padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
