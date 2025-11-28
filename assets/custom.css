@@ -1053,7 +1053,8 @@ h2.event_title {
   .elite-title,
   .about_text_with_icon h2,
   .about_contact h2.section-header__title,
-  .all_events_block .events_header h2 {
+  .all_events_block .events_header h2,
+  product-recommendations h3.section-header__title {
     font-size: 30px!important;
     line-height: 42px!important;
   }
