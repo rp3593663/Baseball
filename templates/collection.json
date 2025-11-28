@@ -53,7 +53,7 @@
         "product_grid": {
           "type": "product_grid",
           "settings": {
-            "collection_subnav_style": "none",
+            "collection_subnav_style": "inline",
             "per_row": 4,
             "mobile_flush_grid": true
           }
