@@ -986,7 +986,8 @@ h2.event_title {
 .product-grid-container img {
     mix-blend-mode: multiply;
 }
-.product-grid-container image-element {
+.product-grid-container image-element,
+.product-grid-container .grid-product__secondary-image {
   background: #f4f4f4;
 }
 .grid-product__content .grid-product__title {
