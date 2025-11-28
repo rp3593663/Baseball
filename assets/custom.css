@@ -431,6 +431,7 @@ p.video-desc {
 .template-product.template-product\.bin-products .product-block--tab button.label {
     font-size: 16px;
     letter-spacing: 0.5px;
+    padding: 15px 0;
 }
 .template-product.template-product\.bin-products .tool-tip-trigger__title {
     font-family: 'Inter';
