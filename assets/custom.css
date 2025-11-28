@@ -406,6 +406,11 @@ p.video-desc {
 .template-product.template-product\.bin-products .product-main-slide image-element {
     background: #e9edf0;
 }
+.template-product.template-product\.bin-products .product-main-slide span.product__price {
+    color: var(--red);
+    font-size: 22px;
+    font-weight: 700;
+}
 .template-product.template-product\.bin-products .product-main-slide image-element img{
     mix-blend-mode: multiply;
 }
