@@ -46,10 +46,48 @@
       ],
       "name": "Page title breadcrumbs",
       "settings": {}
+    },
+    "rich_text_EmnVbT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hGbCdW": {
+          "type": "heading",
+          "settings": {
+            "title": "Welcome to the Elite Executive Insights Hub"
+          }
+        },
+        "text_y7BfgA": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>This space is reserved exclusively for <strong>Elite members</strong> of the Baseball Industry Network. Here, you’ll gain access to advanced strategic insights, industry intelligence, and leadership resources used by front office executives, player development leaders, scouting directors, and baseball business professionals.</p><p><strong>Our Goal :</strong> empower you with the knowledge, frameworks, and tools that elevate your career and organizational impact.</p>"
+          }
+        },
+        "button_qEpyXM": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/membership",
+            "link_text": "Join NOW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hGbCdW",
+        "text_y7BfgA",
+        "button_qEpyXM"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "custom_class": "home_richtext_about"
+      }
     }
   },
   "order": [
     "main",
-    "blocks_haaNHc"
+    "blocks_haaNHc",
+    "rich_text_EmnVbT"
   ]
 }
