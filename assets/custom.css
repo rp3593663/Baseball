@@ -403,6 +403,9 @@ p.video-desc {
 .template-product:not(.template-product\.bin-products) .product-section .page-width {
     max-width: 900px;
 }
+.template-product.template-product\.bin-products .product-main-slide image-element {
+    background: #e9edf0;
+}
 .appstle_membership_wrapper {
     border: unset!important;
     padding: 0px!important;
