@@ -1013,6 +1013,7 @@ form label {
     text-transform: capitalize!important;
     font-weight: 500;
     font-size: 14px!important;
+    text-align: left;
 }
 .newsletter-popup__content p {
     font-size: 14px!important;
