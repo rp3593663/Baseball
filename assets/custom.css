@@ -425,6 +425,9 @@ p.video-desc {
 .product__quantity label {
     display: none;
 }
+.sales-point path{
+    stroke-width: 3px!important;
+}
 .template-product.template-product\.bin-products .product-block--tab button.label {
     font-size: 16px;
     letter-spacing: 0.5px;
