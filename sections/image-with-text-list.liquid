@@ -1,16 +1,125 @@
-<section 
-  id="img_with_text_list-{{ section.id }}" 
-  class="img_with_text_list_section {{ section.settings.custom_class }} "
->
-  <div class="{{ section.settings.container_width }}">
-    
+{% comment %}
+  Image With Text List Section
+  Designed to match the layout shown in the reference image:
+  - Two images on left (stacked or side‑by‑side depending on screen)
+  - Text heading + paragraph + list of features
+  - CTA button
+  - All dynamic using Shopify customizer
+{% endcomment %}
+
+<section id="img_with_text_list-{{ section.id }}" class="img_with_text_list_section {{ section.settings.custom_class }}">
+  <div class="{{ section.settings.container_width }} img-text-wrapper">
+
+    <div class="img-column">
+      {% for block in section.blocks %}
+        {% if block.type == 'image' %}
+          <div class="img-item">
+            <img
+              src="{{ block.settings.image | img_url: '800x' }}"
+              alt="{{ block.settings.image.alt }}"
+              loading="lazy"
+            >
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="content-column">
+      <h2 class="main-heading">{{ section.settings.heading }}</h2>
+      <p class="main-text">{{ section.settings.text }}</p>
+
+      <div class="features-list">
+        {% for block in section.blocks %}
+          {% if block.type == 'feature' %}
+            <div class="feature-item">
+              <span class="feature-icon">{{ block.settings.icon }}</span>
+              <span class="feature-text">{{ block.settings.feature_text }}</span>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="cta-button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+
   </div>
 </section>
 
-{% style %}
+<style>
 #img_with_text_list-{{ section.id }} {
   padding-top: {{ section.settings.padding_top_desktop }}px;
   padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+}
+
+#img_with_text_list-{{ section.id }} .img-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.img-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.img-item img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.content-column {
+  flex: 1;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.main-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f4f4f4;
+  padding: 12px 16px;
+  border-radius: 12px;
+}
+
+.feature-icon {
+  font-size: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #4eff8c;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -18,63 +127,30 @@
     padding-top: {{ section.settings.padding_top_mobile }}px;
     padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
-}
 
-{% endstyle %}
+  .img-text-wrapper {
+    flex-direction: column;
+  }
+}
+</style>
 
 {% schema %}
 {
   "name": "Image with Text List",
   "settings": [
-    {
-      "type": "text",
-      "id": "custom_class",
-      "label": "Custom CSS Class"
-    },
-    {
-      "type": "header",
-      "content": "Padding Settings"
-    },
-    {
-      "type": "range",
-      "id": "padding_top_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding Top (desktop)",
-      "default": 60
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom_desktop",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding Bottom (desktop)",
-      "default": 60
-    },
-    {
-      "type": "range",
-      "id": "padding_top_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding Top (mobile)",
-      "default": 40
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom_mobile",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Padding Bottom (mobile)",
-      "default": 40
-    },
+    { "type": "text", "id": "custom_class", "label": "Custom CSS Class" },
+
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Stronger With Every Stride." },
+    { "type": "textarea", "id": "text", "label": "Content Text", "default": "Runmate is more than..." },
+
+    { "type": "text", "id": "button_label", "label": "Button Label", "default": "About Us" },
+    { "type": "url", "id": "button_link", "label": "Button Link" },
+
+    { "type": "header", "content": "Padding Settings" },
+    { "type": "range", "id": "padding_top_desktop", "min": 0, "max": 200, "step": 2, "unit": "px", "label": "Padding Top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom_desktop", "min": 0, "max": 200, "step": 2, "unit": "px", "label": "Padding Bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_top_mobile", "min": 0, "max": 200, "step": 2, "unit": "px", "label": "Padding Top (mobile)", "default": 40 },
+    { "type": "range", "id": "padding_bottom_mobile", "min": 0, "max": 200, "step": 2, "unit": "px", "label": "Padding Bottom (mobile)", "default": 40 },
 
     {
       "type": "select",
@@ -87,10 +163,27 @@
       ]
     }
   ],
-  "presets": [
+
+  "blocks": [
     {
-      "name": "Image with Text List"
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" }
+      ]
+    },
+    {
+      "type": "feature",
+      "name": "Feature Row",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon (emoji)" },
+        { "type": "text", "id": "feature_text", "label": "Feature Text", "default": "Weekly Community Runs" }
+      ]
     }
+  ],
+
+  "presets": [
+    { "name": "Image with Text List" }
   ]
 }
 {% endschema %}
