@@ -177,7 +177,17 @@
     },
     "sub": {
       "type": "product-full-width",
-      "disabled": true,
+      "blocks": {
+        "description_qyiGn9": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "description_qyiGn9"
+      ],
       "settings": {
         "max_width": true
       }
