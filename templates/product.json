@@ -45,10 +45,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "appstle_memberships_appstle_membership_product_page_widget_FrJtbH": {
-          "type": "shopify://apps/appstle-memberships/blocks/appstle-membership-product-page-widget/76528d70-5fbe-48f8-8e19-590d109aa2b7",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -59,13 +55,12 @@
         }
       },
       "block_order": [
-        "appstle_memberships_appstle_membership_product_page_widget_FrJtbH",
         "buy_buttons"
       ],
       "settings": {
         "sku_enable": false,
-        "image_size": "small",
-        "product_zoom_enable": false,
+        "image_size": "large",
+        "product_zoom_enable": true,
         "thumbnail_position": "beside",
         "thumbnail_height": "flexible",
         "thumbnail_arrows": false,
