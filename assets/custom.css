@@ -1000,14 +1000,6 @@ h2.event_title {
     font-weight: 600;
     text-transform: capitalize;
 }
-.product-grid-container.product-grid-container--sidebar-false {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  .product-grid-container.product-grid-container--sidebar-false .small--one-half {
-    width: 100%;
-  }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
