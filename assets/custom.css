@@ -433,6 +433,12 @@ p.video-desc {
     letter-spacing: 0.5px;
     padding: 15px 0;
 }
+product-recommendations h3.section-header__title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 .template-product.template-product\.bin-products .tool-tip-trigger__title {
     font-family: 'Inter';
     letter-spacing: 0px;
