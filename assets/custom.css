@@ -1130,7 +1130,8 @@ h1#access-title {
   .about_contact h2.section-header__title,
   .all_events_block .events_header h2,
   product-recommendations h3.section-header__title,
-  h1.section-header__title {
+  h1.section-header__title,
+  h1#access-title {
     font-size: 30px!important;
     line-height: 42px!important;
   }
