@@ -6,22 +6,22 @@
 {% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
 
 {% style %}
-  .ai-premium-features-{{ ai_gen_id }} {
+  .ai-resource-library-{{ ai_gen_id }} {
     padding: {{ block.settings.section_padding }}px 20px;
     background-color: {{ block.settings.background_color }};
   }
 
-  .ai-premium-features-container-{{ ai_gen_id }} {
+  .ai-resource-library-container-{{ ai_gen_id }} {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  .ai-premium-features-header-{{ ai_gen_id }} {
+  .ai-resource-library-header-{{ ai_gen_id }} {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
-  .ai-premium-features-title-{{ ai_gen_id }} {
+  .ai-resource-library-title-{{ ai_gen_id }} {
     color: {{ block.settings.title_color }};
     font-size: {{ block.settings.title_size }}px;
     margin: 0 0 16px;
@@ -30,178 +30,322 @@
     letter-spacing: 1.5px;
   }
 
-  .ai-premium-features-subtitle-{{ ai_gen_id }} {
+  .ai-resource-library-subtitle-{{ ai_gen_id }} {
     color: {{ block.settings.subtitle_color }};
     font-size: {{ block.settings.subtitle_size }}px;
     margin: 0;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .ai-premium-features-grid-{{ ai_gen_id }} {
+  .ai-resource-grid-{{ ai_gen_id }} {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 
-  .ai-premium-feature-card-{{ ai_gen_id }} {
+  .ai-resource-item-{{ ai_gen_id }} {
     background-color: {{ block.settings.card_bg_color }};
-    border: 2px solid {{ block.settings.card_border_color }};
+    border: 1px solid {{ block.settings.card_border_color }};
     border-radius: {{ block.settings.card_radius }}px;
-    padding: 40px 30px;
-    text-align: center;
+    overflow: hidden;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
   }
 
-  .ai-premium-feature-card-{{ ai_gen_id }}:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    border-color: {{ block.settings.card_hover_border_color }};
+  .ai-resource-item-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: {{ block.settings.card_hover_border }};
   }
 
-  .ai-premium-feature-icon-{{ ai_gen_id }} {
-    width: {{ block.settings.icon_size }}px;
-    height: {{ block.settings.icon_size }}px;
-    margin: 0 auto 24px;
-    background-color: {{ block.settings.icon_bg_color }};
-    border-radius: 50%;
+  .ai-resource-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background-color: {{ block.settings.image_bg_color }};
+    position: relative;
+  }
+
+  .ai-resource-image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-resource-item-{{ ai_gen_id }}:hover .ai-resource-image-{{ ai_gen_id }} img {
+    transform: scale(1.05);
+  }
+
+  .ai-resource-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0b2041 0%, #1a3a6b 100%);
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ai-premium-feature-icon-{{ ai_gen_id }} svg {
-    width: {{ block.settings.icon_size | times: 0.5 }}px;
-    height: {{ block.settings.icon_size | times: 0.5 }}px;
-    stroke: {{ block.settings.icon_color }};
+  .ai-resource-image-placeholder-{{ ai_gen_id }} svg {
+    width: 80px;
+    height: 80px;
+    opacity: 0.3;
   }
 
-  .ai-premium-feature-title-{{ ai_gen_id }} {
-    color: {{ block.settings.feature_title_color }};
-    font-size: 20px;
-    margin: 0 0 12px;
+  .ai-resource-badge-{{ ai_gen_id }} {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: {{ block.settings.badge_bg_color }};
+    color: {{ block.settings.badge_text_color }};
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
 
-  .ai-premium-feature-desc-{{ ai_gen_id }} {
-    color: {{ block.settings.feature_desc_color }};
+  .ai-resource-content-{{ ai_gen_id }} {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-resource-category-{{ ai_gen_id }} {
+    color: {{ block.settings.category_color }};
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .ai-resource-title-{{ ai_gen_id }} {
+    color: {{ block.settings.resource_title_color }};
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+
+  .ai-resource-desc-{{ ai_gen_id }} {
+    color: {{ block.settings.resource_desc_color }};
     font-size: 15px;
     line-height: 1.6;
-    margin: 0;
+    margin: 0 0 20px;
+    flex-grow: 1;
   }
 
-  @media screen and (max-width: 990px) {
-    .ai-premium-features-grid-{{ ai_gen_id }} {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .ai-resource-link-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: {{ block.settings.link_color }};
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: gap 0.3s ease;
   }
 
-  @media screen and (max-width: 590px) {
-    .ai-premium-features-grid-{{ ai_gen_id }} {
+  .ai-resource-link-{{ ai_gen_id }}:hover {
+    gap: 12px;
+  }
+
+  .ai-resource-link-{{ ai_gen_id }} svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-resource-grid-{{ ai_gen_id }} {
       grid-template-columns: 1fr;
     }
 
-    .ai-premium-features-title-{{ ai_gen_id }} {
+    .ai-resource-library-title-{{ ai_gen_id }} {
       font-size: {{ block.settings.title_size | times: 0.7 }}px;
     }
   }
 {% endstyle %}
 
-<div class="ai-premium-features-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
-  <div class="ai-premium-features-container-{{ ai_gen_id }}">
+<div class="ai-resource-library-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-resource-library-container-{{ ai_gen_id }}">
     {% if block.settings.section_title != blank or block.settings.section_subtitle != blank %}
-      <div class="ai-premium-features-header-{{ ai_gen_id }}">
+      <div class="ai-resource-library-header-{{ ai_gen_id }}">
         {% if block.settings.section_title != blank %}
-          <h2 class="ai-premium-features-title-{{ ai_gen_id }}">{{ block.settings.section_title }}</h2>
+          <h2 class="ai-resource-library-title-{{ ai_gen_id }}">{{ block.settings.section_title }}</h2>
         {% endif %}
         {% if block.settings.section_subtitle != blank %}
-          <p class="ai-premium-features-subtitle-{{ ai_gen_id }}">{{ block.settings.section_subtitle }}</p>
+          <p class="ai-resource-library-subtitle-{{ ai_gen_id }}">{{ block.settings.section_subtitle }}</p>
         {% endif %}
       </div>
     {% endif %}
 
-    <div class="ai-premium-features-grid-{{ ai_gen_id }}">
-      {% if block.settings.feature_1_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-              <polyline points="14 2 14 8 20 8"/>
-              <line x1="16" y1="13" x2="8" y2="13"/>
-              <line x1="16" y1="17" x2="8" y2="17"/>
-              <polyline points="10 9 9 9 8 9"/>
-            </svg>
+    <div class="ai-resource-grid-{{ ai_gen_id }}">
+      {% if block.settings.resource_1_title != blank %}
+        <div class="ai-resource-item-{{ ai_gen_id }}">
+          <div class="ai-resource-image-{{ ai_gen_id }}">
+            {% if block.settings.resource_1_image %}
+              <img
+                src="{{ block.settings.resource_1_image | image_url: width: 800 }}"
+                alt="{{ block.settings.resource_1_image.alt | escape }}"
+                loading="lazy"
+                width="800"
+                height="480"
+              >
+            {% else %}
+              <div class="ai-resource-image-placeholder-{{ ai_gen_id }}">
+                {{ 'collection-apparel-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            {% if block.settings.resource_1_badge != blank %}
+              <div class="ai-resource-badge-{{ ai_gen_id }}">{{ block.settings.resource_1_badge }}</div>
+            {% endif %}
           </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_1_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_1_desc }}</p>
+          <div class="ai-resource-content-{{ ai_gen_id }}">
+            {% if block.settings.resource_1_category != blank %}
+              <div class="ai-resource-category-{{ ai_gen_id }}">{{ block.settings.resource_1_category }}</div>
+            {% endif %}
+            <h3 class="ai-resource-title-{{ ai_gen_id }}">{{ block.settings.resource_1_title }}</h3>
+            {% if block.settings.resource_1_desc != blank %}
+              <p class="ai-resource-desc-{{ ai_gen_id }}">{{ block.settings.resource_1_desc }}</p>
+            {% endif %}
+            {% if block.settings.resource_1_link != blank %}
+              <a href="{{ block.settings.resource_1_link }}" class="ai-resource-link-{{ ai_gen_id }}">
+                {{ block.settings.resource_1_link_text }}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            {% endif %}
+          </div>
         </div>
       {% endif %}
 
-      {% if block.settings.feature_2_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="12" y1="1" x2="12" y2="23"/>
-              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-            </svg>
+      {% if block.settings.resource_2_title != blank %}
+        <div class="ai-resource-item-{{ ai_gen_id }}">
+          <div class="ai-resource-image-{{ ai_gen_id }}">
+            {% if block.settings.resource_2_image %}
+              <img
+                src="{{ block.settings.resource_2_image | image_url: width: 800 }}"
+                alt="{{ block.settings.resource_2_image.alt | escape }}"
+                loading="lazy"
+                width="800"
+                height="480"
+              >
+            {% else %}
+              <div class="ai-resource-image-placeholder-{{ ai_gen_id }}">
+                {{ 'collection-apparel-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            {% if block.settings.resource_2_badge != blank %}
+              <div class="ai-resource-badge-{{ ai_gen_id }}">{{ block.settings.resource_2_badge }}</div>
+            {% endif %}
           </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_2_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_2_desc }}</p>
+          <div class="ai-resource-content-{{ ai_gen_id }}">
+            {% if block.settings.resource_2_category != blank %}
+              <div class="ai-resource-category-{{ ai_gen_id }}">{{ block.settings.resource_2_category }}</div>
+            {% endif %}
+            <h3 class="ai-resource-title-{{ ai_gen_id }}">{{ block.settings.resource_2_title }}</h3>
+            {% if block.settings.resource_2_desc != blank %}
+              <p class="ai-resource-desc-{{ ai_gen_id }}">{{ block.settings.resource_2_desc }}</p>
+            {% endif %}
+            {% if block.settings.resource_2_link != blank %}
+              <a href="{{ block.settings.resource_2_link }}" class="ai-resource-link-{{ ai_gen_id }}">
+                {{ block.settings.resource_2_link_text }}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            {% endif %}
+          </div>
         </div>
       {% endif %}
 
-      {% if block.settings.feature_3_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-            </svg>
+      {% if block.settings.resource_3_title != blank %}
+        <div class="ai-resource-item-{{ ai_gen_id }}">
+          <div class="ai-resource-image-{{ ai_gen_id }}">
+            {% if block.settings.resource_3_image %}
+              <img
+                src="{{ block.settings.resource_3_image | image_url: width: 800 }}"
+                alt="{{ block.settings.resource_3_image.alt | escape }}"
+                loading="lazy"
+                width="800"
+                height="480"
+              >
+            {% else %}
+              <div class="ai-resource-image-placeholder-{{ ai_gen_id }}">
+                {{ 'collection-apparel-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            {% if block.settings.resource_3_badge != blank %}
+              <div class="ai-resource-badge-{{ ai_gen_id }}">{{ block.settings.resource_3_badge }}</div>
+            {% endif %}
           </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_3_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_3_desc }}</p>
+          <div class="ai-resource-content-{{ ai_gen_id }}">
+            {% if block.settings.resource_3_category != blank %}
+              <div class="ai-resource-category-{{ ai_gen_id }}">{{ block.settings.resource_3_category }}</div>
+            {% endif %}
+            <h3 class="ai-resource-title-{{ ai_gen_id }}">{{ block.settings.resource_3_title }}</h3>
+            {% if block.settings.resource_3_desc != blank %}
+              <p class="ai-resource-desc-{{ ai_gen_id }}">{{ block.settings.resource_3_desc }}</p>
+            {% endif %}
+            {% if block.settings.resource_3_link != blank %}
+              <a href="{{ block.settings.resource_3_link }}" class="ai-resource-link-{{ ai_gen_id }}">
+                {{ block.settings.resource_3_link_text }}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            {% endif %}
+          </div>
         </div>
       {% endif %}
 
-      {% if block.settings.feature_4_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-            </svg>
+      {% if block.settings.resource_4_title != blank %}
+        <div class="ai-resource-item-{{ ai_gen_id }}">
+          <div class="ai-resource-image-{{ ai_gen_id }}">
+            {% if block.settings.resource_4_image %}
+              <img
+                src="{{ block.settings.resource_4_image | image_url: width: 800 }}"
+                alt="{{ block.settings.resource_4_image.alt | escape }}"
+                loading="lazy"
+                width="800"
+                height="480"
+              >
+            {% else %}
+              <div class="ai-resource-image-placeholder-{{ ai_gen_id }}">
+                {{ 'collection-apparel-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            {% if block.settings.resource_4_badge != blank %}
+              <div class="ai-resource-badge-{{ ai_gen_id }}">{{ block.settings.resource_4_badge }}</div>
+            {% endif %}
           </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_4_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_4_desc }}</p>
-        </div>
-      {% endif %}
-
-      {% if block.settings.feature_5_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <polyline points="12 6 12 12 16 14"/>
-            </svg>
+          <div class="ai-resource-content-{{ ai_gen_id }}">
+            {% if block.settings.resource_4_category != blank %}
+              <div class="ai-resource-category-{{ ai_gen_id }}">{{ block.settings.resource_4_category }}</div>
+            {% endif %}
+            <h3 class="ai-resource-title-{{ ai_gen_id }}">{{ block.settings.resource_4_title }}</h3>
+            {% if block.settings.resource_4_desc != blank %}
+              <p class="ai-resource-desc-{{ ai_gen_id }}">{{ block.settings.resource_4_desc }}</p>
+            {% endif %}
+            {% if block.settings.resource_4_link != blank %}
+              <a href="{{ block.settings.resource_4_link }}" class="ai-resource-link-{{ ai_gen_id }}">
+                {{ block.settings.resource_4_link_text }}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            {% endif %}
           </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_5_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_5_desc }}</p>
-        </div>
-      {% endif %}
-
-      {% if block.settings.feature_6_title != blank %}
-        <div class="ai-premium-feature-card-{{ ai_gen_id }}">
-          <div class="ai-premium-feature-icon-{{ ai_gen_id }}">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
-            </svg>
-          </div>
-          <h3 class="ai-premium-feature-title-{{ ai_gen_id }}">{{ block.settings.feature_6_title }}</h3>
-          <p class="ai-premium-feature-desc-{{ ai_gen_id }}">{{ block.settings.feature_6_desc }}</p>
         </div>
       {% endif %}
     </div>
@@ -210,7 +354,7 @@
 
 {% schema %}
 {
-  "name": "Elite member benefits",
+  "name": "Elite resource library",
   "settings": [
     {
       "type": "header",
@@ -220,19 +364,19 @@
       "type": "text",
       "id": "section_title",
       "label": "Title",
-      "default": "Elite Member Benefits"
+      "default": "Executive Resource Library"
     },
     {
-      "type": "textarea",
+      "type": "text",
       "id": "section_subtitle",
       "label": "Subtitle",
-      "default": "Unlock premium resources and exclusive opportunities designed for industry leaders"
+      "default": "Curated content for baseball industry leaders"
     },
     {
       "type": "color",
       "id": "background_color",
       "label": "Background",
-      "default": "#ffffff"
+      "default": "#f4f4f4"
     },
     {
       "type": "range",
@@ -246,99 +390,179 @@
     },
     {
       "type": "header",
-      "content": "Feature 1"
+      "content": "Resource 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "resource_1_image",
+      "label": "Image"
     },
     {
       "type": "text",
-      "id": "feature_1_title",
+      "id": "resource_1_badge",
+      "label": "Badge text",
+      "default": "New"
+    },
+    {
+      "type": "text",
+      "id": "resource_1_category",
+      "label": "Category",
+      "default": "Market Analysis"
+    },
+    {
+      "type": "text",
+      "id": "resource_1_title",
       "label": "Title",
-      "default": "Industry Reports"
+      "default": "2024 Baseball Industry Trends Report"
     },
     {
       "type": "textarea",
-      "id": "feature_1_desc",
+      "id": "resource_1_desc",
       "label": "Description",
-      "default": "Access comprehensive market analysis and trend reports exclusive to elite members"
+      "default": "Comprehensive analysis of emerging trends, market dynamics, and growth opportunities in the baseball industry."
+    },
+    {
+      "type": "url",
+      "id": "resource_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "resource_1_link_text",
+      "label": "Link text",
+      "default": "Download Report"
     },
     {
       "type": "header",
-      "content": "Feature 2"
+      "content": "Resource 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "resource_2_image",
+      "label": "Image"
     },
     {
       "type": "text",
-      "id": "feature_2_title",
+      "id": "resource_2_badge",
+      "label": "Badge text",
+      "default": "Exclusive"
+    },
+    {
+      "type": "text",
+      "id": "resource_2_category",
+      "label": "Category",
+      "default": "Networking"
+    },
+    {
+      "type": "text",
+      "id": "resource_2_title",
       "label": "Title",
-      "default": "Premium Deals"
+      "default": "Executive Summit 2024"
     },
     {
       "type": "textarea",
-      "id": "feature_2_desc",
+      "id": "resource_2_desc",
       "label": "Description",
-      "default": "Exclusive pricing and early access to new products and services"
+      "default": "Join industry leaders at our annual summit featuring keynote speakers, panel discussions, and networking opportunities."
+    },
+    {
+      "type": "url",
+      "id": "resource_2_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "resource_2_link_text",
+      "label": "Link text",
+      "default": "Register Now"
     },
     {
       "type": "header",
-      "content": "Feature 3"
+      "content": "Resource 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "resource_3_image",
+      "label": "Image"
     },
     {
       "type": "text",
-      "id": "feature_3_title",
+      "id": "resource_3_badge",
+      "label": "Badge text",
+      "default": "Premium"
+    },
+    {
+      "type": "text",
+      "id": "resource_3_category",
+      "label": "Category",
+      "default": "Training"
+    },
+    {
+      "type": "text",
+      "id": "resource_3_title",
       "label": "Title",
-      "default": "Network Access"
+      "default": "Leadership Development Program"
     },
     {
       "type": "textarea",
-      "id": "feature_3_desc",
+      "id": "resource_3_desc",
       "label": "Description",
-      "default": "Connect with top executives and decision-makers in the baseball industry"
+      "default": "Enhance your leadership skills with our exclusive program designed for baseball industry executives."
+    },
+    {
+      "type": "url",
+      "id": "resource_3_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "resource_3_link_text",
+      "label": "Link text",
+      "default": "Learn More"
     },
     {
       "type": "header",
-      "content": "Feature 4"
+      "content": "Resource 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "resource_4_image",
+      "label": "Image"
     },
     {
       "type": "text",
-      "id": "feature_4_title",
-      "label": "Title",
-      "default": "Live Analytics"
-    },
-    {
-      "type": "textarea",
-      "id": "feature_4_desc",
-      "label": "Description",
-      "default": "Real-time data and insights to stay ahead of industry trends"
-    },
-    {
-      "type": "header",
-      "content": "Feature 5"
+      "id": "resource_4_badge",
+      "label": "Badge text",
+      "default": "Updated"
     },
     {
       "type": "text",
-      "id": "feature_5_title",
-      "label": "Title",
-      "default": "Priority Support"
-    },
-    {
-      "type": "textarea",
-      "id": "feature_5_desc",
-      "label": "Description",
-      "default": "24/7 dedicated support team for all your business needs"
-    },
-    {
-      "type": "header",
-      "content": "Feature 6"
+      "id": "resource_4_category",
+      "label": "Category",
+      "default": "Data & Insights"
     },
     {
       "type": "text",
-      "id": "feature_6_title",
+      "id": "resource_4_title",
       "label": "Title",
-      "default": "VIP Events"
+      "default": "Advanced Analytics Dashboard"
     },
     {
       "type": "textarea",
-      "id": "feature_6_desc",
+      "id": "resource_4_desc",
       "label": "Description",
-      "default": "Invitations to exclusive conferences, workshops, and networking events"
+      "default": "Access real-time data, performance metrics, and predictive analytics to drive strategic decisions."
+    },
+    {
+      "type": "url",
+      "id": "resource_4_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "resource_4_link_text",
+      "label": "Link text",
+      "default": "Access Dashboard"
     },
     {
       "type": "header",
@@ -370,33 +594,51 @@
     },
     {
       "type": "color",
-      "id": "card_hover_border_color",
+      "id": "card_hover_border",
       "label": "Card hover border",
+      "default": "#0b2041"
+    },
+    {
+      "type": "color",
+      "id": "image_bg_color",
+      "label": "Image background",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg_color",
+      "label": "Badge background",
       "default": "#da3217"
     },
     {
       "type": "color",
-      "id": "icon_bg_color",
-      "label": "Icon background",
-      "default": "#0b2041"
-    },
-    {
-      "type": "color",
-      "id": "icon_color",
-      "label": "Icon",
+      "id": "badge_text_color",
+      "label": "Badge text",
       "default": "#ffffff"
     },
     {
       "type": "color",
-      "id": "feature_title_color",
-      "label": "Feature title",
+      "id": "category_color",
+      "label": "Category",
+      "default": "#da3217"
+    },
+    {
+      "type": "color",
+      "id": "resource_title_color",
+      "label": "Resource title",
       "default": "#0b2041"
     },
     {
       "type": "color",
-      "id": "feature_desc_color",
-      "label": "Feature description",
+      "id": "resource_desc_color",
+      "label": "Resource description",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link",
+      "default": "#0b2041"
     },
     {
       "type": "range",
@@ -420,16 +662,6 @@
     },
     {
       "type": "range",
-      "id": "icon_size",
-      "min": 40,
-      "max": 100,
-      "step": 5,
-      "unit": "px",
-      "label": "Icon size",
-      "default": 70
-    },
-    {
-      "type": "range",
       "id": "card_radius",
       "min": 0,
       "max": 30,
@@ -441,7 +673,7 @@
   ],
   "presets": [
     {
-      "name": "Elite member benefits"
+      "name": "Elite resource library"
     }
   ]
 }
