@@ -50,16 +50,16 @@
           "type": "price",
           "settings": {}
         },
-        "separator_Mzw8WG": {
-          "type": "separator",
-          "settings": {}
-        },
         "inventory_status_GXyYHJ": {
           "type": "inventory_status",
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
           }
+        },
+        "separator_Mzw8WG": {
+          "type": "separator",
+          "settings": {}
         },
         "variant_picker_BXGwBf": {
           "type": "variant_picker",
@@ -131,8 +131,8 @@
       },
       "block_order": [
         "price_ebN83E",
-        "separator_Mzw8WG",
         "inventory_status_GXyYHJ",
+        "separator_Mzw8WG",
         "variant_picker_BXGwBf",
         "size_chart_DE78AE",
         "quantity_selector_iXVWP8",
