@@ -1105,7 +1105,8 @@ h2.event_title {
   .collection-filter {
     margin-bottom: 20px;
   }
-  .collection-filter .btn {
+  .collection-filter .btn,
+  .collection-filter select {
     padding: 0 10px;
     font-size: 13px;
   }
