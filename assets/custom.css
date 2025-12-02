@@ -701,7 +701,8 @@ input#jobSearch {
     justify-content: center;
     background-image: radial-gradient(at top left, var(--secondary_color) 0%, var(--primary_color) 100%);
 }
-.about_text_with_icon .text-with-icons__block svg path {
+.about_text_with_icon .text-with-icons__block svg path,
+.about_text_with_icon .text-with-icons__block svg circle {
     stroke: #FFF!important;
 }
 .text-with-icons.about_text_with_icon {
