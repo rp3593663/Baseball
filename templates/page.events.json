@@ -161,6 +161,20 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "event_ceEzeH": {
+          "type": "event",
+          "settings": {
+            "event_image": "shopify://shop_images/baseball_meeting2.png",
+            "event_title": "MLB All-Star Game –Philadelphia",
+            "event_description": "<p>Celebrate baseball’s biggest week with the BIN community! Attend live events, panels, and special networking opportunities.</p>\n<p><b>Premier &amp; Elite Members :</b> VIP tickets and behind-the-scenes access to select All-Star experiences.</p>",
+            "event_date": "July 2026",
+            "event_location": "Citizens Bank Park,Philadelphia, PA",
+            "event_contact": "",
+            "event_cost": "Free",
+            "button_label": "Register Now",
+            "button_link": "https://www.mlb.com/phillies/fans/all-star-game"
+          }
         }
       },
       "block_order": [
@@ -171,7 +185,8 @@
         "event_mA8WiA",
         "event_MwFV3e",
         "event_aACYmr",
-        "event_3QhxKG"
+        "event_3QhxKG",
+        "event_ceEzeH"
       ],
       "name": "Events",
       "settings": {
