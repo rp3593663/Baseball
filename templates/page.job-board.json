@@ -238,6 +238,33 @@
             "job_visibility": "public"
           }
         },
+        "team_7mjnGU": {
+          "type": "team",
+          "settings": {
+            "team_name": "Boston Red Sox",
+            "team_id": ""
+          }
+        },
+        "job_XfJGFb": {
+          "type": "job",
+          "settings": {
+            "job_title": "2026 Boston Red Sox Photography Intern, Brand & Creative /Associate",
+            "location": "BOSTON, MA, UNITED STATES",
+            "apply_link": "https://jobs.lever.co/redsox/f37f0648-ba27-41ac-b64d-3d8579dbafd2",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_8WcVrt": {
+          "type": "job",
+          "settings": {
+            "job_title": "Client Services Associate - Hospitality Operations",
+            "location": "Boston, MA, United States",
+            "apply_link": "",
+            "team_id": "https://jobs.lever.co/redsox/2a847fd8-bb37-42ae-b33d-017fc205d0c9",
+            "job_visibility": "public"
+          }
+        },
         "team_3EXAVM": {
           "type": "team",
           "settings": {
@@ -264,6 +291,17 @@
             "team_id": "5",
             "job_visibility": "public"
           }
+        },
+        "job_RdhVUi": {
+          "type": "job",
+          "disabled": true,
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -287,9 +325,13 @@
         "job_VzqWfV",
         "job_8Yct6g",
         "job_ET9TpW",
+        "team_7mjnGU",
+        "job_XfJGFb",
+        "job_8WcVrt",
         "team_3EXAVM",
         "job_9GCB6w",
-        "job_bwftii"
+        "job_bwftii",
+        "job_RdhVUi"
       ],
       "name": "Job Board",
       "settings": {
