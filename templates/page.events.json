@@ -138,11 +138,11 @@
           "type": "event",
           "settings": {
             "event_image": "shopify://shop_images/YM0A8661.jpg",
-            "event_title": "Baseball Industry Network Winter Meetings Meet-Up",
-            "event_description": "<p>A free annual networking event hosted by the Baseball Industry Network (47,000+ members).</p><p>Open to job seekers, MLB/minor league club personnel, baseball agencies, and industry companies.</p><p>Resumes are collected and shared with organizations prior to the event.</p><p>Over 500 attendees participated in 2024.</p>",
-            "event_date": "Tuesday, December 9, 2025, 8 AM – 11 AM ET",
-            "event_location": "Signia by Hilton (Signature Island, outdoors, connected to Waldorf Astoria Orlando)",
-            "event_contact": "<p>Tyrone Brooks (<a href=\"mailto:Tyrone.Brooks@mlb.com\" title=\"mailto:Tyrone.Brooks@mlb.com\">Tyrone.Brooks@mlb.com</a>)</p>",
+            "event_title": "SABR Analytics Conference",
+            "event_description": "<p>Dive deep into baseball data, strategy, and performance innovation with the industry’s leading analytics minds.</p>\n<p><b>Elite Members Only :</b> Access to exclusive “Analytics Behind the Game” roundtable sessions.\nAlternate Event Option: BIN members may instead attend the World Baseball Classic in Arizona during the same period.\n</p>",
+            "event_date": "February 27–March 1, 2026",
+            "event_location": "Phoenix, Arizona",
+            "event_contact": "",
             "event_cost": "Free",
             "button_label": "Register Now",
             "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939"
