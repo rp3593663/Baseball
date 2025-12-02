@@ -249,7 +249,7 @@
           "type": "job",
           "settings": {
             "job_title": "2026 Boston Red Sox Photography Intern, Brand & Creative /Associate",
-            "location": "BOSTON, MA, UNITED STATES",
+            "location": "Boston, MA, UNITED STATES",
             "apply_link": "https://jobs.lever.co/redsox/f37f0648-ba27-41ac-b64d-3d8579dbafd2",
             "team_id": "",
             "job_visibility": "public"
@@ -260,8 +260,18 @@
           "settings": {
             "job_title": "Client Services Associate - Hospitality Operations",
             "location": "Boston, MA, United States",
-            "apply_link": "",
-            "team_id": "https://jobs.lever.co/redsox/2a847fd8-bb37-42ae-b33d-017fc205d0c9",
+            "apply_link": "https://jobs.lever.co/redsox/2a847fd8-bb37-42ae-b33d-017fc205d0c9",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_emXtAK": {
+          "type": "job",
+          "settings": {
+            "job_title": "Customer Technology Manager",
+            "location": "Boston, MA, United States",
+            "apply_link": "https://jobs.lever.co/redsox/59e59464-9099-4753-be2e-7bdb5f6782e3",
+            "team_id": "",
             "job_visibility": "public"
           }
         },
@@ -302,6 +312,48 @@
             "team_id": "",
             "job_visibility": "public"
           }
+        },
+        "team_itYwCn": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "team_JwbarE": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "team_U746Ax": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "team_4NQNLy": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "team_DjLXah": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "team_hTExRb": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
         }
       },
       "block_order": [
@@ -328,10 +380,17 @@
         "team_7mjnGU",
         "job_XfJGFb",
         "job_8WcVrt",
+        "job_emXtAK",
         "team_3EXAVM",
         "job_9GCB6w",
         "job_bwftii",
-        "job_RdhVUi"
+        "job_RdhVUi",
+        "team_itYwCn",
+        "team_JwbarE",
+        "team_U746Ax",
+        "team_4NQNLy",
+        "team_DjLXah",
+        "team_hTExRb"
       ],
       "name": "Job Board",
       "settings": {
