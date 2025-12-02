@@ -820,7 +820,7 @@ input#jobSearch {
     text-transform: uppercase;
 }
 .event_desc p {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .evens_all_meta {
     display: grid;
