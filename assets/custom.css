@@ -680,35 +680,28 @@ input#jobSearch {
     font-weight: 500;
     margin-bottom: 0;
 }
-.about_text_with_icon .text-with-icons__block:nth-child(even) {
-    transform: translateY(40px);
-}
 .about_text_with_icon .text-with-icons__blocks {
     gap: 25px;
 }
 .about_text_with_icon p {
   margin-bottom: 0px;
+   color: #FFF;
 }
 .about_text_with_icon h3 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
     line-height: 140%;
+     color: #FFF;
 }
 .about_text_with_icon .text-with-icons__block {
     box-shadow: 0 30px 60px #0000001a;
     padding: 20px;
     align-items: center;
     justify-content: center;
-}
-.about_text_with_icon .text-with-icons__block:nth-child(2) {
     background-image: radial-gradient(at top left, var(--secondary_color) 0%, var(--primary_color) 100%);
 }
-.about_text_with_icon .text-with-icons__block:nth-child(2) h3,
-.about_text_with_icon .text-with-icons__block:nth-child(2) p {
-    color: #FFF;
-}
-.about_text_with_icon .text-with-icons__block:nth-child(2) svg path {
+.about_text_with_icon .text-with-icons__block svg path {
     stroke: #FFF!important;
 }
 .text-with-icons.about_text_with_icon {
