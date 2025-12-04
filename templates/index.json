@@ -169,7 +169,7 @@
         "title": "Find Your Next Opportunity in Baseball",
         "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
         "button_label": "Explore the Job Board",
-        "button_link": "#",
+        "button_link": "shopify://pages/job-board",
         "image": "shopify://shop_images/180911_Cubs_052.jpg",
         "layout": "left",
         "height": 550,
