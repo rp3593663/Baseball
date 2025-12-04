@@ -36,7 +36,7 @@
       "signup_form_success": "We will send you an email right before we open!",
       "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
       "password_link": "Password",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "powered_by_shopify_html": "Powered by Alixa Sports"
     },
     "breadcrumbs": {
       "home": "Home",
@@ -409,5 +409,15 @@
     "view_store_info": "View store information",
     "check_availability": "Check availability at other stores",
     "show_all_results": "Show all results for \"{{ terms }}\""
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "autocomplete_powered_by_google": "Powered by Alixa Sports"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Powered by Alixa Sports"
+    }
   }
 }
