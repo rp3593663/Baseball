@@ -116,6 +116,24 @@
         "custom_class": "home_richtext_about"
       }
     },
+    "background_image_text_U8GD7H": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "custom_class": "home_banner_text",
+        "subtitle": "",
+        "title": "Find Your Next Opportunity in Baseball",
+        "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
+        "button_label": "Explore the Job Board",
+        "button_link": "shopify://pages/job-board",
+        "image": "shopify://shop_images/180911_Cubs_052.jpg",
+        "layout": "left",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": false
+      }
+    },
     "membership_highlight_34znHW": {
       "type": "membership-highlight",
       "blocks": {
@@ -158,24 +176,6 @@
       "name": "Highlight Membership",
       "settings": {
         "custom_class": "home_memberships"
-      }
-    },
-    "background_image_text_U8GD7H": {
-      "type": "background-image-text",
-      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
-      "settings": {
-        "custom_class": "home_banner_text",
-        "subtitle": "",
-        "title": "Find Your Next Opportunity in Baseball",
-        "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
-        "button_label": "Explore the Job Board",
-        "button_link": "shopify://pages/job-board",
-        "image": "shopify://shop_images/180911_Cubs_052.jpg",
-        "layout": "left",
-        "height": 550,
-        "parallax": false,
-        "parallax_direction": "top",
-        "lazyload_images": false
       }
     },
     "text_with_icons_mjVKeh": {
@@ -487,12 +487,12 @@
     "fading-images",
     "scrolling_text_iWVFCz",
     "rich_text_JNXWzG",
-    "membership_highlight_34znHW",
+    "featured_collection_dM3iKA",
     "background_image_text_U8GD7H",
+    "membership_highlight_34znHW",
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
     "advanced_content_kDtyxN",
-    "newsletter_kmAM86",
-    "featured_collection_dM3iKA"
+    "newsletter_kmAM86"
   ]
 }
