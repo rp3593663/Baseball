@@ -46,6 +46,70 @@
       "disabled": true,
       "settings": {}
     },
+    "video_carousel_banne_3iBUVX": {
+      "type": "video-carousel-banne",
+      "blocks": {
+        "video_dfAEia": {
+          "type": "video",
+          "settings": {
+            "title": "MLB Professional Development Session",
+            "description": "July 18, 2025, with Dayton Moore, Special Assistant, Baseball Operations, Texas Rangers (Former GM, Kansas City Royals)",
+            "video_file": "shopify://files/videos/Dayton Moore Clip.mp4"
+          }
+        },
+        "video_HUiAWi": {
+          "type": "video",
+          "settings": {
+            "title": "MLB Professional Development Session - John Park (Dallas Cowboys) & Michaelene Courtis (Texas Rangers)",
+            "description": "July 2, 2025: John Park, Senior Director of Football Operations, Dallas Cowboys.  Michaelene Courtis, Senior Director of Baseball Operations, Texas Rangers",
+            "video_file": "shopify://files/videos/John Park_Cowboys Clip.mp4"
+          }
+        },
+        "video_DgdTVX": {
+          "type": "video",
+          "settings": {
+            "title": "Early Career Panel & Q&A",
+            "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
+            "video_file": "shopify://files/videos/sample_video3.mp4"
+          }
+        },
+        "video_gYUr4Q": {
+          "type": "video",
+          "settings": {
+            "title": "MLB Professional Development Session",
+            "description": "April 10, 2025, with Dan Evans, Former LA Dodgers GM, Baseball Executive",
+            "video_file": "shopify://files/videos/sample_video4.mp4"
+          }
+        },
+        "video_a3mnJq": {
+          "type": "video",
+          "settings": {
+            "title": "MLB Professional Development Session - Glenn Fleisig (Guest Speaker)",
+            "description": "November 6, 2024, with Glenn Fleisig, Director of Research, American Sports Medicine institute (ASMI, Biomechanics focus)",
+            "video_file": "shopify://files/videos/sample_video5.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_dfAEia",
+        "video_HUiAWi",
+        "video_DgdTVX",
+        "video_gYUr4Q",
+        "video_a3mnJq"
+      ],
+      "name": "Video Carousel Banner",
+      "settings": {
+        "custom_class": "",
+        "bg_image": "shopify://shop_images/11.png",
+        "bg_color": "#e9edf0",
+        "heading": "Unlock Full Access With Premier Membership",
+        "description": "Non-members can watch previews only.\nJoin Premier or Elite Membership to unlock complete video access along with mentorship sessions, job board tools, and insider resources.",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
     "rich_text_9VXHWK": {
       "type": "rich-text",
       "blocks": {
@@ -145,70 +209,6 @@
         "padding_bottom_desktop": 60,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 30
-      }
-    },
-    "video_carousel_banne_3iBUVX": {
-      "type": "video-carousel-banne",
-      "blocks": {
-        "video_dfAEia": {
-          "type": "video",
-          "settings": {
-            "title": "MLB Professional Development Session",
-            "description": "July 18, 2025, with Dayton Moore, Special Assistant, Baseball Operations, Texas Rangers (Former GM, Kansas City Royals)",
-            "video_file": "shopify://files/videos/Dayton Moore Clip.mp4"
-          }
-        },
-        "video_HUiAWi": {
-          "type": "video",
-          "settings": {
-            "title": "MLB Professional Development Session - John Park (Dallas Cowboys) & Michaelene Courtis (Texas Rangers)",
-            "description": "July 2, 2025: John Park, Senior Director of Football Operations, Dallas Cowboys.  Michaelene Courtis, Senior Director of Baseball Operations, Texas Rangers",
-            "video_file": "shopify://files/videos/John Park_Cowboys Clip.mp4"
-          }
-        },
-        "video_DgdTVX": {
-          "type": "video",
-          "settings": {
-            "title": "Early Career Panel & Q&A",
-            "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
-            "video_file": "shopify://files/videos/sample_video3.mp4"
-          }
-        },
-        "video_gYUr4Q": {
-          "type": "video",
-          "settings": {
-            "title": "MLB Professional Development Session",
-            "description": "April 10, 2025, with Dan Evans, Former LA Dodgers GM, Baseball Executive",
-            "video_file": "shopify://files/videos/sample_video4.mp4"
-          }
-        },
-        "video_a3mnJq": {
-          "type": "video",
-          "settings": {
-            "title": "MLB Professional Development Session - Glenn Fleisig (Guest Speaker)",
-            "description": "November 6, 2024, with Glenn Fleisig, Director of Research, American Sports Medicine institute (ASMI, Biomechanics focus)",
-            "video_file": "shopify://files/videos/sample_video5.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "video_dfAEia",
-        "video_HUiAWi",
-        "video_DgdTVX",
-        "video_gYUr4Q",
-        "video_a3mnJq"
-      ],
-      "name": "Video Carousel Banner",
-      "settings": {
-        "custom_class": "",
-        "bg_image": "shopify://shop_images/11.png",
-        "bg_color": "#e9edf0",
-        "heading": "Unlock Full Access With Premier Membership",
-        "description": "Non-members can watch previews only.\nJoin Premier or Elite Membership to unlock complete video access along with mentorship sessions, job board tools, and insider resources.",
-        "padding_top_desktop": 80,
-        "padding_bottom_desktop": 80,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
       }
     },
     "membership_comparison_AnYYFL": {
@@ -370,9 +370,9 @@
   "order": [
     "1763443769b56bdee5",
     "main",
+    "video_carousel_banne_3iBUVX",
     "rich_text_9VXHWK",
     "membership_pricing_jMiCDe",
-    "video_carousel_banne_3iBUVX",
     "membership_comparison_AnYYFL"
   ]
 }
