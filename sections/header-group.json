@@ -32,10 +32,40 @@
         "sticky_index": true,
         "sticky_collection": true
       }
+    },
+    "rich_text_i83qxX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kBfXyQ": {
+          "type": "heading",
+          "settings": {
+            "title": "THE OFFICIAL MERCHANDISE OF THE BASEBALL INDUSTRY NETWORK"
+          }
+        },
+        "text_r8XtYW": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2>⚾ <strong>Welcome to the Official Baseball Industry Network Store</strong></h2><h3>Gear Up. Represent the Game.</h3><p>Step onto the field—or into the office—representing the most connected community in baseball. The <strong>Baseball Industry Network Official Merchandise Collection</strong> brings together performance, comfort, and pride for everyone who lives and works in the game.</p><p>From classic polos and caps to sustainable tees, outerwear, and travel gear, each item in our collection is designed to reflect the professionalism and passion of baseball’s global community. Whether you’re a player, executive, scout, coach, or lifelong fan, this is your chance to wear your connection to the game with pride.</p><p>🧢 <strong>Exclusive Member Drops:</strong> Premier and Elite members enjoy early access and exclusive product releases.<br/>🌍 <strong>Sustainably Crafted:</strong> Many of our pieces are made with eco-conscious materials, combining style and responsibility.<br/>🎁 <strong>Perfect for Gifting:</strong> Share the game you love—each item ships ready to represent the Baseball Industry Network.</p><p>👉 <strong>Shop Now. Represent the Network. Build the Future of Baseball.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kBfXyQ",
+        "text_r8XtYW"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "custom_class": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "rich_text_i83qxX"
   ]
 }
