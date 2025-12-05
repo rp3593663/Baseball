@@ -474,7 +474,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "title": "Featured collection",
+        "title": "BIN Product Collection",
         "home_featured_products": "all",
         "per_row": 4,
         "rows": 1,
