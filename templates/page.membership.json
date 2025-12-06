@@ -104,6 +104,14 @@
             "description": "Dusty Baker former MLB Manager, SF Giants, Washington Nationals, Houston Astros",
             "video_file": "shopify://files/videos/Dusty Baker Clip.mp4"
           }
+        },
+        "video_FPJymL": {
+          "type": "video",
+          "settings": {
+            "title": "Early Career Panel, MLB",
+            "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
+            "video_file": "shopify://files/videos/Ealy Career Group.mp4"
+          }
         }
       },
       "block_order": [
@@ -113,7 +121,8 @@
         "video_gYUr4Q",
         "video_a3mnJq",
         "video_4pfBWC",
-        "video_trwrAN"
+        "video_trwrAN",
+        "video_FPJymL"
       ],
       "name": "Video Carousel Banner",
       "settings": {
