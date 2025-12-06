@@ -498,9 +498,9 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>“The Baseball Industry Network opened doors for me early in my career—connecting me with the right people, paths, and events to break into MLB. Since then, it’s been a constant source of community and direction, helping me refine my goals, embrace new challenges, and stay grounded in my values of mentorship and growth.”</p>",
+            "author": "Emily Glass",
+            "author_info": "Manager, Scouting Operations, Colorado Rockies"
           }
         },
         "testimonial_jYkVek": {
