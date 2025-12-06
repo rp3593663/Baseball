@@ -15,7 +15,7 @@
         "ai_gen_block_f09f0d8_hwYMMU": {
           "type": "ai_gen_block_f09f0d8",
           "settings": {
-            "custom_title": "BIN Products",
+            "custom_title": "Official BIN Merchandise",
             "title_font_size": 48,
             "title_color": "#ffffff",
             "title_spacing": 16,
@@ -83,42 +83,23 @@
         "image_mask": "none",
         "image2": "shopify://shop_images/36.png",
         "image2_mask": "none",
-        "subtitle": "",
-        "title": "Official Merchandise of the Baseball Industry Network",
-        "text": "<h2>⚾ Gear Up. Represent the Game.</h2><p>Show your connection to the game with the <strong>Baseball Industry Network Official Collection</strong> — performance, comfort, and pride built for everyone who lives and works in baseball.</p><p>From polos and caps to sustainable tees and outerwear, each piece reflects the professionalism and passion of our global baseball community.</p><p>🧢 <strong>Member Exclusives:</strong> Premier & Elite members get early access and special drops.<br/>🌍 <strong>Sustainable Style:</strong> Designed with eco-conscious materials.<br/>🎁 <strong>Game-Ready Gifts:</strong> Represent the Network wherever you go.</p><p>👉 <strong>Shop Now. Represent Baseball. Build the Future.</strong></p><p>👉 <strong>Shop Now. Represent the Network. Build the Future of Baseball.</strong></p>",
+        "subtitle": "Official BIN Merch",
+        "title": "Gear Up. Represent the Game!",
+        "text": "<p>Gear Up. Represent the Game! Show your connection to the game with the <strong>Baseball Industry Network Official Collection</strong> — performance, comfort, and pride built for everyone who lives and works in baseball.</p><p>From polos and caps to sustainable tees and outerwear, each piece reflects the professionalism and passion of our global baseball community.</p><p>🧢 <strong>Member Exclusives:</strong> Premier & Elite members get early access and special drops.<br/>🌍 <strong>Sustainable Style:</strong> Designed with eco-conscious materials.<br/>🎁 <strong>Game-Ready Gifts:</strong> Represent the Network wherever you go.</p><p>👉 <strong>Shop Now. Represent the Network. Build the Future of Baseball.</strong></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
+        "align_text": "right",
+        "image_width": "66",
         "layout": "right",
         "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
+        "top_padding": false,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
     "rich_text_BWEe9G": {
       "type": "rich-text",
-      "blocks": {
-        "heading_3XPXzC": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_xbmdxr": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<h2>⚾ Gear Up. Represent the Game.</h2><p>Show your connection to the game with the <strong>Baseball Industry Network Official Collection</strong> — performance, comfort, and pride built for everyone who lives and works in baseball.</p><p>From polos and caps to sustainable tees and outerwear, each piece reflects the professionalism and passion of our global baseball community.</p><p>🧢 <strong>Member Exclusives:</strong> Premier & Elite members get early access and special drops.<br/>🌍 <strong>Sustainable Style:</strong> Designed with eco-conscious materials.<br/>🎁 <strong>Game-Ready Gifts:</strong> Represent the Network wherever you go.</p><p>👉 <strong>Shop Now. Represent Baseball. Build the Future.</strong></p><p>👉 <strong>Shop Now. Represent the Network. Build the Future of Baseball.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3XPXzC",
-        "text_xbmdxr"
-      ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
         "align_text": "center",
