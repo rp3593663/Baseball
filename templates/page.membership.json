@@ -88,6 +88,14 @@
             "description": "November 6, 2024, with Glenn Fleisig, Director of Research, American Sports Medicine institute (ASMI, Biomechanics focus)",
             "video_file": "shopify://files/videos/sample_video5.mp4"
           }
+        },
+        "video_4pfBWC": {
+          "type": "video",
+          "settings": {
+            "title": "MLB Professional Development",
+            "description": "September 13, 2024: Neal Huntington, Special Assistant, Cleveland Guardians (former GM, Pittsburgh Pirates)",
+            "video_file": "shopify://files/videos/Neal Huntington_007ec88a-6279-40f4-92d1-4884dafb7153.mp4"
+          }
         }
       },
       "block_order": [
@@ -95,7 +103,8 @@
         "video_dfAEia",
         "video_HUiAWi",
         "video_gYUr4Q",
-        "video_a3mnJq"
+        "video_a3mnJq",
+        "video_4pfBWC"
       ],
       "name": "Video Carousel Banner",
       "settings": {
