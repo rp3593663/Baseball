@@ -49,6 +49,14 @@
     "video_carousel_banne_3iBUVX": {
       "type": "video-carousel-banne",
       "blocks": {
+        "video_DgdTVX": {
+          "type": "video",
+          "settings": {
+            "title": "Early Career Panel & Q&A",
+            "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
+            "video_file": "shopify://files/videos/sample_video3.mp4"
+          }
+        },
         "video_dfAEia": {
           "type": "video",
           "settings": {
@@ -63,14 +71,6 @@
             "title": "MLB Professional Development Session - John Park (Dallas Cowboys) & Michaelene Courtis (Texas Rangers)",
             "description": "July 2, 2025: John Park, Senior Director of Football Operations, Dallas Cowboys.  Michaelene Courtis, Senior Director of Baseball Operations, Texas Rangers",
             "video_file": "shopify://files/videos/John Park_Cowboys Clip.mp4"
-          }
-        },
-        "video_DgdTVX": {
-          "type": "video",
-          "settings": {
-            "title": "Early Career Panel & Q&A",
-            "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
-            "video_file": "shopify://files/videos/sample_video3.mp4"
           }
         },
         "video_gYUr4Q": {
@@ -91,9 +91,9 @@
         }
       },
       "block_order": [
+        "video_DgdTVX",
         "video_dfAEia",
         "video_HUiAWi",
-        "video_DgdTVX",
         "video_gYUr4Q",
         "video_a3mnJq"
       ],
@@ -102,7 +102,7 @@
         "custom_class": "",
         "bg_image": "shopify://shop_images/11.png",
         "bg_color": "#e9edf0",
-        "heading": "Unlock Full Access With Premier Membership",
+        "heading": "Unlock Full Access With Elevated Memberships",
         "description": "Non-members can watch previews only.\nJoin Premier or Elite Membership to unlock complete video access along with mentorship sessions, job board tools, and insider resources.",
         "padding_top_desktop": 80,
         "padding_bottom_desktop": 80,
