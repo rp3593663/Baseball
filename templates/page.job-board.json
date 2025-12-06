@@ -107,6 +107,23 @@
             "job_visibility": "public"
           }
         },
+        "team_WdcLGz": {
+          "type": "team",
+          "settings": {
+            "team_name": "MLB Network",
+            "team_id": ""
+          }
+        },
+        "job_pWRC6z": {
+          "type": "job",
+          "settings": {
+            "job_title": "Engineer ",
+            "location": "Secaucus, NJ",
+            "apply_link": "https://job-boards.greenhouse.io/mlbnetwork/jobs/7027412",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
         "team_zPQkFr": {
           "type": "team",
           "settings": {
@@ -363,6 +380,8 @@
         "job_hgeGUd",
         "job_Uz99Vk",
         "job_87c733",
+        "team_WdcLGz",
+        "job_pWRC6z",
         "team_zPQkFr",
         "job_3JBJVY",
         "job_4Me6gF",
