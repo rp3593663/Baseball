@@ -134,6 +134,16 @@
             "job_visibility": "public"
           }
         },
+        "job_NYTFqt": {
+          "type": "job",
+          "settings": {
+            "job_title": "Freelance Broadcast Associate, Graphics ",
+            "location": "Secaucus, NJ",
+            "apply_link": "https://job-boards.greenhouse.io/mlbnetwork/jobs/7270883",
+            "team_id": "MLB Network",
+            "job_visibility": "public"
+          }
+        },
         "team_zPQkFr": {
           "type": "team",
           "settings": {
@@ -393,6 +403,7 @@
         "team_WdcLGz",
         "job_pWRC6z",
         "job_GNjhCq",
+        "job_NYTFqt",
         "team_zPQkFr",
         "job_3JBJVY",
         "job_4Me6gF",
