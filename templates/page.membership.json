@@ -85,17 +85,8 @@
           "type": "video",
           "settings": {
             "title": "2025 World Series Champion Manager",
-            "description": "Dave Roberts: Manager, Los Angeles Dodgers",
+            "description": "Dave Roberts: 4x World Series Champion & Manager, Los Angeles Dodgers",
             "video_file": "shopify://files/videos/Dave Roberts Clip.mp4"
-          }
-        },
-        "video_a3mnJq": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "title": "MLB Professional Development Session - Glenn Fleisig (Guest Speaker)",
-            "description": "November 6, 2024, with Glenn Fleisig, Director of Research, American Sports Medicine institute (ASMI, Biomechanics focus)",
-            "video_file": "shopify://files/videos/sample_video5.mp4"
           }
         },
         "video_4pfBWC": {
@@ -130,7 +121,6 @@
         "video_HUiAWi",
         "video_gYUr4Q",
         "video_Nr7LLc",
-        "video_a3mnJq",
         "video_4pfBWC",
         "video_trwrAN",
         "video_FPJymL"
