@@ -54,7 +54,7 @@
           "settings": {
             "title": "Early Career Panel & Q&A",
             "description": "March 20, 2025, Early Career Panel with Maggie Langheim (Cincinnati Reds), Julian Valera (Tampa Bay Rays), and James Proctor (Major League Baseball)",
-            "video_file": "shopify://files/videos/sample_video3.mp4"
+            "video_file": "shopify://files/videos/Ealy Career Group.mp4"
           }
         },
         "video_dfAEia": {
@@ -83,6 +83,7 @@
         },
         "video_a3mnJq": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "title": "MLB Professional Development Session - Glenn Fleisig (Guest Speaker)",
             "description": "November 6, 2024, with Glenn Fleisig, Director of Research, American Sports Medicine institute (ASMI, Biomechanics focus)",
@@ -99,6 +100,7 @@
         },
         "video_trwrAN": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "title": "Early Career Panel, Q&A",
             "description": "Dusty Baker former MLB Manager, SF Giants, Washington Nationals, Houston Astros",
