@@ -133,9 +133,9 @@
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "custom_class": "home_banner_text",
-        "subtitle": "",
+        "subtitle": "Where baseball careers connect and grow",
         "title": "Find Your Next Opportunity in Baseball",
-        "text": "<p>Our job board connects baseball professionals with top organizations — from minor leagues to major league offices. Free members see public listings; Premier & Elite get full access.</p>",
+        "text": "<p>From the dugout to the boardroom, explore jobs across every level of the game.<br/></p><p>Free members preview. Premier & Elite members play full access. 💼⚾</p>",
         "button_label": "Explore the Job Board",
         "button_link": "shopify://pages/job-board",
         "image": "shopify://shop_images/180911_Cubs_052.jpg",
