@@ -154,6 +154,16 @@
             "job_visibility": "public"
           }
         },
+        "job_YF4cbq": {
+          "type": "job",
+          "settings": {
+            "job_title": "Manager, Local Media Distribution and Affiliate Operations",
+            "location": "Secaucus, NJ",
+            "apply_link": "https://job-boards.greenhouse.io/mlbnetwork/jobs/7245788",
+            "team_id": "MLB Network",
+            "job_visibility": "public"
+          }
+        },
         "team_zPQkFr": {
           "type": "team",
           "settings": {
@@ -415,6 +425,7 @@
         "job_GNjhCq",
         "job_NYTFqt",
         "job_KnMXT9",
+        "job_YF4cbq",
         "team_zPQkFr",
         "job_3JBJVY",
         "job_4Me6gF",
