@@ -81,6 +81,14 @@
             "video_file": "shopify://files/videos/Reggie Clip.mp4"
           }
         },
+        "video_Nr7LLc": {
+          "type": "video",
+          "settings": {
+            "title": "2025 World Series Champion Manager",
+            "description": "Dave Roberts: Manager, Los Angeles Dodgers",
+            "video_file": "shopify://files/videos/Dave Roberts Clip.mp4"
+          }
+        },
         "video_a3mnJq": {
           "type": "video",
           "disabled": true,
@@ -121,6 +129,7 @@
         "video_dfAEia",
         "video_HUiAWi",
         "video_gYUr4Q",
+        "video_Nr7LLc",
         "video_a3mnJq",
         "video_4pfBWC",
         "video_trwrAN",
