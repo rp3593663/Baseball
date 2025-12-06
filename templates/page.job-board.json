@@ -358,59 +358,6 @@
             "team_id": "5",
             "job_visibility": "public"
           }
-        },
-        "job_RdhVUi": {
-          "type": "job",
-          "disabled": true,
-          "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
-            "job_visibility": "public"
-          }
-        },
-        "team_itYwCn": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "team_JwbarE": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "team_U746Ax": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "team_4NQNLy": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "team_DjLXah": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "team_hTExRb": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
         }
       },
       "block_order": [
@@ -446,14 +393,7 @@
         "job_emXtAK",
         "team_3EXAVM",
         "job_9GCB6w",
-        "job_bwftii",
-        "job_RdhVUi",
-        "team_itYwCn",
-        "team_JwbarE",
-        "team_U746Ax",
-        "team_4NQNLy",
-        "team_DjLXah",
-        "team_hTExRb"
+        "job_bwftii"
       ],
       "name": "Job Board",
       "settings": {
