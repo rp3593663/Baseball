@@ -517,6 +517,7 @@
         },
         "testimonial_kmXcgf": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
@@ -526,6 +527,7 @@
         },
         "testimonial_gXJaKM": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
