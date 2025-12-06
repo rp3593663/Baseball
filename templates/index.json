@@ -120,7 +120,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "title": "BIN Product Collection",
+        "title": "Baseball Industry Network Authentic Product Collection",
         "home_featured_products": "all",
         "per_row": 4,
         "rows": 1,
@@ -442,46 +442,6 @@
         "lazyload_images": true
       }
     },
-    "newsletter_kmAM86": {
-      "type": "newsletter",
-      "blocks": {
-        "title_bgw6tE": {
-          "type": "title",
-          "settings": {
-            "title": "Subscribe to the Baseball Industry Network Newsletter",
-            "heading_size": "h2"
-          }
-        },
-        "text_7kBC6c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stay connected to the heart of the game.<br/>Join our mailing list and be the first to know about:</p><ul><li>Exclusive event access & networking opportunities</li><li>Insider baseball industry news & updates</li><li>Job board highlights and career resources</li><li>Member-only offers, discounts, and product drops</li></ul>"
-          }
-        },
-        "form_EK9mfn": {
-          "type": "form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_bgw6tE",
-        "text_7kBC6c",
-        "form_EK9mfn"
-      ],
-      "name": "t:sections.newsletter.presets.email_signup.name",
-      "settings": {
-        "custom_class": "home_newsletter",
-        "align_text": "left",
-        "image": "shopify://shop_images/190716_Cubs_124.jpg",
-        "image_width": "50",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "#e9edf0",
-        "color_text": "#1c1d1d",
-        "top_padding": true,
-        "bottom_padding": true
-      }
-    },
     "testimonials_aHQTmN": {
       "type": "testimonials",
       "blocks": {
@@ -550,6 +510,46 @@
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d"
       }
+    },
+    "newsletter_kmAM86": {
+      "type": "newsletter",
+      "blocks": {
+        "title_bgw6tE": {
+          "type": "title",
+          "settings": {
+            "title": "Subscribe to the Baseball Industry Network Newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "text_7kBC6c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay connected to the heart of the game.<br/>Join our mailing list and be the first to know about:</p><ul><li>Exclusive event access & networking opportunities</li><li>Insider baseball industry news & updates</li><li>Job board highlights and career resources</li><li>Member-only offers, discounts, and product drops</li></ul>"
+          }
+        },
+        "form_EK9mfn": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_bgw6tE",
+        "text_7kBC6c",
+        "form_EK9mfn"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "custom_class": "home_newsletter",
+        "align_text": "left",
+        "image": "shopify://shop_images/190716_Cubs_124.jpg",
+        "image_width": "50",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#e9edf0",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
     }
   },
   "order": [
@@ -562,7 +562,7 @@
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
     "advanced_content_kDtyxN",
-    "newsletter_kmAM86",
-    "testimonials_aHQTmN"
+    "testimonials_aHQTmN",
+    "newsletter_kmAM86"
   ]
 }
