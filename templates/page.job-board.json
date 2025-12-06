@@ -144,6 +144,16 @@
             "job_visibility": "public"
           }
         },
+        "job_KnMXT9": {
+          "type": "job",
+          "settings": {
+            "job_title": "Freelance Logger",
+            "location": "Secaucus, NJ",
+            "apply_link": "https://job-boards.greenhouse.io/mlbnetwork/jobs/7367320",
+            "team_id": "MLB Network",
+            "job_visibility": "public"
+          }
+        },
         "team_zPQkFr": {
           "type": "team",
           "settings": {
@@ -404,6 +414,7 @@
         "job_pWRC6z",
         "job_GNjhCq",
         "job_NYTFqt",
+        "job_KnMXT9",
         "team_zPQkFr",
         "job_3JBJVY",
         "job_4Me6gF",
