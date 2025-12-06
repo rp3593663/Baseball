@@ -116,6 +116,18 @@
         "custom_class": "home_richtext_about"
       }
     },
+    "featured_collection_dM3iKA": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "BIN Product Collection",
+        "home_featured_products": "all",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "background_image_text_U8GD7H": {
       "type": "background-image-text",
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
@@ -470,16 +482,68 @@
         "bottom_padding": true
       }
     },
-    "featured_collection_dM3iKA": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
+    "testimonials_aHQTmN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_EUp4FV": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“The Baseball Industry Network provides unmatched access to the people, knowledge, and opportunities that drive careers in the game. It is a must for anyone serious about working in baseball.”</p>",
+            "author": "Tripp Norton",
+            "author_info": "Coordinator, Arizona Operations, Los Angeles Angels "
+          }
+        },
+        "testimonial_8rWRTH": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_jYkVek": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_kmXcgf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_gXJaKM": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EUp4FV",
+        "testimonial_8rWRTH",
+        "testimonial_jYkVek",
+        "testimonial_kmXcgf",
+        "testimonial_gXJaKM"
+      ],
+      "name": "t:sections.testimonials.presets.customer_testimonials.name",
       "settings": {
-        "title": "BIN Product Collection",
-        "home_featured_products": "all",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
+        "title": "Don't take our word for it",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -493,6 +557,7 @@
     "text_with_icons_mjVKeh",
     "membership_comparison_NFhq6p",
     "advanced_content_kDtyxN",
-    "newsletter_kmAM86"
+    "newsletter_kmAM86",
+    "testimonials_aHQTmN"
   ]
 }
