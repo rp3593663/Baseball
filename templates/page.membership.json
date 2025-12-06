@@ -313,13 +313,22 @@
             "elite_value": "Premium Kit (Multi-item + Drop)"
           }
         },
+        "feature_row_ykGacy": {
+          "type": "feature_row",
+          "settings": {
+            "feature": "",
+            "basic_value": "—",
+            "premier_value": "—",
+            "elite_value": "—"
+          }
+        },
         "feature_row_DpqtAr": {
           "type": "feature_row",
           "settings": {
             "feature": "Discounts on Merch + Partners",
-            "basic_value": "❌",
-            "premier_value": "10%",
-            "elite_value": "20%"
+            "basic_value": "10% (Merch Only)",
+            "premier_value": "20%",
+            "elite_value": "30%"
           }
         },
         "feature_row_aC6geF": {
@@ -369,6 +378,7 @@
         "feature_row_VMVnGd",
         "feature_row_EncLT6",
         "feature_row_9bQ8Dh",
+        "feature_row_ykGacy",
         "feature_row_DpqtAr",
         "feature_row_aC6geF",
         "feature_row_rx33P6",
