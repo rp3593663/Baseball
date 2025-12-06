@@ -325,6 +325,7 @@
         },
         "feature_row_ykGacy": {
           "type": "feature_row",
+          "disabled": true,
           "settings": {
             "feature": "",
             "basic_value": "—",
