@@ -1226,6 +1226,10 @@ h1#access-title {
     font-size: 24px;
     margin-bottom: 15px;
   }
+  .job-board-card li {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
   .job-board-subtext {
     margin: auto auto 20px;
   }
