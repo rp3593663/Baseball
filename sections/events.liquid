@@ -70,8 +70,7 @@
                   {{ block.settings.event_contact }}</div>
               {% endif %}
             </div>
-
-           {%- comment -%}
+{%- comment -%}
   MEMBERSHIP BUTTON LOGIC
   ✔ No tags → button visible to all
   ✔ Tags exist → button visible only to matching customer
@@ -90,14 +89,15 @@
 {% assign show_button = false %}
 
 {% if required_tags.size == 0 %}
-
+  {# No tags → everyone sees #}
   {% assign show_button = true %}
 {% elsif customer %}
-
+  {# Customer is logged in, check tags #}
   {% for tag in customer.tags %}
     {% assign customer_tag = tag | downcase %}
     {% if required_tags contains customer_tag %}
       {% assign show_button = true %}
+      {% break %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -107,6 +107,7 @@
     {{ block.settings.button_label }}
   </a>
 {% endif %}
+
 
 
           </div>
