@@ -69,10 +69,8 @@
 {% assign show_button = false %}
 
 {% if event_tags.size == 0 %}
-  {% comment %} No tags → everyone sees {% endcomment %}
   {% assign show_button = true %}
 {% elsif customer %}
-  {% comment %} Customer is logged in, check tags {% endcomment %}
   {% for tag in event_tags %}
     {% if customer.tags contains tag %}
       {% assign show_button = true %}
