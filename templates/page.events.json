@@ -62,7 +62,7 @@
             "event_cost": "",
             "button_label": "Registration is Closed",
             "button_link": "shopify://pages/events",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_knL9cc": {
@@ -77,7 +77,7 @@
             "event_cost": "Free",
             "button_label": "Register Now",
             "button_link": "https://www.eventbrite.com/e/2025-mlb-workforce-development-career-networking-reception-tickets-1925367157999",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_QgcpnV": {
@@ -92,7 +92,7 @@
             "event_cost": "Free",
             "button_label": "Register Now",
             "button_link": "https://www.eventbrite.com/e/2025-baseball-industry-network-baseball-winter-meetings-meet-up-registration-1925537647939",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_FfTxRm": {
@@ -107,7 +107,7 @@
             "event_cost": "Free",
             "button_label": "Register Now",
             "button_link": "https://nfca.org/convention",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_mA8WiA": {
@@ -122,7 +122,7 @@
             "event_cost": "Event details",
             "button_label": "Register Now",
             "button_link": "https://www.abca.org/",
-            "event_member_tags": "elite_member_yearly,premier_member_yearly"
+            "event_tags": "elite_member_monthly"
           }
         },
         "event_MwFV3e": {
@@ -137,7 +137,7 @@
             "event_cost": "Details to follow",
             "button_label": "Register Soon",
             "button_link": "https://mlb.com/news/mlb-2026-spring-training-schedule",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_aACYmr": {
@@ -152,7 +152,7 @@
             "event_cost": "Free",
             "button_label": "Register Now",
             "button_link": "https://sabr.org/latest/save-the-date-join-us-for-sabr-analytics-conference-on-feb-27-march-1-2026/",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_3QhxKG": {
@@ -167,7 +167,7 @@
             "event_cost": "Details to follow",
             "button_label": "Register Soon",
             "button_link": "",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         },
         "event_ceEzeH": {
@@ -182,7 +182,7 @@
             "event_cost": "TBD",
             "button_label": "Register Soon",
             "button_link": "https://www.mlb.com/phillies/fans/all-star-game",
-            "event_member_tags": ""
+            "event_tags": ""
           }
         }
       },
