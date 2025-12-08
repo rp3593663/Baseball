@@ -1230,6 +1230,9 @@ h1#access-title {
     font-size: 13px;
     margin-bottom: 5px;
   }
+  .job-board-button {
+    margin-top: 20px;
+  }
   .job-board-subtext {
     margin: auto auto 20px;
   }
