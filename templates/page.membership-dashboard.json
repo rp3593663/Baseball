@@ -249,11 +249,10 @@
       ],
       "name": "Job Board Portal",
       "settings": {
-        "top_icon": "💼",
         "heading": "BIN JOB BOARD PORTAL",
         "subtext": "Access exclusive baseball job listings with tiered membership benefits. From preview-only access to executive-level opportunities and mentorship matching.",
         "button_text": "EXPLORE JOB BOARD",
-        "button_link": "",
+        "button_link": "shopify://pages/job-board",
         "padding_top_desktop": 80,
         "padding_bottom_desktop": 80,
         "padding_top_mobile": 40,
