@@ -70,24 +70,20 @@
                   {{ block.settings.event_contact }}</div>
               {% endif %}
             </div>
-{%- comment -%}
-  MEMBERSHIP BUTTON LOGIC
-  ✔ No tags → button visible to all
-  ✔ Tags exist → button visible only to matching customer
-  ✔ Logged-out user → button hidden if tags exist
+{%- comment -%} MEMBERSHIP BUTTON LOGIC
+✔ No tags → button visible to all
+✔ One or more tags → button visible only to matching customer
+✔ Logged-out user → button hidden if tags exist
 {%- endcomment -%}
 
-{% assign required_tags_raw = block.settings.event_member_tags | split: "," %}
+{% assign required_tags_raw = block.settings.event_member_tags | downcase | split: "," %}
 {% assign required_tags = "" | split: "" %}
-
 {% for t in required_tags_raw %}
   {% assign cleaned_tag = t | strip %}
   {% if cleaned_tag != "" %}
-    {% comment %} Workaround: append to array in Shopify {% endcomment %}
-    {% assign required_tags = required_tags | concat: cleaned_tag | split: "," %}
+    {% assign required_tags = required_tags | push: cleaned_tag %}
   {% endif %}
 {% endfor %}
-
 
 {% assign show_button = false %}
 
@@ -108,6 +104,7 @@
     {{ block.settings.button_label }}
   </a>
 {% endif %}
+
 
 
 
