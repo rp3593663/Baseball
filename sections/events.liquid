@@ -104,18 +104,9 @@
             {% endfor %}
 
             {% assign show_button = false %}
-
-            {%- comment -%}
-              CASE 1 — No tags added → show to ALL (logged in or out)
-            {%- endcomment -%}
             {% if clean_tags.size == 0 %}
               {% assign show_button = true %}
             {% else %}
-
-              {%- comment -%}
-                CASE 2 — Tags added → must be logged in & must match
-              {%- endcomment -%}
-
               {% if customer %}
                 {% for customer_tag in customer.tags %}
                   {% assign ct = customer_tag | downcase %}
@@ -124,9 +115,6 @@
                   {% endif %}
                 {% endfor %}
               {% else %}
-                {%- comment -%}
-                  Logged-out user but tags exist → HIDE button
-                {%- endcomment -%}
                 {% assign show_button = false %}
               {% endif %}
             {% endif %}
