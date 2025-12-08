@@ -1130,19 +1130,15 @@ h1#access-title {
   max-width: 700px;
   margin: 0 auto 50px;
 }
-
-
 .luxury-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
   margin-bottom: 60px;
 }
-
-
 .luxury-card {
   position: relative;
-  border-radius: 14px;
+  border-radius: 0px;
   overflow: hidden;
   min-height: 330px;
   display: flex;
@@ -1153,7 +1149,6 @@ h1#access-title {
   background-position: center;
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
-
 .luxury-card::after {
   content: "";
   position: absolute;
@@ -1183,43 +1178,6 @@ h1#access-title {
   font-size: 15px;
   opacity: 0.9;
 }
-
-/* Carousel */
-.luxury-carousel-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.luxury-carousel {
-  display: flex;
-  gap: 25px;
-  overflow-x: auto;
-  padding-bottom: 10px;
-  scroll-snap-type: x mandatory;
-}
-
-.luxury-carousel-item {
-  min-width: 240px;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  scroll-snap-align: start;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-}
-
-.luxury-carousel-item img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.luxury-carousel-item p {
-  padding: 14px;
-  font-size: 15px;
-  color: #333;
-}
-
 
 
 
