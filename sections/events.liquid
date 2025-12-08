@@ -34,7 +34,7 @@
             {% endif %}
           </div>
           <div class="events_info">
-            {% if block.settings.event_label %}
+            {% if block.settings.event_label != blank %}
               <div class="event_label">{{ block.settings.event_label }}</div>
             {% endif %}
             {% if block.settings.event_cost %}
