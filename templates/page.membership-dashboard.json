@@ -312,8 +312,26 @@
         "text_size": 30,
         "text_spacing": true,
         "direction": "left",
-        "speed": 200,
+        "speed": 300,
         "custom_class": "members_scrolling_text"
+      }
+    },
+    "background_image_text_NKk4Hn": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "custom_class": "home_banner_text",
+        "subtitle": "Foster real-worldnetworking and connection across all levels.",
+        "title": "Events + Meetups Portal",
+        "text": "<ul><li>Upcoming events calendar with<br/>     registration buttons.</li><li>“Members-Only Access” label for<br/>     Premier/Elite events.</li><li>Event recaps and highlight videos<br/>     (post-event).</li><li>Elite-only hospitality meetups<br/>     and roundtables.</li></ul>",
+        "button_label": "Explore All Events",
+        "button_link": "shopify://pages/events",
+        "image": "shopify://shop_images/180911_Cubs_052.jpg",
+        "layout": "left",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": false
       }
     }
   },
@@ -326,6 +344,7 @@
     "1764313763b774f299",
     "job_board_portal_nLJjQL",
     "discounts_member_perks_NFatCa",
-    "scrolling_text_bkPCQA"
+    "scrolling_text_bkPCQA",
+    "background_image_text_NKk4Hn"
   ]
 }
