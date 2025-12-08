@@ -1100,7 +1100,8 @@ h1#access-title {
     margin-bottom: 20px;
 }
 .job-board-card ul {
-  padding-left: 20px;
+    padding-left: 0px;
+    margin: 0px;
 }
 .job-board-card li {
   margin-bottom: 10px;
