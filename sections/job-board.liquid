@@ -66,7 +66,7 @@
                       {% if visibility == "elite" and customer and customer.tags contains "elite_member" %}
                         {% assign can_view = true %}
                       {% endif %}
-                      {% if visibility == "premier" and customer and customer.tags contains "premier_member" %}
+                      {% if visibility == "premier" and customer and customer.tags contains "premier_member_mothly" %}
                         {% assign can_view = true %}
                       {% endif %}
                       {% if visibility == "both" and customer %}
