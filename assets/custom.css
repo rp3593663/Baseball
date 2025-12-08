@@ -8,6 +8,16 @@
     font-size: 50px;
     line-height: 50px;
 }
+.members_scrolling_text {
+    background: var(--primary_color);
+    color: var(--white);
+    font-family: var(--heading_font_family);
+    padding: 18px 0px 20px;
+}
+.members_scrolling_text span {
+    font-size: 50px;
+    line-height: 50px;
+}
 .home_richtext_about .theme-block {
     margin-bottom: 10px;
 }
