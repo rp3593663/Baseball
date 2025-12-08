@@ -77,7 +77,7 @@
   ✔ Logged-out user → button hidden if tags exist
 {%- endcomment -%}
 
-{% assign required_tags_raw = block.settings.event_member_tags | downcase | split: "," %}
+{% assign required_tags_raw = block.settings.event_member_tags | split: "," %}
 {% assign required_tags = "" | split: "" %}
 
 {% for t in required_tags_raw %}
