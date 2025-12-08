@@ -71,59 +71,43 @@
               {% endif %}
             </div>
 
-            {%- comment -%}
-              ===========================================================
-              MEMBERSHIP LOGIC — FINAL WORKING VERSION
-              ===========================================================
-              Rules:
-              ✔ No tags → show to everyone
-              ✔ Tags added → only logged-in + matching tag sees button
-              ✔ Logged-out with tags → never sees
-            {%- endcomment -%}
+           {%- comment -%}
+  MEMBERSHIP BUTTON LOGIC
+  ✔ No tags → button visible to all
+  ✔ Tags exist → button visible only to matching customer
+  ✔ Logged-out user → button hidden if tags exist
+{%- endcomment -%}
 
-            {% assign required_raw = block.settings.event_member_tags | downcase | strip %}
+{% assign required_tags_raw = block.settings.event_member_tags | downcase | split: "," %}
+{% assign required_tags = "" | split: "" %}
+{% for t in required_tags_raw %}
+  {% assign cleaned_tag = t | strip %}
+  {% if cleaned_tag != "" %}
+    {% assign required_tags = required_tags | push: cleaned_tag %}
+  {% endif %}
+{% endfor %}
 
-            {%- comment -%}
-              Clean tags into array
-            {%- endcomment -%}
-            {% if required_raw == "" %}
-              {% assign required_tags = "" | split: "," %}
-            {% else %}
-              {% assign required_tags = required_raw | replace: ", ", "," | split: "," %}
-            {% endif %}
+{% assign show_button = false %}
 
-            {%- comment -%}
-              Remove blank items from array
-            {%- endcomment -%}
-            {% assign clean_tags = "" | split: "," %}
-            {% for tg in required_tags %}
-              {% assign cleaned = tg | strip %}
-              {% if cleaned != "" %}
-                {% assign clean_tags = clean_tags | push: cleaned %}
-              {% endif %}
-            {% endfor %}
+{% if required_tags.size == 0 %}
+  {# No tags set → show button to everyone #}
+  {% assign show_button = true %}
+{% elsif customer %}
+  {# Tags exist → only show if logged-in customer has any tag #}
+  {% for tag in customer.tags %}
+    {% assign customer_tag = tag | downcase %}
+    {% if required_tags contains customer_tag %}
+      {% assign show_button = true %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
-            {% assign show_button = false %}
-            {% if clean_tags.size == 0 %}
-              {% assign show_button = true %}
-            {% else %}
-              {% if customer %}
-                {% for customer_tag in customer.tags %}
-                  {% assign ct = customer_tag | downcase %}
-                  {% if clean_tags contains ct %}
-                    {% assign show_button = true %}
-                  {% endif %}
-                {% endfor %}
-              {% else %}
-                {% assign show_button = false %}
-              {% endif %}
-            {% endif %}
+{% if show_button and block.settings.button_label and block.settings.button_link %}
+  <a href="{{ block.settings.button_link }}" class="event_btn btn">
+    {{ block.settings.button_label }}
+  </a>
+{% endif %}
 
-            {% if show_button and block.settings.button_label and block.settings.button_link %}
-              <a href="{{ block.settings.button_link }}" class="event_btn btn">
-                {{ block.settings.button_label }}
-              </a>
-            {% endif %}
 
           </div>
         </div>
