@@ -1058,6 +1058,76 @@ h1#access-title {
     margin-top: 20px;
 }
 
+
+
+.job-board-container {
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+}
+.job-board-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.job-board-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.job-board-subtext {
+  font-size: 16px;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #555;
+}
+.job-board-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.job-board-card {
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: left;
+}
+.job-board-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.job-board-card ul {
+  padding-left: 20px;
+}
+.job-board-card li {
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+}
+.job-board-card li:before {
+  content: "✔";
+  color: #003366;
+  margin-right: 8px;
+}
+.job-board-button {
+  margin-top: 40px;
+}
+.job-board-button a {
+  background: #0a2540;
+  color: white;
+  padding: 14px 35px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+
+
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .home_text_with_icon .text-with-icons__block {
     width: calc(33% - 20px);
