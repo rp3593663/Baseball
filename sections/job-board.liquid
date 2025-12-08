@@ -63,8 +63,10 @@
                       {% if visibility == "public" %}
                         {% assign can_view = true %}
                       {% endif %}
-                      {% if visibility == "elite" and customer and customer.tags contains "elite_member_monthly" %}
-                        {% assign can_view = true %}
+                      {% if visibility == "elite" and customer %}
+                        {% if customer.tags contains "elite_member_monthly" or customer.tags contains "elite_member_yearly" %}
+                          {% assign can_view = true %}
+                        {% endif %}
                       {% endif %}
                       {% if visibility == "premier" and customer %}
                         {% if customer.tags contains "premier_member_mothly" or customer.tags contains "premier_member_yearly" %}
