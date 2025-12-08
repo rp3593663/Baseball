@@ -1225,6 +1225,11 @@ h1#access-title {
     font-size: 13px;
     line-height: 20px;
   }
+  .job-board-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
   .announcement__text {
     font-size: 12px;
     line-height: 18px;
@@ -1447,7 +1452,7 @@ h1#access-title {
   }
   .job_info {
     gap: 2px;
-}
+  }
   .job_search_wrapper {
     margin-bottom: 15px;
     padding: 12px;
