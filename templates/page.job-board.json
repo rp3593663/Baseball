@@ -385,6 +385,23 @@
             "team_id": "new-team",
             "job_visibility": "public"
           }
+        },
+        "team_RWfPhJ": {
+          "type": "team",
+          "settings": {
+            "team_name": "Test Team",
+            "team_id": "test-team"
+          }
+        },
+        "job_G6BwMA": {
+          "type": "job",
+          "settings": {
+            "job_title": "Dummy JoB",
+            "location": "Location",
+            "apply_link": "#",
+            "team_id": "test-team",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -423,7 +440,9 @@
         "job_bwftii",
         "team_RtADHw",
         "job_3HHKYW",
-        "job_EJtXYf"
+        "job_EJtXYf",
+        "team_RWfPhJ",
+        "job_G6BwMA"
       ],
       "name": "Job Board",
       "settings": {
