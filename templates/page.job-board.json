@@ -358,6 +358,23 @@
             "team_id": "5",
             "job_visibility": "public"
           }
+        },
+        "team_RtADHw": {
+          "type": "team",
+          "settings": {
+            "team_name": "New Team",
+            "team_id": "new-team"
+          }
+        },
+        "job_3HHKYW": {
+          "type": "job",
+          "settings": {
+            "job_title": "Test Job",
+            "location": "Test Location",
+            "apply_link": "#",
+            "team_id": "new-team",
+            "job_visibility": "premier"
+          }
         }
       },
       "block_order": [
@@ -393,7 +410,9 @@
         "job_emXtAK",
         "team_3EXAVM",
         "job_9GCB6w",
-        "job_bwftii"
+        "job_bwftii",
+        "team_RtADHw",
+        "job_3HHKYW"
       ],
       "name": "Job Board",
       "settings": {
