@@ -1,0 +1,272 @@
+{% style %}
+.perks-wrapper {
+  padding-top: {{ section.settings.padding_top_desktop }}px;
+  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+}
+
+@media (max-width: 767px) {
+  .perks-wrapper {
+    padding-top: {{ section.settings.padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+  }
+}
+
+.perks-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.perks-icon {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.perks-heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.perks-subtext {
+  max-width: 700px;
+  margin: 0 auto 35px;
+  color: #555;
+  font-size: 16px;
+}
+
+.perks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 767px) {
+  .perks-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.perks-card {
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: left;
+  background: #fff;
+}
+
+.perks-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.perks-card ul {
+  padding-left: 20px;
+}
+
+.perks-card li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.perks-card li:before {
+  content: "✔";
+  color: #003366;
+  margin-right: 8px;
+}
+
+.carousel-wrapper {
+  margin-top: 45px;
+}
+
+.carousel-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.carousel-item {
+  min-width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 6px;
+}
+{% endstyle %}
+
+<section class="perks-wrapper">
+  <div class="perks-container">
+
+    <!-- Icon -->
+    <div class="perks-icon">{{ section.settings.icon }}</div>
+
+    <!-- Heading -->
+    <h2 class="perks-heading">{{ section.settings.heading }}</h2>
+
+    <!-- Subtext -->
+    <p class="perks-subtext">{{ section.settings.subtext }}</p>
+
+    <!-- Tier Cards -->
+    <div class="perks-grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'tier' %}
+          <div class="perks-card">
+            <h3>{{ block.settings.title }}</h3>
+            <ul>
+              {% for i in (1..6) %}
+                {% assign item = 'perk_' | append: i %}
+                {% if block.settings[item] != blank %}
+                  <li>{{ block.settings[item] }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Discount Carousel -->
+    {% assign carousel_exists = false %}
+{% for block in section.blocks %}
+  {% if block.type == 'carousel_item' %}
+    {% assign carousel_exists = true %}
+  {% endif %}
+{% endfor %}
+
+{% if carousel_exists %}
+  <div class="carousel-wrapper">
+    <div class="carousel-title">{{ section.settings.carousel_title }}</div>
+    <div class="carousel">
+      {% for block in section.blocks %}
+        {% if block.type == 'carousel_item' %}
+          <div class="carousel-item">
+            {% if block.settings.image %}
+              <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Offer image">
+            {% endif %}
+            <p>{{ block.settings.caption }}</p>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Discounts & Member Perks",
+  "settings": [
+    {
+      "type": "text",
+      "id": "icon",
+      "label": "Top Icon",
+      "default": "🧢"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discounts & Member Perks"
+    },
+    {
+      "type": "textarea",
+      "id": "subtext",
+      "label": "Subtext",
+      "default": "Drive recurring engagement and brand loyalty through BIN and partner discounts."
+    },
+    {
+      "type": "text",
+      "id": "carousel_title",
+      "label": "Carousel Title",
+      "default": "Partner Discount Offers"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "label": "Padding Top (Desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "label": "Padding Bottom (Desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Padding Top (Mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Padding Bottom (Mobile)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 40
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "tier",
+      "name": "Tier Benefit Card",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tier Title (Premier / Elite)"
+        },
+        { "type": "text", "id": "perk_1", "label": "Perk 1" },
+        { "type": "text", "id": "perk_2", "label": "Perk 2" },
+        { "type": "text", "id": "perk_3", "label": "Perk 3" },
+        { "type": "text", "id": "perk_4", "label": "Perk 4" },
+        { "type": "text", "id": "perk_5", "label": "Perk 5" },
+        { "type": "text", "id": "perk_6", "label": "Perk 6" }
+      ]
+    },
+    {
+      "type": "carousel_item",
+      "name": "Carousel Item",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Offer Image" },
+        { "type": "text", "id": "caption", "label": "Offer Caption" }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Discounts & Member Perks"
+    }
+  ]
+}
+{% endschema %}
