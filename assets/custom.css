@@ -138,6 +138,14 @@ h1.highlight_text {
 .home_banner_text .background-media-text__subtext p {
     font-size: 15px;
 }
+.home_banner_text p.subtitle {
+    text-transform: capitalize!important;
+    letter-spacing: 0px!important;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--red);
+    font-size: 15px!important;
+}
 .home_text_with_icon h2 {
     font-size: 40px;
     text-transform: uppercase;
