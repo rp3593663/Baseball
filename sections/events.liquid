@@ -90,10 +90,10 @@
 {% assign show_button = false %}
 
 {% if required_tags.size == 0 %}
-  {# No tags set → show button to everyone #}
+
   {% assign show_button = true %}
 {% elsif customer %}
-  {# Tags exist → only show if logged-in customer has any tag #}
+
   {% for tag in customer.tags %}
     {% assign customer_tag = tag | downcase %}
     {% if required_tags contains customer_tag %}
