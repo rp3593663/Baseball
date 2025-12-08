@@ -1085,7 +1085,7 @@ h1#access-title {
 .job-board-card {
   border: 1px solid #ddd;
   padding: 25px;
-  border-radius: 8px;
+  border-radius: 0px;
   background: #fff;
   text-align: left;
 }
@@ -1221,6 +1221,12 @@ h1#access-title {
   .job-board-subtext {
     font-size: 13px;
     line-height: 20px;
+  }
+  .job-board-subtext {
+    margin: auto auto 20px;
+  }
+  .job-board-card {
+    padding: 15px 12px;
   }
   .job-board-grid {
     display: grid;
