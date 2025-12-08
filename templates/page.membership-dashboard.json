@@ -113,13 +113,6 @@
             "benefit_title": "Podcasts",
             "benefit_text": "Catch newly released episodes with industry insiders."
           }
-        },
-        "benefit_item_hteAzR": {
-          "type": "benefit_item",
-          "settings": {
-            "benefit_title": "Industry-wide hiring, talent, and innovation trends",
-            "benefit_text": ""
-          }
         }
       },
       "block_order": [
@@ -127,8 +120,7 @@
         "benefit_item_U6xrNE",
         "benefit_item_KTybxf",
         "benefit_item_B6REKn",
-        "benefit_item_MzdcBH",
-        "benefit_item_hteAzR"
+        "benefit_item_MzdcBH"
       ],
       "name": "Elite Membership Benefits",
       "settings": {
