@@ -811,6 +811,7 @@ input#jobSearch {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    position: relative;
 }
 .event_cost {
     color: #FFF;
