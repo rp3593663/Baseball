@@ -1095,9 +1095,9 @@ h1#access-title {
   text-align: left;
 }
 .job-board-card h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 .job-board-card ul {
   padding-left: 20px;
