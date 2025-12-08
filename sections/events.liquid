@@ -65,11 +65,28 @@
               {% endif %}
             </div>
 
-            {% if block.settings.button_label and block.settings.button_link %}
-              <a href="{{ block.settings.button_link }}" class="event_btn btn">
-                {{ block.settings.button_label }}
-              </a>
-            {% endif %}
+            {% assign event_tags = block.settings.event_tags | split: ',' | map: 'strip' %}
+{% assign show_button = false %}
+
+{% if event_tags.size == 0 %}
+  {% comment %} No tags → everyone sees {% endcomment %}
+  {% assign show_button = true %}
+{% elsif customer %}
+  {% comment %} Customer is logged in, check tags {% endcomment %}
+  {% for tag in event_tags %}
+    {% if customer.tags contains tag %}
+      {% assign show_button = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if show_button and block.settings.button_label and block.settings.button_link %}
+  <a href="{{ block.settings.button_link }}" class="event_btn btn">
+    {{ block.settings.button_label }}
+  </a>
+{% endif %}
+
           </div>
         </div>
       {% endfor %}
