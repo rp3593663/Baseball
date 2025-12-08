@@ -9,62 +9,6 @@
  */
 {
   "sections": {
-    "1765192028fdaa6c1b": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_3d68e3a_icKagV": {
-          "type": "ai_gen_block_3d68e3a",
-          "settings": {
-            "show_icon": true,
-            "title": "BIN Job Board Portal",
-            "description": "<p>Access exclusive baseball job listings with tiered membership benefits. From preview-only access to executive-level opportunities and mentorship matching.</p>",
-            "show_features": true,
-            "button_text": "Explore Job Board",
-            "button_link": "shopify://pages/job-board",
-            "container_width": 1200,
-            "section_padding_top": 60,
-            "section_padding_bottom": 60,
-            "section_padding_horizontal": 20,
-            "background_color": "#f4f4f4",
-            "icon_color": "#0b2041",
-            "title_color": "#000000",
-            "description_color": "#000000",
-            "feature_bg_color": "#ffffff",
-            "feature_border_color": "#e8e8e1",
-            "feature_text_color": "#000000",
-            "checkmark_color": "#0b2041",
-            "basic_tier_color": "#666666",
-            "premier_tier_color": "#0b2041",
-            "elite_tier_color": "#da3217",
-            "button_bg_color": "#0b2041",
-            "button_text_color": "#ffffff",
-            "button_hover_bg_color": "#da3217",
-            "button_hover_text_color": "#ffffff",
-            "button_border_radius": 4,
-            "button_padding_vertical": 16,
-            "button_padding_horizontal": 40,
-            "button_text_size": 14,
-            "icon_size": 60,
-            "icon_spacing": 20,
-            "title_size": 36,
-            "title_spacing": 20,
-            "description_size": 16,
-            "description_spacing": 40,
-            "tier_size": 16,
-            "feature_text_size": 14,
-            "features_gap": 20,
-            "features_spacing": 40,
-            "feature_padding": 25,
-            "feature_border_radius": 8
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_3d68e3a_icKagV"
-      ],
-      "settings": {}
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -191,6 +135,62 @@
         "container_width": "page-width"
       }
     },
+    "1765192028fdaa6c1b": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3d68e3a_icKagV": {
+          "type": "ai_gen_block_3d68e3a",
+          "settings": {
+            "show_icon": true,
+            "title": "BIN Job Board Portal",
+            "description": "<p>Access exclusive baseball job listings with tiered membership benefits. From preview-only access to executive-level opportunities and mentorship matching.</p>",
+            "show_features": true,
+            "button_text": "Explore Job Board",
+            "button_link": "shopify://pages/job-board",
+            "container_width": 1200,
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "section_padding_horizontal": 20,
+            "background_color": "#ffffff",
+            "icon_color": "#0b2041",
+            "title_color": "#000000",
+            "description_color": "#000000",
+            "feature_bg_color": "#ffffff",
+            "feature_border_color": "#e8e8e1",
+            "feature_text_color": "#000000",
+            "checkmark_color": "#0b2041",
+            "basic_tier_color": "#666666",
+            "premier_tier_color": "#0b2041",
+            "elite_tier_color": "#da3217",
+            "button_bg_color": "#0b2041",
+            "button_text_color": "#ffffff",
+            "button_hover_bg_color": "#da3217",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 4,
+            "button_padding_vertical": 16,
+            "button_padding_horizontal": 40,
+            "button_text_size": 14,
+            "icon_size": 60,
+            "icon_spacing": 20,
+            "title_size": 36,
+            "title_spacing": 20,
+            "description_size": 16,
+            "description_spacing": 40,
+            "tier_size": 16,
+            "feature_text_size": 14,
+            "features_gap": 20,
+            "features_spacing": 40,
+            "feature_padding": 25,
+            "feature_border_radius": 8
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3d68e3a_icKagV"
+      ],
+      "settings": {}
+    },
     "1764313763b774f299": {
       "type": "_blocks",
       "blocks": {
@@ -256,11 +256,11 @@
     }
   },
   "order": [
-    "1765192028fdaa6c1b",
     "main",
     "blocks_haaNHc",
     "rich_text_EmnVbT",
     "elite_membership_benefits_BhYCCP",
+    "1765192028fdaa6c1b",
     "1764313763b774f299"
   ]
 }
