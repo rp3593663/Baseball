@@ -326,7 +326,7 @@
         "text": "<ul><li>Upcoming events calendar with<br/>     registration buttons.</li><li>“Members-Only Access” label for<br/>     Premier/Elite events.</li><li>Event recaps and highlight videos<br/>     (post-event).</li><li>Elite-only hospitality meetups<br/>     and roundtables.</li></ul>",
         "button_label": "Explore All Events",
         "button_link": "shopify://pages/events",
-        "image": "shopify://shop_images/180911_Cubs_052.jpg",
+        "image": "shopify://shop_images/baseball_meeting2.png",
         "layout": "left",
         "height": 550,
         "parallax": false,
