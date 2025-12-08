@@ -76,33 +76,23 @@
 ✔ Logged-out user → button hidden if tags exist
 {%- endcomment -%}
 
-{% assign required_tags_raw = block.settings.event_member_tags | downcase | split: "," %}
-{% assign required_tags = "" | split: "" %}
-{% for t in required_tags_raw %}
-  {% assign cleaned_tag = t | strip %}
-  {% if cleaned_tag != "" %}
-    {% assign required_tags = required_tags | push: cleaned_tag %}
-  {% endif %}
-{% endfor %}
-
+{% assign required_tags = block.settings.event_member_tags | downcase | split: "," | map: "strip" %}
 {% assign show_button = false %}
 
 {% if required_tags.size == 0 %}
   {% assign show_button = true %}
 {% elsif customer %}
-  {% for tag in customer.tags %}
-    {% assign customer_tag = tag | downcase %}
-    {% if required_tags contains customer_tag %}
-      {% assign show_button = true %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
+  {% assign customer_tags_downcase = customer.tags | map: "downcase" %}
+  {% assign matched_tags = required_tags | intersect: customer_tags_downcase %}
+  {% if matched_tags.size > 0 %}
+    {% assign show_button = true %}
+  {% endif %}
 {% endif %}
 
 {% if show_button and block.settings.button_label and block.settings.button_link %}
-  <a href="{{ block.settings.button_link }}" class="event_btn btn">
-    {{ block.settings.button_label }}
-  </a>
+<a href="{{ block.settings.button_link }}" class="event_btn btn">
+  {{ block.settings.button_label }}
+</a>
 {% endif %}
 
 
