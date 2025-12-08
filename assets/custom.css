@@ -813,6 +813,15 @@ input#jobSearch {
     align-items: baseline;
     position: relative;
 }
+.event_label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ffc800;
+    padding: 2px 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
 .event_cost {
     color: #FFF;
     font-family: var(--heading_font_family);
