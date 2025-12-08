@@ -1313,6 +1313,9 @@ h1#access-title {
   .job-board-button {
     margin-top: 20px;
   }
+  .luxury-card h3 {
+    font-size: 28px;
+  }
   .job-board-subtext,
   .luxury-subtext {
     margin: auto auto 20px;
