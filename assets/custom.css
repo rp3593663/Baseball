@@ -1061,6 +1061,7 @@ h1#access-title {
 
 .job_board_container{
   margin: auto;
+  text-align: center;
 }
 .job-board-icon svg {
     width: 48px;
