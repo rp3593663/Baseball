@@ -1267,9 +1267,11 @@ h1#access-title {
   .all_events_block .events_header {
     margin-bottom: 30px;
   }
-  .event_content,
-  .events_info {
+  .event_content{
     padding: 15px 12px;
+  }
+  .events_info {
+    padding: 35px 12px 15px;
   }
   .event_cost {
     font-size: 32px;
