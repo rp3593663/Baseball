@@ -1707,8 +1707,13 @@ h1#access-title {
     font-size: 25px;
     margin-bottom: 8px;
   }
-  .home_scrolling_text {
+  .home_scrolling_text,
+  .members_scrolling_text {
     padding: 12px 0 12px;
+  }
+  .members_scrolling_text span{
+    font-size: 15px!important;
+    line-height: 15px;
   }
   .home_richtext_about .enlarge-text p {
     font-size: 12px!important;
