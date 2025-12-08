@@ -23,27 +23,30 @@
     <div class="events-wrapper">
       {% for block in section.blocks %}
         <div class="event-item">
+
+          <!-- Event Image -->
           <div class="event_image">
             {% if block.settings.event_image %}
               <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
             {% endif %}
           </div>
 
+          <!-- Event Content -->
           <div class="event_content">
             <h2 class="event_title">{{ block.settings.event_title }}</h2>
-
             {% if block.settings.event_description %}
               <div class="event_desc">{{ block.settings.event_description }}</div>
             {% endif %}
           </div>
 
+          <!-- Event Info -->
           <div class="events_info">
 
             {% if block.settings.event_cost %}
               <div class="event_cost">{{ block.settings.event_cost }}</div>
             {% endif %}
 
-            <div class="evens_all_meta">
+           <div class="evens_all_meta">
               {% if block.settings.event_date %}
                 <div class="event_meta">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,28 +73,33 @@
               {% endif %}
             </div>
 
-            {%- comment -%}
-              MEMBERSHIP BUTTON LOGIC
-              Supports: one tag or multiple tags separated by commas
-            {%- endcomment -%}
+            <!-- BUTTON LOGIC BELOW -->
+            {% assign required_raw = block.settings.event_member_tag | downcase %}
+            {% assign required_tags = required_raw | split: "," %}
 
-            {% assign required_tags = block.settings.event_member_tags | downcase | split: "," %}
-
-            {%- assign cleaned_tags = "" | split: "" -%}
+            {% assign cleaned_required = "" | split: "" %}
             {% for t in required_tags %}
               {% assign cleaned_tag = t | strip %}
-              {% assign cleaned_tags = cleaned_tags | push: cleaned_tag %}
+              {% if cleaned_tag != "" %}
+                {% assign cleaned_required = cleaned_required | push: cleaned_tag %}
+              {% endif %}
             {% endfor %}
 
             {% assign show_button = false %}
 
-            {% if customer %}
-              {% for tag in customer.tags %}
-                {% assign customer_tag = tag | downcase %}
-                {% if cleaned_tags contains customer_tag %}
-                  {% assign show_button = true %}
-                {% endif %}
-              {% endfor %}
+            {% if cleaned_required.size == 0 %}
+              {# No tag required → show to everyone #}
+              {% assign show_button = true %}
+            {% else %}
+              {# Tag(s) required → must match customer tag #}
+              {% if customer %}
+                {% for tag in customer.tags %}
+                  {% assign customer_tag = tag | downcase %}
+                  {% if cleaned_required contains customer_tag %}
+                    {% assign show_button = true %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             {% endif %}
 
             {% if show_button and block.settings.button_label and block.settings.button_link %}
@@ -120,7 +128,6 @@
     { "type": "range", "id": "padding_top_mobile", "min": 0, "max": 200, "step": 5, "label": "Padding Top (Mobile)", "default": 40 },
     { "type": "range", "id": "padding_bottom_mobile", "min": 0, "max": 200, "step": 5, "label": "Padding Bottom (Mobile)", "default": 40 }
   ],
-
   "blocks": [
     {
       "type": "event",
@@ -136,16 +143,10 @@
         { "type": "text", "id": "button_label", "label": "Button Label", "default": "Learn More" },
         { "type": "url", "id": "button_link", "label": "Button Link" },
 
-        {
-          "type": "text",
-          "id": "event_member_tags",
-          "label": "Required Member Tags (comma-separated)",
-          "info": "Example: premier_member_monthly OR elite_member_yearly, premier_member_yearly"
-        }
+        { "type": "text", "id": "event_member_tag", "label": "Required Tag(s) — comma separated (optional)" }
       ]
     }
   ],
-
   "presets": [
     { "name": "Events" }
   ]
