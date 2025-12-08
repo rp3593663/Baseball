@@ -407,7 +407,14 @@
           "type": "team",
           "settings": {
             "team_name": "Cleveland Guardians",
-            "team_id": "cleveland-guardians"
+            "team_id": "Cleveland-guardians"
+          }
+        },
+        "team_Xam9fn": {
+          "type": "team",
+          "settings": {
+            "team_name": "Colorado Rockies",
+            "team_id": "colorado-rockies"
           }
         }
       },
@@ -450,7 +457,8 @@
         "job_EJtXYf",
         "team_RWfPhJ",
         "job_G6BwMA",
-        "team_xaf73J"
+        "team_xaf73J",
+        "team_Xam9fn"
       ],
       "name": "Job Board",
       "settings": {
