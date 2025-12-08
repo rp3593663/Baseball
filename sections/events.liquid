@@ -65,7 +65,7 @@
               {% endif %}
             </div>
 
-            {% assign event_tags = block.settings.event_tags | split: ',' | map: 'strip' %}
+            {% assign event_tags = block.settings.event_tags | split: ',' %}
 {% assign show_button = false %}
 
 {% if event_tags.size == 0 %}
