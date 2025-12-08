@@ -1163,14 +1163,15 @@ h1#access-title {
 }
 
 .luxury-card h3 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 
 .luxury-card ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .luxury-card li {
