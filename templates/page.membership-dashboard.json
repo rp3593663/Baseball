@@ -137,58 +137,6 @@
     },
     "1765192028fdaa6c1b": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_3d68e3a_icKagV": {
-          "type": "ai_gen_block_3d68e3a",
-          "settings": {
-            "show_icon": true,
-            "title": "BIN Job Board Portal",
-            "description": "<p>Access exclusive baseball job listings with tiered membership benefits. From preview-only access to executive-level opportunities and mentorship matching.</p>",
-            "show_features": true,
-            "button_text": "Explore Job Board",
-            "button_link": "shopify://pages/job-board",
-            "container_width": 1200,
-            "section_padding_top": 60,
-            "section_padding_bottom": 60,
-            "section_padding_horizontal": 20,
-            "background_color": "#ffffff",
-            "icon_color": "#0b2041",
-            "title_color": "#000000",
-            "description_color": "#000000",
-            "feature_bg_color": "#ffffff",
-            "feature_border_color": "#e8e8e1",
-            "feature_text_color": "#000000",
-            "checkmark_color": "#0b2041",
-            "basic_tier_color": "#666666",
-            "premier_tier_color": "#0b2041",
-            "elite_tier_color": "#da3217",
-            "button_bg_color": "#0b2041",
-            "button_text_color": "#ffffff",
-            "button_hover_bg_color": "#da3217",
-            "button_hover_text_color": "#ffffff",
-            "button_border_radius": 4,
-            "button_padding_vertical": 16,
-            "button_padding_horizontal": 40,
-            "button_text_size": 14,
-            "icon_size": 60,
-            "icon_spacing": 20,
-            "title_size": 36,
-            "title_spacing": 20,
-            "description_size": 16,
-            "description_spacing": 40,
-            "tier_size": 16,
-            "feature_text_size": 14,
-            "features_gap": 20,
-            "features_spacing": 40,
-            "feature_padding": 25,
-            "feature_border_radius": 8
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_3d68e3a_icKagV"
-      ],
       "settings": {}
     },
     "1764313763b774f299": {
@@ -253,6 +201,64 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "job_board_portal_nLJjQL": {
+      "type": "job-board-portal",
+      "blocks": {
+        "tier_7gFDWH": {
+          "type": "tier",
+          "settings": {
+            "title": "Basic",
+            "item_1": "Preview-only access",
+            "item_2": "Limited job titles visible",
+            "item_3": "Browse available positions",
+            "item_4": "",
+            "item_5": "",
+            "item_6": ""
+          }
+        },
+        "tier_CiYcKW": {
+          "type": "tier",
+          "settings": {
+            "title": "Premier",
+            "item_1": "Full access to all listings",
+            "item_2": "MLB Careers & TeamWork Online",
+            "item_3": "Advanced search filters",
+            "item_4": "Filter by location & Job titles",
+            "item_5": "",
+            "item_6": ""
+          }
+        },
+        "tier_zPpCHP": {
+          "type": "tier",
+          "settings": {
+            "title": "Elite",
+            "item_1": "Early-access job postings",
+            "item_2": "\"Referred by BIN\" tagged listings",
+            "item_3": "Executive-level roles",
+            "item_4": "Internship & mentorship matching",
+            "item_5": "",
+            "item_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "tier_7gFDWH",
+        "tier_CiYcKW",
+        "tier_zPpCHP"
+      ],
+      "name": "Job Board Portal",
+      "settings": {
+        "top_icon": "💼",
+        "heading": "BIN JOB BOARD PORTAL",
+        "subtext": "Access exclusive baseball job listings with tiered membership benefits. From preview-only access to executive-level opportunities and mentorship matching.",
+        "button_text": "EXPLORE JOB BOARD",
+        "button_link": "",
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -261,6 +267,7 @@
     "rich_text_EmnVbT",
     "elite_membership_benefits_BhYCCP",
     "1765192028fdaa6c1b",
-    "1764313763b774f299"
+    "1764313763b774f299",
+    "job_board_portal_nLJjQL"
   ]
 }
