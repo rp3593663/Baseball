@@ -1273,7 +1273,8 @@ h1#access-title {
   product-recommendations h3.section-header__title,
   h1.section-header__title,
   h1#access-title,
-  .job-board-heading {
+  .job-board-heading,
+  .luxury-heading {
     font-size: 30px!important;
     line-height: 42px!important;
   }
@@ -1296,7 +1297,8 @@ h1#access-title {
   .privacy_content p,
   li.sales-point,
   .locksmith-content-inner p,
-  .job-board-subtext {
+  .job-board-subtext,
+  .luxury-subtext {
     font-size: 13px;
     line-height: 20px;
   }
