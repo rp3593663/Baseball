@@ -71,6 +71,7 @@
 {% if event_tags.size == 0 %}
   {% assign show_button = true %}
 {% elsif customer %}
+  =====
   {% for tag in event_tags %}
     {% if customer.tags contains tag %}
       {% assign show_button = true %}
