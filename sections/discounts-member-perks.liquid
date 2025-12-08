@@ -138,32 +138,32 @@
       {% endfor %}
     </div>
 
-    <!-- Discount Carousel -->
+    <!-- Identify if carousel is needed -->
     {% assign carousel_exists = false %}
-{% for block in section.blocks %}
-  {% if block.type == 'carousel_item' %}
-    {% assign carousel_exists = true %}
-  {% endif %}
-{% endfor %}
+    {% for block in section.blocks %}
+      {% if block.type == 'carousel_item' %}
+        {% assign carousel_exists = true %}
+      {% endif %}
+    {% endfor %}
 
-{% if carousel_exists %}
-  <div class="carousel-wrapper">
-    <div class="carousel-title">{{ section.settings.carousel_title }}</div>
-    <div class="carousel">
-      {% for block in section.blocks %}
-        {% if block.type == 'carousel_item' %}
-          <div class="carousel-item">
-            {% if block.settings.image %}
-              <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Offer image">
+    <!-- Discount Carousel -->
+    {% if carousel_exists %}
+      <div class="carousel-wrapper">
+        <div class="carousel-title">{{ section.settings.carousel_title }}</div>
+        <div class="carousel">
+          {% for block in section.blocks %}
+            {% if block.type == 'carousel_item' %}
+              <div class="carousel-item">
+                {% if block.settings.image %}
+                  <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Offer image">
+                {% endif %}
+                <p>{{ block.settings.caption }}</p>
+              </div>
             {% endif %}
-            <p>{{ block.settings.caption }}</p>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-{% endif %}
-
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
 
   </div>
 </section>
