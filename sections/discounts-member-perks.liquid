@@ -12,126 +12,12 @@
   }
 }
 
-.luxury-container {
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-}
 
-.luxury-heading {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  letter-spacing: -0.5px;
-}
-
-.luxury-subtext {
-  max-width: 720px;
-  margin: 0 auto 50px;
-  color: #555;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-/* Luxury Grid */
-.luxury-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 35px;
-  margin-bottom: 60px;
-}
-
-@media (max-width: 767px) {
-  .luxury-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Luxury Card */
-.luxury-card {
-  position: relative;
-  border-radius: 14px;
-  overflow: hidden;
-  min-height: 330px;
-  display: flex;
-  align-items: flex-end;
-  color: white;
-  text-align: left;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
-}
-
-.luxury-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.75) 100%);
-}
-
-.luxury-card-content {
-  position: relative;
-  padding: 25px;
-  z-index: 2;
-}
-
-.luxury-card h3 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.luxury-card ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.luxury-card li {
-  margin-bottom: 6px;
-  font-size: 15px;
-  opacity: 0.9;
-}
-
-/* Carousel */
-.luxury-carousel-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.luxury-carousel {
-  display: flex;
-  gap: 25px;
-  overflow-x: auto;
-  padding-bottom: 10px;
-  scroll-snap-type: x mandatory;
-}
-
-.luxury-carousel-item {
-  min-width: 240px;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  scroll-snap-align: start;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-}
-
-.luxury-carousel-item img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.luxury-carousel-item p {
-  padding: 14px;
-  font-size: 15px;
-  color: #333;
-}
 {% endstyle %}
 
 
 <section class="luxury-wrapper">
-  <div class="luxury-container">
+  <div class="luxury-container page-width">
 
     <h2 class="luxury-heading">{{ section.settings.heading }}</h2>
 
@@ -161,31 +47,6 @@
         {% endif %}
       {% endfor %}
     </div>
-
-    <!-- Luxury Carousel -->
-    {% assign has_carousel = false %}
-    {% for block in section.blocks %}
-      {% if block.type == 'carousel_item' %}
-        {% assign has_carousel = true %}
-      {% endif %}
-    {% endfor %}
-
-    {% if has_carousel %}
-      <h3 class="luxury-carousel-title">{{ section.settings.carousel_title }}</h3>
-
-      <div class="luxury-carousel">
-        {% for block in section.blocks %}
-          {% if block.type == 'carousel_item' %}
-            <div class="luxury-carousel-item">
-              {% if block.settings.image %}
-                <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Discount offer">
-              {% endif %}
-              <p>{{ block.settings.caption }}</p>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
 
   </div>
 </section>
@@ -268,14 +129,6 @@
         { "type": "text", "id": "perk_4", "label": "Perk 4" },
         { "type": "text", "id": "perk_5", "label": "Perk 5" },
         { "type": "text", "id": "perk_6", "label": "Perk 6" }
-      ]
-    },
-    {
-      "type": "carousel_item",
-      "name": "Carousel Item",
-      "settings": [
-        { "type": "image_picker", "id": "image", "label": "Offer Image" },
-        { "type": "text", "id": "caption", "label": "Offer Caption" }
       ]
     }
   ],
