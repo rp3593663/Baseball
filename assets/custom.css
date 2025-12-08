@@ -15,7 +15,7 @@
     padding: 18px 0px 20px;
 }
 .members_scrolling_text .scrolling-text__inner {
-    gap: 10px;
+    gap: 10px!important;
 }
 .members_scrolling_text span {
     font-size: 30px;
