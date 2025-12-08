@@ -805,7 +805,7 @@ input#jobSearch {
     padding: 20px;
 }
 .events_info {
-    padding: 20px;
+    padding: 40px 20px 20px;
     background: var(--red);
     display: flex;
     flex-direction: column;
