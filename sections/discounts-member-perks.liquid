@@ -1,200 +1,217 @@
 {% style %}
-.perks-wrapper {
+.luxury-wrapper {
   padding-top: {{ section.settings.padding_top_desktop }}px;
   padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+  background: #f8f8f8;
 }
 
 @media (max-width: 767px) {
-  .perks-wrapper {
+  .luxury-wrapper {
     padding-top: {{ section.settings.padding_top_mobile }}px;
     padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
   }
 }
 
-.perks-container {
-  max-width: 1100px;
+.luxury-container {
+  max-width: 1200px;
   margin: auto;
   text-align: center;
 }
 
-.perks-icon {
-  font-size: 46px;
-  margin-bottom: 10px;
-}
-
-.perks-heading {
-  font-size: 34px;
+.luxury-heading {
+  font-size: 42px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
+  letter-spacing: -0.5px;
 }
 
-.perks-subtext {
-  max-width: 700px;
-  margin: 0 auto 35px;
+.luxury-subtext {
+  max-width: 720px;
+  margin: 0 auto 50px;
   color: #555;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-.perks-grid {
+/* Luxury Grid */
+.luxury-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 35px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
-  .perks-grid {
+  .luxury-grid {
     grid-template-columns: 1fr;
   }
 }
 
-.perks-card {
-  border: 1px solid #ddd;
-  padding: 25px;
-  border-radius: 8px;
-  text-align: left;
-  background: #fff;
-}
-
-.perks-card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.perks-card ul {
-  padding-left: 20px;
-}
-
-.perks-card li {
-  margin-bottom: 10px;
-  list-style: none;
-}
-
-.perks-card li:before {
-  content: "✔";
-  color: #003366;
-  margin-right: 8px;
-}
-
-.carousel-wrapper {
-  margin-top: 45px;
-}
-
-.carousel-title {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.carousel {
+/* Luxury Card */
+.luxury-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  min-height: 330px;
   display: flex;
+  align-items: flex-end;
+  color: white;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.luxury-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.75) 100%);
+}
+
+.luxury-card-content {
+  position: relative;
+  padding: 25px;
+  z-index: 2;
+}
+
+.luxury-card h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.luxury-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.luxury-card li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* Carousel */
+.luxury-carousel-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.luxury-carousel {
+  display: flex;
+  gap: 25px;
   overflow-x: auto;
-  gap: 20px;
   padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
 }
 
-.carousel-item {
-  min-width: 200px;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 8px;
-  background: #fff;
+.luxury-carousel-item {
+  min-width: 240px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
 }
 
-.carousel-item img {
+.luxury-carousel-item img {
   width: 100%;
-  border-radius: 6px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.luxury-carousel-item p {
+  padding: 14px;
+  font-size: 15px;
+  color: #333;
 }
 {% endstyle %}
 
-<section class="perks-wrapper">
-  <div class="perks-container">
 
-    <!-- Icon -->
-    <div class="perks-icon">{{ section.settings.icon }}</div>
+<section class="luxury-wrapper">
+  <div class="luxury-container">
 
-    <!-- Heading -->
-    <h2 class="perks-heading">{{ section.settings.heading }}</h2>
+    <h2 class="luxury-heading">{{ section.settings.heading }}</h2>
 
-    <!-- Subtext -->
-    <p class="perks-subtext">{{ section.settings.subtext }}</p>
+    <p class="luxury-subtext">{{ section.settings.subtext }}</p>
 
-    <!-- Tier Cards -->
-    <div class="perks-grid">
+    <!-- Luxury Cards -->
+    <div class="luxury-grid">
       {% for block in section.blocks %}
         {% if block.type == 'tier' %}
-          <div class="perks-card">
-            <h3>{{ block.settings.title }}</h3>
-            <ul>
-              {% for i in (1..6) %}
-                {% assign item = 'perk_' | append: i %}
-                {% if block.settings[item] != blank %}
-                  <li>{{ block.settings[item] }}</li>
-                {% endif %}
-              {% endfor %}
-            </ul>
+          <div 
+            class="luxury-card"
+            style="background-image: url('{{ block.settings.background | image_url: width: 800 }}')"
+          >
+            <div class="luxury-card-content">
+              <h3>{{ block.settings.title }}</h3>
+
+              <ul>
+                {% for i in (1..6) %}
+                  {% assign perk = 'perk_' | append: i %}
+                  {% if block.settings[perk] != blank %}
+                    <li>{{ block.settings[perk] }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
 
-    <!-- Identify if carousel is needed -->
-    {% assign carousel_exists = false %}
+    <!-- Luxury Carousel -->
+    {% assign has_carousel = false %}
     {% for block in section.blocks %}
       {% if block.type == 'carousel_item' %}
-        {% assign carousel_exists = true %}
+        {% assign has_carousel = true %}
       {% endif %}
     {% endfor %}
 
-    <!-- Discount Carousel -->
-    {% if carousel_exists %}
-      <div class="carousel-wrapper">
-        <div class="carousel-title">{{ section.settings.carousel_title }}</div>
-        <div class="carousel">
-          {% for block in section.blocks %}
-            {% if block.type == 'carousel_item' %}
-              <div class="carousel-item">
-                {% if block.settings.image %}
-                  <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Offer image">
-                {% endif %}
-                <p>{{ block.settings.caption }}</p>
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
+    {% if has_carousel %}
+      <h3 class="luxury-carousel-title">{{ section.settings.carousel_title }}</h3>
+
+      <div class="luxury-carousel">
+        {% for block in section.blocks %}
+          {% if block.type == 'carousel_item' %}
+            <div class="luxury-carousel-item">
+              {% if block.settings.image %}
+                <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Discount offer">
+              {% endif %}
+              <p>{{ block.settings.caption }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
     {% endif %}
 
   </div>
 </section>
 
+
 {% schema %}
 {
-  "name": "Discounts & Member Perks",
+  "name": "Luxury Member Perks",
   "settings": [
-    {
-      "type": "text",
-      "id": "icon",
-      "label": "Top Icon",
-      "default": "🧢"
-    },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "Discounts & Member Perks"
+      "default": "Premium Member Perks"
     },
     {
       "type": "textarea",
       "id": "subtext",
       "label": "Subtext",
-      "default": "Drive recurring engagement and brand loyalty through BIN and partner discounts."
+      "default": "Exclusive benefits curated for our most loyal members."
     },
     {
       "type": "text",
       "id": "carousel_title",
       "label": "Carousel Title",
-      "default": "Partner Discount Offers"
+      "default": "Exclusive Partner Deals"
     },
     {
       "type": "range",
@@ -237,14 +254,14 @@
   "blocks": [
     {
       "type": "tier",
-      "name": "Tier Benefit Card",
-      "limit": 2,
+      "name": "Luxury Tier Card",
       "settings": [
         {
-          "type": "text",
-          "id": "title",
-          "label": "Tier Title (Premier / Elite)"
+          "type": "image_picker",
+          "id": "background",
+          "label": "Background Image"
         },
+        { "type": "text", "id": "title", "label": "Tier Title" },
         { "type": "text", "id": "perk_1", "label": "Perk 1" },
         { "type": "text", "id": "perk_2", "label": "Perk 2" },
         { "type": "text", "id": "perk_3", "label": "Perk 3" },
@@ -265,7 +282,7 @@
 
   "presets": [
     {
-      "name": "Discounts & Member Perks"
+      "name": "Luxury Member Perks"
     }
   ]
 }
