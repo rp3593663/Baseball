@@ -287,52 +287,17 @@
             "perk_5": "",
             "perk_6": ""
           }
-        },
-        "carousel_item_w6xRAp": {
-          "type": "carousel_item",
-          "settings": {
-            "caption": ""
-          }
-        },
-        "carousel_item_pEMFDX": {
-          "type": "carousel_item",
-          "settings": {
-            "caption": ""
-          }
-        },
-        "carousel_item_pD6Cm8": {
-          "type": "carousel_item",
-          "settings": {
-            "caption": ""
-          }
-        },
-        "carousel_item_QKFGRT": {
-          "type": "carousel_item",
-          "settings": {
-            "caption": ""
-          }
-        },
-        "carousel_item_Etj7jG": {
-          "type": "carousel_item",
-          "settings": {
-            "caption": ""
-          }
         }
       },
       "block_order": [
         "tier_bAL89H",
-        "tier_kUJzNi",
-        "carousel_item_w6xRAp",
-        "carousel_item_pEMFDX",
-        "carousel_item_pD6Cm8",
-        "carousel_item_QKFGRT",
-        "carousel_item_Etj7jG"
+        "tier_kUJzNi"
       ],
       "name": "Luxury Member Perks",
       "settings": {
-        "heading": "Premium Member Perks",
-        "subtext": "Exclusive benefits curated for our most loyal members.",
-        "carousel_title": "Exclusive Partner Deals",
+        "heading": "Discounts & MemberPerks",
+        "subtext": "Drive recurring engagement and brand loyalty through BIN and partner discounts.",
+        "carousel_title": "",
         "padding_top_desktop": 70,
         "padding_bottom_desktop": 70,
         "padding_top_mobile": 40,
