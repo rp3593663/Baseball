@@ -72,7 +72,6 @@
   {% assign show_button = true %}
 {% elsif customer %}
   {% for tag in event_tags %}
-   ===== {{  tag }}
     {% if customer.tags contains tag %}
       {% assign show_button = true %}
       {% break %}
