@@ -302,6 +302,19 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
+    },
+    "scrolling_text_bkPCQA": {
+      "type": "scrolling-text",
+      "name": "t:sections.marquee.presets.scrolling_text.name",
+      "settings": {
+        "text": "Baseball Industry Network",
+        "link": "",
+        "text_size": 50,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 200,
+        "custom_class": "members_scrolling_text"
+      }
     }
   },
   "order": [
@@ -312,6 +325,7 @@
     "1765192028fdaa6c1b",
     "1764313763b774f299",
     "job_board_portal_nLJjQL",
-    "discounts_member_perks_NFatCa"
+    "discounts_member_perks_NFatCa",
+    "scrolling_text_bkPCQA"
   ]
 }
