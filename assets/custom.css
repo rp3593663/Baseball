@@ -1134,7 +1134,6 @@ h1#access-title {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
-  margin-bottom: 60px;
 }
 .luxury-card {
   position: relative;
