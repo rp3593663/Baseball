@@ -1689,6 +1689,10 @@ h1#access-title {
     font-size: 30px!important;
     line-height: 30px;
   }
+  .members_scrolling_text span{
+    font-size: 20px!important;
+    line-height: 20px;
+  }
   .membership_box img {
     margin: 0 auto 10px;
     width: 80px;
