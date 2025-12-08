@@ -17,29 +17,23 @@
   <div class="page-width">
     <div class="events_header">
       <h2>{{ section.settings.heading }}</h2>
-      <p>{{ section.settings.description }}</p>
+      <p>{{  section.settings.description }}</p>
     </div>
-
     <div class="events-wrapper">
       {% for block in section.blocks %}
         <div class="event-item">
-
           <div class="event_image">
             {% if block.settings.event_image %}
               <img src="{{ block.settings.event_image | img_url: '800x' }}" alt="{{ block.settings.event_title }}">
             {% endif %}
           </div>
-
           <div class="event_content">
             <h2 class="event_title">{{ block.settings.event_title }}</h2>
-
             {% if block.settings.event_description %}
               <div class="event_desc">{{ block.settings.event_description }}</div>
             {% endif %}
           </div>
-
           <div class="events_info">
-
             {% if block.settings.event_cost %}
               <div class="event_cost">{{ block.settings.event_cost }}</div>
             {% endif %}
@@ -70,34 +64,12 @@
                   {{ block.settings.event_contact }}</div>
               {% endif %}
             </div>
-{%- comment -%} MEMBERSHIP BUTTON LOGIC
-✔ No tags → button visible to all
-✔ One or more tags → button visible only to matching customer
-✔ Logged-out user → button hidden if tags exist
-{%- endcomment -%}
 
-{% assign required_tags = block.settings.event_member_tags | downcase | split: "," | map: "strip" %}
-{% assign show_button = false %}
-
-{% if required_tags.size == 0 %}
-  {% assign show_button = true %}
-{% elsif customer %}
-  {% assign customer_tags_downcase = customer.tags | map: "downcase" %}
-  {% assign matched_tags = required_tags | intersect: customer_tags_downcase %}
-  {% if matched_tags.size > 0 %}
-    {% assign show_button = true %}
-  {% endif %}
-{% endif %}
-
-{% if show_button and block.settings.button_label and block.settings.button_link %}
-<a href="{{ block.settings.button_link }}" class="event_btn btn">
-  {{ block.settings.button_label }}
-</a>
-{% endif %}
-
-
-
-
+            {% if block.settings.button_label and block.settings.button_link %}
+              <a href="{{ block.settings.button_link }}" class="event_btn btn">
+                {{ block.settings.button_label }}
+              </a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -109,16 +81,64 @@
 {
   "name": "Events",
   "settings": [
-    { "type": "text", "id": "custom_class", "label": "Custom CSS Class" },
-    { "type": "text", "id": "heading", "label": "Heading" },
-    { "type": "textarea", "id": "description", "label": "Description" },
-    { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#ffffff" },
-    { "type": "range", "id": "padding_top_desktop", "min": 0, "max": 200, "step": 5, "label": "Padding Top (Desktop)", "default": 80 },
-    { "type": "range", "id": "padding_bottom_desktop", "min": 0, "max": 200, "step": 5, "label": "Padding Bottom (Desktop)", "default": 80 },
-    { "type": "range", "id": "padding_top_mobile", "min": 0, "max": 200, "step": 5, "label": "Padding Top (Mobile)", "default": 40 },
-    { "type": "range", "id": "padding_bottom_mobile", "min": 0, "max": 200, "step": 5, "label": "Padding Bottom (Mobile)", "default": 40 }
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Desktop)",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Top (Mobile)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "label": "Padding Bottom (Mobile)",
+      "default": 40
+    }
   ],
-
   "blocks": [
     {
       "type": "event",
@@ -132,19 +152,14 @@
         { "type": "richtext", "id": "event_contact", "label": "Contact" },
         { "type": "text", "id": "event_cost", "label": "Cost" },
         { "type": "text", "id": "button_label", "label": "Button Label", "default": "Learn More" },
-        { "type": "url", "id": "button_link", "label": "Button Link" },
-        {
-          "type": "text",
-          "id": "event_member_tags",
-          "label": "Required Member Tags (comma-separated)",
-          "info": "Example: premier_member_monthly OR elite_member_yearly,premier_member_yearly"
-        }
+        { "type": "url", "id": "button_link", "label": "Button Link" }
       ]
     }
   ],
-
   "presets": [
-    { "name": "Events" }
+    {
+      "name": "Events"
+    }
   ]
 }
 {% endschema %}
