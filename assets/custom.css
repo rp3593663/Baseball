@@ -1110,7 +1110,7 @@ h1#access-title {
 }
 .job-board-card li:before {
   content: "✔";
-  color: green;
+  color: #00a900;
   margin-right: 8px;
 }
 .job-board-button {
