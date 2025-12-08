@@ -1065,9 +1065,9 @@ h1#access-title {
   max-width: 1100px;
   margin: auto;
 }
-.job-board-icon {
-  font-size: 48px;
-  margin-bottom: 15px;
+.job-board-icon svg {
+    width: 48px;
+    margin-bottom: 15px;
 }
 .job-board-heading {
   font-size: 36px;
