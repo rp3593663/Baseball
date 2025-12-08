@@ -1313,8 +1313,12 @@ h1#access-title {
   .job-board-button {
     margin-top: 20px;
   }
-  .job-board-subtext {
+  .job-board-subtext,
+  .luxury-subtext {
     margin: auto auto 20px;
+  }
+  .luxury-card li {
+    font-size: 15px;
   }
   .job-board-card {
     padding: 15px 12px;
