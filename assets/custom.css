@@ -9,7 +9,7 @@
     line-height: 50px;
 }
 .members_scrolling_text {
-    background: var(--primary_color);
+    background: var(--red);
     color: var(--white);
     font-family: var(--heading_font_family);
     padding: 18px 0px 20px;
