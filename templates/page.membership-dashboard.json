@@ -297,9 +297,8 @@
       "settings": {
         "heading": "Discounts & MemberPerks",
         "subtext": "Drive recurring engagement and brand loyalty through BIN and partner discounts.",
-        "carousel_title": "",
-        "padding_top_desktop": 70,
-        "padding_bottom_desktop": 70,
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 80,
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
