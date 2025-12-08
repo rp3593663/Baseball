@@ -46,7 +46,7 @@
               <div class="event_cost">{{ block.settings.event_cost }}</div>
             {% endif %}
 
-           <div class="evens_all_meta">
+            <div class="evens_all_meta">
               {% if block.settings.event_date %}
                 <div class="event_meta">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,6 +97,8 @@
                     {% assign show_button = true %}
                   {% endif %}
                 {% endfor %}
+              {% else %}
+                {% assign show_button = false %}
               {% endif %}
             {% endif %}
 
@@ -140,7 +142,6 @@
         { "type": "text", "id": "event_cost", "label": "Cost" },
         { "type": "text", "id": "button_label", "label": "Button Label", "default": "Learn More" },
         { "type": "url", "id": "button_link", "label": "Button Link" },
-
         { "type": "text", "id": "event_member_tag", "label": "Required Tag(s) — comma separated (optional)" }
       ]
     }
