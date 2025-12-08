@@ -79,12 +79,15 @@
 
 {% assign required_tags_raw = block.settings.event_member_tags | downcase | split: "," %}
 {% assign required_tags = "" | split: "" %}
+
 {% for t in required_tags_raw %}
   {% assign cleaned_tag = t | strip %}
   {% if cleaned_tag != "" %}
-    {% assign required_tags = required_tags | push: cleaned_tag %}
+    {% comment %} Workaround: append to array in Shopify {% endcomment %}
+    {% assign required_tags = required_tags | concat: cleaned_tag | split: "," %}
   {% endif %}
 {% endfor %}
+
 
 {% assign show_button = false %}
 
