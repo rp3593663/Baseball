@@ -53,7 +53,7 @@
         "heading_hGbCdW": {
           "type": "heading",
           "settings": {
-            "title": "Welcome to the Elite Executive Insights Hub"
+            "title": "Welcome, here’s what’s new for you this week inside the Baseball Industry Network."
           }
         },
         "text_y7BfgA": {
@@ -82,36 +82,36 @@
         "benefit_item_maWEpL": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Business of Baseball decision-making frameworks",
-            "benefit_text": ""
+            "benefit_title": "Exclusive Digital Content",
+            "benefit_text": "Dive into interviews, executive insights, and Member-only Video sessions."
           }
         },
         "benefit_item_U6xrNE": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Baseball business models & revenue performance",
-            "benefit_text": ""
+            "benefit_title": "Job Board",
+            "benefit_text": "Explore new openings, MLB team roles, and early-access postings."
           }
         },
         "benefit_item_KTybxf": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Team operations & financial strategy",
-            "benefit_text": ""
+            "benefit_title": "Member Discounts",
+            "benefit_text": "Unlock your BIN and partner savings."
           }
         },
         "benefit_item_B6REKn": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Sponsorship, media, and NIL impact",
-            "benefit_text": ""
+            "benefit_title": "Events & Meetups",
+            "benefit_text": "Register for upcoming networking and learning opportunities."
           }
         },
         "benefit_item_MzdcBH": {
           "type": "benefit_item",
           "settings": {
-            "benefit_title": "Player development systems & analytics integrations",
-            "benefit_text": ""
+            "benefit_title": "Podcasts",
+            "benefit_text": "Catch newly released episodes with industry insiders."
           }
         },
         "benefit_item_hteAzR": {
@@ -134,8 +134,8 @@
       "settings": {
         "custom_class": "",
         "subtitle": "",
-        "title": "Executive Strategy Reports",
-        "description": "Monthly deep-dive reports built for decision-makers. Each report includes actionable insights and implementation steps.",
+        "title": "Executive Content for Members-Only",
+        "description": "Deliver an immediate sense of progress, belonging, and activity so members feel connected from the moment they log in.",
         "padding_top_desktop": 60,
         "padding_bottom_desktop": 60,
         "padding_top_mobile": 40,
