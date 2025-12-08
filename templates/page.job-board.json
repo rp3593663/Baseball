@@ -402,6 +402,13 @@
             "team_id": "test-team",
             "job_visibility": "public"
           }
+        },
+        "team_xaf73J": {
+          "type": "team",
+          "settings": {
+            "team_name": "Cleveland Guardians",
+            "team_id": "cleveland-guardians"
+          }
         }
       },
       "block_order": [
@@ -442,7 +449,8 @@
         "job_3HHKYW",
         "job_EJtXYf",
         "team_RWfPhJ",
-        "job_G6BwMA"
+        "job_G6BwMA",
+        "team_xaf73J"
       ],
       "name": "Job Board",
       "settings": {
