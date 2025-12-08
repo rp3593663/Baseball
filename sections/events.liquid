@@ -88,10 +88,8 @@
             {% assign show_button = false %}
 
             {% if cleaned_required.size == 0 %}
-              {# No tag required → show to everyone #}
               {% assign show_button = true %}
             {% else %}
-              {# Tag(s) required → must match customer tag #}
               {% if customer %}
                 {% for tag in customer.tags %}
                   {% assign customer_tag = tag | downcase %}
