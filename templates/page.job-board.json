@@ -366,48 +366,11 @@
             "team_id": "chicago-whjite sox"
           }
         },
-        "job_3HHKYW": {
-          "type": "job",
-          "settings": {
-            "job_title": "Test Job",
-            "location": "Test Location",
-            "apply_link": "#",
-            "team_id": "new-team",
-            "job_visibility": "premier"
-          }
-        },
-        "job_EJtXYf": {
-          "type": "job",
-          "settings": {
-            "job_title": "Test Job 2",
-            "location": "Test",
-            "apply_link": "#",
-            "team_id": "new-team",
-            "job_visibility": "public"
-          }
-        },
         "team_RWfPhJ": {
           "type": "team",
           "settings": {
             "team_name": "Cincinnati Reds",
             "team_id": "cincinnati-reds"
-          }
-        },
-        "job_G6BwMA": {
-          "type": "job",
-          "settings": {
-            "job_title": "Dummy JoB",
-            "location": "Location",
-            "apply_link": "#",
-            "team_id": "test-team",
-            "job_visibility": "public"
-          }
-        },
-        "team_xaf73J": {
-          "type": "team",
-          "settings": {
-            "team_name": "Cleveland Guardians",
-            "team_id": "Cleveland-guardians"
           }
         },
         "team_Xam9fn": {
@@ -453,11 +416,7 @@
         "job_9GCB6w",
         "job_bwftii",
         "team_RtADHw",
-        "job_3HHKYW",
-        "job_EJtXYf",
         "team_RWfPhJ",
-        "job_G6BwMA",
-        "team_xaf73J",
         "team_Xam9fn"
       ],
       "name": "Job Board",
