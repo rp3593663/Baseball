@@ -484,6 +484,23 @@
             "team_id": "",
             "job_visibility": "public"
           }
+        },
+        "team_bjiaJ8": {
+          "type": "team",
+          "settings": {
+            "team_name": "",
+            "team_id": ""
+          }
+        },
+        "job_4U634j": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -534,7 +551,9 @@
         "team_Rhpkz6",
         "job_8da9ze",
         "team_8JwwGE",
-        "job_xh6riK"
+        "job_xh6riK",
+        "team_bjiaJ8",
+        "job_4U634j"
       ],
       "name": "Job Board",
       "settings": {
