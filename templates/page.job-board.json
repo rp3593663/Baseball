@@ -366,6 +366,16 @@
             "team_id": "chicago-white sox"
           }
         },
+        "job_pGNTeJ": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
         "team_RWfPhJ": {
           "type": "team",
           "settings": {
@@ -373,11 +383,89 @@
             "team_id": "cincinnati-reds"
           }
         },
+        "job_CraBP4": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "team_bLqexi": {
+          "type": "team",
+          "settings": {
+            "team_name": "Cleveland Guardians",
+            "team_id": "cleveland-guardians"
+          }
+        },
         "team_Xam9fn": {
           "type": "team",
           "settings": {
             "team_name": "Colorado Rockies",
             "team_id": "colorado-rockies"
+          }
+        },
+        "job_hPYEWx": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "team_VykLme": {
+          "type": "team",
+          "settings": {
+            "team_name": "Detroit Tigers",
+            "team_id": "Detroit-tigers"
+          }
+        },
+        "job_iXHcm6": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "team_H89bax": {
+          "type": "team",
+          "settings": {
+            "team_name": "Houston Astros",
+            "team_id": "houston-astros"
+          }
+        },
+        "job_dmTGyA": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "team_Rhpkz6": {
+          "type": "team",
+          "settings": {
+            "team_name": "Kansas City Royals",
+            "team_id": "Kansas city-royals"
+          }
+        },
+        "job_8da9ze": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
           }
         }
       },
@@ -416,8 +504,18 @@
         "job_9GCB6w",
         "job_bwftii",
         "team_RtADHw",
+        "job_pGNTeJ",
         "team_RWfPhJ",
-        "team_Xam9fn"
+        "job_CraBP4",
+        "team_bLqexi",
+        "team_Xam9fn",
+        "job_hPYEWx",
+        "team_VykLme",
+        "job_iXHcm6",
+        "team_H89bax",
+        "job_dmTGyA",
+        "team_Rhpkz6",
+        "job_8da9ze"
       ],
       "name": "Job Board",
       "settings": {
