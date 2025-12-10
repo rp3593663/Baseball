@@ -64,7 +64,7 @@
             "location": "New York, New York",
             "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7315697",
             "team_id": "1",
-            "job_visibility": "premier"
+            "job_visibility": "public"
           }
         },
         "job_UH8g4Q": {
@@ -484,23 +484,6 @@
             "team_id": "",
             "job_visibility": "public"
           }
-        },
-        "team_bjiaJ8": {
-          "type": "team",
-          "settings": {
-            "team_name": "",
-            "team_id": ""
-          }
-        },
-        "job_4U634j": {
-          "type": "job",
-          "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
-            "job_visibility": "public"
-          }
         }
       },
       "block_order": [
@@ -551,9 +534,7 @@
         "team_Rhpkz6",
         "job_8da9ze",
         "team_8JwwGE",
-        "job_xh6riK",
-        "team_bjiaJ8",
-        "job_4U634j"
+        "job_xh6riK"
       ],
       "name": "Job Board",
       "settings": {
