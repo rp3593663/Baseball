@@ -215,7 +215,7 @@
           "type": "team",
           "settings": {
             "team_name": "Atlanta Braves",
-            "team_id": "3"
+            "team_id": "atlanta-braves"
           }
         },
         "job_QVc93F": {
@@ -224,7 +224,7 @@
             "job_title": "Analyst, Player Personnel",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Analyst--Player-Personnel_R1868-1",
-            "team_id": "3",
+            "team_id": "atlanta-braves",
             "job_visibility": "public"
           }
         },
@@ -234,7 +234,7 @@
             "job_title": "R&D Analyst Associate",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/R-D-Analyst-Associate_R1817-1",
-            "team_id": "3",
+            "team_id": "atlanta-braves",
             "job_visibility": "public"
           }
         },
@@ -244,7 +244,7 @@
             "job_title": "Minor League Technology Trainee",
             "location": "Atlanta, GA",
             "apply_link": "https://atlantabravesmlb.wd5.myworkdayjobs.com/en-US/AtlantaBraves/details/Minor-League-Technology-Trainee_R1825-1",
-            "team_id": "3",
+            "team_id": "atlanta-braves",
             "job_visibility": "public"
           }
         },
