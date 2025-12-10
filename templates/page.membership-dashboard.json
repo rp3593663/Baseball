@@ -278,7 +278,7 @@
         "tier_kUJzNi": {
           "type": "tier",
           "settings": {
-            "background": "shopify://shop_images/190625_Cubs_066_deb5073f-5f99-419b-b41e-12e4a93a4a05.jpg",
+            "background": "shopify://shop_images/Leff_OpeningDay_062.jpg",
             "title": "Elite",
             "perk_1": "20% off BIN Store Products + Early Product Access + Partner Discounts",
             "perk_2": "",
@@ -295,7 +295,7 @@
       ],
       "name": "Luxury Member Perks",
       "settings": {
-        "heading": "Discounts & MemberPerks",
+        "heading": "Discounts & Member Perks",
         "subtext": "Drive recurring engagement and brand loyalty through BIN and partner discounts.",
         "padding_top_desktop": 80,
         "padding_bottom_desktop": 80,
