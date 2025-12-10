@@ -53,7 +53,7 @@
         "team_rfFxzf": {
           "type": "team",
           "settings": {
-            "team_name": "Office of the Commissioner",
+            "team_name": "Major League Baseball: Baseball Operations",
             "team_id": "1"
           }
         },
@@ -451,13 +451,6 @@
             "job_visibility": "public"
           }
         },
-        "team_Rhpkz6": {
-          "type": "team",
-          "settings": {
-            "team_name": "Kansas City Royals",
-            "team_id": "Kansas city-royals"
-          }
-        },
         "job_8da9ze": {
           "type": "job",
           "settings": {
@@ -466,13 +459,6 @@
             "apply_link": "",
             "team_id": "",
             "job_visibility": "public"
-          }
-        },
-        "team_8JwwGE": {
-          "type": "team",
-          "settings": {
-            "team_name": "Los Angeles Angels",
-            "team_id": "Los Ángeles-angels"
           }
         },
         "job_xh6riK": {
@@ -531,9 +517,7 @@
         "job_iXHcm6",
         "team_H89bax",
         "job_dmTGyA",
-        "team_Rhpkz6",
         "job_8da9ze",
-        "team_8JwwGE",
         "job_xh6riK"
       ],
       "name": "Job Board",
