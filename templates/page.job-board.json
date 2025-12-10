@@ -467,6 +467,23 @@
             "team_id": "",
             "job_visibility": "public"
           }
+        },
+        "team_8JwwGE": {
+          "type": "team",
+          "settings": {
+            "team_name": "Los Angeles Angels",
+            "team_id": "Los Ángeles-angels"
+          }
+        },
+        "job_xh6riK": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -515,7 +532,9 @@
         "team_H89bax",
         "job_dmTGyA",
         "team_Rhpkz6",
-        "job_8da9ze"
+        "job_8da9ze",
+        "team_8JwwGE",
+        "job_xh6riK"
       ],
       "name": "Job Board",
       "settings": {
