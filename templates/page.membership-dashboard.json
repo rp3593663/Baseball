@@ -305,6 +305,7 @@
     },
     "scrolling_text_bkPCQA": {
       "type": "scrolling-text",
+      "disabled": true,
       "name": "t:sections.marquee.presets.scrolling_text.name",
       "settings": {
         "text": "BIN Members Get 25% Savings • 10% Off All Apparel • 20% Off Training Labs • New Era Caps: 10% Off  • Partner Deal: 20% Off  • Youth Camp Discount  •",
