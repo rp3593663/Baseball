@@ -563,7 +563,7 @@
         "button_link": "",
         "image": "shopify://shop_images/Untitled_design.png",
         "layout": "left",
-        "height": 450,
+        "height": 750,
         "parallax": true,
         "parallax_direction": "top",
         "lazyload_images": true
