@@ -551,54 +551,21 @@
         "bottom_padding": true
       }
     },
-    "fading_images_YaYK47": {
-      "type": "fading-images",
-      "blocks": {
-        "image_PcbPaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Multicolored_Modern_Photo_Collage_Travel_Vlog_YouTube_Banner.png",
-            "slide_title1": "Beautifully animated",
-            "slide_title2": "titles and images"
-          }
-        },
-        "image_eD4UUM": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "slide_title1": "Use this section",
-            "slide_title2": "to impress customers"
-          }
-        },
-        "image_cX8XkE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "slide_title1": "And highlight",
-            "slide_title2": "important details"
-          }
-        }
-      },
-      "block_order": [
-        "image_PcbPaA",
-        "image_eD4UUM",
-        "image_cX8XkE"
-      ],
-      "disabled": true,
-      "name": "t:sections.fading-images.presets.fading_image_hero.name",
+    "background_image_text_De7MRp": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
-        "title_lines": "2",
-        "title_font": "body",
-        "title_size": 45,
-        "title_color": "#ffffff",
-        "title_bg_color": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "link": "",
-        "slide_speed": 5,
-        "color_overlay": "#000",
-        "color_overlay_opacity": 30,
-        "desktop_height": "650px",
-        "mobile_height": "auto",
+        "custom_class": "",
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/Untitled_design.png",
+        "layout": "left",
+        "height": 450,
+        "parallax": true,
+        "parallax_direction": "top",
         "lazyload_images": true
       }
     }
@@ -615,6 +582,6 @@
     "advanced_content_kDtyxN",
     "testimonials_aHQTmN",
     "newsletter_kmAM86",
-    "fading_images_YaYK47"
+    "background_image_text_De7MRp"
   ]
 }
