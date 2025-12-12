@@ -116,6 +116,69 @@
         "custom_class": "home_richtext_about"
       }
     },
+    "background_image_text_ahPGCp": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "custom_class": "",
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/OUR_TOWING_PROMISE-3.png",
+        "layout": "left",
+        "height": 450,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "rich_text_yUwtGX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3wztRk": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Inside the Minds of Baseball Leaders</p>"
+          }
+        },
+        "heading_Y7hfyE": {
+          "type": "heading",
+          "settings": {
+            "title": "BASEBALL INDUSTRY NETWORK AT THE 2025 MLB WINTER MEETINGS"
+          }
+        },
+        "text_YRpdKj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The Baseball Industry Network brought together some of the game’s most influential voices at the 2025 MLB Winter Meetings in Orlando.<br/>From front office executives, current and former players, managers to on-field leaders and business professionals, we had the privilege of capturing their stories — how they started, what they’ve learned, and their advice for those looking to build a career in baseball.</p><p>🎙 Stay tuned for exclusive video content, interviews, and podcasts — available only to <strong>Premier and Elite Members</strong>.<br/><strong>Learn from the leaders shaping the future of baseball. Join the Network. </strong></p>"
+          }
+        },
+        "button_4aQMtB": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/membership",
+            "link_text": "Join the Network to get full access to all winter meetings content"
+          }
+        }
+      },
+      "block_order": [
+        "text_3wztRk",
+        "heading_Y7hfyE",
+        "text_YRpdKj",
+        "button_4aQMtB"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "custom_class": "home_richtext_about"
+      }
+    },
     "featured_collection_dM3iKA": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -550,30 +613,14 @@
         "top_padding": true,
         "bottom_padding": true
       }
-    },
-    "background_image_text_De7MRp": {
-      "type": "background-image-text",
-      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
-      "settings": {
-        "custom_class": "",
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify://shop_images/Untitled_design.png",
-        "layout": "left",
-        "height": 750,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
     }
   },
   "order": [
     "fading-images",
     "scrolling_text_iWVFCz",
     "rich_text_JNXWzG",
+    "background_image_text_ahPGCp",
+    "rich_text_yUwtGX",
     "featured_collection_dM3iKA",
     "background_image_text_U8GD7H",
     "membership_highlight_34znHW",
@@ -581,7 +628,6 @@
     "membership_comparison_NFhq6p",
     "advanced_content_kDtyxN",
     "testimonials_aHQTmN",
-    "newsletter_kmAM86",
-    "background_image_text_De7MRp"
+    "newsletter_kmAM86"
   ]
 }
