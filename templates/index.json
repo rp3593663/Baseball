@@ -584,6 +584,7 @@
         "image_eD4UUM",
         "image_cX8XkE"
       ],
+      "disabled": true,
       "name": "t:sections.fading-images.presets.fading_image_hero.name",
       "settings": {
         "title_lines": "2",
