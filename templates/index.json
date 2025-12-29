@@ -71,6 +71,23 @@
         "custom_class": "home_scrolling_text"
       }
     },
+    "hero_video_hQEEje": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "custom_class": "",
+        "title": "JOIN THE NETWORK",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "Check out the video here",
+        "link": "https://youtu.be/r8BUbuLSnd0",
+        "text_align": "vertical-bottom horizontal-left",
+        "video_url": "https://youtu.be/r8BUbuLSnd0",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
     "rich_text_JNXWzG": {
       "type": "rich-text",
       "blocks": {
@@ -618,6 +635,7 @@
   "order": [
     "fading-images",
     "scrolling_text_iWVFCz",
+    "hero_video_hQEEje",
     "rich_text_JNXWzG",
     "background_image_text_ahPGCp",
     "rich_text_yUwtGX",
