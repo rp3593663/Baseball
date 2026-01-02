@@ -57,6 +57,26 @@
             "team_id": "1"
           }
         },
+        "job_HBdQnH": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_PWAbHL": {
+          "type": "job",
+          "settings": {
+            "job_title": "Special Project Coordinator, Former Player",
+            "location": "New York. New York",
+            "apply_link": "",
+            "team_id": "1",
+            "job_visibility": "public"
+          }
+        },
         "job_fmTU6B": {
           "type": "job",
           "settings": {
@@ -474,6 +494,8 @@
       },
       "block_order": [
         "team_rfFxzf",
+        "job_HBdQnH",
+        "job_PWAbHL",
         "job_fmTU6B",
         "job_UH8g4Q",
         "job_hgeGUd",
