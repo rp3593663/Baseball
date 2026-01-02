@@ -57,20 +57,30 @@
             "team_id": "1"
           }
         },
-        "job_HBdQnH": {
+        "job_qp7URQ": {
           "type": "job",
           "settings": {
-            "job_title": "Baseball Data Support Coordinator (Seasonal)",
+            "job_title": "Gameday Monitor, MLB (Seasonal)",
             "location": "United States, Remote",
             "apply_link": "",
             "team_id": "1",
             "job_visibility": "public"
           }
         },
-        "job_qp7URQ": {
+        "job_rccPTF": {
           "type": "job",
           "settings": {
-            "job_title": "Gameday Monitor, MLB (Seasonal)",
+            "job_title": "Gameday Monitor, MiLB (Seasonal)",
+            "location": "United States, Remote",
+            "apply_link": "https://www.mlb.com/careers/opportunities?gh_jid=7476584",
+            "team_id": "1",
+            "job_visibility": "public"
+          }
+        },
+        "job_HBdQnH": {
+          "type": "job",
+          "settings": {
+            "job_title": "Baseball Data Support Coordinator (Seasonal)",
             "location": "United States, Remote",
             "apply_link": "",
             "team_id": "1",
@@ -504,8 +514,9 @@
       },
       "block_order": [
         "team_rfFxzf",
-        "job_HBdQnH",
         "job_qp7URQ",
+        "job_rccPTF",
+        "job_HBdQnH",
         "job_PWAbHL",
         "job_fmTU6B",
         "job_UH8g4Q",
