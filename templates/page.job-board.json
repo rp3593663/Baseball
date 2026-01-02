@@ -67,6 +67,16 @@
             "job_visibility": "public"
           }
         },
+        "job_qp7URQ": {
+          "type": "job",
+          "settings": {
+            "job_title": "Gameday Monitor, MLB (Seasonal)",
+            "location": "United States, Remote",
+            "apply_link": "",
+            "team_id": "1",
+            "job_visibility": "public"
+          }
+        },
         "job_PWAbHL": {
           "type": "job",
           "settings": {
@@ -495,6 +505,7 @@
       "block_order": [
         "team_rfFxzf",
         "job_HBdQnH",
+        "job_qp7URQ",
         "job_PWAbHL",
         "job_fmTU6B",
         "job_UH8g4Q",
