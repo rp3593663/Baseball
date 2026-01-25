@@ -426,6 +426,16 @@
             "job_visibility": "public"
           }
         },
+        "job_fXKJ4w": {
+          "type": "job",
+          "settings": {
+            "job_title": "Street Team Ambassador",
+            "location": "Chicago, Illinois",
+            "apply_link": "https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/OpportunityDetail?opportunityId=d53d159c-797b-492c-8738-93a24d8996f9",
+            "team_id": "chicago-white sox",
+            "job_visibility": "public"
+          }
+        },
         "team_RWfPhJ": {
           "type": "team",
           "settings": {
@@ -563,6 +573,7 @@
         "team_RtADHw",
         "job_pGNTeJ",
         "job_nhzzPN",
+        "job_fXKJ4w",
         "team_RWfPhJ",
         "job_CraBP4",
         "team_bLqexi",
