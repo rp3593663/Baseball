@@ -497,6 +497,16 @@
             "job_visibility": "public"
           }
         },
+        "job_cfEj7z": {
+          "type": "job",
+          "settings": {
+            "job_title": "Guest Experience Representative",
+            "location": "Denver, CO",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/guest-experience-representative-2147820",
+            "team_id": "colorado-rockies",
+            "job_visibility": "public"
+          }
+        },
         "team_VykLme": {
           "type": "team",
           "settings": {
@@ -601,6 +611,7 @@
         "team_Xam9fn",
         "job_hPYEWx",
         "job_bwxcG6",
+        "job_cfEj7z",
         "team_VykLme",
         "job_iXHcm6",
         "team_H89bax",
