@@ -781,6 +781,16 @@
             "team_id": "los angeles-dodgers",
             "job_visibility": "public"
           }
+        },
+        "job_MeBxEB": {
+          "type": "job",
+          "settings": {
+            "job_title": "Inside Sales Representative",
+            "location": "Los Angeles CA,",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/inside-sales-representative-2146868",
+            "team_id": "los angeles-dodgers",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -861,7 +871,8 @@
         "team_4kKfhC",
         "job_gQ3DgG",
         "job_xrnzjG",
-        "job_KDgnWQ"
+        "job_KDgnWQ",
+        "job_MeBxEB"
       ],
       "name": "Job Board",
       "settings": {
