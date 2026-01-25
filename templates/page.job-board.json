@@ -992,6 +992,16 @@
             "team_id": "new york-mets",
             "job_visibility": "public"
           }
+        },
+        "job_Y7Jb64": {
+          "type": "job",
+          "settings": {
+            "job_title": "2026 Summer Intern, Creative Content Graphic Design",
+            "location": "Citi Field – Queens, New York",
+            "apply_link": "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/details/XMLNAME-2026-Summer-Intern--Creative-Content-Graphic-Design_R1450",
+            "team_id": "new york-mets",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -1094,7 +1104,8 @@
         "job_8ApXfT",
         "job_Jw6PQE",
         "job_gDbVwL",
-        "job_MW4iDX"
+        "job_MW4iDX",
+        "job_Y7Jb64"
       ],
       "name": "Job Board",
       "settings": {
