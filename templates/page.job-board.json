@@ -487,6 +487,16 @@
             "job_visibility": "public"
           }
         },
+        "job_bwxcG6": {
+          "type": "job",
+          "settings": {
+            "job_title": "Major League Physical Performance Coach",
+            "location": "Denver, CO",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/major-league-physical-performance-coach-2151888",
+            "team_id": "colorado-rockies",
+            "job_visibility": "public"
+          }
+        },
         "team_VykLme": {
           "type": "team",
           "settings": {
@@ -590,6 +600,7 @@
         "team_bLqexi",
         "team_Xam9fn",
         "job_hPYEWx",
+        "job_bwxcG6",
         "team_VykLme",
         "job_iXHcm6",
         "team_H89bax",
