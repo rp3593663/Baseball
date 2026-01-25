@@ -972,6 +972,16 @@
             "team_id": "new york-mets",
             "job_visibility": "public"
           }
+        },
+        "job_gDbVwL": {
+          "type": "job",
+          "settings": {
+            "job_title": "Coordinator, Community Relations & Marketing",
+            "location": "Clover Park – Port Saint Lucie, Florida",
+            "apply_link": "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/details/Coordinator--Community-Relations---Marketing_R1451",
+            "team_id": "new york-mets",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -1072,7 +1082,8 @@
         "team_PLnV9a",
         "job_Gbg9CL",
         "job_8ApXfT",
-        "job_Jw6PQE"
+        "job_Jw6PQE",
+        "job_gDbVwL"
       ],
       "name": "Job Board",
       "settings": {
