@@ -935,6 +935,13 @@
             "team_id": "m-brewers",
             "job_visibility": "public"
           }
+        },
+        "team_PLnV9a": {
+          "type": "team",
+          "settings": {
+            "team_name": "New York Mets",
+            "team_id": "new york-mets"
+          }
         }
       },
       "block_order": [
@@ -1031,7 +1038,8 @@
         "team_GgMpTR",
         "job_4zc6y3",
         "job_jJx7Lw",
-        "job_KKAUek"
+        "job_KKAUek",
+        "team_PLnV9a"
       ],
       "name": "Job Board",
       "settings": {
