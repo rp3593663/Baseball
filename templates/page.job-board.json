@@ -765,10 +765,10 @@
         "job_xrnzjG": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Manager, Global Partnerships Strategy",
+            "location": "Los Ángeles, CA",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/manager-global-partnerships-strategy-2153011",
+            "team_id": "los angeles-dodgers",
             "job_visibility": "public"
           }
         }
