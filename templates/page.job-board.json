@@ -677,6 +677,26 @@
             "team_name": "Kansas City Royals",
             "team_id": "kansas city-royals"
           }
+        },
+        "job_D6p39h": {
+          "type": "job",
+          "settings": {
+            "job_title": "Analyst, Player Development - Research & Development",
+            "location": "Kansas City, MO",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-player-development-research-development-2145847",
+            "team_id": "kansas city-royals",
+            "job_visibility": "public"
+          }
+        },
+        "job_H3h4MT": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -746,7 +766,9 @@
         "job_mMRAx4",
         "job_eNFzUe",
         "job_nkHmke",
-        "team_3wtJPX"
+        "team_3wtJPX",
+        "job_D6p39h",
+        "job_H3h4MT"
       ],
       "name": "Job Board",
       "settings": {
