@@ -691,10 +691,10 @@
         "job_H3h4MT": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Analyst, Major League Hitting - Research & Development",
+            "location": "Kansas City, MO",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/analyst-major-league-hitting-research-development-2145841",
+            "team_id": "kansas city-royals",
             "job_visibility": "public"
           }
         }
