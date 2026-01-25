@@ -751,6 +751,26 @@
             "team_name": "Los Ángeles Dodgers",
             "team_id": "los angeles-dodgers"
           }
+        },
+        "job_gQ3DgG": {
+          "type": "job",
+          "settings": {
+            "job_title": "Quantitative Analyst",
+            "location": "Los Ángeles CA,",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/quantitative-analyst-2153163",
+            "team_id": "los angeles-dodgers",
+            "job_visibility": "public"
+          }
+        },
+        "job_xrnzjG": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -828,7 +848,9 @@
         "team_kPqFga",
         "job_KKRKfh",
         "job_tz4FGk",
-        "team_4kKfhC"
+        "team_4kKfhC",
+        "job_gQ3DgG",
+        "job_xrnzjG"
       ],
       "name": "Job Board",
       "settings": {
