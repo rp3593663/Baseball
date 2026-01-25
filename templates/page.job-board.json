@@ -858,6 +858,16 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "job_p9pEAD": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Manager",
+            "location": "Jupiter, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/minor-league-manager-2151082",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -946,7 +956,8 @@
         "job_RAJ4fq",
         "job_VB3Rgw",
         "job_7YBqxY",
-        "job_az7iDt"
+        "job_az7iDt",
+        "job_p9pEAD"
       ],
       "name": "Job Board",
       "settings": {
