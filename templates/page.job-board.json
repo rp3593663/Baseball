@@ -848,6 +848,16 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "job_az7iDt": {
+          "type": "job",
+          "settings": {
+            "job_title": "Account Executive, Business Development",
+            "location": "Miami, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/account-executive-business-development-2152462",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -935,7 +945,8 @@
         "job_XdEWxG",
         "job_RAJ4fq",
         "job_VB3Rgw",
-        "job_7YBqxY"
+        "job_7YBqxY",
+        "job_az7iDt"
       ],
       "name": "Job Board",
       "settings": {
