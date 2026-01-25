@@ -697,6 +697,16 @@
             "team_id": "kansas city-royals",
             "job_visibility": "public"
           }
+        },
+        "job_DgMQDw": {
+          "type": "job",
+          "settings": {
+            "job_title": "Urban Youth Academy-Youth Baseball & Softball Coach (Seasonal)",
+            "location": "Kansas City, MO",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/urban-youth-academy-youth-baseball-softball-coach-seasonal-2141780",
+            "team_id": "kansas city-royals",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -768,7 +778,8 @@
         "job_nkHmke",
         "team_3wtJPX",
         "job_D6p39h",
-        "job_H3h4MT"
+        "job_H3h4MT",
+        "job_DgMQDw"
       ],
       "name": "Job Board",
       "settings": {
