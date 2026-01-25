@@ -1012,6 +1012,13 @@
             "team_id": "new york-mets",
             "job_visibility": "public"
           }
+        },
+        "team_4QRrQm": {
+          "type": "team",
+          "settings": {
+            "team_name": "New York Yankees",
+            "team_id": "new york-yankees"
+          }
         }
       },
       "block_order": [
@@ -1116,7 +1123,8 @@
         "job_gDbVwL",
         "job_MW4iDX",
         "job_UwUFTg",
-        "job_Y7Jb64"
+        "job_Y7Jb64",
+        "team_4QRrQm"
       ],
       "name": "Job Board",
       "settings": {
