@@ -584,6 +584,16 @@
             "job_visibility": "public"
           }
         },
+        "job_qbXiwX": {
+          "type": "job",
+          "settings": {
+            "job_title": "Baseball Information Assistant",
+            "location": "Lakeland, FL",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/baseball-information-assistant-2149063",
+            "team_id": "detroit-tigers",
+            "job_visibility": "public"
+          }
+        },
         "team_H89bax": {
           "type": "team",
           "settings": {
@@ -680,6 +690,7 @@
         "job_4H7wfb",
         "job_rwXYQz",
         "job_yKaRRL",
+        "job_qbXiwX",
         "team_H89bax",
         "job_dmTGyA",
         "job_8da9ze",
