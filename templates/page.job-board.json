@@ -1020,6 +1020,16 @@
             "team_id": "new york-yankees"
           }
         },
+        "job_aTJMeR": {
+          "type": "job",
+          "settings": {
+            "job_title": "Director, Tax",
+            "location": "Tampa, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/director-tax-2148673",
+            "team_id": "new york-yankees",
+            "job_visibility": "public"
+          }
+        },
         "job_ktJ4WE": {
           "type": "job",
           "settings": {
@@ -1037,16 +1047,6 @@
             "location": "The Bronx, NY",
             "apply_link": "",
             "team_id": "new york-yankees",
-            "job_visibility": "public"
-          }
-        },
-        "job_aTJMeR": {
-          "type": "job",
-          "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
             "job_visibility": "public"
           }
         }
@@ -1155,9 +1155,9 @@
         "job_UwUFTg",
         "job_Y7Jb64",
         "team_4QRrQm",
+        "job_aTJMeR",
         "job_ktJ4WE",
-        "job_GtiRbR",
-        "job_aTJMeR"
+        "job_GtiRbR"
       ],
       "name": "Job Board",
       "settings": {
