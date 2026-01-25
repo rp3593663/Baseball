@@ -1017,7 +1017,37 @@
           "type": "team",
           "settings": {
             "team_name": "New York Yankees",
-            "team_id": "new york-yankees"
+            "team_id": "new York-yankees"
+          }
+        },
+        "job_ktJ4WE": {
+          "type": "job",
+          "settings": {
+            "job_title": "Seasonal FCL Strength & Conditioning Coach",
+            "location": "Tampa, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/seasonal-fcl-strength-conditioning-coach-2144957",
+            "team_id": "new york-yankees",
+            "job_visibility": "public"
+          }
+        },
+        "job_GtiRbR": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_aTJMeR": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
           }
         }
       },
@@ -1124,7 +1154,10 @@
         "job_MW4iDX",
         "job_UwUFTg",
         "job_Y7Jb64",
-        "team_4QRrQm"
+        "team_4QRrQm",
+        "job_ktJ4WE",
+        "job_GtiRbR",
+        "job_aTJMeR"
       ],
       "name": "Job Board",
       "settings": {
