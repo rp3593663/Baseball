@@ -531,16 +531,16 @@
           "type": "team",
           "settings": {
             "team_name": "Detroit Tigers",
-            "team_id": "Detroit-tigers"
+            "team_id": "detroit-tigers"
           }
         },
         "job_iXHcm6": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Game Day Production",
+            "location": "Detroit, MI",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/game-day-production-2153338",
+            "team_id": "detroit-tigers",
             "job_visibility": "public"
           }
         },
