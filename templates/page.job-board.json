@@ -707,6 +707,16 @@
             "team_id": "kansas city-royals",
             "job_visibility": "public"
           }
+        },
+        "job_XgjcBJ": {
+          "type": "job",
+          "settings": {
+            "job_title": "Performance Science Analyst",
+            "location": "Surprise, AZ",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/kansas-city-royals-jobs/kansas-city-royals/performance-science-analyst-2141662",
+            "team_id": "kansas city-royals",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -779,7 +789,8 @@
         "team_3wtJPX",
         "job_D6p39h",
         "job_H3h4MT",
-        "job_DgMQDw"
+        "job_DgMQDw",
+        "job_XgjcBJ"
       ],
       "name": "Job Board",
       "settings": {
