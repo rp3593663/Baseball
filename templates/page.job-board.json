@@ -614,10 +614,10 @@
         "job_dmTGyA": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Houston Astros Staff Identification Program",
+            "location": "Houston, TX",
+            "apply_link": "https://recruiting2.ultipro.com/HOU1000/JobBoard/e68ddd55-8f58-ba9d-0b3a-76742aed1055/OpportunityDetail?opportunityId=17737319-edf9-4c3c-8c70-d0aa2380fec5",
+            "team_id": "houston-astros",
             "job_visibility": "public"
           }
         },
