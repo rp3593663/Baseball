@@ -808,6 +808,36 @@
             "team_name": "Miami Marlins",
             "team_id": "miami-marlins"
           }
+        },
+        "job_XdEWxG": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_RAJ4fq": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_VB3Rgw": {
+          "type": "job",
+          "settings": {
+            "job_title": "Hitting/Catching Coach",
+            "location": "Pensacola, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/hitting-catching-coach-2147779",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -891,7 +921,10 @@
         "job_KDgnWQ",
         "job_MeBxEB",
         "job_tk8DnG",
-        "team_JLxGN4"
+        "team_JLxGN4",
+        "job_XdEWxG",
+        "job_RAJ4fq",
+        "job_VB3Rgw"
       ],
       "name": "Job Board",
       "settings": {
