@@ -670,6 +670,13 @@
             "team_id": "houston-astros",
             "job_visibility": "public"
           }
+        },
+        "team_3wtJPX": {
+          "type": "team",
+          "settings": {
+            "team_name": "Kansas City Royals",
+            "team_id": "kansas city-royals"
+          }
         }
       },
       "block_order": [
@@ -738,7 +745,8 @@
         "job_xh6riK",
         "job_mMRAx4",
         "job_eNFzUe",
-        "job_nkHmke"
+        "job_nkHmke",
+        "team_3wtJPX"
       ],
       "name": "Job Board",
       "settings": {
