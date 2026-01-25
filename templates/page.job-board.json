@@ -734,6 +734,16 @@
             "team_id": "los angeles-angels",
             "job_visibility": "public"
           }
+        },
+        "job_tz4FGk": {
+          "type": "job",
+          "settings": {
+            "job_title": "Angels Baseball-Full Time Minor League Athletic Trainer (ACL, Tempe, AZ)",
+            "location": "Tempe, AZ",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels/angels-baseball-full-time-minor-league-athletic-trainer-acl-tempe-az-2148472",
+            "team_id": "los angeles-angels",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -809,7 +819,8 @@
         "job_DgMQDw",
         "job_XgjcBJ",
         "team_kPqFga",
-        "job_KKRKfh"
+        "job_KKRKfh",
+        "job_tz4FGk"
       ],
       "name": "Job Board",
       "settings": {
