@@ -717,6 +717,23 @@
             "team_id": "kansas city-royals",
             "job_visibility": "public"
           }
+        },
+        "team_kPqFga": {
+          "type": "team",
+          "settings": {
+            "team_name": "Los Angeles Angels",
+            "team_id": "los angeles-angels"
+          }
+        },
+        "job_KKRKfh": {
+          "type": "job",
+          "settings": {
+            "job_title": "Los Angeles Angels-Full Time Data Engineer, Baseball Systems",
+            "location": "Anaheim, CA",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-angels-jobs/los-angeles-angels/los-angeles-angels-full-time-data-engineer-baseball-systems-2152625",
+            "team_id": "los angeles-angels",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -790,7 +807,9 @@
         "job_D6p39h",
         "job_H3h4MT",
         "job_DgMQDw",
-        "job_XgjcBJ"
+        "job_XgjcBJ",
+        "team_kPqFga",
+        "job_KKRKfh"
       ],
       "name": "Job Board",
       "settings": {
