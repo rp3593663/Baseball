@@ -905,6 +905,16 @@
             "team_name": "Milwaukee Brewers",
             "team_id": "m-brewers"
           }
+        },
+        "job_4zc6y3": {
+          "type": "job",
+          "settings": {
+            "job_title": "Clubhouse Assistant",
+            "location": "Milwaukee, WI",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/milwaukeebaseball/milwaukee-brewers/clubhouse-assistant-2152209",
+            "team_id": "m-brewers",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -998,7 +1008,8 @@
         "job_fgPaAt",
         "job_enVfWQ",
         "job_H4xjCU",
-        "team_GgMpTR"
+        "team_GgMpTR",
+        "job_4zc6y3"
       ],
       "name": "Job Board",
       "settings": {
