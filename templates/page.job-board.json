@@ -574,6 +574,16 @@
             "job_visibility": "public"
           }
         },
+        "job_yKaRRL": {
+          "type": "job",
+          "settings": {
+            "job_title": "Social Media Seasonal Assistant - Lakeland Flying Tigers",
+            "location": "Lakeland, FL",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/social-media-seasonal-assistant-lakeland-flying-tigers-2151266",
+            "team_id": "detroit-tigers",
+            "job_visibility": "public"
+          }
+        },
         "team_H89bax": {
           "type": "team",
           "settings": {
@@ -669,6 +679,7 @@
         "job_BRNgKt",
         "job_4H7wfb",
         "job_rwXYQz",
+        "job_yKaRRL",
         "team_H89bax",
         "job_dmTGyA",
         "job_8da9ze",
