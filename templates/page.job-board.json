@@ -838,6 +838,16 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "job_7YBqxY": {
+          "type": "job",
+          "settings": {
+            "job_title": "Manager, Event Production",
+            "location": "Miami, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/manager-event-production-2153038",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -924,7 +934,8 @@
         "team_JLxGN4",
         "job_XdEWxG",
         "job_RAJ4fq",
-        "job_VB3Rgw"
+        "job_VB3Rgw",
+        "job_7YBqxY"
       ],
       "name": "Job Board",
       "settings": {
