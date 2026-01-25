@@ -470,6 +470,16 @@
             "team_id": "cleveland-guardians"
           }
         },
+        "job_MTzEgR": {
+          "type": "job",
+          "settings": {
+            "job_title": "2026 Major League Dietitian",
+            "location": "Cleveland, OH",
+            "apply_link": "https://job-boards.greenhouse.io/clevelandguardiansbops/jobs/8299886002",
+            "team_id": "cleveland-guardians",
+            "job_visibility": "public"
+          }
+        },
         "team_Xam9fn": {
           "type": "team",
           "settings": {
@@ -608,6 +618,7 @@
         "team_RWfPhJ",
         "job_CraBP4",
         "team_bLqexi",
+        "job_MTzEgR",
         "team_Xam9fn",
         "job_hPYEWx",
         "job_bwxcG6",
