@@ -544,6 +544,36 @@
             "job_visibility": "public"
           }
         },
+        "job_BRNgKt": {
+          "type": "job",
+          "settings": {
+            "job_title": "Biomechanist, Performance Science",
+            "location": "Detroit, MI",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/biomechanist-performance-science-2153221",
+            "team_id": "detroit-tigers",
+            "job_visibility": "public"
+          }
+        },
+        "job_4H7wfb": {
+          "type": "job",
+          "settings": {
+            "job_title": "Major League Performance Associate",
+            "location": "Detroit, MI",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/major-league-performance-associate-2152345",
+            "team_id": "detroit-tigers",
+            "job_visibility": "public"
+          }
+        },
+        "job_rwXYQz": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
         "team_H89bax": {
           "type": "team",
           "settings": {
@@ -636,6 +666,9 @@
         "job_cfEj7z",
         "team_VykLme",
         "job_iXHcm6",
+        "job_BRNgKt",
+        "job_4H7wfb",
+        "job_rwXYQz",
         "team_H89bax",
         "job_dmTGyA",
         "job_8da9ze",
