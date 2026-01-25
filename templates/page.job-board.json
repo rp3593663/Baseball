@@ -878,6 +878,16 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "job_enVfWQ": {
+          "type": "job",
+          "settings": {
+            "job_title": "Director, Fan Experience",
+            "location": "Miami, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/director-fan-experience-2138733",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -968,7 +978,8 @@
         "job_7YBqxY",
         "job_az7iDt",
         "job_p9pEAD",
-        "job_fgPaAt"
+        "job_fgPaAt",
+        "job_enVfWQ"
       ],
       "name": "Job Board",
       "settings": {
