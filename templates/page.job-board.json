@@ -888,6 +888,16 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "job_H4xjCU": {
+          "type": "job",
+          "settings": {
+            "job_title": "Marlins Youth Academy Baseball & Softball Seasonal Coach",
+            "location": "Miami, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/miamibaseball/miami-marlins/marlins-youth-academy-baseball-softball-seasonal-coach-2132364",
+            "team_id": "miami-marlins",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -979,7 +989,8 @@
         "job_az7iDt",
         "job_p9pEAD",
         "job_fgPaAt",
-        "job_enVfWQ"
+        "job_enVfWQ",
+        "job_H4xjCU"
       ],
       "name": "Job Board",
       "settings": {
