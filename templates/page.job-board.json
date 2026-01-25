@@ -654,10 +654,10 @@
         "job_eNFzUe": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Technical Director, Ballpark Entertainment",
+            "location": "Houston, TX",
+            "apply_link": "https://recruiting2.ultipro.com/HOU1000/JobBoard/e68ddd55-8f58-ba9d-0b3a-76742aed1055/OpportunityDetail?opportunityId=cc5b7aa5-7a27-460c-b1c0-c10845b53fd6",
+            "team_id": "houston-astros",
             "job_visibility": "public"
           }
         }
