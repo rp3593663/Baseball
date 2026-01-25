@@ -436,6 +436,16 @@
             "job_visibility": "public"
           }
         },
+        "job_r6XCr9": {
+          "type": "job",
+          "settings": {
+            "job_title": "Assistant Performance Coach - Seasonal",
+            "location": "United States",
+            "apply_link": "https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/OpportunityDetail?opportunityId=bfeec4b8-e468-4851-9cf3-fa750aff7dea",
+            "team_id": "Chicago, Illinois",
+            "job_visibility": "public"
+          }
+        },
         "team_RWfPhJ": {
           "type": "team",
           "settings": {
@@ -574,6 +584,7 @@
         "job_pGNTeJ",
         "job_nhzzPN",
         "job_fXKJ4w",
+        "job_r6XCr9",
         "team_RWfPhJ",
         "job_CraBP4",
         "team_bLqexi",
