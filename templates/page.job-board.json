@@ -925,6 +925,16 @@
             "team_id": "m-brewers",
             "job_visibility": "public"
           }
+        },
+        "job_KKAUek": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Clubhouse Assistant",
+            "location": "Phoenix, AZ",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/milwaukeebaseball/milwaukee-brewers/minor-league-clubhouse-assistant-2149885",
+            "team_id": "m-brewers",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -1020,7 +1030,8 @@
         "job_H4xjCU",
         "team_GgMpTR",
         "job_4zc6y3",
-        "job_jJx7Lw"
+        "job_jJx7Lw",
+        "job_KKAUek"
       ],
       "name": "Job Board",
       "settings": {
