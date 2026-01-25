@@ -744,6 +744,13 @@
             "team_id": "los angeles-angels",
             "job_visibility": "public"
           }
+        },
+        "team_4kKfhC": {
+          "type": "team",
+          "settings": {
+            "team_name": "Los Ángeles Dodgers",
+            "team_id": "los angeles-dodgers"
+          }
         }
       },
       "block_order": [
@@ -820,7 +827,8 @@
         "job_XgjcBJ",
         "team_kPqFga",
         "job_KKRKfh",
-        "job_tz4FGk"
+        "job_tz4FGk",
+        "team_4kKfhC"
       ],
       "name": "Job Board",
       "settings": {
