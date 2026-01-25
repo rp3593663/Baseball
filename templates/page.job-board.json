@@ -567,10 +567,10 @@
         "job_rwXYQz": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
+            "job_title": "Membership Services Account Executive",
+            "location": "Detroit, MI",
             "apply_link": "",
-            "team_id": "",
+            "team_id": "detroit-tigers",
             "job_visibility": "public"
           }
         },
