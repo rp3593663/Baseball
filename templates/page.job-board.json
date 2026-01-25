@@ -480,6 +480,16 @@
             "job_visibility": "public"
           }
         },
+        "job_jepzhR": {
+          "type": "job",
+          "settings": {
+            "job_title": "Applied Sport Science Analyst",
+            "location": "Surprise, AZ",
+            "apply_link": "https://job-boards.greenhouse.io/clevelandguardiansbops/jobs/8387649002",
+            "team_id": "cleveland-guardians",
+            "job_visibility": "public"
+          }
+        },
         "team_Xam9fn": {
           "type": "team",
           "settings": {
@@ -619,6 +629,7 @@
         "job_CraBP4",
         "team_bLqexi",
         "job_MTzEgR",
+        "job_jepzhR",
         "team_Xam9fn",
         "job_hPYEWx",
         "job_bwxcG6",
