@@ -416,6 +416,16 @@
             "job_visibility": "public"
           }
         },
+        "job_nhzzPN": {
+          "type": "job",
+          "settings": {
+            "job_title": "Sport Psychology Coordinator",
+            "location": "United States",
+            "apply_link": "https://recruiting2.ultipro.com/CHI1000CWS/JobBoard/8e2339b4-b699-46e9-8b91-e3e826e53794/OpportunityDetail?opportunityId=03e1a388-835b-42c3-811f-88f89f8e8f15",
+            "team_id": "chicago-white sox",
+            "job_visibility": "public"
+          }
+        },
         "team_RWfPhJ": {
           "type": "team",
           "settings": {
@@ -552,6 +562,7 @@
         "job_bwftii",
         "team_RtADHw",
         "job_pGNTeJ",
+        "job_nhzzPN",
         "team_RWfPhJ",
         "job_CraBP4",
         "team_bLqexi",
