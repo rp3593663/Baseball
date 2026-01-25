@@ -942,6 +942,36 @@
             "team_name": "New York Mets",
             "team_id": "new york-mets"
           }
+        },
+        "job_Gbg9CL": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_8ApXfT": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
+        },
+        "job_Jw6PQE": {
+          "type": "job",
+          "settings": {
+            "job_title": "Senior Data Scientist, Baseball Analytics",
+            "location": "Citi Field – Queens, New York",
+            "apply_link": "https://sterlingmets.wd5.myworkdayjobs.com/en-US/Mets/details/Senior-Data-Scientist--Baseball-Analytics_R1415",
+            "team_id": "new york-mets",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -1039,7 +1069,10 @@
         "job_4zc6y3",
         "job_jJx7Lw",
         "job_KKAUek",
-        "team_PLnV9a"
+        "team_PLnV9a",
+        "job_Gbg9CL",
+        "job_8ApXfT",
+        "job_Jw6PQE"
       ],
       "name": "Job Board",
       "settings": {
