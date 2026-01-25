@@ -456,10 +456,10 @@
         "job_CraBP4": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Game Day Sales Internship",
+            "location": "Cincinnati, OH",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/cincinnati-reds/cincinnati-reds/game-day-sales-internship-2146704",
+            "team_id": "cincinnati-reds",
             "job_visibility": "public"
           }
         },
