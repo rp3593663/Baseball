@@ -594,6 +594,16 @@
             "job_visibility": "public"
           }
         },
+        "job_jpcCWM": {
+          "type": "job",
+          "settings": {
+            "job_title": "Activation Manager (Detroit Tigers)",
+            "location": "Detroit, MI",
+            "apply_link": "https://www.teamworkonline.com/multiple-properties/ilitch-sports/detroit-tigers/activation-manager-detroit-tigers-2141913",
+            "team_id": "detroit-tigers",
+            "job_visibility": "public"
+          }
+        },
         "team_H89bax": {
           "type": "team",
           "settings": {
@@ -691,6 +701,7 @@
         "job_rwXYQz",
         "job_yKaRRL",
         "job_qbXiwX",
+        "job_jpcCWM",
         "team_H89bax",
         "job_dmTGyA",
         "job_8da9ze",
