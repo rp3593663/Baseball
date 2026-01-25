@@ -480,10 +480,10 @@
         "job_hPYEWx": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Business Strategy Lead",
+            "location": "Denver, Colorado",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/colorado-rockies/colorado-rockies-jobs/business-strategy-lead-2153274",
+            "team_id": "colorado-rockies",
             "job_visibility": "public"
           }
         },
