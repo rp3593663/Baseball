@@ -640,6 +640,26 @@
             "team_id": "houston-astros",
             "job_visibility": "public"
           }
+        },
+        "job_mMRAx4": {
+          "type": "job",
+          "settings": {
+            "job_title": "Minor League Athletic Trainer",
+            "location": "Dominican Republic, DOM",
+            "apply_link": "https://recruiting2.ultipro.com/HOU1000/JobBoard/e68ddd55-8f58-ba9d-0b3a-76742aed1055/OpportunityDetail?opportunityId=91aefc17-a1c3-4788-b223-e5146a258048",
+            "team_id": "houston-astros",
+            "job_visibility": "public"
+          }
+        },
+        "job_eNFzUe": {
+          "type": "job",
+          "settings": {
+            "job_title": "",
+            "location": "",
+            "apply_link": "",
+            "team_id": "",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -705,7 +725,9 @@
         "team_H89bax",
         "job_dmTGyA",
         "job_8da9ze",
-        "job_xh6riK"
+        "job_xh6riK",
+        "job_mMRAx4",
+        "job_eNFzUe"
       ],
       "name": "Job Board",
       "settings": {
