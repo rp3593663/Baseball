@@ -801,6 +801,13 @@
             "team_id": "los angeles-dodgers",
             "job_visibility": "public"
           }
+        },
+        "team_JLxGN4": {
+          "type": "team",
+          "settings": {
+            "team_name": "Miami Marlins",
+            "team_id": "miami-marlins"
+          }
         }
       },
       "block_order": [
@@ -883,7 +890,8 @@
         "job_xrnzjG",
         "job_KDgnWQ",
         "job_MeBxEB",
-        "job_tk8DnG"
+        "job_tk8DnG",
+        "team_JLxGN4"
       ],
       "name": "Job Board",
       "settings": {
