@@ -624,10 +624,10 @@
         "job_8da9ze": {
           "type": "job",
           "settings": {
-            "job_title": "",
-            "location": "",
-            "apply_link": "",
-            "team_id": "",
+            "job_title": "Staff Software Engineer, Research & Development",
+            "location": "Houston, TX",
+            "apply_link": "https://recruiting2.ultipro.com/HOU1000/JobBoard/e68ddd55-8f58-ba9d-0b3a-76742aed1055/OpportunityDetail?opportunityId=80aafc4c-51f9-4cdb-9c6b-2aeddcabb813",
+            "team_id": "houston-astros",
             "job_visibility": "public"
           }
         },
