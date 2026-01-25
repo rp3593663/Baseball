@@ -791,6 +791,16 @@
             "team_id": "los angeles-dodgers",
             "job_visibility": "public"
           }
+        },
+        "job_tk8DnG": {
+          "type": "job",
+          "settings": {
+            "job_title": "Graphic Designer, Global Partnerships",
+            "location": "Los Angeles CA,",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers/graphic-designer-global-partnerships-2135301",
+            "team_id": "los angeles-dodgers",
+            "job_visibility": "public"
+          }
         }
       },
       "block_order": [
@@ -872,7 +882,8 @@
         "job_gQ3DgG",
         "job_xrnzjG",
         "job_KDgnWQ",
-        "job_MeBxEB"
+        "job_MeBxEB",
+        "job_tk8DnG"
       ],
       "name": "Job Board",
       "settings": {
