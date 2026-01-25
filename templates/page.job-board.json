@@ -898,6 +898,13 @@
             "team_id": "miami-marlins",
             "job_visibility": "public"
           }
+        },
+        "team_GgMpTR": {
+          "type": "team",
+          "settings": {
+            "team_name": "Milwaukee Brewers",
+            "team_id": "m-brewers"
+          }
         }
       },
       "block_order": [
@@ -990,7 +997,8 @@
         "job_p9pEAD",
         "job_fgPaAt",
         "job_enVfWQ",
-        "job_H4xjCU"
+        "job_H4xjCU",
+        "team_GgMpTR"
       ],
       "name": "Job Board",
       "settings": {
