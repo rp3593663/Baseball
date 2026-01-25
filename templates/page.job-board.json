@@ -1040,6 +1040,26 @@
             "job_visibility": "public"
           }
         },
+        "job_tT4r6Q": {
+          "type": "job",
+          "settings": {
+            "job_title": "Manager, Human Resources (Tampa, FL)",
+            "location": "Tampa, FL",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/manager-human-resources-tampa-fl-2144703",
+            "team_id": "new york-yankees",
+            "job_visibility": "public"
+          }
+        },
+        "job_6jadw9": {
+          "type": "job",
+          "settings": {
+            "job_title": "Senior Sales Manager, Yankee Stadium Events",
+            "location": "The Bronx, NY",
+            "apply_link": "https://www.teamworkonline.com/baseball-jobs/new-york-yankees/new-york-yankees/senior-sales-manager-yankee-stadium-events-2133748",
+            "team_id": "new york-yankees",
+            "job_visibility": "public"
+          }
+        },
         "job_GtiRbR": {
           "type": "job",
           "settings": {
@@ -1157,6 +1177,8 @@
         "team_4QRrQm",
         "job_aTJMeR",
         "job_ktJ4WE",
+        "job_tT4r6Q",
+        "job_6jadw9",
         "job_GtiRbR"
       ],
       "name": "Job Board",
