@@ -76,6 +76,39 @@
         "custom_class": "home_richtext_about"
       }
     },
+    "advanced_content_WcPXCm": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_azwAte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/map_view.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_ahxxCq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Access Your Accounts & Manage Membership </h2><p>Offer guided professional growth and mentorship opportunities</p><a href=\"https://baseballindustrynetwork.com/apps/memberships\" class=\n\"btn\">Manage Membership</a>\n<a href=\"https://baseballindustrynetwork.com/account\" class=\n\"btn\" style=\"margin-left: 10px;\">Access Your Profile</a>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_azwAte",
+        "liquid_ahxxCq"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "custom_class": "home_connect",
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "elite_membership_benefits_BhYCCP": {
       "type": "elite_membership_benefits",
       "blocks": {
@@ -334,52 +367,19 @@
         "parallax_direction": "top",
         "lazyload_images": false
       }
-    },
-    "advanced_content_WcPXCm": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_azwAte": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/map_view.png",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "liquid_ahxxCq": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Access Your Accounts & Manage Membership </h2><p>Offer guided professional growth and mentorship opportunities</p><a href=\"https://baseballindustrynetwork.com/apps/memberships\" class=\n\"btn\">Manage Membership</a>\n<a href=\"https://baseballindustrynetwork.com/account\" class=\n\"btn\" style=\"margin-left: 10px;\">Access Your Profile</a>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_azwAte",
-        "liquid_ahxxCq"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "custom_class": "home_connect",
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
     "main",
     "blocks_haaNHc",
     "rich_text_EmnVbT",
+    "advanced_content_WcPXCm",
     "elite_membership_benefits_BhYCCP",
     "1765192028fdaa6c1b",
     "1764313763b774f299",
     "job_board_portal_nLJjQL",
     "discounts_member_perks_NFatCa",
     "scrolling_text_bkPCQA",
-    "background_image_text_NKk4Hn",
-    "advanced_content_WcPXCm"
+    "background_image_text_NKk4Hn"
   ]
 }
